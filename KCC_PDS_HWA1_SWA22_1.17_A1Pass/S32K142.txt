@@ -1,0 +1,10 @@
+si 1 
+speed 4000 // 4000kHz
+device S32K142
+r 
+h
+erase
+loadfile .\KCC_PDS_HWA1_SW0x.hex
+setpc 0
+g
+qc

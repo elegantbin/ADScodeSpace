@@ -1,0 +1,13 @@
+-c
+-I"D:/backupFiles-GZ-C-0034/KYD/NXP_SPACE/KCC_PDS_HWA1_SWA22_1.17_A1Pass/include"
+-x assembler-with-cpp
+-DTURN_ON_CPU0
+-DSEMIHOSTING
+-g3
+-mcpu=cortex-m4
+-mthumb
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="D:/Program/nxp/S32DS/build_tools/gcc_v6.3/gcc-6.3-arm32-eabi/arm-none-eabi/newlib"
