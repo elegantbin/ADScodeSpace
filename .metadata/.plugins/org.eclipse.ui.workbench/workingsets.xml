@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<workingSetManager>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1719907774355_1" label="ActiveProject" name="ActiveProject">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TC275_HWA1_FOC_b240227-AddSimulinkCode" type="4"/>
-</workingSet>
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1719907444099_0" label="Window Working Set" name="Aggregate for window 1719907444099">
-<workingSet IMemento.internal.id="ActiveProject"/>
-</workingSet>
-</workingSetManager>
