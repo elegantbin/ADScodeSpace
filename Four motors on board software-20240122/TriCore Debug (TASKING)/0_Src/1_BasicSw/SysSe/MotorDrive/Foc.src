@@ -1,0 +1,2608 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc19428a --dep-file=0_Src/1_BasicSw/SysSe/MotorDrive/Foc.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Isr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Configurations -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_BasicSw/SysSe/MotorDrive/Foc.src ../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Foc.Foc_Init',code,cluster('Foc_Init')
+	.sect	'.text.Foc.Foc_Init'
+	.align	2
+	
+	.global	Foc_Init
+; Function Foc_Init
+.L29:
+Foc_Init:	.type	func
+	mov.aa	a15,a4
+.L130:
+	mov	d15,#0
+.L240:
+	st.w	[a15]4,d15
+.L241:
+	mov	d15,#0
+.L242:
+	st.w	[a15],d15
+.L131:
+	lea	a2,[a15]8
+.L135:
+	mov	d15,#0
+.L243:
+	st.w	[a15]12,d15
+.L244:
+	mov	d15,#0
+.L245:
+	st.w	[a2],d15
+.L136:
+	lea	a4,[a15]20
+.L214:
+	call	Pic_Init
+.L246:
+	lea	a4,[a15]48
+	call	Pic_Init
+.L247:
+	mov	d2,#1
+.L248:
+	j	.L2
+.L2:
+	ret
+.L126:
+	
+__Foc_Init_function_end:
+	.size	Foc_Init,__Foc_Init_function_end-Foc_Init
+.L62:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_Do',code,cluster('Foc_Do')
+	.sect	'.text.Foc.Foc_Do'
+	.align	2
+	
+	.global	Foc_Do
+; Function Foc_Do
+.L31:
+Foc_Do:	.type	func
+	sub.a	a10,#24
+.L215:
+	mov.aa	a15,a4
+.L218:
+	mov	d15,d4
+.L219:
+	mov.aa	a4,a5
+.L217:
+	call	Clarke
+.L216:
+	st.d	[a10]16,e2
+.L169:
+	insert	d0,d15,#0,#10,#22
+.L293:
+	mul	d15,d0,#4
+.L220:
+	movh.a	a2,#@his(sinCosTable)
+	lea	a2,[a2]@los(sinCosTable)
+.L294:
+	addsc.a	a2,a2,d15,#0
+	ld.w	d3,[a2]
+.L295:
+	mul	d15,d0,#4
+.L296:
+	movh.a	a2,#@his(cosTable)
+	lea	a2,[a2]@los(cosTable)
+	ld.a	a2,[a2]
+.L297:
+	addsc.a	a2,a2,d15,#0
+	ld.w	d15,[a2]
+.L298:
+	mov	d2,d15
+.L221:
+	j	.L3
+.L3:
+	st.d	[a10]0,e2
+.L170:
+	lea	a4,[a10]16
+.L299:
+	lea	a5,[a10]0
+	call	Park
+.L222:
+	st.d	[a10]8,e2
+.L300:
+	ld.da	a2/a3,[a10]8
+.L301:
+	st.da	[a15]100,a2/a3
+.L302:
+	ld.w	d15,[a15]4
+.L303:
+	ld.w	d0,[a10]12
+.L176:
+	sub.f	d4,d15,d0
+.L304:
+	j	.L4
+.L4:
+	j	.L5
+.L5:
+	lea	a4,[a15]48
+.L183:
+	call	Pic_Do
+.L184:
+	st.w	[a10]12,d2
+.L305:
+	ld.w	d0,[a15]
+.L306:
+	ld.w	d15,[a10]8
+.L191:
+	sub.f	d4,d0,d15
+.L307:
+	j	.L6
+.L6:
+	j	.L7
+.L7:
+	lea	a4,[a15]20
+.L193:
+	call	Pic_Do
+.L194:
+	st.w	[a10]8,d2
+.L308:
+	ld.d	e0,[a10]8
+	mov	e8,d1,d0
+.L309:
+	ld.w	d15,[a15]16
+.L196:
+	mov	e0,d9,d9
+.L310:
+	mov	e2,d8,d8
+.L311:
+	mul.f	d2,d2,d3
+.L312:
+	madd.f	d4,d2,d0,d1
+	call	sqrt
+.L223:
+	div.f	d0,d15,d2
+.L224:
+	movh	d15,#16256
+.L313:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L314:
+	jeq	d15,#0,.L8
+.L315:
+	mov	d15,d9
+.L316:
+	mul.f	d15,d15,d0
+	mov	d9,d15
+.L226:
+	mov	d15,d8
+.L227:
+	mul.f	d15,d15,d0
+	mov	d8,d15
+.L228:
+	mov	d15,d8
+.L317:
+	st.w	[a15]28,d15
+.L318:
+	mov	d15,d9
+.L319:
+	st.w	[a15]56,d15
+.L8:
+	j	.L9
+.L9:
+	st.d	[a10]8,e8
+.L229:
+	lea	a4,[a10]8
+.L320:
+	lea	a5,[a10]0
+	call	Park_Reverse
+.L225:
+	st.d	[a10]16,e2
+.L321:
+	ld.da	a2/a3,[a10]16
+.L322:
+	st.da	[a15]84,a2/a3
+.L323:
+	ld.d	e2,[a10]16
+.L324:
+	j	.L10
+.L10:
+	ret
+.L159:
+	
+__Foc_Do_function_end:
+	.size	Foc_Do,__Foc_Do_function_end-Foc_Do
+.L107:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_SetIq',code,cluster('Foc_SetIq')
+	.sect	'.text.Foc.Foc_SetIq'
+	.align	2
+	
+	.global	Foc_SetIq
+; Function Foc_SetIq
+.L33:
+Foc_SetIq:	.type	func
+	ld.w	d15,[a4]12
+	insn.t	d15,d15:31,d15:31
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L11
+	ld.w	d15,[a4]12
+	insn.t	d0,d15:31,d15:31
+	j	.L12
+.L11:
+	mov	d0,d4
+.L12:
+	ld.w	d15,[a4]12
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+	jeq	d15,#0,.L13
+	ld.w	d15,[a4]12
+	insn.t	d15,d15:31,d15:31
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L14
+	ld.w	d15,[a4]12
+	insn.t	d4,d15:31,d15:31
+	j	.L15
+.L14:
+.L15:
+	j	.L16
+.L13:
+	ld.w	d4,[a4]12
+.L16:
+	st.w	[a4]4,d4
+.L253:
+	ret
+.L137:
+	
+__Foc_SetIq_function_end:
+	.size	Foc_SetIq,__Foc_SetIq_function_end-Foc_SetIq
+.L67:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_GetIq',code,cluster('Foc_GetIq')
+	.sect	'.text.Foc.Foc_GetIq'
+	.align	2
+	
+	.global	Foc_GetIq
+; Function Foc_GetIq
+.L35:
+Foc_GetIq:	.type	func
+	ld.w	d2,[a4]4
+.L258:
+	j	.L17
+.L17:
+	ret
+.L141:
+	
+__Foc_GetIq_function_end:
+	.size	Foc_GetIq,__Foc_GetIq_function_end-Foc_GetIq
+.L72:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_SetId',code,cluster('Foc_SetId')
+	.sect	'.text.Foc.Foc_SetId'
+	.align	2
+	
+	.global	Foc_SetId
+; Function Foc_SetId
+.L37:
+Foc_SetId:	.type	func
+	ld.w	d15,[a4]8
+	insn.t	d15,d15:31,d15:31
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L18
+	ld.w	d15,[a4]8
+	insn.t	d0,d15:31,d15:31
+	j	.L19
+.L18:
+	mov	d0,d4
+.L19:
+	ld.w	d15,[a4]8
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+	jeq	d15,#0,.L20
+	ld.w	d15,[a4]8
+	insn.t	d15,d15:31,d15:31
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L21
+	ld.w	d15,[a4]8
+	insn.t	d4,d15:31,d15:31
+	j	.L22
+.L21:
+.L22:
+	j	.L23
+.L20:
+	ld.w	d4,[a4]8
+.L23:
+	st.w	[a4],d4
+.L263:
+	ret
+.L143:
+	
+__Foc_SetId_function_end:
+	.size	Foc_SetId,__Foc_SetId_function_end-Foc_SetId
+.L77:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_GetId',code,cluster('Foc_GetId')
+	.sect	'.text.Foc.Foc_GetId'
+	.align	2
+	
+	.global	Foc_GetId
+; Function Foc_GetId
+.L39:
+Foc_GetId:	.type	func
+	ld.w	d2,[a4]
+.L268:
+	j	.L24
+.L24:
+	ret
+.L146:
+	
+__Foc_GetId_function_end:
+	.size	Foc_GetId,__Foc_GetId_function_end-Foc_GetId
+.L82:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_SetIqLimit',code,cluster('Foc_SetIqLimit')
+	.sect	'.text.Foc.Foc_SetIqLimit'
+	.align	2
+	
+	.global	Foc_SetIqLimit
+; Function Foc_SetIqLimit
+.L41:
+Foc_SetIqLimit:	.type	func
+	st.w	[a4]12,d4
+.L273:
+	ret
+.L148:
+	
+__Foc_SetIqLimit_function_end:
+	.size	Foc_SetIqLimit,__Foc_SetIqLimit_function_end-Foc_SetIqLimit
+.L87:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_GetIqLimit',code,cluster('Foc_GetIqLimit')
+	.sect	'.text.Foc.Foc_GetIqLimit'
+	.align	2
+	
+	.global	Foc_GetIqLimit
+; Function Foc_GetIqLimit
+.L43:
+Foc_GetIqLimit:	.type	func
+	ld.w	d2,[a4]12
+.L278:
+	j	.L25
+.L25:
+	ret
+.L151:
+	
+__Foc_GetIqLimit_function_end:
+	.size	Foc_GetIqLimit,__Foc_GetIqLimit_function_end-Foc_GetIqLimit
+.L92:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_SetIdLimit',code,cluster('Foc_SetIdLimit')
+	.sect	'.text.Foc.Foc_SetIdLimit'
+	.align	2
+	
+	.global	Foc_SetIdLimit
+; Function Foc_SetIdLimit
+.L45:
+Foc_SetIdLimit:	.type	func
+	st.w	[a4]8,d4
+.L283:
+	ret
+.L153:
+	
+__Foc_SetIdLimit_function_end:
+	.size	Foc_SetIdLimit,__Foc_SetIdLimit_function_end-Foc_SetIdLimit
+.L97:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_GetIdLimit',code,cluster('Foc_GetIdLimit')
+	.sect	'.text.Foc.Foc_GetIdLimit'
+	.align	2
+	
+	.global	Foc_GetIdLimit
+; Function Foc_GetIdLimit
+.L47:
+Foc_GetIdLimit:	.type	func
+	ld.w	d2,[a4]8
+.L288:
+	j	.L26
+.L26:
+	ret
+.L156:
+	
+__Foc_GetIdLimit_function_end:
+	.size	Foc_GetIdLimit,__Foc_GetIdLimit_function_end-Foc_GetIdLimit
+.L102:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_SetModIndexLimit',code,cluster('Foc_SetModIndexLimit')
+	.sect	'.text.Foc.Foc_SetModIndexLimit'
+	.align	2
+	
+	.global	Foc_SetModIndexLimit
+; Function Foc_SetModIndexLimit
+.L49:
+Foc_SetModIndexLimit:	.type	func
+	st.w	[a4]16,d4
+.L335:
+	ret
+.L209:
+	
+__Foc_SetModIndexLimit_function_end:
+	.size	Foc_SetModIndexLimit,__Foc_SetModIndexLimit_function_end-Foc_SetModIndexLimit
+.L117:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_GetModIndexLimit',code,cluster('Foc_GetModIndexLimit')
+	.sect	'.text.Foc.Foc_GetModIndexLimit'
+	.align	2
+	
+	.global	Foc_GetModIndexLimit
+; Function Foc_GetModIndexLimit
+.L51:
+Foc_GetModIndexLimit:	.type	func
+	ld.w	d2,[a4]16
+.L340:
+	j	.L27
+.L27:
+	ret
+.L212:
+	
+__Foc_GetModIndexLimit_function_end:
+	.size	Foc_GetModIndexLimit,__Foc_GetModIndexLimit_function_end-Foc_GetModIndexLimit
+.L122:
+	; End of function
+	
+	.sdecl	'.text.Foc.Foc_Reset',code,cluster('Foc_Reset')
+	.sect	'.text.Foc.Foc_Reset'
+	.align	2
+	
+	.global	Foc_Reset
+; Function Foc_Reset
+.L53:
+Foc_Reset:	.type	func
+	mov.aa	a15,a4
+.L231:
+	lea	a4,[a15]20
+.L230:
+	call	Pic_Reset
+.L329:
+	lea	a4,[a15]48
+	call	Pic_Reset
+.L330:
+	ret
+.L207:
+	
+__Foc_Reset_function_end:
+	.size	Foc_Reset,__Foc_Reset_function_end-Foc_Reset
+.L112:
+	; End of function
+	
+	.sdecl	'.data.Foc.FOC_Limit',data,cluster('FOC_Limit')
+	.sect	'.data.Foc.FOC_Limit'
+	.global	FOC_Limit
+	.align	2
+FOC_Limit:	.type	object
+	.size	FOC_Limit,4
+	.word	1062836634
+	.calls	'Foc_Init','Pic_Init'
+	.calls	'Foc_Do','Clarke'
+	.calls	'Foc_Do','Park'
+	.calls	'Foc_Do','Pic_Do'
+	.calls	'Foc_Do','sqrt'
+	.calls	'Foc_Do','Park_Reverse'
+	.calls	'Foc_Reset','Pic_Reset'
+	.calls	'Foc_Init','',0
+	.calls	'Foc_Do','',24
+	.calls	'Foc_SetIq','',0
+	.calls	'Foc_GetIq','',0
+	.calls	'Foc_SetId','',0
+	.calls	'Foc_GetId','',0
+	.calls	'Foc_SetIqLimit','',0
+	.calls	'Foc_GetIqLimit','',0
+	.calls	'Foc_SetIdLimit','',0
+	.calls	'Foc_GetIdLimit','',0
+	.calls	'Foc_SetModIndexLimit','',0
+	.calls	'Foc_GetModIndexLimit','',0
+	.extern	sqrt
+	.extern	Clarke
+	.extern	Park
+	.extern	Park_Reverse
+	.extern	Pic_Init
+	.extern	Pic_Reset
+	.extern	Pic_Do
+	.extern	sinCosTable
+	.extern	cosTable
+	.calls	'Foc_Reset','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L55:
+	.word	3683
+	.half	3
+	.word	.L56
+	.byte	4
+.L54:
+	.byte	1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L57
+	.byte	2,1,1,3
+	.word	217
+	.byte	4
+	.byte	'Ifx__jump_and_link',0,3,1,58,17,1,1,5
+	.byte	'fun',0,1,58,43
+	.word	220
+	.byte	6,0,7
+	.byte	'__fract',0,4,128,1
+.L139:
+	.byte	7
+	.byte	'float',0,4,4,8
+	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
+	.word	265
+	.byte	1,1,5
+	.byte	'a',0,1,149,2,44
+	.word	277
+	.byte	6,0,7
+	.byte	'unsigned long long int',0,8,7,9
+	.byte	'void',0,3
+	.word	357
+	.byte	8
+	.byte	'__ld64',0,3,2,132,1,19
+	.word	331
+	.byte	1,1,5
+	.byte	'addr',0,2,132,1,32
+	.word	363
+	.byte	6,0,4
+	.byte	'__st64',0,3,2,140,1,17,1,1,5
+	.byte	'addr',0,2,140,1,30
+	.word	363
+	.byte	5
+	.byte	'value',0,2,140,1,43
+	.word	331
+	.byte	6,0,7
+	.byte	'long int',0,4,5,8
+	.byte	'SInt32_To_FixPoint32',0,3,3,50,23
+	.word	265
+	.byte	1,1,5
+	.byte	'value',0,3,50,51
+	.word	449
+	.byte	5
+	.byte	'shift',0,3,50,65
+	.word	449
+	.byte	6,0,8
+	.byte	'FixPoint32_To_SInt32',0,3,3,80,19
+	.word	449
+	.byte	1,1,5
+	.byte	'value',0,3,80,51
+	.word	265
+	.byte	5
+	.byte	'shift',0,3,80,65
+	.word	449
+	.byte	6,0,8
+	.byte	'Float32_To_FixPoint32',0,3,3,111,23
+	.word	265
+	.byte	1,1,5
+	.byte	'value',0,3,111,53
+	.word	277
+	.byte	5
+	.byte	'shift',0,3,111,67
+	.word	449
+	.byte	6,0,8
+	.byte	'FixPoint32_To_Float32',0,3,3,138,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'value',0,3,138,1,53
+	.word	265
+	.byte	5
+	.byte	'shift',0,3,138,1,67
+	.word	449
+	.byte	6,0,8
+	.byte	'StdReal_To_FixPoint32',0,3,4,61,23
+	.word	265
+	.byte	1,1,5
+	.byte	'value',0,4,61,53
+	.word	277
+	.byte	5
+	.byte	'inputShift',0,4,61,67
+	.word	449
+	.byte	5
+	.byte	'outputShift',0,4,61,86
+	.word	449
+	.byte	10,6,0,0,8
+	.byte	'FixPoint32_To_StdReal',0,3,4,85,20
+	.word	277
+	.byte	1,1,5
+	.byte	'value',0,4,85,53
+	.word	265
+	.byte	5
+	.byte	'inputShift',0,4,85,67
+	.word	449
+	.byte	5
+	.byte	'outputShift',0,4,85,86
+	.word	449
+	.byte	10,6,0,0,8
+	.byte	'__mul_rF_iF_iF',0,3,5,58,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,58,43
+	.word	277
+	.byte	5
+	.byte	'b',0,5,58,54
+	.word	277
+	.byte	6,0
+.L161:
+	.byte	7
+	.byte	'short int',0,2,5,8
+	.byte	'__mul_r16I_iF_i16I',0,3,5,74,19
+	.word	942
+	.byte	1,1,5
+	.byte	'a',0,5,74,46
+	.word	277
+	.byte	5
+	.byte	'b',0,5,74,56
+	.word	942
+	.byte	6,0,8
+	.byte	'__adds_rF_iF_iF',0,3,5,88,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,88,44
+	.word	277
+	.byte	5
+	.byte	'b',0,5,88,55
+	.word	277
+	.byte	6,0
+.L185:
+	.byte	8
+	.byte	'__subs_rF_iF_iF',0,3,5,102,20
+	.word	277
+	.byte	1,1
+.L186:
+	.byte	5
+	.byte	'a',0,5,102,44
+	.word	277
+.L188:
+	.byte	5
+	.byte	'b',0,5,102,55
+	.word	277
+.L190:
+	.byte	6,0,8
+	.byte	'__maddms_rF_iF_iF_iF_iF',0,3,5,120,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,120,52
+	.word	277
+	.byte	5
+	.byte	'b',0,5,120,63
+	.word	277
+	.byte	5
+	.byte	'c',0,5,120,74
+	.word	277
+	.byte	5
+	.byte	'd',0,5,120,85
+	.word	277
+	.byte	6,0,8
+	.byte	'__msubms_rF_iF_iF_iF_iF',0,3,5,138,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,138,1,52
+	.word	277
+	.byte	5
+	.byte	'b',0,5,138,1,63
+	.word	277
+	.byte	5
+	.byte	'c',0,5,138,1,74
+	.word	277
+	.byte	5
+	.byte	'd',0,5,138,1,85
+	.word	277
+	.byte	6,0,8
+	.byte	'__madds_rF_iF_iF_i16I',0,3,5,172,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,172,1,50
+	.word	277
+	.byte	5
+	.byte	'b',0,5,172,1,61
+	.word	277
+	.byte	5
+	.byte	'c',0,5,172,1,71
+	.word	942
+	.byte	6,0,8
+	.byte	'__mul_rF_iF_i16I',0,3,5,188,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,188,1,45
+	.word	277
+	.byte	5
+	.byte	'b',0,5,188,1,55
+	.word	942
+	.byte	6,0,8
+	.byte	'__muls_8_rF_iF',0,3,5,203,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,203,1,43
+	.word	277
+	.byte	6,0,8
+	.byte	'__muls_128_rF_iF',0,3,5,218,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,218,1,45
+	.word	277
+	.byte	6,0,7
+	.byte	'char',0,1,6,8
+	.byte	'__shas_rF_iF_i8I',0,3,5,251,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,251,1,45
+	.word	277
+	.byte	5
+	.byte	'b',0,5,251,1,54
+	.word	1468
+	.byte	6,0,8
+	.byte	'__negs_rF_iF',0,3,5,138,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,138,2,41
+	.word	277
+	.byte	6,0,8
+	.byte	'__abs_rF_iF',0,3,5,153,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,153,2,40
+	.word	277
+	.byte	6,0,8
+	.byte	'__div_rF_iF_i32I',0,3,5,169,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,169,2,45
+	.word	277
+	.byte	5
+	.byte	'b',0,5,169,2,55
+	.word	449
+	.byte	6,0,8
+	.byte	'__div_rF_iF_iF',0,3,5,185,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,185,2,43
+	.word	277
+	.byte	5
+	.byte	'b',0,5,185,2,54
+	.word	277
+	.byte	6,0
+.L175:
+	.byte	8
+	.byte	'__subs_rSR_iSR_iSR',0,3,6,184,1,20
+	.word	277
+	.byte	1,1
+.L177:
+	.byte	5
+	.byte	'a',0,6,184,1,47
+	.word	277
+.L179:
+	.byte	5
+	.byte	'b',0,6,184,1,58
+	.word	277
+.L181:
+	.byte	10,6,0,0
+.L158:
+	.byte	11,8,107,9,8,12
+	.byte	'real',0
+	.word	277
+	.byte	4,2,35,0,12
+	.byte	'imag',0
+	.word	277
+	.byte	4,2,35,4,0
+.L168:
+	.byte	8
+	.byte	'LookUp_CosinusSinus',0,3,7,91,24
+	.word	1765
+	.byte	1,1
+.L171:
+	.byte	5
+	.byte	'index',0,7,91,51
+	.word	942
+.L173:
+	.byte	6,0,3
+	.word	1765
+.L129:
+	.byte	4
+	.byte	'Foc_InitComplex',0,3,9,29,17,1,1
+.L132:
+	.byte	5
+	.byte	'compl',0,9,29,46
+	.word	1846
+.L134:
+	.byte	6,0
+.L125:
+	.byte	7
+	.byte	'unsigned char',0,1,8,11,10,49,9,28,12
+	.byte	'a0',0
+	.word	277
+	.byte	4,2,35,0,12
+	.byte	'a1',0
+	.word	277
+	.byte	4,2,35,4,12
+	.byte	'uk',0
+	.word	277
+	.byte	4,2,35,8,12
+	.byte	'ik',0
+	.word	277
+	.byte	4,2,35,12,12
+	.byte	'min',0
+	.word	277
+	.byte	4,2,35,16,12
+	.byte	'max',0
+	.word	277
+	.byte	4,2,35,20,12
+	.byte	'hitLimits',0
+	.word	1890
+	.byte	1,2,35,24,0,3
+	.word	1907
+.L195:
+	.byte	8
+	.byte	'Foc_LimitVqVd',0,3,9,36,24
+	.word	1765
+	.byte	1,1
+.L197:
+	.byte	5
+	.byte	'Pic_d',0,9,36,44
+	.word	2006
+.L199:
+	.byte	5
+	.byte	'Pic_q',0,9,36,56
+	.word	2006
+.L201:
+	.byte	5
+	.byte	'mdq',0,9,36,75
+	.word	1765
+.L203:
+	.byte	5
+	.byte	'Limit',0,9,36,87
+	.word	277
+.L205:
+	.byte	6,0,13
+	.word	225
+	.byte	14
+	.word	251
+	.byte	6,0,13
+	.word	286
+	.byte	14
+	.word	318
+	.byte	6,0,13
+	.word	368
+	.byte	14
+	.word	387
+	.byte	6,0,13
+	.word	403
+	.byte	14
+	.word	418
+	.byte	14
+	.word	432
+	.byte	6,0,13
+	.word	461
+	.byte	14
+	.word	493
+	.byte	14
+	.word	507
+	.byte	6,0,13
+	.word	523
+	.byte	14
+	.word	555
+	.byte	14
+	.word	569
+	.byte	6,0,13
+	.word	585
+	.byte	14
+	.word	618
+	.byte	14
+	.word	632
+	.byte	6,0,13
+	.word	648
+	.byte	14
+	.word	682
+	.byte	14
+	.word	697
+	.byte	6,0,13
+	.word	714
+	.byte	14
+	.word	747
+	.byte	14
+	.word	761
+	.byte	14
+	.word	780
+	.byte	10,15
+	.word	585
+	.byte	14
+	.word	618
+	.byte	14
+	.word	632
+	.byte	16
+	.word	646
+	.byte	0,6,0,0,13
+	.word	804
+	.byte	14
+	.word	837
+	.byte	14
+	.word	851
+	.byte	14
+	.word	870
+	.byte	10,15
+	.word	648
+	.byte	14
+	.word	682
+	.byte	14
+	.word	697
+	.byte	16
+	.word	712
+	.byte	0,6,0,0,17
+	.byte	'sqrt',0,11,186,1,25
+	.word	277
+	.byte	1,1,1,1,18,11,186,1,43
+	.word	277
+	.byte	0,13
+	.word	894
+	.byte	14
+	.word	920
+	.byte	14
+	.word	930
+	.byte	6,0,13
+	.word	955
+	.byte	14
+	.word	985
+	.byte	14
+	.word	995
+	.byte	6,0,13
+	.word	1007
+	.byte	14
+	.word	1034
+	.byte	14
+	.word	1044
+	.byte	6,0,13
+	.word	1056
+	.byte	14
+	.word	1083
+	.byte	14
+	.word	1093
+	.byte	6,0,13
+	.word	1105
+	.byte	14
+	.word	1140
+	.byte	14
+	.word	1150
+	.byte	14
+	.word	1160
+	.byte	14
+	.word	1170
+	.byte	6,0,13
+	.word	1182
+	.byte	14
+	.word	1218
+	.byte	14
+	.word	1229
+	.byte	14
+	.word	1240
+	.byte	14
+	.word	1251
+	.byte	6,0,13
+	.word	1264
+	.byte	14
+	.word	1298
+	.byte	14
+	.word	1309
+	.byte	14
+	.word	1320
+	.byte	6,0,13
+	.word	1333
+	.byte	14
+	.word	1362
+	.byte	14
+	.word	1373
+	.byte	6,0,13
+	.word	1386
+	.byte	14
+	.word	1413
+	.byte	6,0,13
+	.word	1426
+	.byte	14
+	.word	1455
+	.byte	6,0,13
+	.word	1476
+	.byte	14
+	.word	1505
+	.byte	14
+	.word	1516
+	.byte	6,0,13
+	.word	1529
+	.byte	14
+	.word	1554
+	.byte	6,0,13
+	.word	1567
+	.byte	14
+	.word	1591
+	.byte	6,0,13
+	.word	1604
+	.byte	14
+	.word	1633
+	.byte	14
+	.word	1644
+	.byte	6,0,13
+	.word	1657
+	.byte	14
+	.word	1684
+	.byte	14
+	.word	1695
+	.byte	6,0,13
+	.word	1708
+	.byte	14
+	.word	1739
+	.byte	14
+	.word	1750
+	.byte	10,15
+	.word	1056
+	.byte	14
+	.word	1083
+	.byte	14
+	.word	1093
+	.byte	16
+	.word	1103
+	.byte	0,6,0,0,11,13,42,9,12,12
+	.byte	'u',0
+	.word	277
+	.byte	4,2,35,0,12
+	.byte	'v',0
+	.word	277
+	.byte	4,2,35,4,12
+	.byte	'w',0
+	.word	277
+	.byte	4,2,35,8,0
+.L163:
+	.byte	3
+	.word	2631
+	.byte	17
+	.byte	'Clarke',0,12,70,13
+	.word	1765
+	.byte	1,1,1,1,5
+	.byte	'currents',0,12,70,29
+	.word	2670
+	.byte	0,17
+	.byte	'Park',0,14,96,13
+	.word	1765
+	.byte	1,1,1,1,5
+	.byte	'mab',0,14,96,31
+	.word	1846
+	.byte	5
+	.byte	'cosSin',0,14,96,49
+	.word	1846
+	.byte	0,17
+	.byte	'Park_Reverse',0,14,97,13
+	.word	1765
+	.byte	1,1,1,1,5
+	.byte	'mdq',0,14,97,39
+	.word	1846
+	.byte	5
+	.byte	'cosSin',0,14,97,57
+	.word	1846
+	.byte	0,19
+	.byte	'Pic_Init',0,10,65,6,1,1,1,1,5
+	.byte	'pic',0,10,65,22
+	.word	2006
+	.byte	0,19
+	.byte	'Pic_Reset',0,10,66,6,1,1,1,1,5
+	.byte	'pic',0,10,66,23
+	.word	2006
+	.byte	0,17
+	.byte	'Pic_Do',0,10,77,9
+	.word	277
+	.byte	1,1,1,1,5
+	.byte	'pic',0,10,77,23
+	.word	2006
+	.byte	5
+	.byte	'input',0,10,77,36
+	.word	277
+	.byte	0,11,15,106,9,108,12
+	.byte	'ref',0
+	.word	1765
+	.byte	8,2,35,0,12
+	.byte	'limit',0
+	.word	1765
+	.byte	8,2,35,8,12
+	.byte	'limitAmpl',0
+	.word	277
+	.byte	4,2,35,16,12
+	.byte	'piId',0
+	.word	1907
+	.byte	28,2,35,20,12
+	.byte	'piIq',0
+	.word	1907
+	.byte	28,2,35,48,12
+	.byte	'nfo_iab',0
+	.word	1765
+	.byte	8,2,35,76,12
+	.byte	'nfo_mab',0
+	.word	1765
+	.byte	8,2,35,84,12
+	.byte	'mab',0
+	.word	1765
+	.byte	8,2,35,92,12
+	.byte	'nfo_mdq',0
+	.word	1765
+	.byte	8,2,35,100,0
+.L127:
+	.byte	3
+	.word	2917
+	.byte	13
+	.word	1799
+	.byte	14
+	.word	1830
+	.byte	6,0,13
+	.word	1851
+	.byte	14
+	.word	1874
+	.byte	6,0,13
+	.word	2011
+	.byte	14
+	.word	2036
+	.byte	14
+	.word	2050
+	.byte	14
+	.word	2064
+	.byte	14
+	.word	2076
+	.byte	6,0,20
+	.byte	'__wchar_t',0,9,1,1
+	.word	942
+	.byte	7
+	.byte	'unsigned int',0,4,7,20
+	.byte	'__size_t',0,9,1,1
+	.word	3136
+	.byte	7
+	.byte	'int',0,4,5,20
+	.byte	'__ptrdiff_t',0,9,1,1
+	.word	3169
+	.byte	21,1,3
+	.word	3196
+	.byte	20
+	.byte	'__codeptr',0,9,1,1
+	.word	3198
+	.byte	20
+	.byte	'boolean',0,16,104,29
+	.word	1890
+	.byte	20
+	.byte	'uint8',0,16,108,29
+	.word	1890
+	.byte	7
+	.byte	'unsigned short int',0,2,7,20
+	.byte	'uint16',0,16,112,29
+	.word	3251
+	.byte	7
+	.byte	'unsigned long int',0,4,7,20
+	.byte	'uint32',0,16,116,29
+	.word	3288
+	.byte	20
+	.byte	'uint64',0,16,121,29
+	.word	331
+	.byte	20
+	.byte	'sint8',0,16,125,29
+	.word	1468
+	.byte	20
+	.byte	'sint16',0,16,129,1,29
+	.word	942
+	.byte	20
+	.byte	'sint32',0,16,134,1,29
+	.word	449
+	.byte	7
+	.byte	'long long int',0,8,5,20
+	.byte	'sint64',0,16,141,1,29
+	.word	3385
+	.byte	20
+	.byte	'float32',0,16,170,1,29
+	.word	277
+	.byte	20
+	.byte	'pvoid',0,17,54,28
+	.word	363
+	.byte	20
+	.byte	'Ifx_TickTime',0,17,76,28
+	.word	3385
+	.byte	7
+	.byte	'__sfract',0,2,128,1,20
+	.byte	'FixPoint16',0,8,32,16
+	.word	3470
+	.byte	20
+	.byte	'FixPoint32',0,8,33,16
+	.word	265
+	.byte	20
+	.byte	'StdReal',0,8,65,17
+	.word	277
+	.byte	20
+	.byte	'StdRealLong',0,8,71,17
+	.word	277
+	.byte	20
+	.byte	'CplxStdReal',0,8,111,3
+	.word	1765
+	.byte	20
+	.byte	'T3Phase',0,13,47,2
+	.word	2631
+	.byte	20
+	.byte	'TPic',0,10,63,3
+	.word	1907
+	.byte	20
+	.byte	'TFoc',0,15,122,3
+	.word	2917
+	.byte	22,128,40
+	.word	277
+	.byte	23,255,9,0,24
+	.word	3619
+	.byte	25
+	.byte	'sinCosTable',0,7,70,29
+	.word	3630
+	.byte	1,1,24
+	.word	277
+	.byte	3
+	.word	3657
+	.byte	25
+	.byte	'cosTable',0,7,71,30
+	.word	3662
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
+	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
+	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,11,1,0,0,11,19,1,58
+	.byte	15,59,15,57,15,11,15,0,0,12,13,0,3,8,73,19,11,15,56,9,0,0,13,46,1,49,19,0,0,14,5,0,49,19,0,0,15,29,1,49
+	.byte	19,0,0,16,11,0,49,19,0,0,17,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,18,5,0,58,15
+	.byte	59,15,57,15,73,19,0,0,19,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,20,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,21,21,0,54,15,0,0,22,1,1,11,15,73,19,0,0,23,33,0,47,15,0,0,24,38,0,73,19,0,0,25,52,0,3
+	.byte	8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L57:
+	.word	.L233-.L232
+.L232:
+	.half	3
+	.word	.L235-.L234
+.L234:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\Math',0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\MotorDrive',0
+	.byte	'C:\\Program Files\\AURIX-Studio-1.9.4\\plugins\\com.infineon.aurix.tools_1.9.4\\build_system\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	0
+	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
+	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
+	.byte	'Convert.asm.h',0,2,0,0
+	.byte	'Convert.h',0,2,0,0
+	.byte	'Arith.Float.h',0,2,0,0
+	.byte	'Arith.StdReal.h',0,2,0,0
+	.byte	'Tables.h',0,3,0,0
+	.byte	'StdReal.h',0,2,0,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0
+	.byte	'Pi.h',0,3,0,0
+	.byte	'math.h',0,4,0,0
+	.byte	'Clarke.h',0,3,0,0
+	.byte	'MotorControl.h',0,3,0,0
+	.byte	'Park.h',0,3,0,0
+	.byte	'Foc.h',0,3,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0,0
+.L235:
+.L233:
+	.sdecl	'.debug_info',debug,cluster('Foc_Init')
+	.sect	'.debug_info'
+.L58:
+	.word	354
+	.half	3
+	.word	.L59
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L61,.L60
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_Init',0,1,65,9
+	.word	.L125
+	.byte	1,1,1
+	.word	.L29,.L126,.L28
+	.byte	4
+	.byte	'foc',0,1,65,24
+	.word	.L127,.L128
+	.byte	5
+	.word	.L29,.L126
+	.byte	6
+	.word	.L129,.L130,.L131
+	.byte	7
+	.word	.L132,.L133
+	.byte	8
+	.word	.L134,.L130,.L131
+	.byte	0,6
+	.word	.L129,.L135,.L136
+	.byte	7
+	.word	.L132,.L133
+	.byte	8
+	.word	.L134,.L135,.L136
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_Init')
+	.sect	'.debug_abbrev'
+.L59:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	29,1,49,16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_Init')
+	.sect	'.debug_line'
+.L60:
+	.word	.L237-.L236
+.L236:
+	.half	3
+	.word	.L239-.L238
+.L238:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L239:
+	.byte	5,9,7,0,5,2
+	.word	.L29
+	.byte	3,192,0,1,5,19,9
+	.half	.L130-.L29
+	.byte	3,94,1,5,17,9
+	.half	.L240-.L130
+	.byte	1,5,19,9
+	.half	.L241-.L240
+	.byte	3,1,1,5,17,9
+	.half	.L242-.L241
+	.byte	1,5,25,9
+	.half	.L131-.L242
+	.byte	3,36,1,5,19,9
+	.half	.L135-.L131
+	.byte	3,91,1,5,17,9
+	.half	.L243-.L135
+	.byte	1,5,19,9
+	.half	.L244-.L243
+	.byte	3,1,1,5,17,9
+	.half	.L245-.L244
+	.byte	1,5,18,9
+	.half	.L136-.L245
+	.byte	3,37,1,9
+	.half	.L246-.L136
+	.byte	3,1,1,5,12,9
+	.half	.L247-.L246
+	.byte	3,2,1,5,5,9
+	.half	.L248-.L247
+	.byte	1,5,1,9
+	.half	.L2-.L248
+	.byte	3,1,1,7,9
+	.half	.L62-.L2
+	.byte	0,1,1
+.L237:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_Init')
+	.sect	'.debug_ranges'
+.L61:
+	.word	-1,.L29,0,.L62-.L29,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_SetIq')
+	.sect	'.debug_info'
+.L63:
+	.word	296
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L66,.L65
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_SetIq',0,1,137,1,6,1,1,1
+	.word	.L33,.L137,.L32
+	.byte	4
+	.byte	'foc',0,1,137,1,22
+	.word	.L127,.L138
+	.byte	4
+	.byte	'iq',0,1,137,1,35
+	.word	.L139,.L140
+	.byte	5
+	.word	.L33,.L137
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_SetIq')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_SetIq')
+	.sect	'.debug_line'
+.L65:
+	.word	.L250-.L249
+.L249:
+	.half	3
+	.word	.L252-.L251
+.L251:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L252:
+	.byte	5,21,7,0,5,2
+	.word	.L33
+	.byte	3,138,1,1,5,19,9
+	.half	.L16-.L33
+	.byte	1,5,1,9
+	.half	.L253-.L16
+	.byte	3,1,1,7,9
+	.half	.L67-.L253
+	.byte	0,1,1
+.L250:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_SetIq')
+	.sect	'.debug_ranges'
+.L66:
+	.word	-1,.L33,0,.L67-.L33,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_GetIq')
+	.sect	'.debug_info'
+.L68:
+	.word	284
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L71,.L70
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_GetIq',0,1,152,1,9
+	.word	.L139
+	.byte	1,1,1
+	.word	.L35,.L141,.L34
+	.byte	4
+	.byte	'foc',0,1,152,1,25
+	.word	.L127,.L142
+	.byte	5
+	.word	.L35,.L141
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_GetIq')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_GetIq')
+	.sect	'.debug_line'
+.L70:
+	.word	.L255-.L254
+.L254:
+	.half	3
+	.word	.L257-.L256
+.L256:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L257:
+	.byte	5,20,7,0,5,2
+	.word	.L35
+	.byte	3,153,1,1,5,5,9
+	.half	.L258-.L35
+	.byte	1,5,1,9
+	.half	.L17-.L258
+	.byte	3,1,1,7,9
+	.half	.L72-.L17
+	.byte	0,1,1
+.L255:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_GetIq')
+	.sect	'.debug_ranges'
+.L71:
+	.word	-1,.L35,0,.L72-.L35,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_SetId')
+	.sect	'.debug_info'
+.L73:
+	.word	296
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L76,.L75
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_SetId',0,1,168,1,6,1,1,1
+	.word	.L37,.L143,.L36
+	.byte	4
+	.byte	'foc',0,1,168,1,22
+	.word	.L127,.L144
+	.byte	4
+	.byte	'id',0,1,168,1,35
+	.word	.L139,.L145
+	.byte	5
+	.word	.L37,.L143
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_SetId')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_SetId')
+	.sect	'.debug_line'
+.L75:
+	.word	.L260-.L259
+.L259:
+	.half	3
+	.word	.L262-.L261
+.L261:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L262:
+	.byte	5,21,7,0,5,2
+	.word	.L37
+	.byte	3,169,1,1,5,19,9
+	.half	.L23-.L37
+	.byte	1,5,1,9
+	.half	.L263-.L23
+	.byte	3,1,1,7,9
+	.half	.L77-.L263
+	.byte	0,1,1
+.L260:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_SetId')
+	.sect	'.debug_ranges'
+.L76:
+	.word	-1,.L37,0,.L77-.L37,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_GetId')
+	.sect	'.debug_info'
+.L78:
+	.word	284
+	.half	3
+	.word	.L79
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L81,.L80
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_GetId',0,1,183,1,9
+	.word	.L139
+	.byte	1,1,1
+	.word	.L39,.L146,.L38
+	.byte	4
+	.byte	'foc',0,1,183,1,25
+	.word	.L127,.L147
+	.byte	5
+	.word	.L39,.L146
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_GetId')
+	.sect	'.debug_abbrev'
+.L79:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_GetId')
+	.sect	'.debug_line'
+.L80:
+	.word	.L265-.L264
+.L264:
+	.half	3
+	.word	.L267-.L266
+.L266:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L267:
+	.byte	5,20,7,0,5,2
+	.word	.L39
+	.byte	3,184,1,1,5,5,9
+	.half	.L268-.L39
+	.byte	1,5,1,9
+	.half	.L24-.L268
+	.byte	3,1,1,7,9
+	.half	.L82-.L24
+	.byte	0,1,1
+.L265:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_GetId')
+	.sect	'.debug_ranges'
+.L81:
+	.word	-1,.L39,0,.L82-.L39,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_SetIqLimit')
+	.sect	'.debug_info'
+.L83:
+	.word	304
+	.half	3
+	.word	.L84
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L86,.L85
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_SetIqLimit',0,1,199,1,6,1,1,1
+	.word	.L41,.L148,.L40
+	.byte	4
+	.byte	'foc',0,1,199,1,27
+	.word	.L127,.L149
+	.byte	4
+	.byte	'limit',0,1,199,1,40
+	.word	.L139,.L150
+	.byte	5
+	.word	.L41,.L148
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_SetIqLimit')
+	.sect	'.debug_abbrev'
+.L84:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_SetIqLimit')
+	.sect	'.debug_line'
+.L85:
+	.word	.L270-.L269
+.L269:
+	.half	3
+	.word	.L272-.L271
+.L271:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L272:
+	.byte	5,21,7,0,5,2
+	.word	.L41
+	.byte	3,200,1,1,5,1,9
+	.half	.L273-.L41
+	.byte	3,1,1,7,9
+	.half	.L87-.L273
+	.byte	0,1,1
+.L270:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_SetIqLimit')
+	.sect	'.debug_ranges'
+.L86:
+	.word	-1,.L41,0,.L87-.L41,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_GetIqLimit')
+	.sect	'.debug_info'
+.L88:
+	.word	289
+	.half	3
+	.word	.L89
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L91,.L90
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_GetIqLimit',0,1,214,1,9
+	.word	.L139
+	.byte	1,1,1
+	.word	.L43,.L151,.L42
+	.byte	4
+	.byte	'foc',0,1,214,1,30
+	.word	.L127,.L152
+	.byte	5
+	.word	.L43,.L151
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_GetIqLimit')
+	.sect	'.debug_abbrev'
+.L89:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_GetIqLimit')
+	.sect	'.debug_line'
+.L90:
+	.word	.L275-.L274
+.L274:
+	.half	3
+	.word	.L277-.L276
+.L276:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L277:
+	.byte	5,22,7,0,5,2
+	.word	.L43
+	.byte	3,215,1,1,5,5,9
+	.half	.L278-.L43
+	.byte	1,5,1,9
+	.half	.L25-.L278
+	.byte	3,1,1,7,9
+	.half	.L92-.L25
+	.byte	0,1,1
+.L275:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_GetIqLimit')
+	.sect	'.debug_ranges'
+.L91:
+	.word	-1,.L43,0,.L92-.L43,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_SetIdLimit')
+	.sect	'.debug_info'
+.L93:
+	.word	304
+	.half	3
+	.word	.L94
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L96,.L95
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_SetIdLimit',0,1,230,1,6,1,1,1
+	.word	.L45,.L153,.L44
+	.byte	4
+	.byte	'foc',0,1,230,1,27
+	.word	.L127,.L154
+	.byte	4
+	.byte	'limit',0,1,230,1,40
+	.word	.L139,.L155
+	.byte	5
+	.word	.L45,.L153
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_SetIdLimit')
+	.sect	'.debug_abbrev'
+.L94:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_SetIdLimit')
+	.sect	'.debug_line'
+.L95:
+	.word	.L280-.L279
+.L279:
+	.half	3
+	.word	.L282-.L281
+.L281:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L282:
+	.byte	5,21,7,0,5,2
+	.word	.L45
+	.byte	3,231,1,1,5,1,9
+	.half	.L283-.L45
+	.byte	3,1,1,7,9
+	.half	.L97-.L283
+	.byte	0,1,1
+.L280:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_SetIdLimit')
+	.sect	'.debug_ranges'
+.L96:
+	.word	-1,.L45,0,.L97-.L45,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_GetIdLimit')
+	.sect	'.debug_info'
+.L98:
+	.word	289
+	.half	3
+	.word	.L99
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L101,.L100
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_GetIdLimit',0,1,245,1,9
+	.word	.L139
+	.byte	1,1,1
+	.word	.L47,.L156,.L46
+	.byte	4
+	.byte	'foc',0,1,245,1,30
+	.word	.L127,.L157
+	.byte	5
+	.word	.L47,.L156
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_GetIdLimit')
+	.sect	'.debug_abbrev'
+.L99:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_GetIdLimit')
+	.sect	'.debug_line'
+.L100:
+	.word	.L285-.L284
+.L284:
+	.half	3
+	.word	.L287-.L286
+.L286:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L287:
+	.byte	5,22,7,0,5,2
+	.word	.L47
+	.byte	3,246,1,1,5,5,9
+	.half	.L288-.L47
+	.byte	1,5,1,9
+	.half	.L26-.L288
+	.byte	3,1,1,7,9
+	.half	.L102-.L26
+	.byte	0,1,1
+.L285:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_GetIdLimit')
+	.sect	'.debug_ranges'
+.L101:
+	.word	-1,.L47,0,.L102-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_Do')
+	.sect	'.debug_info'
+.L103:
+	.word	759
+	.half	3
+	.word	.L104
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L106,.L105
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_Do',0,1,98,13
+	.word	.L158
+	.byte	1,1,1
+	.word	.L31,.L159,.L30
+	.byte	4
+	.byte	'foc',0,1,98,26
+	.word	.L127,.L160
+	.byte	4
+	.byte	'electricalAngle',0,1,98,38
+	.word	.L161,.L162
+	.byte	4
+	.byte	'currents',0,1,98,64
+	.word	.L163,.L164
+	.byte	5
+	.word	.L31,.L159
+	.byte	6
+	.byte	'cosSin',0,1,100,14
+	.word	.L158,.L165
+	.byte	6
+	.byte	'mdq',0,1,101,14
+	.word	.L158,.L166
+	.byte	6
+	.byte	'mab',0,1,101,19
+	.word	.L158,.L167
+	.byte	7
+	.word	.L168,.L169,.L170
+	.byte	8
+	.word	.L171,.L172
+	.byte	9
+	.word	.L173,.L169,.L170
+	.byte	6
+	.byte	'result',0,2,93,17
+	.word	.L158,.L174
+	.byte	0,0,7
+	.word	.L175,.L176,.L5
+	.byte	8
+	.word	.L177,.L178
+	.byte	8
+	.word	.L179,.L180
+	.byte	10
+	.word	.L181,.L182
+	.byte	7
+	.word	.L185,.L176,.L4
+	.byte	8
+	.word	.L186,.L187
+	.byte	8
+	.word	.L188,.L189
+	.byte	11
+	.word	.L190,.L176,.L4
+	.byte	0,0,0,7
+	.word	.L175,.L183,.L184
+	.byte	8
+	.word	.L177,.L178
+	.byte	8
+	.word	.L179,.L180
+	.byte	0,7
+	.word	.L175,.L191,.L7
+	.byte	8
+	.word	.L177,.L178
+	.byte	8
+	.word	.L179,.L180
+	.byte	10
+	.word	.L181,.L192
+	.byte	7
+	.word	.L185,.L191,.L6
+	.byte	8
+	.word	.L186,.L187
+	.byte	8
+	.word	.L188,.L189
+	.byte	11
+	.word	.L190,.L191,.L6
+	.byte	0,0,0,7
+	.word	.L175,.L193,.L194
+	.byte	8
+	.word	.L177,.L178
+	.byte	8
+	.word	.L179,.L180
+	.byte	0,7
+	.word	.L195,.L196,.L9
+	.byte	8
+	.word	.L197,.L198
+	.byte	8
+	.word	.L199,.L200
+	.byte	8
+	.word	.L201,.L202
+	.byte	8
+	.word	.L203,.L204
+	.byte	9
+	.word	.L205,.L196,.L9
+	.byte	6
+	.byte	'ModIndex',0,1,39,10
+	.word	.L139,.L206
+	.byte	0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_Do')
+	.sect	'.debug_abbrev'
+.L104:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,1,49,16,17
+	.byte	1,18,1,0,0,10,11,1,49,16,85,6,0,0,11,11,0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_Do')
+	.sect	'.debug_line'
+.L105:
+	.word	.L290-.L289
+.L289:
+	.half	3
+	.word	.L292-.L291
+.L291:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\MotorDrive',0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\Math',0
+	.byte	0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0
+	.byte	'Tables.h',0,1,0,0
+	.byte	'Arith.Float.h',0,2,0,0
+	.byte	'Arith.StdReal.h',0,2,0,0,0
+.L292:
+	.byte	5,13,7,0,5,2
+	.word	.L31
+	.byte	3,225,0,1,5,18,9
+	.half	.L219-.L31
+	.byte	3,6,1,5,9,9
+	.half	.L216-.L219
+	.byte	1,4,2,5,11,9
+	.half	.L169-.L216
+	.byte	3,118,1,5,30,9
+	.half	.L293-.L169
+	.byte	3,1,1,5,19,9
+	.half	.L220-.L293
+	.byte	1,5,30,9
+	.half	.L294-.L220
+	.byte	1,5,27,9
+	.half	.L295-.L294
+	.byte	3,1,1,5,19,9
+	.half	.L296-.L295
+	.byte	1,5,27,9
+	.half	.L297-.L296
+	.byte	1,5,17,9
+	.half	.L298-.L297
+	.byte	1,5,5,9
+	.half	.L221-.L298
+	.byte	3,1,1,4,1,5,12,9
+	.half	.L3-.L221
+	.byte	3,9,1,5,17,9
+	.half	.L170-.L3
+	.byte	3,2,1,5,23,9
+	.half	.L299-.L170
+	.byte	1,5,9,9
+	.half	.L222-.L299
+	.byte	1,5,20,9
+	.half	.L300-.L222
+	.byte	3,2,1,5,18,9
+	.half	.L301-.L300
+	.byte	1,5,63,9
+	.half	.L302-.L301
+	.byte	3,5,1,5,73,9
+	.half	.L303-.L302
+	.byte	1,4,3,5,14,9
+	.half	.L176-.L303
+	.byte	3,117,1,5,5,9
+	.half	.L304-.L176
+	.byte	1,4,4,9
+	.half	.L4-.L304
+	.byte	3,211,0,1,4,1,5,28,9
+	.half	.L5-.L4
+	.byte	3,184,127,1,5,54,9
+	.half	.L183-.L5
+	.byte	1,5,14,9
+	.half	.L184-.L183
+	.byte	1,5,63,9
+	.half	.L305-.L184
+	.byte	3,1,1,5,73,9
+	.half	.L306-.L305
+	.byte	1,4,3,5,14,9
+	.half	.L191-.L306
+	.byte	3,116,1,5,5,9
+	.half	.L307-.L191
+	.byte	1,4,4,9
+	.half	.L6-.L307
+	.byte	3,211,0,1,4,1,5,28,9
+	.half	.L7-.L6
+	.byte	3,185,127,1,5,54,9
+	.half	.L193-.L7
+	.byte	1,5,14,9
+	.half	.L194-.L193
+	.byte	1,5,48,9
+	.half	.L308-.L194
+	.byte	3,2,1,5,56,9
+	.half	.L309-.L308
+	.byte	1,5,30,9
+	.half	.L196-.L309
+	.byte	3,177,127,1,5,54,9
+	.half	.L310-.L196
+	.byte	1,5,60,9
+	.half	.L311-.L310
+	.byte	1,5,48,9
+	.half	.L312-.L311
+	.byte	1,5,23,9
+	.half	.L223-.L312
+	.byte	3,1,1,5,19,9
+	.half	.L224-.L223
+	.byte	3,1,1,5,17,9
+	.half	.L313-.L224
+	.byte	1,5,5,9
+	.half	.L314-.L313
+	.byte	1,5,9,7,9
+	.half	.L315-.L314
+	.byte	3,2,1,5,15,9
+	.half	.L316-.L315
+	.byte	1,5,9,9
+	.half	.L226-.L316
+	.byte	3,1,1,5,15,9
+	.half	.L227-.L226
+	.byte	1,5,21,9
+	.half	.L228-.L227
+	.byte	3,2,1,5,16,9
+	.half	.L317-.L228
+	.byte	1,5,21,9
+	.half	.L318-.L317
+	.byte	3,1,1,5,16,9
+	.half	.L319-.L318
+	.byte	1,5,5,9
+	.half	.L8-.L319
+	.byte	3,2,1,5,9,9
+	.half	.L9-.L8
+	.byte	3,197,0,1,5,25,9
+	.half	.L229-.L9
+	.byte	3,3,1,5,31,9
+	.half	.L320-.L229
+	.byte	1,5,9,9
+	.half	.L225-.L320
+	.byte	1,5,20,9
+	.half	.L321-.L225
+	.byte	3,1,1,5,18,9
+	.half	.L322-.L321
+	.byte	1,5,12,9
+	.half	.L323-.L322
+	.byte	3,1,1,5,5,9
+	.half	.L324-.L323
+	.byte	1,5,1,9
+	.half	.L10-.L324
+	.byte	3,1,1,7,9
+	.half	.L107-.L10
+	.byte	0,1,1
+.L290:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_Do')
+	.sect	'.debug_ranges'
+.L106:
+	.word	-1,.L31,0,.L107-.L31,0,0
+.L182:
+	.word	-1,.L31,.L176-.L31,.L5-.L31,.L183-.L31,.L184-.L31,0,0
+.L192:
+	.word	-1,.L31,.L191-.L31,.L7-.L31,.L193-.L31,.L194-.L31,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_Reset')
+	.sect	'.debug_info'
+.L108:
+	.word	280
+	.half	3
+	.word	.L109
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L111,.L110
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_Reset',0,1,162,2,6,1,1,1
+	.word	.L53,.L207,.L52
+	.byte	4
+	.byte	'foc',0,1,162,2,22
+	.word	.L127,.L208
+	.byte	5
+	.word	.L53,.L207
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_Reset')
+	.sect	'.debug_abbrev'
+.L109:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_Reset')
+	.sect	'.debug_line'
+.L110:
+	.word	.L326-.L325
+.L325:
+	.half	3
+	.word	.L328-.L327
+.L327:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L328:
+	.byte	5,6,7,0,5,2
+	.word	.L53
+	.byte	3,161,2,1,5,19,9
+	.half	.L231-.L53
+	.byte	3,2,1,9
+	.half	.L329-.L231
+	.byte	3,1,1,5,1,9
+	.half	.L330-.L329
+	.byte	3,1,1,7,9
+	.half	.L112-.L330
+	.byte	0,1,1
+.L326:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_Reset')
+	.sect	'.debug_ranges'
+.L111:
+	.word	-1,.L53,0,.L112-.L53,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_SetModIndexLimit')
+	.sect	'.debug_info'
+.L113:
+	.word	310
+	.half	3
+	.word	.L114
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L116,.L115
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_SetModIndexLimit',0,1,133,2,6,1,1,1
+	.word	.L49,.L209,.L48
+	.byte	4
+	.byte	'foc',0,1,133,2,33
+	.word	.L127,.L210
+	.byte	4
+	.byte	'limit',0,1,133,2,46
+	.word	.L139,.L211
+	.byte	5
+	.word	.L49,.L209
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_SetModIndexLimit')
+	.sect	'.debug_abbrev'
+.L114:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_SetModIndexLimit')
+	.sect	'.debug_line'
+.L115:
+	.word	.L332-.L331
+.L331:
+	.half	3
+	.word	.L334-.L333
+.L333:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L334:
+	.byte	5,20,7,0,5,2
+	.word	.L49
+	.byte	3,134,2,1,5,1,9
+	.half	.L335-.L49
+	.byte	3,1,1,7,9
+	.half	.L117-.L335
+	.byte	0,1,1
+.L332:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_SetModIndexLimit')
+	.sect	'.debug_ranges'
+.L116:
+	.word	-1,.L49,0,.L117-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('Foc_GetModIndexLimit')
+	.sect	'.debug_info'
+.L118:
+	.word	295
+	.half	3
+	.word	.L119
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L121,.L120
+	.byte	2
+	.word	.L54
+	.byte	3
+	.byte	'Foc_GetModIndexLimit',0,1,148,2,9
+	.word	.L139
+	.byte	1,1,1
+	.word	.L51,.L212,.L50
+	.byte	4
+	.byte	'foc',0,1,148,2,36
+	.word	.L127,.L213
+	.byte	5
+	.word	.L51,.L212
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Foc_GetModIndexLimit')
+	.sect	'.debug_abbrev'
+.L119:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Foc_GetModIndexLimit')
+	.sect	'.debug_line'
+.L120:
+	.word	.L337-.L336
+.L336:
+	.half	3
+	.word	.L339-.L338
+.L338:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0,0,0,0,0
+.L339:
+	.byte	5,15,7,0,5,2
+	.word	.L51
+	.byte	3,149,2,1,5,5,9
+	.half	.L340-.L51
+	.byte	1,5,1,9
+	.half	.L27-.L340
+	.byte	3,1,1,7,9
+	.half	.L122-.L27
+	.byte	0,1,1
+.L337:
+	.sdecl	'.debug_ranges',debug,cluster('Foc_GetModIndexLimit')
+	.sect	'.debug_ranges'
+.L121:
+	.word	-1,.L51,0,.L122-.L51,0,0
+	.sdecl	'.debug_info',debug,cluster('FOC_Limit')
+	.sect	'.debug_info'
+.L123:
+	.word	240
+	.half	3
+	.word	.L124
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/SysSe/MotorDrive/Foc.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L54
+	.byte	3
+	.byte	'FOC_Limit',0,9,96,9
+	.word	.L139
+	.byte	1,5,3
+	.word	FOC_Limit
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('FOC_Limit')
+	.sect	'.debug_abbrev'
+.L124:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_Do')
+	.sect	'.debug_loc'
+.L30:
+	.word	-1,.L31,0,.L215-.L31
+	.half	2
+	.byte	138,0
+	.word	.L215-.L31,.L159-.L31
+	.half	2
+	.byte	138,24
+	.word	.L159-.L31,.L159-.L31
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L204:
+	.word	0,0
+.L206:
+	.word	-1,.L31,.L223-.L31,.L224-.L31
+	.half	1
+	.byte	82
+	.word	.L224-.L31,.L225-.L31
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L198:
+	.word	0,0
+.L200:
+	.word	0,0
+.L187:
+	.word	0,0
+.L178:
+	.word	0,0
+.L189:
+	.word	0,0
+.L180:
+	.word	0,0
+.L165:
+	.word	-1,.L31,0,.L159-.L31
+	.half	2
+	.byte	145,104
+	.word	0,0
+.L164:
+	.word	-1,.L31,0,.L216-.L31
+	.half	1
+	.byte	101
+	.word	.L217-.L31,.L216-.L31
+	.half	1
+	.byte	100
+	.word	0,0
+.L162:
+	.word	-1,.L31,0,.L216-.L31
+	.half	1
+	.byte	84
+	.word	.L219-.L31,.L220-.L31
+	.half	1
+	.byte	95
+	.word	0,0
+.L160:
+	.word	-1,.L31,0,.L217-.L31
+	.half	1
+	.byte	100
+	.word	.L218-.L31,.L159-.L31
+	.half	1
+	.byte	111
+	.word	0,0
+.L172:
+	.word	0,0
+.L167:
+	.word	-1,.L31,0,.L159-.L31
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L202:
+	.word	-1,.L31,.L226-.L31,.L227-.L31
+	.half	2
+	.byte	144,36
+	.word	.L228-.L31,.L8-.L31
+	.half	2
+	.byte	144,36
+	.word	.L9-.L31,.L229-.L31
+	.half	2
+	.byte	144,36
+	.word	0,0
+.L166:
+	.word	-1,.L31,0,.L159-.L31
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L174:
+	.word	-1,.L31,.L221-.L31,.L222-.L31
+	.half	2
+	.byte	144,33
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_GetId')
+	.sect	'.debug_loc'
+.L38:
+	.word	-1,.L39,0,.L146-.L39
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L147:
+	.word	-1,.L39,0,.L146-.L39
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_GetIdLimit')
+	.sect	'.debug_loc'
+.L46:
+	.word	-1,.L47,0,.L156-.L47
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L157:
+	.word	-1,.L47,0,.L156-.L47
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_GetIq')
+	.sect	'.debug_loc'
+.L34:
+	.word	-1,.L35,0,.L141-.L35
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L142:
+	.word	-1,.L35,0,.L141-.L35
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_GetIqLimit')
+	.sect	'.debug_loc'
+.L42:
+	.word	-1,.L43,0,.L151-.L43
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L152:
+	.word	-1,.L43,0,.L151-.L43
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_GetModIndexLimit')
+	.sect	'.debug_loc'
+.L50:
+	.word	-1,.L51,0,.L212-.L51
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L213:
+	.word	-1,.L51,0,.L212-.L51
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_Init')
+	.sect	'.debug_loc'
+.L28:
+	.word	-1,.L29,0,.L126-.L29
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L133:
+	.word	0,0
+.L128:
+	.word	-1,.L29,0,.L214-.L29
+	.half	1
+	.byte	100
+	.word	.L130-.L29,.L126-.L29
+	.half	1
+	.byte	111
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_Reset')
+	.sect	'.debug_loc'
+.L52:
+	.word	-1,.L53,0,.L207-.L53
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L208:
+	.word	-1,.L53,0,.L230-.L53
+	.half	1
+	.byte	100
+	.word	.L231-.L53,.L207-.L53
+	.half	1
+	.byte	111
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_SetId')
+	.sect	'.debug_loc'
+.L36:
+	.word	-1,.L37,0,.L143-.L37
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L144:
+	.word	-1,.L37,0,.L143-.L37
+	.half	1
+	.byte	100
+	.word	0,0
+.L145:
+	.word	-1,.L37,0,.L143-.L37
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_SetIdLimit')
+	.sect	'.debug_loc'
+.L44:
+	.word	-1,.L45,0,.L153-.L45
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L154:
+	.word	-1,.L45,0,.L153-.L45
+	.half	1
+	.byte	100
+	.word	0,0
+.L155:
+	.word	-1,.L45,0,.L153-.L45
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_SetIq')
+	.sect	'.debug_loc'
+.L32:
+	.word	-1,.L33,0,.L137-.L33
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L138:
+	.word	-1,.L33,0,.L137-.L33
+	.half	1
+	.byte	100
+	.word	0,0
+.L140:
+	.word	-1,.L33,0,.L137-.L33
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_SetIqLimit')
+	.sect	'.debug_loc'
+.L40:
+	.word	-1,.L41,0,.L148-.L41
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L149:
+	.word	-1,.L41,0,.L148-.L41
+	.half	1
+	.byte	100
+	.word	0,0
+.L150:
+	.word	-1,.L41,0,.L148-.L41
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Foc_SetModIndexLimit')
+	.sect	'.debug_loc'
+.L48:
+	.word	-1,.L49,0,.L209-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L210:
+	.word	-1,.L49,0,.L209-.L49
+	.half	1
+	.byte	100
+	.word	0,0
+.L211:
+	.word	-1,.L49,0,.L209-.L49
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L341:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Foc_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L341,.L29,.L126-.L29
+	.sdecl	'.debug_frame',debug,cluster('Foc_Do')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L341,.L31,.L159-.L31
+	.byte	4
+	.word	(.L215-.L31)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L159-.L215)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_SetIq')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L33,.L137-.L33
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_GetIq')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L35,.L141-.L35
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_SetId')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L37,.L143-.L37
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_GetId')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L39,.L146-.L39
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_SetIqLimit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L41,.L148-.L41
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_GetIqLimit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L43,.L151-.L43
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_SetIdLimit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L45,.L153-.L45
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_GetIdLimit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L47,.L156-.L47
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_SetModIndexLimit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L49,.L209-.L49
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_GetModIndexLimit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L341,.L51,.L212-.L51
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Foc_Reset')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L341,.L53,.L207-.L53
+	; Module end

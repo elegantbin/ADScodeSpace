@@ -1,0 +1,937 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc20536a --dep-file=0_Src/1_BasicSw/TaskOs/AppScheduler.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Isr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Configurations -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_BasicSw/TaskOs/AppScheduler.src ../0_Src/1_BasicSw/TaskOs/AppScheduler.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.AppScheduler.AppScheduler_init',code,cluster('AppScheduler_init')
+	.sect	'.text.AppScheduler.AppScheduler_init'
+	.align	2
+	
+	.global	AppScheduler_init
+; Function AppScheduler_init
+.L15:
+AppScheduler_init:	.type	func
+	sub.a	a10,#16
+.L63:
+	movh.a	a15,#@his(appScheduler_task_config)
+	lea	a15,[a15]@los(appScheduler_task_config)
+.L115:
+	lea	a15,[a15]32
+.L116:
+	lea	a2,[a10]0
+	mov.a	a4,#3
+.L2:
+	ld.w	d15,[a15+]
+	st.w	[a2+],d15
+	loop	a4,.L2
+.L117:
+	movh.a	a15,#@his(appTaskfu_10ms)
+	lea	a15,[a15]@los(appTaskfu_10ms)
+.L118:
+	st.a	[a10]12,a15
+.L119:
+	movh.a	a15,#@his(g_tasks_core0)
+	lea	a15,[a15]@los(g_tasks_core0)
+.L120:
+	lea	a4,[a15]40
+.L121:
+	lea	a5,[a10]0
+	call	AppScheduler_initTask
+.L122:
+	movh.a	a15,#@his(appScheduler_task_config)
+	lea	a15,[a15]@los(appScheduler_task_config)
+.L123:
+	lea	a15,[a15]48
+.L124:
+	lea	a2,[a10]0
+	mov.a	a4,#3
+.L3:
+	ld.w	d15,[a15+]
+	st.w	[a2+],d15
+	loop	a4,.L3
+.L125:
+	movh.a	a15,#@his(appTaskfu_100ms)
+	lea	a15,[a15]@los(appTaskfu_100ms)
+.L126:
+	st.a	[a10]12,a15
+.L127:
+	movh.a	a15,#@his(g_tasks_core0)
+	lea	a15,[a15]@los(g_tasks_core0)
+.L128:
+	lea	a4,[a15]60
+.L129:
+	lea	a5,[a10]0
+	call	AppScheduler_initTask
+.L130:
+	movh.a	a15,#@his(appScheduler_task_config)
+	lea	a15,[a15]@los(appScheduler_task_config)
+.L131:
+	lea	a15,[a15]64
+.L132:
+	lea	a2,[a10]0
+	mov.a	a4,#3
+.L4:
+	ld.w	d15,[a15+]
+	st.w	[a2+],d15
+	loop	a4,.L4
+.L133:
+	movh.a	a15,#@his(appTaskfu_200ms)
+	lea	a15,[a15]@los(appTaskfu_200ms)
+.L134:
+	st.a	[a10]12,a15
+.L135:
+	movh.a	a15,#@his(g_tasks_core0)
+	lea	a15,[a15]@los(g_tasks_core0)
+.L136:
+	lea	a4,[a15]80
+.L137:
+	lea	a5,[a10]0
+	call	AppScheduler_initTask
+.L138:
+	movh.a	a15,#@his(appScheduler_task_config)
+	lea	a15,[a15]@los(appScheduler_task_config)
+.L139:
+	lea	a15,[a15]0
+.L140:
+	lea	a2,[a10]0
+	mov.a	a4,#3
+.L5:
+	ld.w	d15,[a15+]
+	st.w	[a2+],d15
+	loop	a4,.L5
+.L141:
+	movh.a	a15,#@his(appTaskfu_1ms)
+	lea	a15,[a15]@los(appTaskfu_1ms)
+.L142:
+	st.a	[a10]12,a15
+.L143:
+	movh.a	a4,#@his(g_tasks_core0)
+	lea	a4,[a4]@los(g_tasks_core0)
+.L144:
+	lea	a5,[a10]0
+	call	AppScheduler_initTask
+.L145:
+	movh.a	a15,#@his(appScheduler_task_config)
+	lea	a15,[a15]@los(appScheduler_task_config)
+.L146:
+	lea	a15,[a15]16
+.L147:
+	lea	a2,[a10]0
+	mov.a	a4,#3
+.L6:
+	ld.w	d15,[a15+]
+	st.w	[a2+],d15
+	loop	a4,.L6
+.L148:
+	movh.a	a15,#@his(appTaskfu_2ms)
+	lea	a15,[a15]@los(appTaskfu_2ms)
+.L149:
+	st.a	[a10]12,a15
+.L150:
+	movh.a	a15,#@his(g_tasks_core0)
+	lea	a15,[a15]@los(g_tasks_core0)
+.L151:
+	lea	a4,[a15]20
+.L152:
+	lea	a5,[a10]0
+	call	AppScheduler_initTask
+.L153:
+	ret
+.L59:
+	
+__AppScheduler_init_function_end:
+	.size	AppScheduler_init,__AppScheduler_init_function_end-AppScheduler_init
+.L45:
+	; End of function
+	
+	.sdecl	'.text.AppScheduler.AppScheduler_initTask',code,cluster('AppScheduler_initTask')
+	.sect	'.text.AppScheduler.AppScheduler_initTask'
+	.align	2
+	
+	.global	AppScheduler_initTask
+; Function AppScheduler_initTask
+.L17:
+AppScheduler_initTask:	.type	func
+	ld.w	d0,[a5]
+.L73:
+	ld.w	d15,[a5]4
+.L74:
+	add	d0,d15
+.L75:
+	st.w	[a4],d0
+.L76:
+	ld.w	d15,[a5]4
+.L77:
+	st.w	[a4]4,d15
+.L78:
+	ld.bu	d15,[a5]8
+.L79:
+	st.b	[a4]8,d15
+.L80:
+	ld.a	a15,[a5]12
+.L81:
+	st.a	[a4]16,a15
+.L82:
+	ret
+.L48:
+	
+__AppScheduler_initTask_function_end:
+	.size	AppScheduler_initTask,__AppScheduler_initTask_function_end-AppScheduler_initTask
+.L30:
+	; End of function
+	
+	.sdecl	'.text.AppScheduler.AppScheduler_tick',code,cluster('AppScheduler_tick')
+	.sect	'.text.AppScheduler.AppScheduler_tick'
+	.align	2
+	
+	.global	AppScheduler_tick
+; Function AppScheduler_tick
+.L19:
+AppScheduler_tick:	.type	func
+	mov	d0,#0
+.L64:
+	j	.L7
+.L8:
+	ld.w	d15,[a4]
+.L87:
+	jeq	d15,#0,.L9
+.L88:
+	ld.w	d15,[a4]
+.L89:
+	add	d15,#-1
+	st.w	[a4],d15
+.L90:
+	ld.w	d15,[a4]
+.L91:
+	jne	d15,#0,.L10
+.L92:
+	ld.bu	d15,[a4]8
+.L93:
+	jeq	d15,#0,.L11
+.L94:
+	ld.w	d15,[a4]4
+.L95:
+	st.w	[a4],d15
+.L11:
+	ld.bu	d15,[a4]14
+.L96:
+	jeq	d15,#0,.L12
+.L97:
+	ld.w	d15,[a4]10
+.L98:
+	add	d15,#1
+	st.w	[a4]10,d15
+.L12:
+	mov	d15,#1
+.L99:
+	st.b	[a4]14,d15
+.L10:
+.L9:
+	lea	a4,[a4]20
+.L100:
+	add	d0,#1
+.L7:
+	jlt.u	d0,#5,.L8
+.L101:
+	ret
+.L53:
+	
+__AppScheduler_tick_function_end:
+	.size	AppScheduler_tick,__AppScheduler_tick_function_end-AppScheduler_tick
+.L35:
+	; End of function
+	
+	.sdecl	'.text.AppScheduler.AppScheduler_process',code,cluster('AppScheduler_process')
+	.sect	'.text.AppScheduler.AppScheduler_process'
+	.align	2
+	
+	.global	AppScheduler_process
+; Function AppScheduler_process
+.L21:
+AppScheduler_process:	.type	func
+	ld.bu	d15,[a4]14
+.L106:
+	jeq	d15,#0,.L13
+.L107:
+	mov	d15,#0
+.L108:
+	st.b	[a4]14,d15
+.L109:
+	ld.a	a15,[a4]16
+.L110:
+	calli	a15
+.L13:
+	ret
+.L57:
+	
+__AppScheduler_process_function_end:
+	.size	AppScheduler_process,__AppScheduler_process_function_end-AppScheduler_process
+.L40:
+	; End of function
+	
+	.sdecl	'.bss.AppScheduler.g_tasks_core0',data,cluster('g_tasks_core0')
+	.sect	'.bss.AppScheduler.g_tasks_core0'
+	.global	g_tasks_core0
+	.align	4
+g_tasks_core0:	.type	object
+	.size	g_tasks_core0,100
+	.space	100
+	.calls	'__INDIRECT__','appTaskfu_1ms'
+	.calls	'__INDIRECT__','appTaskfu_2ms'
+	.calls	'__INDIRECT__','appTaskfu_10ms'
+	.calls	'__INDIRECT__','appTaskfu_100ms'
+	.calls	'__INDIRECT__','appTaskfu_200ms'
+	.calls	'AppScheduler_init','AppScheduler_initTask'
+	.calls	'AppScheduler_process','__INDIRECT__'
+	.calls	'AppScheduler_init','',16
+	.calls	'AppScheduler_initTask','',0
+	.calls	'AppScheduler_tick','',0
+	.extern	appTaskfu_1ms
+	.extern	appTaskfu_2ms
+	.extern	appTaskfu_10ms
+	.extern	appTaskfu_100ms
+	.extern	appTaskfu_200ms
+	.extern	appScheduler_task_config
+	.extern	__INDIRECT__
+	.calls	'AppScheduler_process','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L23:
+	.word	1097
+	.half	3
+	.word	.L24
+	.byte	4
+.L22:
+	.byte	1
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L25
+.L55:
+	.byte	2
+	.byte	'unsigned long int',0,4,7,2
+	.byte	'unsigned char',0,1,8,3,1,1,4
+	.word	254
+	.byte	5
+	.byte	'schedulerCallback',0,1,14,16
+	.word	257
+	.byte	6,1,24,9,20,7
+	.byte	'taskcounter',0
+	.word	216
+	.byte	4,2,35,0,7
+	.byte	'taskreload',0
+	.word	216
+	.byte	4,2,35,4,7
+	.byte	'countinous',0
+	.word	237
+	.byte	1,2,35,8,7
+	.byte	'overflow',0
+	.word	216
+	.byte	4,2,35,10,7
+	.byte	'run',0
+	.word	237
+	.byte	1,2,35,14,7
+	.byte	'callback',0
+	.word	262
+	.byte	4,2,35,16,0
+.L49:
+	.byte	4
+	.word	288
+	.byte	4
+	.word	254
+.L60:
+	.byte	6,1,16,9,16,7
+	.byte	'taskoffset',0
+	.word	216
+	.byte	4,2,35,0,7
+	.byte	'taskreload',0
+	.word	216
+	.byte	4,2,35,4,7
+	.byte	'countinous',0
+	.word	237
+	.byte	1,2,35,8,7
+	.byte	'callback',0
+	.word	262
+	.byte	4,2,35,12,0
+.L51:
+	.byte	4
+	.word	414
+	.byte	8
+	.byte	'appTaskfu_1ms',0,2,14,6,1,1,1,1,8
+	.byte	'appTaskfu_2ms',0,2,15,6,1,1,1,1,8
+	.byte	'appTaskfu_10ms',0,2,16,6,1,1,1,1,8
+	.byte	'appTaskfu_100ms',0,2,17,6,1,1,1,1,8
+	.byte	'appTaskfu_200ms',0,2,18,6,1,1,1,1,9
+	.byte	'__INDIRECT__',0,3,1,1,1,1,1,2
+	.byte	'short int',0,2,5,5
+	.byte	'__wchar_t',0,3,1,1
+	.word	638
+	.byte	2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'__size_t',0,3,1,1
+	.word	669
+	.byte	2
+	.byte	'int',0,4,5,5
+	.byte	'__ptrdiff_t',0,3,1,1
+	.word	702
+	.byte	10,1,4
+	.word	729
+	.byte	5
+	.byte	'__codeptr',0,3,1,1
+	.word	731
+	.byte	5
+	.byte	'boolean',0,4,104,29
+	.word	237
+	.byte	5
+	.byte	'uint8',0,4,108,29
+	.word	237
+	.byte	2
+	.byte	'unsigned short int',0,2,7,5
+	.byte	'uint16',0,4,112,29
+	.word	784
+	.byte	5
+	.byte	'uint32',0,4,116,29
+	.word	216
+	.byte	5
+	.byte	'sint16',0,4,129,1,29
+	.word	638
+	.byte	2
+	.byte	'long int',0,4,5,5
+	.byte	'sint32',0,4,134,1,29
+	.word	852
+	.byte	2
+	.byte	'long long int',0,8,5,5
+	.byte	'sint64',0,4,141,1,29
+	.word	880
+	.byte	2
+	.byte	'float',0,4,4,5
+	.byte	'float32',0,4,170,1,29
+	.word	913
+	.byte	11
+	.byte	'void',0,4
+	.word	939
+	.byte	5
+	.byte	'pvoid',0,5,54,28
+	.word	945
+	.byte	5
+	.byte	'Ifx_TickTime',0,5,76,28
+	.word	880
+	.byte	5
+	.byte	'AppScheduler_cfg_tasks',0,1,22,2
+	.word	414
+	.byte	5
+	.byte	'AppScheduler_task',0,1,32,2
+	.word	288
+	.byte	12,80
+	.word	414
+	.byte	13,4,0,14
+	.word	1042
+	.byte	15
+	.byte	'appScheduler_task_config',0,6,29,41
+	.word	1051
+	.byte	1,1
+.L62:
+	.byte	12,100
+	.word	288
+	.byte	13,4,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L24:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,21,0,54,15,39,12,0,0,4,15,0
+	.byte	73,19,0,0,5,22,0,3,8,58,15,59,15,57,15,73,19,0,0,6,19,1,58,15,59,15,57,15,11,15,0,0,7,13,0,3,8,73,19,11
+	.byte	15,56,9,0,0,8,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,9,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	63,12,60,12,0,0,10,21,0,54,15,0,0,11,59,0,3,8,0,0,12,1,1,11,15,73,19,0,0,13,33,0,47,15,0,0,14,38,0,73
+	.byte	19,0,0,15,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L25:
+	.word	.L66-.L65
+.L65:
+	.half	3
+	.word	.L68-.L67
+.L67:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Config',0,0
+	.byte	'..\\0_Src\\1_BasicSw\\TaskOs\\AppScheduler.h',0,0,0,0
+	.byte	'..\\0_Src\\1_BasicSw\\TaskOs\\AppTaskFu.h',0,0,0,0
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0
+	.byte	'Ifx_Cfg_Scheduler.h',0,2,0,0,0
+.L68:
+.L66:
+	.sdecl	'.debug_info',debug,cluster('AppScheduler_initTask')
+	.sect	'.debug_info'
+.L26:
+	.word	311
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L29,.L28
+	.byte	2
+	.word	.L22
+	.byte	3
+	.byte	'AppScheduler_initTask',0,1,40,6,1,1,1
+	.word	.L17,.L48,.L16
+	.byte	4
+	.byte	'handle',0,1,40,47
+	.word	.L49,.L50
+	.byte	4
+	.byte	'config',0,1,40,78
+	.word	.L51,.L52
+	.byte	5
+	.word	.L17,.L48
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppScheduler_initTask')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppScheduler_initTask')
+	.sect	'.debug_line'
+.L28:
+	.word	.L70-.L69
+.L69:
+	.half	3
+	.word	.L72-.L71
+.L71:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0,0,0,0,0
+.L72:
+	.byte	5,30,7,0,5,2
+	.word	.L17
+	.byte	3,41,1,5,51,9
+	.half	.L73-.L17
+	.byte	1,5,43,9
+	.half	.L74-.L73
+	.byte	1,5,22,9
+	.half	.L75-.L74
+	.byte	1,5,29,9
+	.half	.L76-.L75
+	.byte	3,1,1,5,21,9
+	.half	.L77-.L76
+	.byte	1,5,29,9
+	.half	.L78-.L77
+	.byte	3,1,1,5,21,9
+	.half	.L79-.L78
+	.byte	1,5,27,9
+	.half	.L80-.L79
+	.byte	3,1,1,5,19,9
+	.half	.L81-.L80
+	.byte	1,5,1,9
+	.half	.L82-.L81
+	.byte	3,1,1,7,9
+	.half	.L30-.L82
+	.byte	0,1,1
+.L70:
+	.sdecl	'.debug_ranges',debug,cluster('AppScheduler_initTask')
+	.sect	'.debug_ranges'
+.L29:
+	.word	-1,.L17,0,.L30-.L17,0,0
+	.sdecl	'.debug_info',debug,cluster('AppScheduler_tick')
+	.sect	'.debug_info'
+.L31:
+	.word	303
+	.half	3
+	.word	.L32
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L34,.L33
+	.byte	2
+	.word	.L22
+	.byte	3
+	.byte	'AppScheduler_tick',0,1,50,7,1,1,1
+	.word	.L19,.L53,.L18
+	.byte	4
+	.byte	'handle',0,1,50,44
+	.word	.L49,.L54
+	.byte	5
+	.word	.L19,.L53
+	.byte	6
+	.byte	'i',0,1,52,9
+	.word	.L55,.L56
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppScheduler_tick')
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppScheduler_tick')
+	.sect	'.debug_line'
+.L33:
+	.word	.L84-.L83
+.L83:
+	.half	3
+	.word	.L86-.L85
+.L85:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0,0,0,0,0
+.L86:
+	.byte	5,7,7,0,5,2
+	.word	.L19
+	.byte	3,52,1,5,35,9
+	.half	.L64-.L19
+	.byte	1,5,12,9
+	.half	.L8-.L64
+	.byte	3,2,1,5,3,9
+	.half	.L87-.L8
+	.byte	1,5,10,7,9
+	.half	.L88-.L87
+	.byte	3,3,1,5,23,9
+	.half	.L89-.L88
+	.byte	1,5,13,9
+	.half	.L90-.L89
+	.byte	3,1,1,5,4,9
+	.half	.L91-.L90
+	.byte	1,5,14,7,9
+	.half	.L92-.L91
+	.byte	3,2,1,5,5,9
+	.half	.L93-.L92
+	.byte	1,5,34,7,9
+	.half	.L94-.L93
+	.byte	3,2,1,5,26,9
+	.half	.L95-.L94
+	.byte	1,5,14,9
+	.half	.L11-.L95
+	.byte	3,2,1,5,5,9
+	.half	.L96-.L11
+	.byte	1,5,12,7,9
+	.half	.L97-.L96
+	.byte	3,2,1,5,22,9
+	.half	.L98-.L97
+	.byte	1,5,19,9
+	.half	.L12-.L98
+	.byte	3,2,1,5,17,9
+	.half	.L99-.L12
+	.byte	1,5,9,9
+	.half	.L9-.L99
+	.byte	3,3,1,5,37,9
+	.half	.L100-.L9
+	.byte	3,109,1,5,35,9
+	.half	.L7-.L100
+	.byte	1,5,1,7,9
+	.half	.L101-.L7
+	.byte	3,21,1,7,9
+	.half	.L35-.L101
+	.byte	0,1,1
+.L84:
+	.sdecl	'.debug_ranges',debug,cluster('AppScheduler_tick')
+	.sect	'.debug_ranges'
+.L34:
+	.word	-1,.L19,0,.L35-.L19,0,0
+	.sdecl	'.debug_info',debug,cluster('AppScheduler_process')
+	.sect	'.debug_info'
+.L36:
+	.word	291
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L39,.L38
+	.byte	2
+	.word	.L22
+	.byte	3
+	.byte	'AppScheduler_process',0,1,78,6,1,1,1
+	.word	.L21,.L57,.L20
+	.byte	4
+	.byte	'handle',0,1,78,46
+	.word	.L49,.L58
+	.byte	5
+	.word	.L21,.L57
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppScheduler_process')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppScheduler_process')
+	.sect	'.debug_line'
+.L38:
+	.word	.L103-.L102
+.L102:
+	.half	3
+	.word	.L105-.L104
+.L104:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0,0,0,0,0
+.L105:
+	.byte	5,11,7,0,5,2
+	.word	.L21
+	.byte	3,208,0,1,5,2,9
+	.half	.L106-.L21
+	.byte	1,5,17,7,9
+	.half	.L107-.L106
+	.byte	3,2,1,5,15,9
+	.half	.L108-.L107
+	.byte	1,5,9,9
+	.half	.L109-.L108
+	.byte	3,1,1,5,19,9
+	.half	.L110-.L109
+	.byte	1,5,1,9
+	.half	.L13-.L110
+	.byte	3,3,1,7,9
+	.half	.L40-.L13
+	.byte	0,1,1
+.L103:
+	.sdecl	'.debug_ranges',debug,cluster('AppScheduler_process')
+	.sect	'.debug_ranges'
+.L39:
+	.word	-1,.L21,0,.L40-.L21,0,0
+	.sdecl	'.debug_info',debug,cluster('AppScheduler_init')
+	.sect	'.debug_info'
+.L41:
+	.word	289
+	.half	3
+	.word	.L42
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L44,.L43
+	.byte	2
+	.word	.L22
+	.byte	3
+	.byte	'AppScheduler_init',0,1,15,6,1,1,1
+	.word	.L15,.L59,.L14
+	.byte	4
+	.word	.L15,.L59
+	.byte	5
+	.byte	'config',0,1,18,32
+	.word	.L60,.L61
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('AppScheduler_init')
+	.sect	'.debug_abbrev'
+.L42:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('AppScheduler_init')
+	.sect	'.debug_line'
+.L43:
+	.word	.L112-.L111
+.L111:
+	.half	3
+	.word	.L114-.L113
+.L113:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0,0,0,0,0
+.L114:
+	.byte	5,6,7,0,5,2
+	.word	.L15
+	.byte	3,14,1,5,41,9
+	.half	.L63-.L15
+	.byte	3,3,1,5,65,9
+	.half	.L115-.L63
+	.byte	1,5,39,9
+	.half	.L116-.L115
+	.byte	1,5,49,9
+	.half	.L117-.L116
+	.byte	3,1,1,5,25,9
+	.half	.L118-.L117
+	.byte	1,5,32,9
+	.half	.L119-.L118
+	.byte	3,1,1,5,45,9
+	.half	.L120-.L119
+	.byte	1,5,71,9
+	.half	.L121-.L120
+	.byte	1,5,18,9
+	.half	.L122-.L121
+	.byte	3,2,1,5,42,9
+	.half	.L123-.L122
+	.byte	1,5,16,9
+	.half	.L124-.L123
+	.byte	1,5,48,9
+	.half	.L125-.L124
+	.byte	3,1,1,5,25,9
+	.half	.L126-.L125
+	.byte	1,5,32,9
+	.half	.L127-.L126
+	.byte	3,1,1,5,45,9
+	.half	.L128-.L127
+	.byte	1,5,72,9
+	.half	.L129-.L128
+	.byte	1,5,18,9
+	.half	.L130-.L129
+	.byte	3,2,1,5,42,9
+	.half	.L131-.L130
+	.byte	1,5,16,9
+	.half	.L132-.L131
+	.byte	1,5,48,9
+	.half	.L133-.L132
+	.byte	3,1,1,5,25,9
+	.half	.L134-.L133
+	.byte	1,5,32,9
+	.half	.L135-.L134
+	.byte	3,1,1,5,45,9
+	.half	.L136-.L135
+	.byte	1,5,72,9
+	.half	.L137-.L136
+	.byte	1,5,18,9
+	.half	.L138-.L137
+	.byte	3,2,1,5,42,9
+	.half	.L139-.L138
+	.byte	1,5,16,9
+	.half	.L140-.L139
+	.byte	1,5,48,9
+	.half	.L141-.L140
+	.byte	3,1,1,5,25,9
+	.half	.L142-.L141
+	.byte	1,5,32,9
+	.half	.L143-.L142
+	.byte	3,1,1,5,70,9
+	.half	.L144-.L143
+	.byte	1,5,18,9
+	.half	.L145-.L144
+	.byte	3,2,1,5,42,9
+	.half	.L146-.L145
+	.byte	1,5,16,9
+	.half	.L147-.L146
+	.byte	1,5,48,9
+	.half	.L148-.L147
+	.byte	3,1,1,5,25,9
+	.half	.L149-.L148
+	.byte	1,5,32,9
+	.half	.L150-.L149
+	.byte	3,1,1,5,45,9
+	.half	.L151-.L150
+	.byte	1,5,70,9
+	.half	.L152-.L151
+	.byte	1,5,1,9
+	.half	.L153-.L152
+	.byte	3,1,1,7,9
+	.half	.L45-.L153
+	.byte	0,1,1
+.L112:
+	.sdecl	'.debug_ranges',debug,cluster('AppScheduler_init')
+	.sect	'.debug_ranges'
+.L44:
+	.word	-1,.L15,0,.L45-.L15,0,0
+	.sdecl	'.debug_info',debug,cluster('g_tasks_core0')
+	.sect	'.debug_info'
+.L46:
+	.word	243
+	.half	3
+	.word	.L47
+	.byte	4,1
+	.byte	'../0_Src/1_BasicSw/TaskOs/AppScheduler.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L22
+	.byte	3
+	.byte	'g_tasks_core0',0,3,13,19
+	.word	.L62
+	.byte	1,5,3
+	.word	g_tasks_core0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('g_tasks_core0')
+	.sect	'.debug_abbrev'
+.L47:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('AppScheduler_init')
+	.sect	'.debug_loc'
+.L14:
+	.word	-1,.L15,0,.L63-.L15
+	.half	2
+	.byte	138,0
+	.word	.L63-.L15,.L59-.L15
+	.half	2
+	.byte	138,16
+	.word	.L59-.L15,.L59-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L61:
+	.word	-1,.L15,0,.L59-.L15
+	.half	2
+	.byte	145,112
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AppScheduler_initTask')
+	.sect	'.debug_loc'
+.L16:
+	.word	-1,.L17,0,.L48-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L52:
+	.word	-1,.L17,0,.L48-.L17
+	.half	1
+	.byte	101
+	.word	0,0
+.L50:
+	.word	-1,.L17,0,.L48-.L17
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AppScheduler_process')
+	.sect	'.debug_loc'
+.L20:
+	.word	-1,.L21,0,.L57-.L21
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L58:
+	.word	-1,.L21,0,.L13-.L21
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('AppScheduler_tick')
+	.sect	'.debug_loc'
+.L18:
+	.word	-1,.L19,0,.L53-.L19
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L54:
+	.word	-1,.L19,0,.L53-.L19
+	.half	1
+	.byte	100
+	.word	0,0
+.L56:
+	.word	-1,.L19,.L64-.L19,.L53-.L19
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L154:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('AppScheduler_init')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L154,.L15,.L59-.L15
+	.byte	4
+	.word	(.L63-.L15)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L59-.L63)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('AppScheduler_initTask')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L154,.L17,.L48-.L17
+	.byte	8,18,8,19,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('AppScheduler_tick')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L154,.L19,.L53-.L19
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('AppScheduler_process')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L154,.L21,.L57-.L21
+	; Module end

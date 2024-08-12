@@ -1,0 +1,3969 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc15184a --dep-file=0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\Current_Controller -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\MTPA -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Configurations -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Trig -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.src ../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.PMSM_CurrentControl_System.PMSM_CurrentControl_System_step',code,cluster('PMSM_CurrentControl_System_step')
+	.sect	'.text.PMSM_CurrentControl_System.PMSM_CurrentControl_System_step'
+	.align	2
+	
+	.global	PMSM_CurrentControl_System_step
+; Function PMSM_CurrentControl_System_step
+.L110:
+PMSM_CurrentControl_System_step:	.type	func
+	sub.a	a10,#24
+.L188:
+	mov.aa	a12,a5
+.L190:
+	mov.aa	a13,a6
+.L191:
+	ld.a	a14,[a4]4
+.L192:
+	movh.a	a2,#@his(PMSM_CurrentControl_System_P)
+	lea	a2,[a2]@los(PMSM_CurrentControl_System_P)
+.L340:
+	ld.hu	d15,[a2]268
+.L341:
+	jeq	d15,#0,.L2
+.L342:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L343:
+	ld.hu	d8,[a15]264
+.L193:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L344:
+	ld.hu	d8,[a15]266
+.L3:
+	mov	d9,#0
+.L194:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L345:
+	ld.w	d15,[a15]28
+.L346:
+	extr.u	d0,d15,#23,#8
+	ne	d15,d0,#0
+.L347:
+	jeq	d15,#0,.L4
+.L348:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L349:
+	ld.w	d15,[a15]32
+.L350:
+	extr.u	d0,d15,#23,#8
+	ne	d15,d0,#0
+	jeq	d15,#0,.L5
+.L351:
+	mov	d9,#1
+.L5:
+.L4:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L352:
+	ld.w	d15,[a15]148
+.L353:
+	ld.w	d0,[a14]
+.L354:
+	sub.f	d15,d15,d0
+.L196:
+	st.w	[a10]20,d15
+.L198:
+	mov	d15,#0
+.L197:
+	st.w	[a10]12,d15
+.L355:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L356:
+	ld.w	d15,[a15]36
+.L357:
+	extr.u	d15,d15,#23,#8
+	ne	d15,d15,#0
+.L358:
+	jeq	d15,#0,.L6
+.L359:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L360:
+	ld.w	d15,[a15]40
+.L361:
+	extr.u	d15,d15,#23,#8
+	jne	d15,#0,.L7
+.L6:
+	mov	d15,#1
+	st.w	[a10]12,d15
+.L7:
+	ld.w	d15,[a10]12
+	jne	d15,#0,.L8
+.L362:
+	ld.b	d15,[a14]28
+.L363:
+	jeq	d15,#0,.L9
+.L8:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L364:
+	ld.w	d15,[a15]160
+.L365:
+	st.w	[a14]4,d15
+.L9:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L366:
+	ld.w	d0,[a15]156
+.L367:
+	ld.w	d1,[a14]4
+.L368:
+	ld.w	d15,[a10]20
+.L199:
+	madd.f	d10,d1,d15,d0
+.L201:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L369:
+	ld.w	d0,[a15]44
+.L370:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L371:
+	ld.w	d15,[a15]48
+.L200:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#2,#1
+.L372:
+	jeq	d15,#0,.L10
+.L373:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L374:
+	ld.w	d15,[a15]12
+.L375:
+	cmp.f	d15,d10,d15
+	extr.u	d15,d15,#2,#1
+.L376:
+	jeq	d15,#0,.L11
+.L377:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L378:
+	ld.w	d15,[a15]12
+.L203:
+	j	.L12
+.L11:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L379:
+	ld.w	d15,[a15]
+.L380:
+	cmp.f	d15,d10,d15
+	jnz.t	d15:0,.L13
+.L381:
+	mov	d15,d10
+.L204:
+	j	.L14
+.L13:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L382:
+	ld.w	d15,[a15]
+.L14:
+.L12:
+	j	.L15
+.L10:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L383:
+	ld.w	d15,[a15]92
+.L15:
+	ld.w	d0,[a12]
+.L384:
+	add.f	d11,d0,d15
+.L206:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L385:
+	ld.w	d15,[a15]168
+.L205:
+	cmp.f	d15,d11,d15
+	extr.u	d15,d15,#2,#1
+.L386:
+	jeq	d15,#0,.L16
+.L387:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L388:
+	ld.w	d11,[a15]168
+.L389:
+	j	.L17
+.L16:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L390:
+	ld.w	d15,[a15]172
+.L391:
+	cmp.f	d15,d11,d15
+	extr.u	d15,d15,#0,#1
+.L392:
+	jeq	d15,#0,.L18
+.L393:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L394:
+	ld.w	d11,[a15]172
+.L18:
+.L17:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L395:
+	ld.w	d15,[a15]176
+.L396:
+	msub.f	d4,d15,d11,d11
+	call	sqrtf
+.L189:
+	mov	d12,d2
+.L209:
+	ld.w	d15,[a12]4
+	insert	d15,d15,#0,#31,#1
+.L397:
+	cmp.f	d15,d12,d15
+	extr.u	d15,d15,#0,#1
+.L398:
+	jeq	d15,#0,.L19
+.L399:
+	ld.w	d4,[a12]4
+	call	rtIsNaNF
+.L208:
+	jeq	d2,#0,.L20
+.L400:
+	movh.a	a15,#@his(rtNaNF)
+	lea	a15,[a15]@los(rtNaNF)
+	ld.w	d15,[a15]
+.L211:
+	j	.L21
+.L20:
+	ld.w	d15,[a12]4
+.L401:
+	mov	d0,#0
+.L402:
+	cmp.f	d15,d15,d0
+	jnz.t	d15:0,.L22
+.L403:
+	ld.w	d15,[a12]4
+.L404:
+	mov	d0,#0
+.L405:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L406:
+	utof	d15,d15
+.L212:
+	j	.L23
+.L22:
+	movh	d15,#49024
+.L23:
+.L21:
+	mul.f	d0,d12,d15
+.L210:
+	j	.L24
+.L19:
+	ld.w	d0,[a12]4
+.L24:
+	ld.w	d15,[a12]12
+.L407:
+	sub.f	d15,d0,d15
+.L213:
+	st.w	[a10]4,d15
+.L215:
+	eq	d15,d9,#0
+.L214:
+	st.w	[a10]16,d15
+.L217:
+	ld.bu	d15,[a14]31
+.L216:
+	jeq	d15,#0,.L25
+.L408:
+	ld.w	d15,[a14]8
+.L409:
+	st.w	[a14]12,d15
+.L25:
+	ld.w	d15,[a10]16
+.L218:
+	jne	d15,#0,.L26
+.L410:
+	ld.b	d15,[a14]29
+.L219:
+	jeq	d15,#0,.L27
+.L26:
+	ld.w	d15,[a14]8
+.L411:
+	st.w	[a14]12,d15
+.L27:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L412:
+	ld.w	d0,[a15]180
+.L413:
+	ld.w	d1,[a14]12
+.L414:
+	ld.w	d15,[a10]4
+.L220:
+	madd.f	d12,d1,d15,d0
+.L222:
+	jeq	d9,#0,.L28
+.L415:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L416:
+	ld.w	d15,[a15]16
+.L221:
+	cmp.f	d0,d12,d15
+	extr.u	d15,d0,#2,#1
+.L417:
+	jeq	d15,#0,.L29
+.L418:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L419:
+	ld.w	d15,[a15]16
+.L420:
+	st.w	[a14]8,d15
+.L421:
+	j	.L30
+.L29:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L422:
+	ld.w	d15,[a15]4
+.L423:
+	cmp.f	d15,d12,d15
+	jnz.t	d15:0,.L31
+.L424:
+	st.w	[a14]8,d12
+.L425:
+	j	.L32
+.L31:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L426:
+	ld.w	d15,[a15]4
+.L427:
+	st.w	[a14]8,d15
+.L32:
+.L30:
+	j	.L33
+.L28:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L428:
+	ld.w	d15,[a15]100
+.L224:
+	st.w	[a14]8,d15
+.L33:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L429:
+	ld.bu	d15,[a15]284
+.L430:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L431:
+	ld.bu	d0,[a15]285
+.L432:
+	jge.u	d0,d15,.L34
+.L433:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L434:
+	ld.w	d15,[a15]128
+.L435:
+	mov	d0,#0
+.L436:
+	mul.f	d2,d15,d0
+.L225:
+	j	.L35
+.L34:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L437:
+	ld.w	d2,[a15]132
+.L35:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L438:
+	ld.w	d0,[a15]192
+.L439:
+	ld.w	d15,[a12]16
+.L440:
+	mul.f	d3,d0,d15
+.L227:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L441:
+	ld.bu	d15,[a15]286
+.L442:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L443:
+	ld.bu	d0,[a15]287
+.L444:
+	jge.u	d0,d15,.L36
+.L445:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L446:
+	ld.w	d15,[a15]112
+.L447:
+	mov	d0,#0
+.L448:
+	mul.f	d0,d15,d0
+.L229:
+	j	.L37
+.L36:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L449:
+	ld.w	d0,[a15]116
+.L37:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L450:
+	ld.bu	d15,[a15]288
+.L451:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L452:
+	ld.bu	d1,[a15]289
+.L453:
+	jge.u	d1,d15,.L38
+.L454:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L455:
+	ld.w	d15,[a15]120
+.L456:
+	mov	d1,#0
+.L457:
+	mul.f	d1,d15,d1
+.L231:
+	j	.L39
+.L38:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L458:
+	ld.w	d1,[a15]124
+.L39:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L459:
+	ld.w	d4,[a15]196
+.L460:
+	ld.w	d15,[a12]8
+.L461:
+	mul.f	d15,d4,d15
+.L462:
+	madd.f	d15,d0,d15,d1
+.L463:
+	mul.f	d0,d15,d3
+.L230:
+	cmp.f	d15,d0,d2
+	extr.u	d15,d15,#2,#1
+.L464:
+	jeq	d15,#0,.L40
+.L465:
+	mov	d0,d2
+.L466:
+	j	.L41
+.L40:
+	insn.t	d15,d2:31,d2:31
+.L467:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L468:
+	jeq	d15,#0,.L42
+.L469:
+	insn.t	d0,d2:31,d2:31
+.L42:
+.L41:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L470:
+	ld.w	d1,[a15]200
+.L471:
+	ld.w	d15,[a14]8
+.L472:
+	madd.f	d15,d15,d1,d0
+.L473:
+	st.w	[a13]4,d15
+.L474:
+	mov	d1,#0
+.L195:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L475:
+	ld.w	d15,[a15]52
+.L476:
+	extr.u	d0,d15,#23,#8
+.L232:
+	ne	d15,d0,#0
+.L477:
+	jeq	d15,#0,.L43
+.L478:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L479:
+	ld.w	d15,[a15]56
+.L480:
+	extr.u	d0,d15,#23,#8
+	ne	d15,d0,#0
+	jeq	d15,#0,.L44
+.L481:
+	mov	d1,#1
+.L44:
+.L43:
+	ld.w	d15,[a12]8
+.L482:
+	sub.f	d9,d11,d15
+.L207:
+	eq	d15,d1,#0
+.L235:
+	st.w	[a10]8,d15
+.L237:
+	ld.bu	d15,[a14]32
+.L236:
+	jeq	d15,#0,.L45
+.L483:
+	ld.w	d15,[a14]16
+.L484:
+	st.w	[a14]20,d15
+.L45:
+	ld.w	d15,[a10]8
+.L238:
+	jne	d15,#0,.L46
+.L485:
+	ld.b	d15,[a14]30
+.L239:
+	jeq	d15,#0,.L47
+.L46:
+	ld.w	d15,[a14]16
+.L486:
+	st.w	[a14]20,d15
+.L47:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L487:
+	ld.w	d0,[a15]204
+.L488:
+	ld.w	d15,[a14]20
+.L489:
+	madd.f	d11,d15,d9,d0
+.L240:
+	jeq	d1,#0,.L48
+.L490:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L491:
+	ld.w	d15,[a15]20
+.L492:
+	cmp.f	d15,d11,d15
+	extr.u	d15,d15,#2,#1
+.L493:
+	jeq	d15,#0,.L49
+.L494:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L495:
+	ld.w	d15,[a15]20
+.L496:
+	st.w	[a14]16,d15
+.L497:
+	j	.L50
+.L49:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L498:
+	ld.w	d15,[a15]8
+.L499:
+	cmp.f	d15,d11,d15
+	jnz.t	d15:0,.L51
+.L500:
+	st.w	[a14]16,d11
+.L501:
+	j	.L52
+.L51:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L502:
+	ld.w	d15,[a15]8
+.L503:
+	st.w	[a14]16,d15
+.L52:
+.L50:
+	j	.L53
+.L48:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L504:
+	ld.w	d15,[a15]96
+.L505:
+	st.w	[a14]16,d15
+.L53:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L506:
+	ld.bu	d15,[a15]290
+.L507:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L508:
+	ld.bu	d0,[a15]291
+.L509:
+	jge.u	d0,d15,.L54
+.L510:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L511:
+	ld.w	d15,[a15]104
+.L512:
+	mov	d0,#0
+.L513:
+	mul.f	d0,d15,d0
+.L242:
+	j	.L55
+.L54:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L514:
+	ld.w	d0,[a15]108
+.L55:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L515:
+	ld.w	d1,[a15]216
+.L233:
+	ld.w	d15,[a12]12
+.L516:
+	mul.f	d15,d1,d15
+.L517:
+	mul.f	d15,d15,d0
+.L518:
+	mul.f	d15,d15,d3
+.L519:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L520:
+	ld.w	d0,[a15]220
+.L243:
+	mul.f	d0,d15,d0
+.L244:
+	cmp.f	d15,d0,d2
+	jnz.t	d15:2,.L56
+.L521:
+	insn.t	d15,d2:31,d2:31
+.L522:
+	cmp.f	d15,d0,d15
+	jnz.t	d15:0,.L57
+.L523:
+	mov	d2,d0
+.L524:
+	j	.L58
+.L57:
+	insn.t	d2,d2:31,d2:31
+.L58:
+.L56:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L525:
+	ld.w	d0,[a15]224
+.L245:
+	ld.w	d15,[a14]16
+.L526:
+	madd.f	d15,d15,d0,d2
+.L527:
+	st.w	[a13],d15
+.L528:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L529:
+	ld.hu	d15,[a15]270
+.L530:
+	jeq	d15,#0,.L59
+.L531:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L532:
+	ld.w	d13,[a15]84
+.L228:
+	j	.L60
+.L59:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L533:
+	ld.w	d13,[a15]88
+.L60:
+	mul.f	d3,d13,d13
+.L247:
+	ld.w	d0,[a13]
+.L534:
+	ld.w	d1,[a13]
+.L535:
+	ld.w	d2,[a13]4
+.L226:
+	ld.w	d15,[a13]4
+.L536:
+	mul.f	d15,d2,d15
+.L537:
+	madd.f	d14,d15,d0,d1
+.L249:
+	jeq	d8,#1,.L61
+.L538:
+	jne	d8,#2,.L62
+.L61:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L539:
+	ld.hu	d15,[a15]24
+.L540:
+	jne	d15,d8,.L63
+.L541:
+	ld.w	d15,[a13]
+.L250:
+	st.w	[a10],d15
+.L252:
+	ld.w	d15,[a13]4
+.L251:
+	st.w	[a13],d15
+.L542:
+	j	.L64
+.L63:
+	ld.w	d15,[a13]4
+.L253:
+	st.w	[a10],d15
+.L64:
+	ld.w	d15,[a10]
+.L254:
+	cmp.f	d15,d15,d13
+.L255:
+	extr.u	d15,d15,#2,#1
+.L543:
+	jeq	d15,#0,.L65
+.L544:
+	st.w	[a10],d13
+.L545:
+	j	.L66
+.L65:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L546:
+	ld.w	d15,[a15]76
+.L547:
+	mul.f	d0,d13,d15
+.L246:
+	ld.w	d15,[a10]
+.L256:
+	cmp.f	d15,d15,d0
+.L257:
+	extr.u	d15,d15,#0,#1
+.L548:
+	jeq	d15,#0,.L67
+.L549:
+	st.w	[a10],d0
+.L67:
+.L66:
+	ld.w	d15,[a10]
+.L258:
+	msub.f	d4,d3,d15,d15
+.L260:
+	ld.w	d15,[a13]
+.L259:
+	ld.w	d0,[a13]
+.L550:
+	mul.f	d15,d15,d0
+.L551:
+	cmp.f	d15,d4,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L552:
+	jeq	d15,#0,.L68
+.L553:
+	ld.w	d15,[a13]
+.L554:
+	st.w	[a13]4,d15
+.L555:
+	j	.L69
+.L68:
+	ld.w	d15,[a13]
+.L556:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L557:
+	ld.w	d0,[a15]72
+.L558:
+	cmp.f	d15,d15,d0
+	and	d15,#6
+	ne	d15,d15,#0
+.L559:
+	jeq	d15,#0,.L70
+.L560:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L561:
+	ld.w	d15,[a15]68
+.L562:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L71
+.L563:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L564:
+	ld.w	d4,[a15]60
+.L71:
+	call	sqrtf
+.L248:
+	st.w	[a13]4,d2
+.L565:
+	j	.L72
+.L70:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L566:
+	ld.w	d15,[a15]68
+.L567:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L73
+.L568:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L569:
+	ld.w	d4,[a15]60
+.L73:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L570:
+	ld.w	d15,[a15]64
+.L571:
+	call	sqrtf
+.L261:
+	mul.f	d15,d15,d2
+.L572:
+	st.w	[a13]4,d15
+.L72:
+.L69:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L573:
+	ld.hu	d15,[a15]26
+.L574:
+	jne	d15,d8,.L74
+.L575:
+	ld.w	d15,[a10]
+.L262:
+	st.w	[a13],d15
+.L576:
+	j	.L75
+.L74:
+	ld.w	d15,[a13]4
+.L577:
+	st.w	[a13],d15
+.L578:
+	ld.w	d15,[a10]
+.L263:
+	st.w	[a13]4,d15
+.L75:
+	j	.L76
+.L62:
+	cmp.f	d15,d14,d3
+	extr.u	d15,d15,#2,#1
+.L579:
+	jeq	d15,#0,.L77
+.L580:
+	mov	d4,d14
+.L265:
+	call	sqrtf
+.L264:
+	extr.u	d15,d2,#23,#8
+	jne	d15,#0,.L78
+.L581:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L582:
+	ld.w	d2,[a15]80
+.L78:
+	movh	d15,#16256
+.L583:
+	div.f	d0,d15,d2
+.L266:
+	ld.w	d15,[a13]
+.L584:
+	mul.f	d15,d15,d13
+.L585:
+	mul.f	d15,d15,d0
+.L586:
+	st.w	[a13],d15
+.L587:
+	ld.w	d15,[a13]4
+.L588:
+	mul.f	d15,d15,d13
+.L589:
+	mul.f	d15,d15,d0
+.L590:
+	st.w	[a13]4,d15
+.L77:
+.L76:
+	mov	d4,d14
+.L267:
+	call	sqrtf
+.L268:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L591:
+	ld.w	d0,[a15]228
+.L592:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L593:
+	ld.w	d1,[a15]232
+.L594:
+	ld.w	d15,[a14]24
+.L595:
+	mul.f	d15,d1,d15
+.L596:
+	madd.f	d15,d15,d2,d0
+.L597:
+	st.w	[a14]24,d15
+.L598:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L599:
+	ld.w	d15,[a15]20
+.L600:
+	cmp.f	d15,d11,d15
+	extr.u	d15,d15,#2,#1
+.L601:
+	jeq	d15,#0,.L79
+.L602:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L603:
+	ld.w	d15,[a15]20
+.L604:
+	sub.f	d1,d11,d15
+.L241:
+	j	.L80
+.L79:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L605:
+	ld.w	d15,[a15]8
+.L606:
+	cmp.f	d15,d11,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L607:
+	jne	d15,#0,.L81
+.L608:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L609:
+	ld.w	d15,[a15]8
+.L610:
+	sub.f	d1,d11,d15
+.L269:
+	j	.L82
+.L81:
+	mov	d1,#0
+.L82:
+.L80:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L611:
+	ld.w	d15,[a15]244
+.L612:
+	mul.f	d2,d9,d15
+.L234:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L613:
+	ld.w	d15,[a15]16
+.L614:
+	cmp.f	d15,d12,d15
+	extr.u	d15,d15,#2,#1
+.L615:
+	jeq	d15,#0,.L83
+.L616:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L617:
+	ld.w	d15,[a15]16
+.L618:
+	sub.f	d3,d12,d15
+.L223:
+	j	.L84
+.L83:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L619:
+	ld.w	d15,[a15]4
+.L620:
+	cmp.f	d15,d12,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L621:
+	jne	d15,#0,.L85
+.L622:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L623:
+	ld.w	d15,[a15]4
+.L624:
+	sub.f	d3,d12,d15
+.L270:
+	j	.L86
+.L85:
+	mov	d3,#0
+.L86:
+.L84:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L625:
+	ld.w	d0,[a15]252
+.L626:
+	ld.w	d15,[a10]4
+.L272:
+	mul.f	d5,d15,d0
+.L273:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L627:
+	ld.w	d15,[a15]12
+.L628:
+	cmp.f	d15,d10,d15
+	extr.u	d15,d15,#2,#1
+.L629:
+	jeq	d15,#0,.L87
+.L630:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L631:
+	ld.w	d15,[a15]12
+.L632:
+	sub.f	d0,d10,d15
+.L202:
+	j	.L88
+.L87:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L633:
+	ld.w	d15,[a15]
+.L634:
+	cmp.f	d15,d10,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L635:
+	jne	d15,#0,.L89
+.L636:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L637:
+	ld.w	d15,[a15]
+.L638:
+	sub.f	d0,d10,d15
+.L274:
+	j	.L90
+.L89:
+	mov	d0,#0
+.L90:
+.L88:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L639:
+	ld.w	d4,[a15]260
+.L640:
+	ld.w	d15,[a10]20
+.L276:
+	mul.f	d7,d15,d4
+.L277:
+	ld.w	d15,[a14]24
+.L641:
+	st.w	[a14],d15
+.L642:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L643:
+	ld.w	d15,[a15]256
+.L644:
+	cmp.f	d15,d0,d15
+	jnz.t	d15:2,.L91
+.L645:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L646:
+	ld.b	d4,[a15]273
+.L278:
+	j	.L92
+.L91:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L647:
+	ld.b	d4,[a15]272
+.L92:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L648:
+	ld.w	d15,[a15]256
+.L649:
+	cmp.f	d15,d7,d15
+	jnz.t	d15:2,.L93
+.L650:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L651:
+	ld.b	d6,[a15]275
+.L280:
+	j	.L94
+.L93:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L652:
+	ld.b	d6,[a15]274
+.L94:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L653:
+	ld.w	d15,[a15]256
+.L654:
+	cmp.f	d15,d15,d0
+	and	d15,#2
+	eq	d15,d15,#0
+.L655:
+	jeq	d15,#0,.L95
+.L656:
+	jne	d4,d6,.L96
+.L657:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L658:
+	ld.w	d7,[a15]136
+.L96:
+.L95:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L659:
+	ld.w	d0,[a15]164
+.L275:
+	ld.w	d15,[a14]4
+.L660:
+	madd.f	d15,d15,d0,d7
+	st.w	[a14]4,d15
+.L661:
+	ld.w	d15,[a10]12
+.L282:
+	st.b	[a14]28,d15
+.L662:
+	mov	d15,#0
+.L283:
+	st.b	[a14]31,d15
+.L663:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L664:
+	ld.w	d15,[a15]248
+.L665:
+	cmp.f	d15,d3,d15
+	jnz.t	d15:2,.L97
+.L666:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L667:
+	ld.b	d0,[a15]281
+.L279:
+	j	.L98
+.L97:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L668:
+	ld.b	d0,[a15]280
+.L98:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L669:
+	ld.w	d15,[a15]248
+.L670:
+	cmp.f	d15,d5,d15
+	jnz.t	d15:2,.L99
+.L671:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L672:
+	ld.b	d4,[a15]283
+.L281:
+	j	.L100
+.L99:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L673:
+	ld.b	d4,[a15]282
+.L100:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L674:
+	ld.w	d15,[a15]248
+.L675:
+	cmp.f	d15,d15,d3
+	and	d15,#2
+	eq	d15,d15,#0
+.L676:
+	jeq	d15,#0,.L101
+.L677:
+	jne	d0,d4,.L102
+.L678:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L679:
+	ld.w	d5,[a15]144
+.L102:
+.L101:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L680:
+	ld.w	d0,[a15]188
+.L284:
+	ld.w	d15,[a14]12
+.L681:
+	madd.f	d15,d15,d0,d5
+	st.w	[a14]12,d15
+.L682:
+	ld.w	d15,[a10]16
+.L285:
+	st.b	[a14]29,d15
+.L683:
+	mov	d15,#0
+.L286:
+	st.b	[a14]32,d15
+.L684:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L685:
+	ld.w	d15,[a15]240
+.L686:
+	cmp.f	d15,d1,d15
+	jnz.t	d15:2,.L103
+.L687:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L688:
+	ld.b	d0,[a15]277
+.L287:
+	j	.L104
+.L103:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L689:
+	ld.b	d0,[a15]276
+.L104:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L690:
+	ld.w	d15,[a15]240
+.L691:
+	cmp.f	d15,d2,d15
+	jnz.t	d15:2,.L105
+.L692:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L693:
+	ld.b	d3,[a15]279
+.L271:
+	j	.L106
+.L105:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L694:
+	ld.b	d3,[a15]278
+.L106:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L695:
+	ld.w	d15,[a15]240
+.L696:
+	cmp.f	d15,d15,d1
+	and	d15,#2
+	eq	d15,d15,#0
+.L697:
+	jeq	d15,#0,.L107
+.L698:
+	jne	d0,d3,.L108
+.L699:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L700:
+	ld.w	d2,[a15]140
+.L108:
+.L107:
+	movh.a	a15,#@his(PMSM_CurrentControl_System_P)
+	lea	a15,[a15]@los(PMSM_CurrentControl_System_P)
+.L701:
+	ld.w	d0,[a15]212
+.L288:
+	ld.w	d15,[a14]20
+.L702:
+	madd.f	d15,d15,d0,d2
+	st.w	[a14]20,d15
+.L703:
+	ld.w	d15,[a10]8
+.L289:
+	st.b	[a14]30,d15
+.L704:
+	ret
+.L153:
+	
+__PMSM_CurrentControl_System_step_function_end:
+	.size	PMSM_CurrentControl_System_step,__PMSM_CurrentControl_System_step_function_end-PMSM_CurrentControl_System_step
+.L128:
+	; End of function
+	
+	.sdecl	'.text.PMSM_CurrentControl_System.PMSM_CurrentControl_System_initialize',code,cluster('PMSM_CurrentControl_System_initialize')
+	.sect	'.text.PMSM_CurrentControl_System.PMSM_CurrentControl_System_initialize'
+	.align	2
+	
+	.global	PMSM_CurrentControl_System_initialize
+; Function PMSM_CurrentControl_System_initialize
+.L112:
+PMSM_CurrentControl_System_initialize:	.type	func
+	mov.aa	a12,a5
+.L291:
+	mov.aa	a13,a6
+.L292:
+	ld.a	a15,[a4]4
+.L293:
+	mov	d4,#4
+	call	rt_InitInfAndNaN
+.L290:
+	mov	d4,#0
+.L308:
+	mov	d5,#36
+	mov.aa	a4,a15
+.L294:
+	call	memset
+.L295:
+	mov	d4,#0
+.L309:
+	mov	d5,#20
+	mov.aa	a4,a12
+.L296:
+	call	memset
+.L297:
+	mov	d4,#0
+.L310:
+	mov	d5,#8
+	mov.aa	a4,a13
+.L298:
+	call	memset
+.L299:
+	movh.a	a2,#@his(PMSM_CurrentControl_System_P)
+	lea	a2,[a2]@los(PMSM_CurrentControl_System_P)
+.L311:
+	ld.w	d15,[a2]152
+.L312:
+	st.w	[a15],d15
+.L313:
+	movh.a	a2,#@his(PMSM_CurrentControl_System_P)
+	lea	a2,[a2]@los(PMSM_CurrentControl_System_P)
+.L314:
+	ld.w	d15,[a2]160
+.L315:
+	st.w	[a15]4,d15
+.L316:
+	mov	d15,#0
+.L317:
+	st.b	[a15]28,d15
+.L318:
+	movh.a	a2,#@his(PMSM_CurrentControl_System_P)
+	lea	a2,[a2]@los(PMSM_CurrentControl_System_P)
+.L319:
+	ld.w	d15,[a2]184
+.L320:
+	st.w	[a15]8,d15
+.L321:
+	mov	d15,#0
+.L322:
+	st.b	[a15]29,d15
+.L323:
+	mov	d15,#1
+.L324:
+	st.b	[a15]31,d15
+.L325:
+	movh.a	a2,#@his(PMSM_CurrentControl_System_P)
+	lea	a2,[a2]@los(PMSM_CurrentControl_System_P)
+.L326:
+	ld.w	d15,[a2]208
+.L327:
+	st.w	[a15]16,d15
+.L328:
+	mov	d15,#0
+.L329:
+	st.b	[a15]30,d15
+.L330:
+	mov	d15,#1
+.L331:
+	st.b	[a15]32,d15
+.L332:
+	movh.a	a2,#@his(PMSM_CurrentControl_System_P)
+	lea	a2,[a2]@los(PMSM_CurrentControl_System_P)
+.L333:
+	ld.w	d15,[a2]236
+.L334:
+	st.w	[a15]24,d15
+.L335:
+	ret
+.L144:
+	
+__PMSM_CurrentControl_System_initialize_function_end:
+	.size	PMSM_CurrentControl_System_initialize,__PMSM_CurrentControl_System_initialize_function_end-PMSM_CurrentControl_System_initialize
+.L123:
+	; End of function
+	
+	.sdecl	'.text.PMSM_CurrentControl_System.PMSM_CurrentControl_System_terminate',code,cluster('PMSM_CurrentControl_System_terminate')
+	.sect	'.text.PMSM_CurrentControl_System.PMSM_CurrentControl_System_terminate'
+	.align	2
+	
+	.global	PMSM_CurrentControl_System_terminate
+; Function PMSM_CurrentControl_System_terminate
+.L114:
+PMSM_CurrentControl_System_terminate:	.type	func
+	ret
+.L180:
+	
+__PMSM_CurrentControl_System_terminate_function_end:
+	.size	PMSM_CurrentControl_System_terminate,__PMSM_CurrentControl_System_terminate_function_end-PMSM_CurrentControl_System_terminate
+.L133:
+	; End of function
+	
+	.sdecl	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_M_',data,cluster('PMSM_CurrentControl_System_M_')
+	.sect	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_M_'
+	.global	PMSM_CurrentControl_System_M_
+	.align	4
+PMSM_CurrentControl_System_M_:	.type	object
+	.size	PMSM_CurrentControl_System_M_,8
+	.space	8
+	.sdecl	'.rodata.PMSM_CurrentControl_System.PMSM_CurrentControl_System_MPtr',data,rom,cluster('PMSM_CurrentControl_System_MPtr')
+	.sect	'.rodata.PMSM_CurrentControl_System.PMSM_CurrentControl_System_MPtr'
+	.global	PMSM_CurrentControl_System_MPtr
+	.align	4
+PMSM_CurrentControl_System_MPtr:	.type	object
+	.size	PMSM_CurrentControl_System_MPtr,4
+	.word	PMSM_CurrentControl_System_M_
+	.sdecl	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_DW',data,cluster('PMSM_CurrentControl_System_DW')
+	.sect	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_DW'
+	.global	PMSM_CurrentControl_System_DW
+	.align	4
+PMSM_CurrentControl_System_DW:	.type	object
+	.size	PMSM_CurrentControl_System_DW,36
+	.space	36
+	.sdecl	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_Y',data,cluster('PMSM_CurrentControl_System_Y')
+	.sect	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_Y'
+	.global	PMSM_CurrentControl_System_Y
+	.align	4
+PMSM_CurrentControl_System_Y:	.type	object
+	.size	PMSM_CurrentControl_System_Y,8
+	.space	8
+	.sdecl	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_U',data,cluster('PMSM_CurrentControl_System_U')
+	.sect	'.bss.PMSM_CurrentControl_System.PMSM_CurrentControl_System_U'
+	.global	PMSM_CurrentControl_System_U
+	.align	4
+PMSM_CurrentControl_System_U:	.type	object
+	.size	PMSM_CurrentControl_System_U,20
+	.space	20
+	.calls	'PMSM_CurrentControl_System_step','sqrtf'
+	.calls	'PMSM_CurrentControl_System_step','rtIsNaNF'
+	.calls	'PMSM_CurrentControl_System_initialize','rt_InitInfAndNaN'
+	.calls	'PMSM_CurrentControl_System_initialize','memset'
+	.calls	'PMSM_CurrentControl_System_step','',24
+	.calls	'PMSM_CurrentControl_System_initialize','',0
+	.extern	rtNaNF
+	.extern	rt_InitInfAndNaN
+	.extern	rtIsNaNF
+	.extern	memset
+	.extern	PMSM_CurrentControl_System_P
+	.extern	sqrtf
+	.calls	'PMSM_CurrentControl_System_terminate','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L116:
+	.word	4361
+	.half	3
+	.word	.L117
+	.byte	4
+.L115:
+	.byte	1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L118
+.L159:
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'__fabsf',0
+	.word	257
+	.byte	1,1,1,1,4
+	.byte	'f',0
+	.word	257
+	.byte	0,2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'rt_InitInfAndNaN',0,1,33,13,1,1,1,1,6
+	.byte	'realSize',0,1,33,37
+	.word	291
+	.byte	0
+.L175:
+	.byte	2
+	.byte	'unsigned char',0,1,8,7
+	.byte	'rtIsNaNF',0,1,37,18
+	.word	350
+	.byte	1,1,1,1,6
+	.byte	'value',0,1,37,36
+	.word	257
+	.byte	0,8
+	.byte	'void',0,9
+	.word	403
+	.byte	2
+	.byte	'int',0,4,5,7
+	.byte	'memset',0,2,56,17
+	.word	409
+	.byte	1,1,1,1,10,2,56,33
+	.word	409
+	.byte	10,2,56,36
+	.word	414
+	.byte	10,2,56,41
+	.word	291
+	.byte	0,2
+	.byte	'char',0,1,6,11
+	.word	465
+	.byte	9
+	.word	473
+	.byte	12
+	.word	478
+.L172:
+	.byte	2
+	.byte	'char',0,1,6
+.L185:
+	.byte	13,3,44,9,36,14
+	.byte	'UnitDelay_DSTATE',0
+	.word	257
+	.byte	4,2,35,0,14
+	.byte	'Integrator_DSTATE',0
+	.word	257
+	.byte	4,2,35,4,14
+	.byte	'UnitDelay_DSTATE_p',0
+	.word	257
+	.byte	4,2,35,8,14
+	.byte	'Integrator_DSTATE_o',0
+	.word	257
+	.byte	4,2,35,12,14
+	.byte	'UnitDelay_DSTATE_k',0
+	.word	257
+	.byte	4,2,35,16,14
+	.byte	'Integrator_DSTATE_l',0
+	.word	257
+	.byte	4,2,35,20,14
+	.byte	'UnitDelay_DSTATE_m',0
+	.word	257
+	.byte	4,2,35,24,14
+	.byte	'Integrator_PrevResetState',0
+	.word	488
+	.byte	1,2,35,28,14
+	.byte	'Integrator_PrevResetState_e',0
+	.word	488
+	.byte	1,2,35,29,14
+	.byte	'Integrator_PrevResetState_g',0
+	.word	488
+	.byte	1,2,35,30,14
+	.byte	'Integrator_IC_LOADING',0
+	.word	350
+	.byte	1,2,35,31,14
+	.byte	'Integrator_IC_LOADING_m',0
+	.word	350
+	.byte	1,2,35,32,0
+.L151:
+	.byte	9
+	.word	496
+.L183:
+	.byte	15
+	.byte	'tag_RTM_PMSM_CurrentControl_S_T',0,3,253,2,8,8,14
+	.byte	'errorStatus',0
+	.word	483
+	.byte	4,2,35,0,14
+	.byte	'dwork',0
+	.word	870
+	.byte	4,2,35,4,0,9
+	.word	875
+.L145:
+	.byte	11
+	.word	950
+.L187:
+	.byte	13,3,60,9,20,14
+	.byte	'Id_ref_unsat',0
+	.word	257
+	.byte	4,2,35,0,14
+	.byte	'Iq_ref_unsat',0
+	.word	257
+	.byte	4,2,35,4,14
+	.byte	'Id_fb',0
+	.word	257
+	.byte	4,2,35,8,14
+	.byte	'Iq_fb',0
+	.word	257
+	.byte	4,2,35,12,14
+	.byte	'Wm_fb',0
+	.word	257
+	.byte	4,2,35,16,0
+.L147:
+	.byte	9
+	.word	960
+.L186:
+	.byte	13,3,69,9,8,14
+	.byte	'Vd_ref',0
+	.word	257
+	.byte	4,2,35,0,14
+	.byte	'Vq_ref',0
+	.word	257
+	.byte	4,2,35,4,0
+.L149:
+	.byte	9
+	.word	1060
+.L154:
+	.byte	11
+	.word	950
+.L170:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L181:
+	.byte	11
+	.word	950
+	.byte	7
+	.byte	'sqrtf',0,4,187,1,25
+	.word	257
+	.byte	1,1,1,1,10,4,187,1,43
+	.word	257
+	.byte	0,2
+	.byte	'short int',0,2,5,16
+	.byte	'__wchar_t',0,5,1,1
+	.word	1164
+	.byte	16
+	.byte	'__size_t',0,5,1,1
+	.word	291
+	.byte	16
+	.byte	'__ptrdiff_t',0,5,1,1
+	.word	414
+	.byte	17,1,9
+	.word	1232
+	.byte	16
+	.byte	'__codeptr',0,5,1,1
+	.word	1234
+	.byte	16
+	.byte	'int8_T',0,6,51,21
+	.word	488
+	.byte	16
+	.byte	'uint8_T',0,6,52,23
+	.word	350
+	.byte	16
+	.byte	'int16_T',0,6,53,15
+	.word	1164
+	.byte	16
+	.byte	'uint16_T',0,6,54,24
+	.word	1108
+	.byte	16
+	.byte	'int32_T',0,6,55,13
+	.word	414
+	.byte	16
+	.byte	'uint32_T',0,6,56,22
+	.word	291
+	.byte	16
+	.byte	'real32_T',0,6,57,15
+	.word	257
+	.byte	16
+	.byte	'real64_T',0,6,58,16
+	.word	257
+	.byte	16
+	.byte	'real_T',0,6,64,16
+	.word	257
+	.byte	16
+	.byte	'boolean_T',0,6,66,23
+	.word	350
+	.byte	16
+	.byte	'char_T',0,6,70,14
+	.word	465
+	.byte	15
+	.byte	'P_PMSM_CurrentControl_System_T_',0,3,75,8,164,2,14
+	.byte	'DiscretePIControllerwithantiwin',0
+	.word	257
+	.byte	4,2,35,0,14
+	.byte	'DiscretePIControllerwithantiw_h',0
+	.word	257
+	.byte	4,2,35,4,14
+	.byte	'DiscretePIControllerwithantiw_l',0
+	.word	257
+	.byte	4,2,35,8,14
+	.byte	'DiscretePIControllerwithantiw_f',0
+	.word	257
+	.byte	4,2,35,12,14
+	.byte	'DiscretePIControllerwithantiw_d',0
+	.word	257
+	.byte	4,2,35,16,14
+	.byte	'DiscretePIControllerwithanti_fy',0
+	.word	257
+	.byte	4,2,35,20,14
+	.byte	'CompareToConstant_const',0
+	.word	1108
+	.byte	2,2,35,24,14
+	.byte	'CompareToConstant1_const',0
+	.word	1108
+	.byte	2,2,35,26,14
+	.byte	'Enable_Value',0
+	.word	257
+	.byte	4,2,35,28,14
+	.byte	'EnCloseLoop_Value',0
+	.word	257
+	.byte	4,2,35,32,14
+	.byte	'Enable_Value_p',0
+	.word	257
+	.byte	4,2,35,36,14
+	.byte	'EnCloseLoop_Value_n',0
+	.word	257
+	.byte	4,2,35,40,14
+	.byte	'FW_Enable_Value',0
+	.word	257
+	.byte	4,2,35,44,14
+	.byte	'Switch_Threshold',0
+	.word	257
+	.byte	4,2,35,48,14
+	.byte	'Enable_Value_l',0
+	.word	257
+	.byte	4,2,35,52,14
+	.byte	'EnCloseLoop_Value_h',0
+	.word	257
+	.byte	4,2,35,56,14
+	.byte	'Constant_Value',0
+	.word	257
+	.byte	4,2,35,60,14
+	.byte	'Gain_Gain',0
+	.word	257
+	.byte	4,2,35,64,14
+	.byte	'Switch1_Threshold',0
+	.word	257
+	.byte	4,2,35,68,14
+	.byte	'Switch_Threshold_h',0
+	.word	257
+	.byte	4,2,35,72,14
+	.byte	'Gain_Gain_d',0
+	.word	257
+	.byte	4,2,35,76,14
+	.byte	'Constant_Value_p',0
+	.word	257
+	.byte	4,2,35,80,14
+	.byte	'ReplaceInport_satLim_Value',0
+	.word	257
+	.byte	4,2,35,84,14
+	.byte	'Constant3_Value',0
+	.word	257
+	.byte	4,2,35,88,14
+	.byte	'Bypass_FWC_Value',0
+	.word	257
+	.byte	4,2,35,92,14
+	.byte	'Vd_OpenLoop_Value',0
+	.word	257
+	.byte	4,2,35,96,14
+	.byte	'Vq_OpenLoop_Value',0
+	.word	257
+	.byte	4,2,35,100,14
+	.byte	'Gain1_Gain',0
+	.word	257
+	.byte	4,2,35,104,14
+	.byte	'Lq_lumped_Value',0
+	.word	257
+	.byte	4,2,35,108,14
+	.byte	'Gain2_Gain',0
+	.word	257
+	.byte	4,2,35,112,14
+	.byte	'FluxPM_lumped_Value',0
+	.word	257
+	.byte	4,2,35,116,14
+	.byte	'Gain_Gain_g',0
+	.word	257
+	.byte	4,2,35,120,14
+	.byte	'Ld_lumped_Value',0
+	.word	257
+	.byte	4,2,35,124,14
+	.byte	'Gain_Gain_f',0
+	.word	257
+	.byte	4,3,35,128,1,14
+	.byte	'vsat_mask_input_Value',0
+	.word	257
+	.byte	4,3,35,132,1,14
+	.byte	'Constant1_Value',0
+	.word	257
+	.byte	4,3,35,136,1,14
+	.byte	'Constant1_Value_c',0
+	.word	257
+	.byte	4,3,35,140,1,14
+	.byte	'Constant1_Value_p',0
+	.word	257
+	.byte	4,3,35,144,1,14
+	.byte	'Vmax_ref_Value',0
+	.word	257
+	.byte	4,3,35,148,1,14
+	.byte	'UnitDelay_InitialCondition',0
+	.word	257
+	.byte	4,3,35,152,1,14
+	.byte	'Kp_fwc_Value',0
+	.word	257
+	.byte	4,3,35,156,1,14
+	.byte	'Ki1_Value',0
+	.word	257
+	.byte	4,3,35,160,1,14
+	.byte	'Integrator_gainval',0
+	.word	257
+	.byte	4,3,35,164,1,14
+	.byte	'Saturation_Id_ref_UpperSat',0
+	.word	257
+	.byte	4,3,35,168,1,14
+	.byte	'Saturation_Id_ref_LowerSat',0
+	.word	257
+	.byte	4,3,35,172,1,14
+	.byte	'Imax_Ibase_Squar_Value',0
+	.word	257
+	.byte	4,3,35,176,1,14
+	.byte	'Kp_iq_Value',0
+	.word	257
+	.byte	4,3,35,180,1,14
+	.byte	'UnitDelay_InitialCondition_k',0
+	.word	257
+	.byte	4,3,35,184,1,14
+	.byte	'Integrator_gainval_e',0
+	.word	257
+	.byte	4,3,35,188,1,14
+	.byte	'wm_pu2si_mech2elec_Gain',0
+	.word	257
+	.byte	4,3,35,192,1,14
+	.byte	'id_pu2si_Gain',0
+	.word	257
+	.byte	4,3,35,196,1,14
+	.byte	'VqFF_si2pu_Gain',0
+	.word	257
+	.byte	4,3,35,200,1,14
+	.byte	'Kp_id_Value',0
+	.word	257
+	.byte	4,3,35,204,1,14
+	.byte	'UnitDelay_InitialCondition_e',0
+	.word	257
+	.byte	4,3,35,208,1,14
+	.byte	'Integrator_gainval_n',0
+	.word	257
+	.byte	4,3,35,212,1,14
+	.byte	'iq_pu2si_Gain',0
+	.word	257
+	.byte	4,3,35,216,1,14
+	.byte	'NegSign_Gain',0
+	.word	257
+	.byte	4,3,35,220,1,14
+	.byte	'VdFF_si2pu_Gain',0
+	.word	257
+	.byte	4,3,35,224,1,14
+	.byte	'Filter_Constant_Value',0
+	.word	257
+	.byte	4,3,35,228,1,14
+	.byte	'One_Value',0
+	.word	257
+	.byte	4,3,35,232,1,14
+	.byte	'UnitDelay_InitialCondition_o',0
+	.word	257
+	.byte	4,3,35,236,1,14
+	.byte	'Clamping_zero_Value',0
+	.word	257
+	.byte	4,3,35,240,1,14
+	.byte	'Ki_id_Value',0
+	.word	257
+	.byte	4,3,35,244,1,14
+	.byte	'Clamping_zero_Value_k',0
+	.word	257
+	.byte	4,3,35,248,1,14
+	.byte	'Ki_iq_Value',0
+	.word	257
+	.byte	4,3,35,252,1,14
+	.byte	'Clamping_zero_Value_e',0
+	.word	257
+	.byte	4,3,35,128,2,14
+	.byte	'Ki_fwc_Value',0
+	.word	257
+	.byte	4,3,35,132,2,14
+	.byte	'ReplaceInport_satMethod_Value',0
+	.word	1108
+	.byte	2,3,35,136,2,14
+	.byte	'ChosenMethod_Value',0
+	.word	1108
+	.byte	2,3,35,138,2,14
+	.byte	'enableInportSatMethod_Value',0
+	.word	1108
+	.byte	2,3,35,140,2,14
+	.byte	'enableInportSatLim_Value',0
+	.word	1108
+	.byte	2,3,35,142,2,14
+	.byte	'Constant_Value_k',0
+	.word	488
+	.byte	1,3,35,144,2,14
+	.byte	'Constant2_Value',0
+	.word	488
+	.byte	1,3,35,145,2,14
+	.byte	'Constant3_Value_n',0
+	.word	488
+	.byte	1,3,35,146,2,14
+	.byte	'Constant4_Value',0
+	.word	488
+	.byte	1,3,35,147,2,14
+	.byte	'Constant_Value_h',0
+	.word	488
+	.byte	1,3,35,148,2,14
+	.byte	'Constant2_Value_h',0
+	.word	488
+	.byte	1,3,35,149,2,14
+	.byte	'Constant3_Value_a',0
+	.word	488
+	.byte	1,3,35,150,2,14
+	.byte	'Constant4_Value_h',0
+	.word	488
+	.byte	1,3,35,151,2,14
+	.byte	'Constant_Value_c',0
+	.word	488
+	.byte	1,3,35,152,2,14
+	.byte	'Constant2_Value_p',0
+	.word	488
+	.byte	1,3,35,153,2,14
+	.byte	'Constant3_Value_n3',0
+	.word	488
+	.byte	1,3,35,154,2,14
+	.byte	'Constant4_Value_g',0
+	.word	488
+	.byte	1,3,35,155,2,14
+	.byte	'Constant_Value_g',0
+	.word	350
+	.byte	1,3,35,156,2,14
+	.byte	'Switch_Threshold_p',0
+	.word	350
+	.byte	1,3,35,157,2,14
+	.byte	'Constant2_Value_j',0
+	.word	350
+	.byte	1,3,35,158,2,14
+	.byte	'Switch2_Threshold',0
+	.word	350
+	.byte	1,3,35,159,2,14
+	.byte	'Constant_Value_i',0
+	.word	350
+	.byte	1,3,35,160,2,14
+	.byte	'Switch_Threshold_g',0
+	.word	350
+	.byte	1,3,35,161,2,14
+	.byte	'Constant1_Value_i',0
+	.word	350
+	.byte	1,3,35,162,2,14
+	.byte	'Switch1_Threshold_c',0
+	.word	350
+	.byte	1,3,35,163,2,0,16
+	.byte	'P_PMSM_CurrentControl_System_T',0,7,80,48
+	.word	1436
+	.byte	16
+	.byte	'RT_MODEL_PMSM_CurrentControl__T',0,7,83,48
+	.word	875
+	.byte	16
+	.byte	'size_t',0,8,24,25
+	.word	291
+	.byte	18
+	.byte	'rtNaNF',0,1,32,17
+	.word	257
+	.byte	1,1,16
+	.byte	'DW_PMSM_CurrentControl_System_T',0,3,57,3
+	.word	496
+	.byte	16
+	.byte	'ExtU_PMSM_CurrentControl_Syst_T',0,3,66,3
+	.word	960
+	.byte	16
+	.byte	'ExtY_PMSM_CurrentControl_Syst_T',0,3,72,3
+	.word	1060
+	.byte	18
+	.byte	'PMSM_CurrentControl_System_P',0,3,131,3,39
+	.word	1436
+	.byte	1,1
+.L184:
+	.byte	11
+	.word	950
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L117:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,4,5,0,3,8,73,19,0,0,5,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,6,5,0,3,8
+	.byte	58,15,59,15,57,15,73,19,0,0,7,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,8,59,0,3,8
+	.byte	0,0,9,15,0,73,19,0,0,10,5,0,58,15,59,15,57,15,73,19,0,0,11,38,0,73,19,0,0,12,53,0,73,19,0,0,13,19,1,58
+	.byte	15,59,15,57,15,11,15,0,0,14,13,0,3,8,73,19,11,15,56,9,0,0,15,19,1,3,8,58,15,59,15,57,15,11,15,0,0,16,22
+	.byte	0,3,8,58,15,59,15,57,15,73,19,0,0,17,21,0,54,15,0,0,18,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0
+	.byte	0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L118:
+	.word	.L301-.L300
+.L300:
+	.half	3
+	.word	.L303-.L302
+.L302:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Program Files\\AURIX-Studio-1.9.4\\plugins\\com.infineon.aurix.tools_1.9.4\\build_system\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\SysSe\\MotorDrive\\Current_Controller\\rt_nonfinite.h',0
+	.byte	0,0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\Current_Controller\\PMSM_CurrentControl_System.h',0
+	.byte	0,0,0
+	.byte	'math.h',0,1,0,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0,0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\SysSe\\MotorDrive\\Current_Controller\\rtwtypes.h',0
+	.byte	0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\SysSe\\MotorDrive\\Current_Controller\\PMSM_CurrentControl_System_types.h',0
+	.byte	0,0,0
+	.byte	'stddef.h',0,1,0,0,0
+.L303:
+.L301:
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_initialize')
+	.sect	'.debug_info'
+.L119:
+	.word	501
+	.half	3
+	.word	.L120
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L122,.L121
+	.byte	2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_initialize',0,1,202,6,6,1,1,1
+	.word	.L112,.L144,.L111
+	.byte	4
+	.byte	'PMSM_CurrentControl_System_M',0,1,203,6,9
+	.word	.L145,.L146
+	.byte	4
+	.byte	'PMSM_CurrentControl_System_U',0,1,204,6,4
+	.word	.L147,.L148
+	.byte	4
+	.byte	'PMSM_CurrentControl_System_Y',0,1,205,6,4
+	.word	.L149,.L150
+	.byte	5
+	.word	.L112,.L144
+	.byte	6
+	.byte	'PMSM_CurrentControl_System_DW',0,1,207,6,36
+	.word	.L151,.L152
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_initialize')
+	.sect	'.debug_abbrev'
+.L120:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('PMSM_CurrentControl_System_initialize')
+	.sect	'.debug_line'
+.L121:
+	.word	.L305-.L304
+.L304:
+	.half	3
+	.word	.L307-.L306
+.L306:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0,0,0,0,0
+.L307:
+	.byte	5,6,7,0,5,2
+	.word	.L112
+	.byte	3,201,6,1,5,33,9
+	.half	.L292-.L112
+	.byte	3,6,1,5,20,9
+	.half	.L293-.L292
+	.byte	3,5,1,5,56,9
+	.half	.L290-.L293
+	.byte	3,3,1,5,17,9
+	.half	.L308-.L290
+	.byte	3,1,1,5,46,9
+	.half	.L295-.L308
+	.byte	3,3,1,5,49,9
+	.half	.L309-.L295
+	.byte	1,5,46,9
+	.half	.L297-.L309
+	.byte	3,4,1,5,49,9
+	.half	.L310-.L297
+	.byte	1,5,5,9
+	.half	.L299-.L310
+	.byte	3,5,1,5,33,9
+	.half	.L311-.L299
+	.byte	1,5,51,9
+	.half	.L312-.L311
+	.byte	3,127,1,5,5,9
+	.half	.L313-.L312
+	.byte	3,7,1,5,33,9
+	.half	.L314-.L313
+	.byte	1,5,52,9
+	.half	.L315-.L314
+	.byte	3,127,1,5,62,9
+	.half	.L316-.L315
+	.byte	3,2,1,5,60,9
+	.half	.L317-.L316
+	.byte	1,5,5,9
+	.half	.L318-.L317
+	.byte	3,4,1,5,33,9
+	.half	.L319-.L318
+	.byte	1,5,53,9
+	.half	.L320-.L319
+	.byte	3,127,1,5,64,9
+	.half	.L321-.L320
+	.byte	3,4,1,5,62,9
+	.half	.L322-.L321
+	.byte	1,5,58,9
+	.half	.L323-.L322
+	.byte	3,1,1,5,56,9
+	.half	.L324-.L323
+	.byte	1,5,5,9
+	.half	.L325-.L324
+	.byte	3,4,1,5,33,9
+	.half	.L326-.L325
+	.byte	1,5,53,9
+	.half	.L327-.L326
+	.byte	3,127,1,5,64,9
+	.half	.L328-.L327
+	.byte	3,4,1,5,62,9
+	.half	.L329-.L328
+	.byte	1,5,60,9
+	.half	.L330-.L329
+	.byte	3,1,1,5,58,9
+	.half	.L331-.L330
+	.byte	1,5,5,9
+	.half	.L332-.L331
+	.byte	3,4,1,5,33,9
+	.half	.L333-.L332
+	.byte	1,5,53,9
+	.half	.L334-.L333
+	.byte	3,127,1,5,1,9
+	.half	.L335-.L334
+	.byte	3,2,1,7,9
+	.half	.L123-.L335
+	.byte	0,1,1
+.L305:
+	.sdecl	'.debug_ranges',debug,cluster('PMSM_CurrentControl_System_initialize')
+	.sect	'.debug_ranges'
+.L122:
+	.word	-1,.L112,0,.L123-.L112,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_step')
+	.sect	'.debug_info'
+.L124:
+	.word	922
+	.half	3
+	.word	.L125
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L127,.L126
+	.byte	2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_step',0,1,34,6,1,1,1
+	.word	.L110,.L153,.L109
+	.byte	4
+	.byte	'PMSM_CurrentControl_System_M',0,1,35,3
+	.word	.L154,.L155
+	.byte	4
+	.byte	'PMSM_CurrentControl_System_U',0,1,36,4
+	.word	.L147,.L156
+	.byte	4
+	.byte	'PMSM_CurrentControl_System_Y',0,1,37,4
+	.word	.L149,.L157
+	.byte	5
+	.word	.L110,.L153
+	.byte	6
+	.byte	'PMSM_CurrentControl_System_DW',0,1,39,36
+	.word	.L151,.L158
+	.byte	6
+	.byte	'rtb_DeadZone',0,1,41,12
+	.word	.L159,.L160
+	.byte	6
+	.byte	'rtb_DeadZone_m',0,1,42,12
+	.word	.L159,.L161
+	.byte	6
+	.byte	'rtb_IProdOut',0,1,43,12
+	.word	.L159,.L162
+	.byte	6
+	.byte	'rtb_IProdOut_jc',0,1,44,12
+	.word	.L159,.L163
+	.byte	6
+	.byte	'rtb_Product',0,1,45,12
+	.word	.L159,.L164
+	.byte	6
+	.byte	'rtb_Sqrt',0,1,46,12
+	.word	.L159,.L165
+	.byte	6
+	.byte	'rtb_Switch2_h',0,1,47,12
+	.word	.L159,.L166
+	.byte	6
+	.byte	'rtb_VdFF_unsat',0,1,48,12
+	.word	.L159,.L167
+	.byte	6
+	.byte	'rtb_VqFF_unsat',0,1,49,12
+	.word	.L159,.L168
+	.byte	6
+	.byte	'rtb_we',0,1,50,12
+	.word	.L159,.L169
+	.byte	6
+	.byte	'rtb_Switch1_c',0,1,51,12
+	.word	.L170,.L171
+	.byte	6
+	.byte	'tmp',0,1,52,10
+	.word	.L172,.L173
+	.byte	6
+	.byte	'tmp_0',0,1,53,10
+	.word	.L172,.L174
+	.byte	6
+	.byte	'rtb_AND_n',0,1,54,13
+	.word	.L175,.L176
+	.byte	6
+	.byte	'rtb_LogicalOperator',0,1,55,13
+	.word	.L175,.L177
+	.byte	6
+	.byte	'rtb_LogicalOperator_b',0,1,56,13
+	.word	.L175,.L178
+	.byte	6
+	.byte	'rtb_LogicalOperator_gv',0,1,57,13
+	.word	.L175,.L179
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_step')
+	.sect	'.debug_abbrev'
+.L125:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('PMSM_CurrentControl_System_step')
+	.sect	'.debug_line'
+.L126:
+	.word	.L337-.L336
+.L336:
+	.half	3
+	.word	.L339-.L338
+.L338:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0,0,0,0,0
+.L339:
+	.byte	5,6,7,0,5,2
+	.word	.L110
+	.byte	3,33,1,5,33,9
+	.half	.L191-.L110
+	.byte	3,6,1,5,7,9
+	.half	.L192-.L191
+	.byte	3,24,1,5,35,9
+	.half	.L340-.L192
+	.byte	1,5,3,9
+	.half	.L341-.L340
+	.byte	1,5,21,7,9
+	.half	.L342-.L341
+	.byte	3,1,1,5,49,9
+	.half	.L343-.L342
+	.byte	1,5,79,9
+	.half	.L193-.L343
+	.byte	1,5,21,9
+	.half	.L2-.L193
+	.byte	3,2,1,5,49,9
+	.half	.L344-.L2
+	.byte	1,5,67,9
+	.half	.L3-.L344
+	.byte	3,9,1,5,17,9
+	.half	.L194-.L3
+	.byte	1,5,45,9
+	.half	.L345-.L194
+	.byte	1,5,59,9
+	.half	.L346-.L345
+	.byte	1,5,16,9
+	.half	.L347-.L346
+	.byte	1,5,17,7,9
+	.half	.L348-.L347
+	.byte	3,1,1,5,45,9
+	.half	.L349-.L348
+	.byte	1,5,64,9
+	.half	.L350-.L349
+	.byte	1,5,67,9
+	.half	.L351-.L350
+	.byte	3,127,1,5,18,9
+	.half	.L4-.L351
+	.byte	3,7,1,5,46,9
+	.half	.L352-.L4
+	.byte	1,5,34,9
+	.half	.L353-.L352
+	.byte	3,1,1,5,62,9
+	.half	.L354-.L353
+	.byte	3,127,1,5,5,9
+	.half	.L198-.L354
+	.byte	3,9,1,5,29,9
+	.half	.L355-.L198
+	.byte	3,127,1,5,57,9
+	.half	.L356-.L355
+	.byte	1,5,73,9
+	.half	.L357-.L356
+	.byte	1,5,28,9
+	.half	.L358-.L357
+	.byte	1,5,11,7,9
+	.half	.L359-.L358
+	.byte	3,1,1,5,39,9
+	.half	.L360-.L359
+	.byte	1,5,10,9
+	.half	.L361-.L360
+	.byte	1,5,5,9
+	.half	.L6-.L361
+	.byte	1,5,7,9
+	.half	.L7-.L6
+	.byte	3,5,1,5,37,9
+	.half	.L362-.L7
+	.byte	3,1,1,5,65,9
+	.half	.L363-.L362
+	.byte	1,5,7,7,9
+	.half	.L8-.L363
+	.byte	3,2,1,5,35,9
+	.half	.L364-.L8
+	.byte	1,5,54,9
+	.half	.L365-.L364
+	.byte	3,127,1,5,33,9
+	.half	.L9-.L365
+	.byte	3,9,1,5,61,9
+	.half	.L366-.L9
+	.byte	1,5,34,9
+	.half	.L367-.L366
+	.byte	3,1,1,5,75,9
+	.half	.L368-.L367
+	.byte	3,127,1,5,7,9
+	.half	.L201-.L368
+	.byte	3,7,1,5,35,9
+	.half	.L369-.L201
+	.byte	1,5,7,9
+	.half	.L370-.L369
+	.byte	3,1,1,5,35,9
+	.half	.L371-.L370
+	.byte	1,5,52,9
+	.half	.L200-.L371
+	.byte	3,127,1,5,3,9
+	.half	.L372-.L200
+	.byte	1,5,9,7,9
+	.half	.L373-.L372
+	.byte	3,4,1,5,37,9
+	.half	.L374-.L373
+	.byte	1,5,22,9
+	.half	.L375-.L374
+	.byte	3,127,1,5,5,9
+	.half	.L376-.L375
+	.byte	1,5,9,7,9
+	.half	.L377-.L376
+	.byte	3,3,1,5,37,9
+	.half	.L378-.L377
+	.byte	1,5,69,9
+	.half	.L203-.L378
+	.byte	1,5,16,9
+	.half	.L11-.L203
+	.byte	3,2,1,5,44,9
+	.half	.L379-.L11
+	.byte	1,5,12,9
+	.half	.L380-.L379
+	.byte	3,127,1,5,22,9
+	.half	.L381-.L380
+	.byte	3,5,1,5,69,9
+	.half	.L204-.L381
+	.byte	3,126,1,5,9,9
+	.half	.L13-.L204
+	.byte	1,5,37,9
+	.half	.L382-.L13
+	.byte	1,5,7,9
+	.half	.L12-.L382
+	.byte	3,125,1,5,22,9
+	.half	.L10-.L12
+	.byte	3,10,1,5,50,9
+	.half	.L383-.L10
+	.byte	1,5,49,9
+	.half	.L15-.L383
+	.byte	3,6,1,5,64,9
+	.half	.L384-.L15
+	.byte	1,5,25,9
+	.half	.L206-.L384
+	.byte	3,3,1,5,53,9
+	.half	.L385-.L206
+	.byte	1,5,23,9
+	.half	.L205-.L385
+	.byte	1,5,3,9
+	.half	.L386-.L205
+	.byte	1,5,23,7,9
+	.half	.L387-.L386
+	.byte	3,2,1,5,51,9
+	.half	.L388-.L387
+	.byte	1,5,78,9
+	.half	.L389-.L388
+	.byte	1,5,14,9
+	.half	.L16-.L389
+	.byte	3,2,1,5,42,9
+	.half	.L390-.L16
+	.byte	1,5,30,9
+	.half	.L391-.L390
+	.byte	3,127,1,5,10,9
+	.half	.L392-.L391
+	.byte	1,5,23,7,9
+	.half	.L393-.L392
+	.byte	3,2,1,5,51,9
+	.half	.L394-.L393
+	.byte	1,5,20,9
+	.half	.L17-.L394
+	.byte	3,10,1,5,48,9
+	.half	.L395-.L17
+	.byte	1,5,72,9
+	.half	.L396-.L395
+	.byte	1,5,12,9
+	.half	.L189-.L396
+	.byte	1,5,18,9
+	.half	.L209-.L189
+	.byte	3,9,1,5,16,9
+	.half	.L397-.L209
+	.byte	1,5,3,9
+	.half	.L398-.L397
+	.byte	1,5,46,7,9
+	.half	.L399-.L398
+	.byte	3,2,1,5,5,9
+	.half	.L208-.L399
+	.byte	1,5,25,7,9
+	.half	.L400-.L208
+	.byte	3,1,1,5,32,9
+	.half	.L211-.L400
+	.byte	1,5,44,9
+	.half	.L20-.L211
+	.byte	3,1,1,5,61,9
+	.half	.L401-.L20
+	.byte	1,5,12,9
+	.half	.L402-.L401
+	.byte	1,5,63,9
+	.half	.L403-.L402
+	.byte	3,3,1,5,9,9
+	.half	.L404-.L403
+	.byte	3,1,1,5,78,9
+	.half	.L405-.L404
+	.byte	3,127,1,5,24,9
+	.half	.L406-.L405
+	.byte	1,5,29,9
+	.half	.L212-.L406
+	.byte	3,126,1,5,24,9
+	.half	.L22-.L212
+	.byte	1,5,14,9
+	.half	.L21-.L22
+	.byte	3,6,1,5,31,9
+	.half	.L210-.L21
+	.byte	1,5,44,9
+	.half	.L19-.L210
+	.byte	3,2,1,5,43,9
+	.half	.L24-.L19
+	.byte	3,6,1,5,12,9
+	.half	.L407-.L24
+	.byte	1,5,27,9
+	.half	.L215-.L407
+	.byte	3,3,1,5,36,9
+	.half	.L217-.L215
+	.byte	3,5,1,5,3,9
+	.half	.L216-.L217
+	.byte	1,5,36,7,9
+	.half	.L408-.L216
+	.byte	3,2,1,5,56,9
+	.half	.L409-.L408
+	.byte	3,127,1,5,7,9
+	.half	.L25-.L409
+	.byte	3,4,1,5,37,9
+	.half	.L410-.L25
+	.byte	3,1,1,5,67,9
+	.half	.L219-.L410
+	.byte	1,5,36,7,9
+	.half	.L26-.L219
+	.byte	3,2,1,5,56,9
+	.half	.L411-.L26
+	.byte	3,127,1,5,31,9
+	.half	.L27-.L411
+	.byte	3,9,1,5,59,9
+	.half	.L412-.L27
+	.byte	1,5,34,9
+	.half	.L413-.L412
+	.byte	3,1,1,5,72,9
+	.half	.L414-.L413
+	.byte	3,127,1,5,3,9
+	.half	.L222-.L414
+	.byte	3,7,1,5,9,7,9
+	.half	.L415-.L222
+	.byte	3,3,1,5,37,9
+	.half	.L416-.L415
+	.byte	1,5,24,9
+	.half	.L221-.L416
+	.byte	3,127,1,5,5,9
+	.half	.L417-.L221
+	.byte	1,5,9,7,9
+	.half	.L418-.L417
+	.byte	3,3,1,5,37,9
+	.half	.L419-.L418
+	.byte	1,5,57,9
+	.half	.L420-.L419
+	.byte	3,127,1,5,69,9
+	.half	.L421-.L420
+	.byte	3,1,1,5,16,9
+	.half	.L29-.L421
+	.byte	3,2,1,5,44,9
+	.half	.L422-.L29
+	.byte	1,5,12,9
+	.half	.L423-.L422
+	.byte	3,127,1,5,57,9
+	.half	.L424-.L423
+	.byte	3,5,1,5,69,9
+	.half	.L425-.L424
+	.byte	3,126,1,5,9,9
+	.half	.L31-.L425
+	.byte	1,5,37,9
+	.half	.L426-.L31
+	.byte	1,5,57,9
+	.half	.L427-.L426
+	.byte	3,127,1,5,7,9
+	.half	.L30-.L427
+	.byte	3,126,1,9
+	.half	.L28-.L30
+	.byte	3,11,1,5,35,9
+	.half	.L428-.L28
+	.byte	1,5,55,9
+	.half	.L224-.L428
+	.byte	3,127,1,5,7,9
+	.half	.L33-.L224
+	.byte	3,11,1,5,35,9
+	.half	.L429-.L33
+	.byte	1,5,7,9
+	.half	.L430-.L429
+	.byte	3,1,1,5,35,9
+	.half	.L431-.L430
+	.byte	1,5,3,9
+	.half	.L432-.L431
+	.byte	3,127,1,5,21,7,9
+	.half	.L433-.L432
+	.byte	3,2,1,5,49,9
+	.half	.L434-.L433
+	.byte	1,5,64,9
+	.half	.L435-.L434
+	.byte	1,5,62,9
+	.half	.L436-.L435
+	.byte	1,5,68,9
+	.half	.L225-.L436
+	.byte	1,5,21,9
+	.half	.L34-.L225
+	.byte	3,2,1,5,49,9
+	.half	.L437-.L34
+	.byte	1,5,12,9
+	.half	.L35-.L437
+	.byte	3,6,1,5,40,9
+	.half	.L438-.L35
+	.byte	1,5,33,9
+	.half	.L439-.L438
+	.byte	3,1,1,5,65,9
+	.half	.L440-.L439
+	.byte	3,127,1,5,7,9
+	.half	.L227-.L440
+	.byte	3,8,1,5,35,9
+	.half	.L441-.L227
+	.byte	1,5,7,9
+	.half	.L442-.L441
+	.byte	3,1,1,5,35,9
+	.half	.L443-.L442
+	.byte	1,5,3,9
+	.half	.L444-.L443
+	.byte	3,127,1,5,22,7,9
+	.half	.L445-.L444
+	.byte	3,2,1,5,50,9
+	.half	.L446-.L445
+	.byte	1,5,64,9
+	.half	.L447-.L446
+	.byte	1,5,62,9
+	.half	.L448-.L447
+	.byte	1,5,68,9
+	.half	.L229-.L448
+	.byte	1,5,22,9
+	.half	.L36-.L229
+	.byte	3,2,1,5,50,9
+	.half	.L449-.L36
+	.byte	1,5,7,9
+	.half	.L37-.L449
+	.byte	3,8,1,5,35,9
+	.half	.L450-.L37
+	.byte	1,5,7,9
+	.half	.L451-.L450
+	.byte	3,1,1,5,35,9
+	.half	.L452-.L451
+	.byte	1,5,3,9
+	.half	.L453-.L452
+	.byte	3,127,1,5,22,7,9
+	.half	.L454-.L453
+	.byte	3,2,1,5,50,9
+	.half	.L455-.L454
+	.byte	1,5,65,9
+	.half	.L456-.L455
+	.byte	1,5,63,9
+	.half	.L457-.L456
+	.byte	1,5,69,9
+	.half	.L231-.L457
+	.byte	1,5,22,9
+	.half	.L38-.L231
+	.byte	3,2,1,5,50,9
+	.half	.L458-.L38
+	.byte	1,5,21,9
+	.half	.L39-.L458
+	.byte	3,10,1,5,49,9
+	.half	.L459-.L39
+	.byte	1,9
+	.half	.L460-.L459
+	.byte	3,1,1,5,64,9
+	.half	.L461-.L460
+	.byte	3,127,1,5,74,9
+	.half	.L462-.L461
+	.byte	3,1,1,5,37,9
+	.half	.L463-.L462
+	.byte	3,1,1,5,22,9
+	.half	.L230-.L463
+	.byte	3,8,1,5,3,9
+	.half	.L464-.L230
+	.byte	1,5,20,7,9
+	.half	.L465-.L464
+	.byte	3,1,1,5,35,9
+	.half	.L466-.L465
+	.byte	1,5,31,9
+	.half	.L40-.L466
+	.byte	3,1,1,5,29,9
+	.half	.L467-.L40
+	.byte	1,5,10,9
+	.half	.L468-.L467
+	.byte	1,5,22,7,9
+	.half	.L469-.L468
+	.byte	3,4,1,5,5,9
+	.half	.L41-.L469
+	.byte	3,9,1,5,33,9
+	.half	.L470-.L41
+	.byte	1,5,34,9
+	.half	.L471-.L470
+	.byte	3,1,1,5,67,9
+	.half	.L472-.L471
+	.byte	3,127,1,5,40,9
+	.half	.L473-.L472
+	.byte	3,127,1,5,69,9
+	.half	.L474-.L473
+	.byte	3,8,1,5,17,9
+	.half	.L195-.L474
+	.byte	1,5,45,9
+	.half	.L475-.L195
+	.byte	1,5,61,9
+	.half	.L476-.L475
+	.byte	1,5,16,9
+	.half	.L477-.L476
+	.byte	1,5,17,7,9
+	.half	.L478-.L477
+	.byte	3,1,1,5,45,9
+	.half	.L479-.L478
+	.byte	1,5,66,9
+	.half	.L480-.L479
+	.byte	1,5,69,9
+	.half	.L481-.L480
+	.byte	3,127,1,5,50,9
+	.half	.L43-.L481
+	.byte	3,4,1,5,19,9
+	.half	.L482-.L43
+	.byte	1,5,28,9
+	.half	.L207-.L482
+	.byte	3,3,1,5,36,9
+	.half	.L237-.L207
+	.byte	3,5,1,5,3,9
+	.half	.L236-.L237
+	.byte	1,5,36,7,9
+	.half	.L483-.L236
+	.byte	3,2,1,5,56,9
+	.half	.L484-.L483
+	.byte	3,127,1,5,7,9
+	.half	.L45-.L484
+	.byte	3,4,1,5,37,9
+	.half	.L485-.L45
+	.byte	3,1,1,5,67,9
+	.half	.L239-.L485
+	.byte	1,5,36,7,9
+	.half	.L46-.L239
+	.byte	3,2,1,5,56,9
+	.half	.L486-.L46
+	.byte	3,127,1,5,38,9
+	.half	.L47-.L486
+	.byte	3,9,1,5,66,9
+	.half	.L487-.L47
+	.byte	1,5,34,9
+	.half	.L488-.L487
+	.byte	3,1,1,5,79,9
+	.half	.L489-.L488
+	.byte	3,127,1,5,3,9
+	.half	.L240-.L489
+	.byte	3,7,1,5,9,7,9
+	.half	.L490-.L240
+	.byte	3,3,1,5,37,9
+	.half	.L491-.L490
+	.byte	1,5,24,9
+	.half	.L492-.L491
+	.byte	3,127,1,5,5,9
+	.half	.L493-.L492
+	.byte	1,5,9,7,9
+	.half	.L494-.L493
+	.byte	3,3,1,5,37,9
+	.half	.L495-.L494
+	.byte	1,5,57,9
+	.half	.L496-.L495
+	.byte	3,127,1,5,69,9
+	.half	.L497-.L496
+	.byte	3,1,1,5,16,9
+	.half	.L49-.L497
+	.byte	3,2,1,5,44,9
+	.half	.L498-.L49
+	.byte	1,5,12,9
+	.half	.L499-.L498
+	.byte	3,127,1,5,57,9
+	.half	.L500-.L499
+	.byte	3,5,1,5,69,9
+	.half	.L501-.L500
+	.byte	3,126,1,5,9,9
+	.half	.L51-.L501
+	.byte	1,5,37,9
+	.half	.L502-.L51
+	.byte	1,5,57,9
+	.half	.L503-.L502
+	.byte	3,127,1,5,7,9
+	.half	.L50-.L503
+	.byte	3,126,1,9
+	.half	.L48-.L50
+	.byte	3,11,1,5,35,9
+	.half	.L504-.L48
+	.byte	1,5,55,9
+	.half	.L505-.L504
+	.byte	3,127,1,5,7,9
+	.half	.L53-.L505
+	.byte	3,11,1,5,35,9
+	.half	.L506-.L53
+	.byte	1,5,7,9
+	.half	.L507-.L506
+	.byte	3,1,1,5,35,9
+	.half	.L508-.L507
+	.byte	1,5,3,9
+	.half	.L509-.L508
+	.byte	3,127,1,5,22,7,9
+	.half	.L510-.L509
+	.byte	3,2,1,5,50,9
+	.half	.L511-.L510
+	.byte	1,5,64,9
+	.half	.L512-.L511
+	.byte	1,5,62,9
+	.half	.L513-.L512
+	.byte	1,5,68,9
+	.half	.L242-.L513
+	.byte	1,5,22,9
+	.half	.L54-.L242
+	.byte	3,2,1,5,50,9
+	.half	.L514-.L54
+	.byte	1,5,20,9
+	.half	.L55-.L514
+	.byte	3,8,1,5,48,9
+	.half	.L515-.L55
+	.byte	1,5,33,9
+	.half	.L233-.L515
+	.byte	3,1,1,5,63,9
+	.half	.L516-.L233
+	.byte	3,127,1,5,41,9
+	.half	.L517-.L516
+	.byte	3,1,1,5,58,9
+	.half	.L518-.L517
+	.byte	1,5,5,9
+	.half	.L519-.L518
+	.byte	3,1,1,5,33,9
+	.half	.L520-.L519
+	.byte	1,5,67,9
+	.half	.L243-.L520
+	.byte	3,127,1,5,8,9
+	.half	.L244-.L243
+	.byte	3,6,1,5,26,9
+	.half	.L521-.L244
+	.byte	3,5,1,5,5,9
+	.half	.L522-.L521
+	.byte	1,5,21,9
+	.half	.L523-.L522
+	.byte	3,3,1,5,37,9
+	.half	.L524-.L523
+	.byte	3,126,1,5,23,9
+	.half	.L57-.L524
+	.byte	1,5,5,9
+	.half	.L56-.L57
+	.byte	3,15,1,5,33,9
+	.half	.L525-.L56
+	.byte	1,5,34,9
+	.half	.L245-.L525
+	.byte	3,1,1,5,66,9
+	.half	.L526-.L245
+	.byte	3,127,1,5,40,9
+	.half	.L527-.L526
+	.byte	3,127,1,5,7,9
+	.half	.L528-.L527
+	.byte	3,9,1,5,35,9
+	.half	.L529-.L528
+	.byte	1,5,3,9
+	.half	.L530-.L529
+	.byte	1,5,14,7,9
+	.half	.L531-.L530
+	.byte	3,1,1,5,42,9
+	.half	.L532-.L531
+	.byte	1,5,69,9
+	.half	.L228-.L532
+	.byte	1,5,14,9
+	.half	.L59-.L228
+	.byte	3,2,1,5,42,9
+	.half	.L533-.L59
+	.byte	1,5,24,9
+	.half	.L60-.L533
+	.byte	3,6,1,5,47,9
+	.half	.L247-.L60
+	.byte	3,6,1,5,33,9
+	.half	.L534-.L247
+	.byte	3,1,1,5,72,9
+	.half	.L535-.L534
+	.byte	1,5,33,9
+	.half	.L226-.L535
+	.byte	3,1,1,5,81,9
+	.half	.L536-.L226
+	.byte	3,127,1,5,42,9
+	.half	.L537-.L536
+	.byte	1,5,7,9
+	.half	.L249-.L537
+	.byte	3,7,1,5,46,7,9
+	.half	.L538-.L249
+	.byte	1,5,26,7,9
+	.half	.L61-.L538
+	.byte	3,8,1,5,54,9
+	.half	.L539-.L61
+	.byte	1,5,5,9
+	.half	.L540-.L539
+	.byte	1,5,52,7,9
+	.half	.L541-.L540
+	.byte	3,1,1,5,37,9
+	.half	.L252-.L541
+	.byte	3,4,1,5,44,9
+	.half	.L251-.L252
+	.byte	3,127,1,5,60,9
+	.half	.L542-.L251
+	.byte	3,125,1,5,52,9
+	.half	.L63-.L542
+	.byte	3,6,1,5,24,9
+	.half	.L64-.L63
+	.byte	3,8,1,5,5,9
+	.half	.L543-.L64
+	.byte	1,5,22,7,9
+	.half	.L544-.L543
+	.byte	3,1,1,5,30,9
+	.half	.L545-.L544
+	.byte	1,5,17,9
+	.half	.L65-.L545
+	.byte	3,3,1,5,45,9
+	.half	.L546-.L65
+	.byte	1,5,14,9
+	.half	.L547-.L546
+	.byte	1,5,26,9
+	.half	.L246-.L547
+	.byte	3,5,1,5,7,9
+	.half	.L548-.L246
+	.byte	1,5,24,7,9
+	.half	.L549-.L548
+	.byte	3,1,1,5,26,9
+	.half	.L66-.L549
+	.byte	3,11,1,5,47,9
+	.half	.L260-.L66
+	.byte	3,8,1,5,37,9
+	.half	.L259-.L260
+	.byte	3,1,1,5,56,9
+	.half	.L550-.L259
+	.byte	3,127,1,5,16,9
+	.half	.L551-.L550
+	.byte	1,5,5,9
+	.half	.L552-.L551
+	.byte	1,5,37,7,9
+	.half	.L553-.L552
+	.byte	3,9,1,5,44,9
+	.half	.L554-.L553
+	.byte	3,127,1,5,45,9
+	.half	.L555-.L554
+	.byte	3,1,1,5,44,9
+	.half	.L68-.L555
+	.byte	3,7,1,5,16,9
+	.half	.L556-.L68
+	.byte	3,1,1,5,44,9
+	.half	.L557-.L556
+	.byte	1,5,53,9
+	.half	.L558-.L557
+	.byte	3,127,1,5,12,9
+	.half	.L559-.L558
+	.byte	1,5,22,7,9
+	.half	.L560-.L559
+	.byte	3,5,1,5,50,9
+	.half	.L561-.L560
+	.byte	1,5,12,9
+	.half	.L562-.L561
+	.byte	1,5,18,9
+	.half	.L563-.L562
+	.byte	3,1,1,5,46,9
+	.half	.L564-.L563
+	.byte	1,5,52,9
+	.half	.L71-.L564
+	.byte	3,8,1,5,44,9
+	.half	.L248-.L71
+	.byte	1,5,59,9
+	.half	.L565-.L248
+	.byte	1,5,22,9
+	.half	.L70-.L565
+	.byte	3,2,1,5,50,9
+	.half	.L566-.L70
+	.byte	1,5,12,9
+	.half	.L567-.L566
+	.byte	1,5,18,9
+	.half	.L568-.L567
+	.byte	3,4,1,5,46,9
+	.half	.L569-.L568
+	.byte	1,5,9,9
+	.half	.L73-.L569
+	.byte	3,10,1,5,37,9
+	.half	.L570-.L73
+	.byte	1,5,56,9
+	.half	.L571-.L570
+	.byte	1,5,48,9
+	.half	.L261-.L571
+	.byte	1,5,44,9
+	.half	.L572-.L261
+	.byte	3,127,1,5,26,9
+	.half	.L69-.L572
+	.byte	3,12,1,5,54,9
+	.half	.L573-.L69
+	.byte	1,5,5,9
+	.half	.L574-.L573
+	.byte	1,5,44,7,9
+	.half	.L575-.L574
+	.byte	3,5,1,5,60,9
+	.half	.L576-.L575
+	.byte	1,5,37,9
+	.half	.L74-.L576
+	.byte	3,6,1,5,44,9
+	.half	.L577-.L74
+	.byte	3,127,1,9
+	.half	.L578-.L577
+	.byte	3,6,1,5,7,9
+	.half	.L75-.L578
+	.byte	3,118,1,5,28,9
+	.half	.L62-.L75
+	.byte	3,19,1,5,10,9
+	.half	.L579-.L62
+	.byte	1,5,28,7,9
+	.half	.L580-.L579
+	.byte	3,16,1,5,10,9
+	.half	.L264-.L580
+	.byte	3,1,1,5,24,9
+	.half	.L581-.L264
+	.byte	3,1,1,5,52,9
+	.half	.L582-.L581
+	.byte	1,5,22,9
+	.half	.L78-.L582
+	.byte	3,3,1,5,27,9
+	.half	.L583-.L78
+	.byte	1,5,72,9
+	.half	.L266-.L583
+	.byte	3,1,1,5,81,9
+	.half	.L584-.L266
+	.byte	1,5,14,9
+	.half	.L585-.L584
+	.byte	3,1,1,5,42,9
+	.half	.L586-.L585
+	.byte	3,127,1,5,72,9
+	.half	.L587-.L586
+	.byte	3,2,1,5,81,9
+	.half	.L588-.L587
+	.byte	1,5,14,9
+	.half	.L589-.L588
+	.byte	3,1,1,5,42,9
+	.half	.L590-.L589
+	.byte	3,127,1,5,61,9
+	.half	.L76-.L590
+	.byte	3,18,1,5,5,9
+	.half	.L268-.L76
+	.byte	3,1,1,5,33,9
+	.half	.L591-.L268
+	.byte	1,5,5,9
+	.half	.L592-.L591
+	.byte	3,1,1,5,33,9
+	.half	.L593-.L592
+	.byte	1,5,34,9
+	.half	.L594-.L593
+	.byte	3,1,1,5,44,9
+	.half	.L595-.L594
+	.byte	3,127,1,5,56,9
+	.half	.L596-.L595
+	.byte	3,127,1,5,53,9
+	.half	.L597-.L596
+	.byte	3,127,1,5,7,9
+	.half	.L598-.L597
+	.byte	3,7,1,5,35,9
+	.half	.L599-.L598
+	.byte	1,5,22,9
+	.half	.L600-.L599
+	.byte	3,127,1,5,3,9
+	.half	.L601-.L600
+	.byte	1,5,7,7,9
+	.half	.L602-.L601
+	.byte	3,3,1,5,35,9
+	.half	.L603-.L602
+	.byte	1,5,20,9
+	.half	.L604-.L603
+	.byte	3,127,1,5,67,9
+	.half	.L241-.L604
+	.byte	3,1,1,5,14,9
+	.half	.L79-.L241
+	.byte	3,2,1,5,42,9
+	.half	.L605-.L79
+	.byte	1,5,29,9
+	.half	.L606-.L605
+	.byte	3,127,1,5,10,9
+	.half	.L607-.L606
+	.byte	1,5,7,7,9
+	.half	.L608-.L607
+	.byte	3,5,1,5,35,9
+	.half	.L609-.L608
+	.byte	1,5,20,9
+	.half	.L610-.L609
+	.byte	3,127,1,5,26,9
+	.half	.L269-.L610
+	.byte	3,126,1,5,20,9
+	.half	.L81-.L269
+	.byte	1,5,22,9
+	.half	.L80-.L81
+	.byte	3,11,1,5,50,9
+	.half	.L611-.L80
+	.byte	1,5,19,9
+	.half	.L612-.L611
+	.byte	1,5,7,9
+	.half	.L234-.L612
+	.byte	3,4,1,5,35,9
+	.half	.L613-.L234
+	.byte	1,5,22,9
+	.half	.L614-.L613
+	.byte	3,127,1,5,3,9
+	.half	.L615-.L614
+	.byte	1,5,7,7,9
+	.half	.L616-.L615
+	.byte	3,3,1,5,35,9
+	.half	.L617-.L616
+	.byte	1,5,20,9
+	.half	.L618-.L617
+	.byte	3,127,1,5,67,9
+	.half	.L223-.L618
+	.byte	3,1,1,5,14,9
+	.half	.L83-.L223
+	.byte	3,2,1,5,42,9
+	.half	.L619-.L83
+	.byte	1,5,29,9
+	.half	.L620-.L619
+	.byte	3,127,1,5,10,9
+	.half	.L621-.L620
+	.byte	1,5,7,7,9
+	.half	.L622-.L621
+	.byte	3,5,1,5,35,9
+	.half	.L623-.L622
+	.byte	1,5,20,9
+	.half	.L624-.L623
+	.byte	3,127,1,5,26,9
+	.half	.L270-.L624
+	.byte	3,126,1,5,20,9
+	.half	.L85-.L270
+	.byte	1,5,15,9
+	.half	.L84-.L85
+	.byte	3,11,1,5,43,9
+	.half	.L625-.L84
+	.byte	1,5,12,9
+	.half	.L626-.L625
+	.byte	1,5,7,9
+	.half	.L273-.L626
+	.byte	3,4,1,5,35,9
+	.half	.L627-.L273
+	.byte	1,5,20,9
+	.half	.L628-.L627
+	.byte	3,127,1,5,3,9
+	.half	.L629-.L628
+	.byte	1,5,21,7,9
+	.half	.L630-.L629
+	.byte	3,2,1,5,49,9
+	.half	.L631-.L630
+	.byte	1,5,18,9
+	.half	.L632-.L631
+	.byte	1,5,81,9
+	.half	.L202-.L632
+	.byte	1,5,14,9
+	.half	.L87-.L202
+	.byte	3,2,1,5,42,9
+	.half	.L633-.L87
+	.byte	1,5,27,9
+	.half	.L634-.L633
+	.byte	3,127,1,5,10,9
+	.half	.L635-.L634
+	.byte	1,5,21,7,9
+	.half	.L636-.L635
+	.byte	3,4,1,5,49,9
+	.half	.L637-.L636
+	.byte	1,5,18,9
+	.half	.L638-.L637
+	.byte	1,5,24,9
+	.half	.L274-.L638
+	.byte	3,126,1,5,18,9
+	.half	.L89-.L274
+	.byte	1,5,19,9
+	.half	.L88-.L89
+	.byte	3,10,1,5,47,9
+	.half	.L639-.L88
+	.byte	1,5,16,9
+	.half	.L640-.L639
+	.byte	1,5,34,9
+	.half	.L277-.L640
+	.byte	3,6,1,5,51,9
+	.half	.L641-.L277
+	.byte	3,127,1,5,22,9
+	.half	.L642-.L641
+	.byte	3,9,1,5,50,9
+	.half	.L643-.L642
+	.byte	1,5,3,9
+	.half	.L644-.L643
+	.byte	1,5,11,9
+	.half	.L645-.L644
+	.byte	3,3,1,5,39,9
+	.half	.L646-.L645
+	.byte	1,5,56,9
+	.half	.L278-.L646
+	.byte	3,126,1,5,11,9
+	.half	.L91-.L278
+	.byte	1,5,39,9
+	.half	.L647-.L91
+	.byte	1,5,22,9
+	.half	.L92-.L647
+	.byte	3,11,1,5,50,9
+	.half	.L648-.L92
+	.byte	1,5,3,9
+	.half	.L649-.L648
+	.byte	1,5,13,9
+	.half	.L650-.L649
+	.byte	3,3,1,5,41,9
+	.half	.L651-.L650
+	.byte	1,5,59,9
+	.half	.L280-.L651
+	.byte	3,126,1,5,13,9
+	.half	.L93-.L280
+	.byte	1,5,41,9
+	.half	.L652-.L93
+	.byte	1,5,8,9
+	.half	.L94-.L652
+	.byte	3,14,1,5,36,9
+	.half	.L653-.L94
+	.byte	1,5,59,9
+	.half	.L654-.L653
+	.byte	1,5,7,9
+	.half	.L655-.L654
+	.byte	1,5,12,7,9
+	.half	.L656-.L655
+	.byte	3,1,1,5,20,7,9
+	.half	.L657-.L656
+	.byte	3,1,1,5,48,9
+	.half	.L658-.L657
+	.byte	1,5,5,9
+	.half	.L95-.L658
+	.byte	3,7,1,5,33,9
+	.half	.L659-.L95
+	.byte	1,5,32,9
+	.half	.L275-.L659
+	.byte	3,127,1,5,52,9
+	.half	.L660-.L275
+	.byte	1,5,60,9
+	.half	.L661-.L660
+	.byte	3,2,1,5,58,9
+	.half	.L662-.L661
+	.byte	3,4,1,5,56,9
+	.half	.L283-.L662
+	.byte	1,5,24,9
+	.half	.L663-.L283
+	.byte	3,8,1,5,52,9
+	.half	.L664-.L663
+	.byte	1,5,3,9
+	.half	.L665-.L664
+	.byte	1,5,11,9
+	.half	.L666-.L665
+	.byte	3,3,1,5,39,9
+	.half	.L667-.L666
+	.byte	1,5,56,9
+	.half	.L279-.L667
+	.byte	3,126,1,5,11,9
+	.half	.L97-.L279
+	.byte	1,5,39,9
+	.half	.L668-.L97
+	.byte	1,5,18,9
+	.half	.L98-.L668
+	.byte	3,11,1,5,46,9
+	.half	.L669-.L98
+	.byte	1,5,3,9
+	.half	.L670-.L669
+	.byte	1,5,13,9
+	.half	.L671-.L670
+	.byte	3,3,1,5,41,9
+	.half	.L672-.L671
+	.byte	1,5,60,9
+	.half	.L281-.L672
+	.byte	3,126,1,5,13,9
+	.half	.L99-.L281
+	.byte	1,5,41,9
+	.half	.L673-.L99
+	.byte	1,5,8,9
+	.half	.L100-.L673
+	.byte	3,14,1,5,36,9
+	.half	.L674-.L100
+	.byte	1,5,59,9
+	.half	.L675-.L674
+	.byte	1,5,7,9
+	.half	.L676-.L675
+	.byte	1,5,12,7,9
+	.half	.L677-.L676
+	.byte	3,1,1,5,16,7,9
+	.half	.L678-.L677
+	.byte	3,1,1,5,44,9
+	.half	.L679-.L678
+	.byte	1,5,5,9
+	.half	.L101-.L679
+	.byte	3,7,1,5,33,9
+	.half	.L680-.L101
+	.byte	1,5,32,9
+	.half	.L284-.L680
+	.byte	3,127,1,5,54,9
+	.half	.L681-.L284
+	.byte	1,5,62,9
+	.half	.L682-.L681
+	.byte	3,2,1,5,60,9
+	.half	.L683-.L682
+	.byte	3,4,1,5,58,9
+	.half	.L286-.L683
+	.byte	1,5,24,9
+	.half	.L684-.L286
+	.byte	3,8,1,5,52,9
+	.half	.L685-.L684
+	.byte	1,5,3,9
+	.half	.L686-.L685
+	.byte	1,5,11,9
+	.half	.L687-.L686
+	.byte	3,3,1,5,39,9
+	.half	.L688-.L687
+	.byte	1,5,56,9
+	.half	.L287-.L688
+	.byte	3,126,1,5,11,9
+	.half	.L103-.L287
+	.byte	1,5,39,9
+	.half	.L689-.L103
+	.byte	1,5,25,9
+	.half	.L104-.L689
+	.byte	3,11,1,5,53,9
+	.half	.L690-.L104
+	.byte	1,5,3,9
+	.half	.L691-.L690
+	.byte	1,5,13,9
+	.half	.L692-.L691
+	.byte	3,3,1,5,41,9
+	.half	.L693-.L692
+	.byte	1,5,59,9
+	.half	.L271-.L693
+	.byte	3,126,1,5,13,9
+	.half	.L105-.L271
+	.byte	1,5,41,9
+	.half	.L694-.L105
+	.byte	1,5,8,9
+	.half	.L106-.L694
+	.byte	3,14,1,5,36,9
+	.half	.L695-.L106
+	.byte	1,5,57,9
+	.half	.L696-.L695
+	.byte	1,5,7,9
+	.half	.L697-.L696
+	.byte	1,5,12,7,9
+	.half	.L698-.L697
+	.byte	3,1,1,5,23,7,9
+	.half	.L699-.L698
+	.byte	3,1,1,5,51,9
+	.half	.L700-.L699
+	.byte	1,5,5,9
+	.half	.L107-.L700
+	.byte	3,7,1,5,33,9
+	.half	.L701-.L107
+	.byte	1,5,32,9
+	.half	.L288-.L701
+	.byte	3,127,1,5,54,9
+	.half	.L702-.L288
+	.byte	1,5,62,9
+	.half	.L703-.L702
+	.byte	3,2,1,5,1,9
+	.half	.L704-.L703
+	.byte	3,2,1,7,9
+	.half	.L128-.L704
+	.byte	0,1,1
+.L337:
+	.sdecl	'.debug_ranges',debug,cluster('PMSM_CurrentControl_System_step')
+	.sect	'.debug_ranges'
+.L127:
+	.word	-1,.L110,0,.L128-.L110,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_terminate')
+	.sect	'.debug_info'
+.L129:
+	.word	372
+	.half	3
+	.word	.L130
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L132,.L131
+	.byte	2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_terminate',0,1,132,7,6,1,1,1
+	.word	.L114,.L180,.L113
+	.byte	4
+	.byte	'PMSM_CurrentControl_System_M',0,1,133,7,3
+	.word	.L181,.L182
+	.byte	5
+	.word	.L114,.L180
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_terminate')
+	.sect	'.debug_abbrev'
+.L130:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('PMSM_CurrentControl_System_terminate')
+	.sect	'.debug_line'
+.L131:
+	.word	.L706-.L705
+.L705:
+	.half	3
+	.word	.L708-.L707
+.L707:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0,0,0,0,0
+.L708:
+	.byte	5,1,7,0,5,2
+	.word	.L114
+	.byte	3,136,7,1,7,9
+	.half	.L133-.L114
+	.byte	0,1,1
+.L706:
+	.sdecl	'.debug_ranges',debug,cluster('PMSM_CurrentControl_System_terminate')
+	.sect	'.debug_ranges'
+.L132:
+	.word	-1,.L114,0,.L133-.L114,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_M_')
+	.sect	'.debug_info'
+.L134:
+	.word	300
+	.half	3
+	.word	.L135
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_M_',0,5,25,33
+	.word	.L183
+	.byte	1,5,3
+	.word	PMSM_CurrentControl_System_M_
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_M_')
+	.sect	'.debug_abbrev'
+.L135:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_MPtr')
+	.sect	'.debug_info'
+.L136:
+	.word	302
+	.half	3
+	.word	.L137
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_MPtr',0,5,26,40
+	.word	.L184
+	.byte	1,5,3
+	.word	PMSM_CurrentControl_System_MPtr
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_MPtr')
+	.sect	'.debug_abbrev'
+.L137:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_DW')
+	.sect	'.debug_info'
+.L138:
+	.word	300
+	.half	3
+	.word	.L139
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_DW',0,5,28,33
+	.word	.L185
+	.byte	1,5,3
+	.word	PMSM_CurrentControl_System_DW
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_DW')
+	.sect	'.debug_abbrev'
+.L139:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_Y')
+	.sect	'.debug_info'
+.L140:
+	.word	299
+	.half	3
+	.word	.L141
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_Y',0,5,30,33
+	.word	.L186
+	.byte	1,5,3
+	.word	PMSM_CurrentControl_System_Y
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_Y')
+	.sect	'.debug_abbrev'
+.L141:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_CurrentControl_System_U')
+	.sect	'.debug_info'
+.L142:
+	.word	299
+	.half	3
+	.word	.L143
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/PMSM_CurrentControl_System.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L115
+	.byte	3
+	.byte	'PMSM_CurrentControl_System_U',0,5,31,33
+	.word	.L187
+	.byte	1,5,3
+	.word	PMSM_CurrentControl_System_U
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_CurrentControl_System_U')
+	.sect	'.debug_abbrev'
+.L143:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('PMSM_CurrentControl_System_initialize')
+	.sect	'.debug_loc'
+.L152:
+	.word	-1,.L112,.L293-.L112,.L144-.L112
+	.half	1
+	.byte	111
+	.word	.L294-.L112,.L295-.L112
+	.half	1
+	.byte	100
+	.word	0,0
+.L146:
+	.word	-1,.L112,0,.L290-.L112
+	.half	1
+	.byte	100
+	.word	0,0
+.L148:
+	.word	-1,.L112,0,.L290-.L112
+	.half	1
+	.byte	101
+	.word	.L291-.L112,.L144-.L112
+	.half	1
+	.byte	108
+	.word	.L296-.L112,.L297-.L112
+	.half	1
+	.byte	100
+	.word	0,0
+.L150:
+	.word	-1,.L112,0,.L290-.L112
+	.half	1
+	.byte	102
+	.word	.L292-.L112,.L144-.L112
+	.half	1
+	.byte	109
+	.word	.L298-.L112,.L299-.L112
+	.half	1
+	.byte	100
+	.word	0,0
+.L111:
+	.word	-1,.L112,0,.L144-.L112
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('PMSM_CurrentControl_System_step')
+	.sect	'.debug_loc'
+.L158:
+	.word	-1,.L110,.L192-.L110,.L153-.L110
+	.half	1
+	.byte	110
+	.word	0,0
+.L155:
+	.word	-1,.L110,0,.L189-.L110
+	.half	1
+	.byte	100
+	.word	0,0
+.L156:
+	.word	-1,.L110,0,.L189-.L110
+	.half	1
+	.byte	101
+	.word	.L190-.L110,.L153-.L110
+	.half	1
+	.byte	108
+	.word	0,0
+.L157:
+	.word	-1,.L110,0,.L189-.L110
+	.half	1
+	.byte	102
+	.word	.L191-.L110,.L153-.L110
+	.half	1
+	.byte	109
+	.word	0,0
+.L109:
+	.word	-1,.L110,0,.L188-.L110
+	.half	2
+	.byte	138,0
+	.word	.L188-.L110,.L153-.L110
+	.half	2
+	.byte	138,24
+	.word	.L153-.L110,.L153-.L110
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L176:
+	.word	-1,.L110,.L194-.L110,.L195-.L110
+	.half	1
+	.byte	89
+	.word	.L195-.L110,.L233-.L110
+	.half	1
+	.byte	81
+	.word	0,0
+.L160:
+	.word	-1,.L110,.L201-.L110,.L202-.L110
+	.half	1
+	.byte	90
+	.word	.L202-.L110,.L87-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L87-.L110,.L274-.L110
+	.half	1
+	.byte	90
+	.word	.L274-.L110,.L89-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L89-.L110,.L88-.L110
+	.half	1
+	.byte	90
+	.word	.L88-.L110,.L275-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L161:
+	.word	-1,.L110,.L222-.L110,.L223-.L110
+	.half	1
+	.byte	92
+	.word	.L223-.L110,.L83-.L110
+	.half	1
+	.byte	83
+	.word	.L83-.L110,.L270-.L110
+	.half	1
+	.byte	92
+	.word	.L270-.L110,.L85-.L110
+	.half	1
+	.byte	83
+	.word	.L85-.L110,.L84-.L110
+	.half	1
+	.byte	92
+	.word	.L84-.L110,.L271-.L110
+	.half	1
+	.byte	83
+	.word	.L105-.L110,.L106-.L110
+	.half	1
+	.byte	83
+	.word	0,0
+.L162:
+	.word	-1,.L110,.L196-.L110,.L197-.L110
+	.half	1
+	.byte	95
+	.word	.L198-.L110,.L153-.L110
+	.half	2
+	.byte	145,124
+	.word	.L199-.L110,.L200-.L110
+	.half	1
+	.byte	95
+	.word	.L276-.L110,.L277-.L110
+	.half	1
+	.byte	95
+	.word	.L277-.L110,.L153-.L110
+	.half	1
+	.byte	87
+	.word	0,0
+.L163:
+	.word	-1,.L110,.L206-.L110,.L207-.L110
+	.half	1
+	.byte	91
+	.word	.L207-.L110,.L234-.L110
+	.half	1
+	.byte	89
+	.word	.L234-.L110,.L153-.L110
+	.half	1
+	.byte	82
+	.word	0,0
+.L177:
+	.word	-1,.L110,.L282-.L110,.L283-.L110
+	.half	1
+	.byte	95
+	.word	0,0
+.L178:
+	.word	-1,.L110,.L214-.L110,.L216-.L110
+	.half	1
+	.byte	95
+	.word	.L217-.L110,.L153-.L110
+	.half	2
+	.byte	145,120
+	.word	.L218-.L110,.L219-.L110
+	.half	1
+	.byte	95
+	.word	.L285-.L110,.L286-.L110
+	.half	1
+	.byte	95
+	.word	0,0
+.L179:
+	.word	-1,.L110,.L235-.L110,.L236-.L110
+	.half	1
+	.byte	95
+	.word	.L237-.L110,.L153-.L110
+	.half	2
+	.byte	145,112
+	.word	.L238-.L110,.L239-.L110
+	.half	1
+	.byte	95
+	.word	.L289-.L110,.L153-.L110
+	.half	1
+	.byte	95
+	.word	0,0
+.L164:
+	.word	-1,.L110,.L247-.L110,.L248-.L110
+	.half	1
+	.byte	83
+	.word	.L70-.L110,.L261-.L110
+	.half	1
+	.byte	83
+	.word	.L62-.L110,.L264-.L110
+	.half	1
+	.byte	83
+	.word	0,0
+.L165:
+	.word	-1,.L110,.L189-.L110,.L208-.L110
+	.half	1
+	.byte	82
+	.word	.L209-.L110,.L210-.L110
+	.half	1
+	.byte	92
+	.word	.L210-.L110,.L19-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L19-.L110,.L24-.L110
+	.half	1
+	.byte	92
+	.word	.L19-.L110,.L24-.L110
+	.half	1
+	.byte	82
+	.word	.L24-.L110,.L213-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L213-.L110,.L214-.L110
+	.half	1
+	.byte	95
+	.word	.L215-.L110,.L153-.L110
+	.half	2
+	.byte	145,108
+	.word	.L220-.L110,.L221-.L110
+	.half	1
+	.byte	95
+	.word	.L28-.L110,.L224-.L110
+	.half	1
+	.byte	95
+	.word	.L272-.L110,.L273-.L110
+	.half	1
+	.byte	95
+	.word	.L273-.L110,.L153-.L110
+	.half	1
+	.byte	85
+	.word	0,0
+.L171:
+	.word	-1,.L110,.L193-.L110,.L2-.L110
+	.half	1
+	.byte	88
+	.word	.L3-.L110,.L153-.L110
+	.half	1
+	.byte	88
+	.word	0,0
+.L166:
+	.word	-1,.L110,.L225-.L110,.L34-.L110
+	.half	1
+	.byte	82
+	.word	.L35-.L110,.L226-.L110
+	.half	1
+	.byte	82
+	.word	.L249-.L110,.L153-.L110
+	.half	1
+	.byte	94
+	.word	.L265-.L110,.L264-.L110
+	.half	1
+	.byte	84
+	.word	.L267-.L110,.L268-.L110
+	.half	1
+	.byte	84
+	.word	0,0
+.L167:
+	.word	-1,.L110,.L203-.L110,.L11-.L110
+	.half	1
+	.byte	95
+	.word	.L204-.L110,.L13-.L110
+	.half	1
+	.byte	95
+	.word	.L12-.L110,.L10-.L110
+	.half	1
+	.byte	95
+	.word	.L15-.L110,.L205-.L110
+	.half	1
+	.byte	95
+	.word	.L211-.L110,.L20-.L110
+	.half	1
+	.byte	95
+	.word	.L212-.L110,.L22-.L110
+	.half	1
+	.byte	95
+	.word	.L21-.L110,.L19-.L110
+	.half	1
+	.byte	95
+	.word	.L229-.L110,.L36-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L37-.L110,.L230-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L242-.L110,.L54-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L55-.L110,.L243-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L244-.L110,.L245-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L250-.L110,.L251-.L110
+	.half	1
+	.byte	95
+	.word	.L252-.L110,.L63-.L110
+	.half	2
+	.byte	145,104
+	.word	.L253-.L110,.L64-.L110
+	.half	1
+	.byte	95
+	.word	.L64-.L110,.L62-.L110
+	.half	2
+	.byte	145,104
+	.word	.L254-.L110,.L255-.L110
+	.half	1
+	.byte	95
+	.word	.L256-.L110,.L257-.L110
+	.half	1
+	.byte	95
+	.word	.L258-.L110,.L259-.L110
+	.half	1
+	.byte	95
+	.word	.L262-.L110,.L74-.L110
+	.half	1
+	.byte	95
+	.word	.L263-.L110,.L75-.L110
+	.half	1
+	.byte	95
+	.word	.L264-.L110,.L266-.L110
+	.half	1
+	.byte	82
+	.word	.L266-.L110,.L76-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L168:
+	.word	-1,.L110,.L231-.L110,.L38-.L110
+	.half	1
+	.byte	81
+	.word	.L39-.L110,.L230-.L110
+	.half	1
+	.byte	81
+	.word	.L230-.L110,.L232-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L240-.L110,.L241-.L110
+	.half	1
+	.byte	91
+	.word	.L241-.L110,.L79-.L110
+	.half	1
+	.byte	81
+	.word	.L79-.L110,.L269-.L110
+	.half	1
+	.byte	91
+	.word	.L269-.L110,.L81-.L110
+	.half	1
+	.byte	81
+	.word	.L81-.L110,.L80-.L110
+	.half	1
+	.byte	91
+	.word	.L80-.L110,.L153-.L110
+	.half	1
+	.byte	81
+	.word	0,0
+.L169:
+	.word	-1,.L110,.L227-.L110,.L228-.L110
+	.half	1
+	.byte	83
+	.word	.L228-.L110,.L59-.L110
+	.half	1
+	.byte	93
+	.word	.L59-.L110,.L60-.L110
+	.half	1
+	.byte	83
+	.word	.L60-.L110,.L246-.L110
+	.half	1
+	.byte	93
+	.word	.L246-.L110,.L66-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L260-.L110,.L248-.L110
+	.half	1
+	.byte	84
+	.word	.L70-.L110,.L261-.L110
+	.half	1
+	.byte	84
+	.word	.L62-.L110,.L76-.L110
+	.half	1
+	.byte	93
+	.word	0,0
+.L173:
+	.word	-1,.L110,.L278-.L110,.L91-.L110
+	.half	1
+	.byte	84
+	.word	.L92-.L110,.L279-.L110
+	.half	1
+	.byte	84
+	.word	.L279-.L110,.L97-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L97-.L110,.L98-.L110
+	.half	1
+	.byte	84
+	.word	.L98-.L110,.L284-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L287-.L110,.L103-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L104-.L110,.L288-.L110
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L174:
+	.word	-1,.L110,.L280-.L110,.L93-.L110
+	.half	1
+	.byte	86
+	.word	.L94-.L110,.L281-.L110
+	.half	1
+	.byte	86
+	.word	.L281-.L110,.L99-.L110
+	.half	1
+	.byte	84
+	.word	.L99-.L110,.L100-.L110
+	.half	1
+	.byte	86
+	.word	.L100-.L110,.L271-.L110
+	.half	1
+	.byte	84
+	.word	.L271-.L110,.L105-.L110
+	.half	1
+	.byte	83
+	.word	.L105-.L110,.L106-.L110
+	.half	1
+	.byte	84
+	.word	.L106-.L110,.L153-.L110
+	.half	1
+	.byte	83
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('PMSM_CurrentControl_System_terminate')
+	.sect	'.debug_loc'
+.L182:
+	.word	-1,.L114,0,.L180-.L114
+	.half	1
+	.byte	100
+	.word	0,0
+.L113:
+	.word	-1,.L114,0,.L180-.L114
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L709:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('PMSM_CurrentControl_System_step')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L709,.L110,.L153-.L110
+	.byte	4
+	.word	(.L188-.L110)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L153-.L188)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('PMSM_CurrentControl_System_initialize')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L709,.L112,.L144-.L112
+	.sdecl	'.debug_frame',debug,cluster('PMSM_CurrentControl_System_terminate')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L709,.L114,.L180-.L114
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

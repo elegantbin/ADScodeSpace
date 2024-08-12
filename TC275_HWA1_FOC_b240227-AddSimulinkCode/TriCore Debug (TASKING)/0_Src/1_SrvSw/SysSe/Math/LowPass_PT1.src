@@ -1,0 +1,1090 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc11872a --dep-file=0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\Current_Controller -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\MTPA -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Configurations -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Trig -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.src ../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.LowPass_PT1.LowPass_PT1_init',code,cluster('LowPass_PT1_init')
+	.sect	'.text.LowPass_PT1.LowPass_PT1_init'
+	.align	2
+	
+	.global	LowPass_PT1_init
+; Function LowPass_PT1_init
+.L15:
+LowPass_PT1_init:	.type	func
+	ld.w	d15,[a5]
+	mul.f	d0,d15,d4
+	ld.w	d15,[a5]4
+	add.f	d15,d15,d4
+	div.f	d15,d0,d15
+.L91:
+	st.w	[a4],d15
+.L92:
+	ld.w	d15,[a5]4
+	add.f	d15,d15,d4
+	div.f	d15,d4,d15
+.L93:
+	st.w	[a4]4,d15
+.L94:
+	mov	d15,#0
+.L95:
+	st.w	[a4]8,d15
+.L96:
+	ld.w	d15,[a4]4
+.L97:
+	movh	d0,#16256
+.L98:
+	cmp.f	d15,d15,d0
+	jnz.t	d15:0,.L2
+.L99:
+	mov	d2,#0
+.L100:
+	j	.L3
+.L2:
+	mov	d2,#1
+.L3:
+	j	.L4
+.L4:
+	ret
+.L33:
+	
+__LowPass_PT1_init_function_end:
+	.size	LowPass_PT1_init,__LowPass_PT1_init_function_end-LowPass_PT1_init
+.L26:
+	; End of function
+	
+	.sdecl	'.text.LowPass_PT1.LowPass_PT1_do',code,cluster('LowPass_PT1_do')
+	.sect	'.text.LowPass_PT1.LowPass_PT1_do'
+	.align	2
+	
+	.global	LowPass_PT1_do
+; Function LowPass_PT1_do
+.L17:
+LowPass_PT1_do:	.type	func
+	ld.w	d15,[a4]
+.L44:
+	mul.f	d0,d15,d4
+.L105:
+	j	.L5
+.L5:
+	j	.L6
+.L6:
+	ld.w	d15,[a4]4
+.L106:
+	ld.w	d1,[a4]8
+.L56:
+	mul.f	d15,d15,d1
+.L107:
+	j	.L7
+.L7:
+	j	.L8
+.L8:
+	sub.f	d0,d0,d15
+.L108:
+	j	.L9
+.L9:
+	j	.L10
+.L10:
+	ld.w	d15,[a4]8
+.L70:
+	add.f	d2,d15,d0
+.L109:
+	j	.L11
+.L11:
+	j	.L12
+.L12:
+	st.w	[a4]8,d2
+.L71:
+	j	.L13
+.L13:
+	ret
+.L40:
+	
+__LowPass_PT1_do_function_end:
+	.size	LowPass_PT1_do,__LowPass_PT1_do_function_end-LowPass_PT1_do
+.L31:
+	; End of function
+	
+	.calls	'LowPass_PT1_init','',0
+	.calls	'LowPass_PT1_do','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L19:
+	.word	3072
+	.half	3
+	.word	.L20
+	.byte	4
+.L18:
+	.byte	1
+	.byte	'../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L21
+	.byte	2,1,1,3
+	.word	217
+	.byte	4
+	.byte	'Ifx__jump_and_link',0,3,1,58,17,1,1,5
+	.byte	'fun',0,1,58,43
+	.word	220
+	.byte	6,0,7
+	.byte	'__fract',0,4,128,1
+.L38:
+	.byte	7
+	.byte	'float',0,4,4,8
+	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
+	.word	265
+	.byte	1,1,5
+	.byte	'a',0,1,149,2,44
+	.word	277
+	.byte	6,0,7
+	.byte	'unsigned long long int',0,8,7,9
+	.byte	'void',0,3
+	.word	357
+	.byte	8
+	.byte	'__ld64',0,3,2,132,1,19
+	.word	331
+	.byte	1,1,5
+	.byte	'addr',0,2,132,1,32
+	.word	363
+	.byte	6,0,4
+	.byte	'__st64',0,3,2,140,1,17,1,1,5
+	.byte	'addr',0,2,140,1,30
+	.word	363
+	.byte	5
+	.byte	'value',0,2,140,1,43
+	.word	331
+	.byte	6,0,7
+	.byte	'long int',0,4,5,8
+	.byte	'SInt32_To_FixPoint32',0,3,3,50,23
+	.word	265
+	.byte	1,1,5
+	.byte	'value',0,3,50,51
+	.word	449
+	.byte	5
+	.byte	'shift',0,3,50,65
+	.word	449
+	.byte	6,0,8
+	.byte	'FixPoint32_To_SInt32',0,3,3,80,19
+	.word	449
+	.byte	1,1,5
+	.byte	'value',0,3,80,51
+	.word	265
+	.byte	5
+	.byte	'shift',0,3,80,65
+	.word	449
+	.byte	6,0,8
+	.byte	'Float32_To_FixPoint32',0,3,3,111,23
+	.word	265
+	.byte	1,1,5
+	.byte	'value',0,3,111,53
+	.word	277
+	.byte	5
+	.byte	'shift',0,3,111,67
+	.word	449
+	.byte	6,0,8
+	.byte	'FixPoint32_To_Float32',0,3,3,138,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'value',0,3,138,1,53
+	.word	265
+	.byte	5
+	.byte	'shift',0,3,138,1,67
+	.word	449
+	.byte	6,0,8
+	.byte	'StdReal_To_FixPoint32',0,3,4,61,23
+	.word	265
+	.byte	1,1,5
+	.byte	'value',0,4,61,53
+	.word	277
+	.byte	5
+	.byte	'inputShift',0,4,61,67
+	.word	449
+	.byte	5
+	.byte	'outputShift',0,4,61,86
+	.word	449
+	.byte	10,6,0,0,8
+	.byte	'FixPoint32_To_StdReal',0,3,4,85,20
+	.word	277
+	.byte	1,1,5
+	.byte	'value',0,4,85,53
+	.word	265
+	.byte	5
+	.byte	'inputShift',0,4,85,67
+	.word	449
+	.byte	5
+	.byte	'outputShift',0,4,85,86
+	.word	449
+	.byte	10,6,0,0
+.L50:
+	.byte	8
+	.byte	'__mul_rF_iF_iF',0,3,5,58,20
+	.word	277
+	.byte	1,1
+.L51:
+	.byte	5
+	.byte	'a',0,5,58,43
+	.word	277
+.L53:
+	.byte	5
+	.byte	'b',0,5,58,54
+	.word	277
+.L55:
+	.byte	6,0,7
+	.byte	'short int',0,2,5,8
+	.byte	'__mul_r16I_iF_i16I',0,3,5,74,19
+	.word	942
+	.byte	1,1,5
+	.byte	'a',0,5,74,46
+	.word	277
+	.byte	5
+	.byte	'b',0,5,74,56
+	.word	942
+	.byte	6,0
+.L77:
+	.byte	8
+	.byte	'__adds_rF_iF_iF',0,3,5,88,20
+	.word	277
+	.byte	1,1
+.L78:
+	.byte	5
+	.byte	'a',0,5,88,44
+	.word	277
+.L80:
+	.byte	5
+	.byte	'b',0,5,88,55
+	.word	277
+.L82:
+	.byte	6,0
+.L63:
+	.byte	8
+	.byte	'__subs_rF_iF_iF',0,3,5,102,20
+	.word	277
+	.byte	1,1
+.L64:
+	.byte	5
+	.byte	'a',0,5,102,44
+	.word	277
+.L66:
+	.byte	5
+	.byte	'b',0,5,102,55
+	.word	277
+.L68:
+	.byte	6,0,8
+	.byte	'__maddms_rF_iF_iF_iF_iF',0,3,5,120,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,120,52
+	.word	277
+	.byte	5
+	.byte	'b',0,5,120,63
+	.word	277
+	.byte	5
+	.byte	'c',0,5,120,74
+	.word	277
+	.byte	5
+	.byte	'd',0,5,120,85
+	.word	277
+	.byte	6,0,8
+	.byte	'__msubms_rF_iF_iF_iF_iF',0,3,5,138,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,138,1,52
+	.word	277
+	.byte	5
+	.byte	'b',0,5,138,1,63
+	.word	277
+	.byte	5
+	.byte	'c',0,5,138,1,74
+	.word	277
+	.byte	5
+	.byte	'd',0,5,138,1,85
+	.word	277
+	.byte	6,0,8
+	.byte	'__madds_rF_iF_iF_i16I',0,3,5,172,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,172,1,50
+	.word	277
+	.byte	5
+	.byte	'b',0,5,172,1,61
+	.word	277
+	.byte	5
+	.byte	'c',0,5,172,1,71
+	.word	942
+	.byte	6,0,8
+	.byte	'__mul_rF_iF_i16I',0,3,5,188,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,188,1,45
+	.word	277
+	.byte	5
+	.byte	'b',0,5,188,1,55
+	.word	942
+	.byte	6,0,8
+	.byte	'__muls_8_rF_iF',0,3,5,203,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,203,1,43
+	.word	277
+	.byte	6,0,8
+	.byte	'__muls_128_rF_iF',0,3,5,218,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,218,1,45
+	.word	277
+	.byte	6,0,7
+	.byte	'char',0,1,6,8
+	.byte	'__shas_rF_iF_i8I',0,3,5,251,1,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,251,1,45
+	.word	277
+	.byte	5
+	.byte	'b',0,5,251,1,54
+	.word	1468
+	.byte	6,0,8
+	.byte	'__negs_rF_iF',0,3,5,138,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,138,2,41
+	.word	277
+	.byte	6,0,8
+	.byte	'__abs_rF_iF',0,3,5,153,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,153,2,40
+	.word	277
+	.byte	6,0,8
+	.byte	'__div_rF_iF_i32I',0,3,5,169,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,169,2,45
+	.word	277
+	.byte	5
+	.byte	'b',0,5,169,2,55
+	.word	449
+	.byte	6,0,8
+	.byte	'__div_rF_iF_iF',0,3,5,185,2,20
+	.word	277
+	.byte	1,1,5
+	.byte	'a',0,5,185,2,43
+	.word	277
+	.byte	5
+	.byte	'b',0,5,185,2,54
+	.word	277
+	.byte	6,0
+.L43:
+	.byte	8
+	.byte	'__mul_rSR_iSR_iSR',0,3,6,142,1,20
+	.word	277
+	.byte	1,1
+.L45:
+	.byte	5
+	.byte	'a',0,6,142,1,46
+	.word	277
+.L47:
+	.byte	5
+	.byte	'b',0,6,142,1,57
+	.word	277
+.L49:
+	.byte	10,6,0,0
+.L57:
+	.byte	8
+	.byte	'__subs_rSR_iSR_iSR',0,3,6,184,1,20
+	.word	277
+	.byte	1,1
+.L58:
+	.byte	5
+	.byte	'a',0,6,184,1,47
+	.word	277
+.L60:
+	.byte	5
+	.byte	'b',0,6,184,1,58
+	.word	277
+.L62:
+	.byte	10,6,0,0
+.L69:
+	.byte	8
+	.byte	'__adds_rSR_iSR_iSR',0,3,6,226,1,20
+	.word	277
+	.byte	1,1
+.L72:
+	.byte	5
+	.byte	'a',0,6,226,1,47
+	.word	277
+.L74:
+	.byte	5
+	.byte	'b',0,6,226,1,58
+	.word	277
+.L76:
+	.byte	10,6,0,0,11
+	.word	225
+	.byte	12
+	.word	251
+	.byte	6,0,11
+	.word	286
+	.byte	12
+	.word	318
+	.byte	6,0,11
+	.word	368
+	.byte	12
+	.word	387
+	.byte	6,0,11
+	.word	403
+	.byte	12
+	.word	418
+	.byte	12
+	.word	432
+	.byte	6,0,11
+	.word	461
+	.byte	12
+	.word	493
+	.byte	12
+	.word	507
+	.byte	6,0,11
+	.word	523
+	.byte	12
+	.word	555
+	.byte	12
+	.word	569
+	.byte	6,0,11
+	.word	585
+	.byte	12
+	.word	618
+	.byte	12
+	.word	632
+	.byte	6,0,11
+	.word	648
+	.byte	12
+	.word	682
+	.byte	12
+	.word	697
+	.byte	6,0,11
+	.word	714
+	.byte	12
+	.word	747
+	.byte	12
+	.word	761
+	.byte	12
+	.word	780
+	.byte	10,13
+	.word	585
+	.byte	12
+	.word	618
+	.byte	12
+	.word	632
+	.byte	14
+	.word	646
+	.byte	0,6,0,0,11
+	.word	804
+	.byte	12
+	.word	837
+	.byte	12
+	.word	851
+	.byte	12
+	.word	870
+	.byte	10,13
+	.word	648
+	.byte	12
+	.word	682
+	.byte	12
+	.word	697
+	.byte	14
+	.word	712
+	.byte	0,6,0,0,11
+	.word	894
+	.byte	12
+	.word	920
+	.byte	12
+	.word	930
+	.byte	6,0,11
+	.word	955
+	.byte	12
+	.word	985
+	.byte	12
+	.word	995
+	.byte	6,0,11
+	.word	1007
+	.byte	12
+	.word	1034
+	.byte	12
+	.word	1044
+	.byte	6,0,11
+	.word	1056
+	.byte	12
+	.word	1083
+	.byte	12
+	.word	1093
+	.byte	6,0,11
+	.word	1105
+	.byte	12
+	.word	1140
+	.byte	12
+	.word	1150
+	.byte	12
+	.word	1160
+	.byte	12
+	.word	1170
+	.byte	6,0,11
+	.word	1182
+	.byte	12
+	.word	1218
+	.byte	12
+	.word	1229
+	.byte	12
+	.word	1240
+	.byte	12
+	.word	1251
+	.byte	6,0,11
+	.word	1264
+	.byte	12
+	.word	1298
+	.byte	12
+	.word	1309
+	.byte	12
+	.word	1320
+	.byte	6,0,11
+	.word	1333
+	.byte	12
+	.word	1362
+	.byte	12
+	.word	1373
+	.byte	6,0,11
+	.word	1386
+	.byte	12
+	.word	1413
+	.byte	6,0,11
+	.word	1426
+	.byte	12
+	.word	1455
+	.byte	6,0,11
+	.word	1476
+	.byte	12
+	.word	1505
+	.byte	12
+	.word	1516
+	.byte	6,0,11
+	.word	1529
+	.byte	12
+	.word	1554
+	.byte	6,0,11
+	.word	1567
+	.byte	12
+	.word	1591
+	.byte	6,0,11
+	.word	1604
+	.byte	12
+	.word	1633
+	.byte	12
+	.word	1644
+	.byte	6,0,11
+	.word	1657
+	.byte	12
+	.word	1684
+	.byte	12
+	.word	1695
+	.byte	6,0,11
+	.word	1708
+	.byte	12
+	.word	1738
+	.byte	12
+	.word	1749
+	.byte	10,13
+	.word	894
+	.byte	12
+	.word	920
+	.byte	12
+	.word	930
+	.byte	14
+	.word	940
+	.byte	0,6,0,0,11
+	.word	1764
+	.byte	12
+	.word	1795
+	.byte	12
+	.word	1806
+	.byte	10,13
+	.word	1056
+	.byte	12
+	.word	1083
+	.byte	12
+	.word	1093
+	.byte	14
+	.word	1103
+	.byte	0,6,0,0,11
+	.word	1821
+	.byte	12
+	.word	1852
+	.byte	12
+	.word	1863
+	.byte	10,13
+	.word	1007
+	.byte	12
+	.word	1034
+	.byte	12
+	.word	1044
+	.byte	14
+	.word	1054
+	.byte	0,6,0,0
+.L32:
+	.byte	7
+	.byte	'unsigned char',0,1,8,15,7,45,9,12,16
+	.byte	'a',0
+	.word	277
+	.byte	4,2,35,0,16
+	.byte	'b',0
+	.word	277
+	.byte	4,2,35,4,16
+	.byte	'out',0
+	.word	277
+	.byte	4,2,35,8,0
+.L34:
+	.byte	3
+	.word	2486
+	.byte	15,7,53,9,12,16
+	.byte	'K',0
+	.word	277
+	.byte	4,2,35,0,16
+	.byte	'T',0
+	.word	277
+	.byte	4,2,35,4,16
+	.byte	'shiftCoef',0
+	.word	1468
+	.byte	1,2,35,8,0,17
+	.word	2532
+.L36:
+	.byte	3
+	.word	2579
+	.byte	18
+	.byte	'__wchar_t',0,8,1,1
+	.word	942
+	.byte	7
+	.byte	'unsigned int',0,4,7,18
+	.byte	'__size_t',0,8,1,1
+	.word	2607
+	.byte	7
+	.byte	'int',0,4,5,18
+	.byte	'__ptrdiff_t',0,8,1,1
+	.word	2640
+	.byte	19,1,3
+	.word	2667
+	.byte	18
+	.byte	'__codeptr',0,8,1,1
+	.word	2669
+	.byte	18
+	.byte	'boolean',0,9,104,29
+	.word	2469
+	.byte	18
+	.byte	'uint8',0,9,108,29
+	.word	2469
+	.byte	7
+	.byte	'unsigned short int',0,2,7,18
+	.byte	'uint16',0,9,112,29
+	.word	2722
+	.byte	7
+	.byte	'unsigned long int',0,4,7,18
+	.byte	'uint32',0,9,116,29
+	.word	2759
+	.byte	18
+	.byte	'uint64',0,9,121,29
+	.word	331
+	.byte	18
+	.byte	'sint8',0,9,125,29
+	.word	1468
+	.byte	18
+	.byte	'sint16',0,9,129,1,29
+	.word	942
+	.byte	18
+	.byte	'sint32',0,9,134,1,29
+	.word	449
+	.byte	7
+	.byte	'long long int',0,8,5,18
+	.byte	'sint64',0,9,141,1,29
+	.word	2856
+	.byte	18
+	.byte	'float32',0,9,170,1,29
+	.word	277
+	.byte	18
+	.byte	'pvoid',0,10,54,28
+	.word	363
+	.byte	18
+	.byte	'Ifx_TickTime',0,10,76,28
+	.word	2856
+	.byte	7
+	.byte	'__sfract',0,2,128,1,18
+	.byte	'FixPoint16',0,11,32,16
+	.word	2941
+	.byte	18
+	.byte	'FixPoint32',0,11,33,16
+	.word	265
+	.byte	18
+	.byte	'StdReal',0,11,65,17
+	.word	277
+	.byte	18
+	.byte	'StdRealLong',0,11,71,17
+	.word	277
+	.byte	18
+	.byte	'LowPass_PT1',0,7,50,3
+	.word	2486
+	.byte	18
+	.byte	'LowPass_PT1_Config',0,7,59,3
+	.word	2532
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
+	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
+	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,11,1,0,0,11,46,1,49
+	.byte	19,0,0,12,5,0,49,19,0,0,13,29,1,49,19,0,0,14,11,0,49,19,0,0,15,19,1,58,15,59,15,57,15,11,15,0,0,16,13
+	.byte	0,3,8,73,19,11,15,56,9,0,0,17,38,0,73,19,0,0,18,22,0,3,8,58,15,59,15,57,15,73,19,0,0,19,21,0,54,15,0,0
+	.byte	0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L21:
+	.word	.L84-.L83
+.L83:
+	.half	3
+	.word	.L86-.L85
+.L85:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	0
+	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
+	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
+	.byte	'Convert.asm.h',0,2,0,0
+	.byte	'Convert.h',0,2,0,0
+	.byte	'Arith.Float.h',0,2,0,0
+	.byte	'Arith.StdReal.h',0,2,0,0
+	.byte	'LowPass_PT1.h',0,2,0,0
+	.byte	'../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0
+	.byte	'StdReal.h',0,2,0,0,0
+.L86:
+.L84:
+	.sdecl	'.debug_info',debug,cluster('LowPass_PT1_init')
+	.sect	'.debug_info'
+.L22:
+	.word	326
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L25,.L24
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'LowPass_PT1_init',0,1,42,9
+	.word	.L32
+	.byte	1,1,1
+	.word	.L15,.L33,.L14
+	.byte	4
+	.byte	'filter',0,1,42,39
+	.word	.L34,.L35
+	.byte	4
+	.byte	'config',0,1,42,73
+	.word	.L36,.L37
+	.byte	4
+	.byte	'Ts',0,1,42,89
+	.word	.L38,.L39
+	.byte	5
+	.word	.L15,.L33
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LowPass_PT1_init')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LowPass_PT1_init')
+	.sect	'.debug_line'
+.L24:
+	.word	.L88-.L87
+.L87:
+	.half	3
+	.word	.L90-.L89
+.L89:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c',0,0,0,0,0
+.L90:
+	.byte	5,19,7,0,5,2
+	.word	.L15
+	.byte	3,43,1,5,17,9
+	.half	.L91-.L15
+	.byte	1,5,19,9
+	.half	.L92-.L91
+	.byte	3,1,1,5,17,9
+	.half	.L93-.L92
+	.byte	1,5,19,9
+	.half	.L94-.L93
+	.byte	3,1,1,5,17,9
+	.half	.L95-.L94
+	.byte	1,5,19,9
+	.half	.L96-.L95
+	.byte	3,2,1,5,25,9
+	.half	.L97-.L96
+	.byte	1,5,12,9
+	.half	.L98-.L97
+	.byte	1,5,62,9
+	.half	.L99-.L98
+	.byte	1,5,69,9
+	.half	.L100-.L99
+	.byte	1,5,62,9
+	.half	.L2-.L100
+	.byte	1,5,5,9
+	.half	.L3-.L2
+	.byte	1,5,1,9
+	.half	.L4-.L3
+	.byte	3,1,1,7,9
+	.half	.L26-.L4
+	.byte	0,1,1
+.L88:
+	.sdecl	'.debug_ranges',debug,cluster('LowPass_PT1_init')
+	.sect	'.debug_ranges'
+.L25:
+	.word	-1,.L15,0,.L26-.L15,0,0
+	.sdecl	'.debug_info',debug,cluster('LowPass_PT1_do')
+	.sect	'.debug_info'
+.L27:
+	.word	673
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L30,.L29
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'LowPass_PT1_do',0,1,58,9
+	.word	.L38
+	.byte	1,1,1
+	.word	.L17,.L40,.L16
+	.byte	4
+	.byte	'filter',0,1,58,37
+	.word	.L34,.L41
+	.byte	4
+	.byte	'input',0,1,58,53
+	.word	.L38,.L42
+	.byte	5
+	.word	.L17,.L40
+	.byte	6
+	.word	.L43,.L44,.L6
+	.byte	7
+	.word	.L45,.L46
+	.byte	7
+	.word	.L47,.L48
+	.byte	8
+	.word	.L49,.L44,.L6
+	.byte	6
+	.word	.L50,.L44,.L5
+	.byte	7
+	.word	.L51,.L52
+	.byte	7
+	.word	.L53,.L54
+	.byte	9
+	.word	.L55,.L44,.L5
+	.byte	0,0,0,6
+	.word	.L43,.L56,.L8
+	.byte	7
+	.word	.L45,.L46
+	.byte	7
+	.word	.L47,.L48
+	.byte	8
+	.word	.L49,.L56,.L8
+	.byte	6
+	.word	.L50,.L56,.L7
+	.byte	7
+	.word	.L51,.L52
+	.byte	7
+	.word	.L53,.L54
+	.byte	9
+	.word	.L55,.L56,.L7
+	.byte	0,0,0,6
+	.word	.L57,.L8,.L10
+	.byte	7
+	.word	.L58,.L59
+	.byte	7
+	.word	.L60,.L61
+	.byte	8
+	.word	.L62,.L8,.L10
+	.byte	6
+	.word	.L63,.L8,.L9
+	.byte	7
+	.word	.L64,.L65
+	.byte	7
+	.word	.L66,.L67
+	.byte	9
+	.word	.L68,.L8,.L9
+	.byte	0,0,0,6
+	.word	.L69,.L70,.L71
+	.byte	7
+	.word	.L72,.L73
+	.byte	7
+	.word	.L74,.L75
+	.byte	8
+	.word	.L76,.L70,.L71
+	.byte	6
+	.word	.L77,.L70,.L11
+	.byte	7
+	.word	.L78,.L79
+	.byte	7
+	.word	.L80,.L81
+	.byte	9
+	.word	.L82,.L70,.L11
+	.byte	0,0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('LowPass_PT1_do')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	29,1,49,16,17,1,18,1,0,0,7,5,0,49,16,2,6,0,0,8,11,1,49,16,17,1,18,1,0,0,9,11,0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('LowPass_PT1_do')
+	.sect	'.debug_line'
+.L29:
+	.word	.L102-.L101
+.L101:
+	.half	3
+	.word	.L104-.L103
+.L103:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	0
+	.byte	'../0_Src/1_SrvSw/SysSe/Math/LowPass_PT1.c',0,0,0,0
+	.byte	'Arith.Float.h',0,1,0,0
+	.byte	'Arith.StdReal.h',0,1,0,0,0
+.L104:
+	.byte	5,52,7,0,5,2
+	.word	.L17
+	.byte	3,61,1,4,2,5,14,9
+	.half	.L44-.L17
+	.byte	3,126,1,5,5,9
+	.half	.L105-.L44
+	.byte	1,4,3,9
+	.half	.L5-.L105
+	.byte	3,213,0,1,4,1,5,37,9
+	.half	.L6-.L5
+	.byte	3,174,127,1,5,48,9
+	.half	.L106-.L6
+	.byte	1,4,2,5,14,9
+	.half	.L56-.L106
+	.byte	3,125,1,5,5,9
+	.half	.L107-.L56
+	.byte	1,4,3,9
+	.half	.L7-.L107
+	.byte	3,213,0,1,4,2,5,14,9
+	.half	.L8-.L7
+	.byte	3,87,1,5,5,9
+	.half	.L108-.L8
+	.byte	1,4,3,9
+	.half	.L9-.L108
+	.byte	3,211,0,1,4,1,5,44,9
+	.half	.L10-.L9
+	.byte	3,130,127,1,4,2,5,14,9
+	.half	.L70-.L10
+	.byte	3,29,1,5,5,9
+	.half	.L109-.L70
+	.byte	1,4,3,9
+	.half	.L11-.L109
+	.byte	3,139,1,1,4,1,5,17,9
+	.half	.L12-.L11
+	.byte	3,216,126,1,5,5,9
+	.half	.L71-.L12
+	.byte	3,4,1,5,1,9
+	.half	.L13-.L71
+	.byte	3,1,1,7,9
+	.half	.L31-.L13
+	.byte	0,1,1
+.L102:
+	.sdecl	'.debug_ranges',debug,cluster('LowPass_PT1_do')
+	.sect	'.debug_ranges'
+.L30:
+	.word	-1,.L17,0,.L31-.L17,0,0
+	.sdecl	'.debug_loc',debug,cluster('LowPass_PT1_do')
+	.sect	'.debug_loc'
+.L16:
+	.word	-1,.L17,0,.L40-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L52:
+	.word	0,0
+.L79:
+	.word	0,0
+.L65:
+	.word	0,0
+.L46:
+	.word	0,0
+.L59:
+	.word	0,0
+.L73:
+	.word	0,0
+.L54:
+	.word	0,0
+.L81:
+	.word	0,0
+.L67:
+	.word	0,0
+.L48:
+	.word	0,0
+.L61:
+	.word	0,0
+.L75:
+	.word	0,0
+.L41:
+	.word	-1,.L17,0,.L40-.L17
+	.half	1
+	.byte	100
+	.word	0,0
+.L42:
+	.word	-1,.L17,0,.L40-.L17
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('LowPass_PT1_init')
+	.sect	'.debug_loc'
+.L14:
+	.word	-1,.L15,0,.L33-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L39:
+	.word	-1,.L15,0,.L33-.L15
+	.half	1
+	.byte	84
+	.word	0,0
+.L37:
+	.word	-1,.L15,0,.L33-.L15
+	.half	1
+	.byte	101
+	.word	0,0
+.L35:
+	.word	-1,.L15,0,.L33-.L15
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L110:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('LowPass_PT1_init')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L110,.L15,.L33-.L15
+	.byte	8,18,8,19,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('LowPass_PT1_do')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L110,.L17,.L40-.L17
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	; Module end

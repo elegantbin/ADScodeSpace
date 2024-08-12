@@ -1,0 +1,22 @@
+/*
+ * MotorMgtSwc.h
+ *
+ *  Created on: 2024Äê1ÔÂ5ÈÕ
+ *      Author: Brook.Wu
+ */
+
+#ifndef _SRC_0_APPSW_SWC_MOTORMGTSWC_H_
+#define _SRC_0_APPSW_SWC_MOTORMGTSWC_H_
+
+#define MOTOR_DIAG_CODE_OVER_TEMPERATURE      (0x00000001)
+#define MOTOR_DIAG_CODE_STARTUP_FAIL          (0x00000002)
+#define MOTOR_DIAG_CODE_STALL_FAIL            (0x00000004)
+#define MOTOR_DIAG_CODE_CURRENT_FAIL          (0x00000008)
+#define MOTOR_DIAG_CODE_VLOTAGE_FAIL          (0x00000010)
+#define MOTOR_DIAG_CODE_UPDATAPOSITION_FAIL   (0x00000020)
+#define MOTOR_DIAG_CODE_REALPOSITION_FAIL     (0x00000040)
+#define MOTOR_DIAG_CODE_VELOCITY_MAX_FAIL     (0x00000080)
+
+void PhaseCurrent_Check(void);
+
+#endif /* 0_SRC_0_APPSW_SWC_MOTORMGTSWC_H_ */

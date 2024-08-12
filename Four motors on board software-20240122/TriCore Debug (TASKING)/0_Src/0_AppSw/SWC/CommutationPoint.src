@@ -1,0 +1,1114 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc30444a --dep-file=0_Src/0_AppSw/SWC/CommutationPoint.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Isr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Configurations -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/0_AppSw/SWC/CommutationPoint.src ../0_Src/0_AppSw/SWC/CommutationPoint.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/0_AppSw/SWC/CommutationPoint.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.CommutationPoint.Commutation_getCommuPosIndex',code,cluster('Commutation_getCommuPosIndex')
+	.sect	'.text.CommutationPoint.Commutation_getCommuPosIndex'
+	.align	2
+	
+	.global	Commutation_getCommuPosIndex
+; Function Commutation_getCommuPosIndex
+.L49:
+Commutation_getCommuPosIndex:	.type	func
+	sub.a	a10,#8
+.L89:
+	mov	d8,d4
+.L91:
+	call	EncoderUpdatePosition
+.L90:
+	st.h	[a10],d2
+.L159:
+	ld.h	d0,[a10]
+.L160:
+	mov	d15,#204
+.L161:
+	div	e0,d0,d15
+	st.h	[a10],d1
+.L84:
+	mov	d9,#6
+.L92:
+	jne	d8,#1,.L2
+.L162:
+	ld.h	d0,[a10]
+.L163:
+	jge	d0,#0,.L3
+.L164:
+	ld.h	d0,[a10]
+.L165:
+	add	d0,d0,#204
+	st.h	[a10],d0
+.L3:
+	ld.h	d4,[a10]
+.L166:
+	mov	d5,#1
+	call	CommutationPoint_check
+.L93:
+	mov	d0,#0
+.L94:
+	j	.L4
+.L5:
+	mul	d15,d0,#4
+.L167:
+	movh.a	a15,#@his(CommutateTable_CW)
+	lea	a15,[a15]@los(CommutateTable_CW)
+.L168:
+	addsc.a	a15,a15,d15,#0
+.L169:
+	ld.bu	d15,[a15]1
+.L170:
+	jne	d15,d2,.L6
+.L171:
+	mul	d15,d0,#4
+.L172:
+	movh.a	a15,#@his(CommutateTable_CW)
+	lea	a15,[a15]@los(CommutateTable_CW)
+.L173:
+	addsc.a	a15,a15,d15,#0
+.L174:
+	ld.bu	d9,[a15]2
+.L175:
+	j	.L7
+.L6:
+	add	d0,#1
+.L4:
+	jlt.u	d0,#6,.L5
+.L7:
+	j	.L8
+.L2:
+	jne	d8,#2,.L9
+.L176:
+	ld.h	d15,[a10]
+.L177:
+	jlt	d15,#1,.L10
+.L178:
+	ld.h	d15,[a10]
+.L179:
+	add	d15,d15,#-204
+	st.h	[a10],d15
+.L10:
+	ld.h	d4,[a10]
+.L180:
+	mov	d5,#2
+	call	CommutationPoint_check
+.L95:
+	mov	d0,#0
+.L96:
+	j	.L11
+.L12:
+	mul	d15,d0,#4
+.L181:
+	movh.a	a15,#@his(CommutateTable_CCW)
+	lea	a15,[a15]@los(CommutateTable_CCW)
+.L182:
+	addsc.a	a15,a15,d15,#0
+.L183:
+	ld.bu	d15,[a15]1
+.L184:
+	jne	d15,d2,.L13
+.L185:
+	mul	d15,d0,#4
+.L186:
+	movh.a	a15,#@his(CommutateTable_CCW)
+	lea	a15,[a15]@los(CommutateTable_CCW)
+.L187:
+	addsc.a	a15,a15,d15,#0
+.L188:
+	ld.bu	d9,[a15]2
+.L189:
+	j	.L14
+.L13:
+	add	d0,#1
+.L11:
+	jlt.u	d0,#6,.L12
+.L14:
+.L9:
+.L8:
+	mov	d2,d9
+.L97:
+	j	.L15
+.L15:
+	ret
+.L78:
+	
+__Commutation_getCommuPosIndex_function_end:
+	.size	Commutation_getCommuPosIndex,__Commutation_getCommuPosIndex_function_end-Commutation_getCommuPosIndex
+.L65:
+	; End of function
+	
+	.sdecl	'.text.CommutationPoint.CommutationPoint_check',code,cluster('CommutationPoint_check')
+	.sect	'.text.CommutationPoint.CommutationPoint_check'
+	.align	2
+	
+	.global	CommutationPoint_check
+; Function CommutationPoint_check
+.L51:
+CommutationPoint_check:	.type	func
+	mov	d2,#12
+.L98:
+	jne	d5,#1,.L16
+.L107:
+	movh.a	a15,#@his(Zero_Offset_CW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CW_Read)
+	ld.w	d0,[a15]
+	mov	d15,#204
+	div.u	e0,d0,d15
+	add	d0,d1,#170
+	mov	d15,#204
+	div.u	e0,d0,d15
+.L108:
+	jlt	d4,d1,.L17
+.L109:
+	mov	d2,#5
+.L110:
+	j	.L18
+.L17:
+	movh.a	a15,#@his(Zero_Offset_CW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CW_Read)
+	ld.w	d0,[a15]
+	mov	d15,#204
+	div.u	e0,d0,d15
+	add	d0,d1,#136
+	mov	d15,#204
+	div.u	e0,d0,d15
+.L111:
+	jlt	d4,d1,.L19
+.L112:
+	mov	d2,#4
+.L113:
+	j	.L20
+.L19:
+	movh.a	a15,#@his(Zero_Offset_CW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CW_Read)
+	ld.w	d0,[a15]
+	mov	d15,#204
+	div.u	e0,d0,d15
+	add	d0,d1,#102
+	mov	d15,#204
+	div.u	e0,d0,d15
+.L114:
+	jlt	d4,d1,.L21
+.L115:
+	mov	d2,#3
+.L116:
+	j	.L22
+.L21:
+	movh.a	a15,#@his(Zero_Offset_CW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CW_Read)
+	ld.w	d0,[a15]
+	mov	d15,#204
+	div.u	e0,d0,d15
+	add	d0,d1,#68
+	mov	d15,#204
+	div.u	e0,d0,d15
+.L117:
+	jlt	d4,d1,.L23
+.L118:
+	mov	d2,#2
+.L119:
+	j	.L24
+.L23:
+	movh.a	a15,#@his(Zero_Offset_CW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CW_Read)
+	ld.w	d0,[a15]
+	mov	d15,#204
+	div.u	e0,d0,d15
+	add	d0,d1,#34
+	mov	d15,#204
+	div.u	e0,d0,d15
+.L120:
+	jlt	d4,d1,.L25
+.L121:
+	mov	d2,#1
+.L122:
+	j	.L26
+.L25:
+	movh.a	a15,#@his(Zero_Offset_CW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CW_Read)
+	ld.w	d0,[a15]
+	mov	d15,#204
+	div.u	e0,d0,d15
+.L123:
+	jlt	d4,d1,.L27
+.L124:
+	mov	d2,#0
+.L125:
+	j	.L28
+.L27:
+	jlt	d4,#0,.L29
+.L126:
+	mov	d2,#5
+.L127:
+	j	.L30
+.L29:
+	mov	d2,#12
+.L30:
+.L28:
+.L26:
+.L24:
+.L22:
+.L20:
+.L18:
+	j	.L31
+.L16:
+	jne	d5,#2,.L32
+.L128:
+	movh.a	a15,#@his(Zero_Offset_CCW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CCW_Read)
+	ld.w	d15,[a15]
+	rsub	d15,d15,#-170
+.L129:
+	extr	d15,d15,#0,#16
+.L130:
+	jlt	d15,d4,.L33
+.L131:
+	mov	d2,#11
+.L132:
+	j	.L34
+.L33:
+	movh.a	a15,#@his(Zero_Offset_CCW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CCW_Read)
+	ld.w	d15,[a15]
+	rsub	d15,d15,#-136
+.L133:
+	extr	d15,d15,#0,#16
+.L134:
+	jlt	d15,d4,.L35
+.L135:
+	mov	d2,#10
+.L136:
+	j	.L36
+.L35:
+	movh.a	a15,#@his(Zero_Offset_CCW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CCW_Read)
+	ld.w	d15,[a15]
+	rsub	d15,d15,#-102
+.L137:
+	extr	d15,d15,#0,#16
+.L138:
+	jlt	d15,d4,.L37
+.L139:
+	mov	d2,#9
+.L140:
+	j	.L38
+.L37:
+	movh.a	a15,#@his(Zero_Offset_CCW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CCW_Read)
+	ld.w	d15,[a15]
+	rsub	d15,d15,#-68
+.L141:
+	extr	d15,d15,#0,#16
+.L142:
+	jlt	d15,d4,.L39
+.L143:
+	mov	d2,#8
+.L144:
+	j	.L40
+.L39:
+	movh.a	a15,#@his(Zero_Offset_CCW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CCW_Read)
+	ld.w	d15,[a15]
+	rsub	d15,d15,#-34
+.L145:
+	extr	d15,d15,#0,#16
+.L146:
+	jlt	d15,d4,.L41
+.L147:
+	mov	d2,#7
+.L148:
+	j	.L42
+.L41:
+	movh.a	a15,#@his(Zero_Offset_CCW_Read)
+	lea	a15,[a15]@los(Zero_Offset_CCW_Read)
+	ld.w	d15,[a15]
+	rsub	d15,#0
+.L149:
+	extr	d15,d15,#0,#16
+.L150:
+	jlt	d15,d4,.L43
+.L151:
+	mov	d2,#6
+.L152:
+	j	.L44
+.L43:
+	jge	d4,#1,.L45
+.L153:
+	mov	d2,#11
+.L154:
+	j	.L46
+.L45:
+	mov	d2,#12
+.L46:
+.L44:
+.L42:
+.L40:
+.L38:
+.L36:
+.L34:
+.L32:
+.L31:
+	j	.L47
+.L47:
+	ret
+.L71:
+	
+__CommutationPoint_check_function_end:
+	.size	CommutationPoint_check,__CommutationPoint_check_function_end-CommutationPoint_check
+.L60:
+	; End of function
+	
+	.sdecl	'.data.CommutationPoint.CommutateTable_CW',data,cluster('CommutateTable_CW')
+	.sect	'.data.CommutationPoint.CommutateTable_CW'
+	.global	CommutateTable_CW
+	.align	2
+CommutateTable_CW:	.type	object
+	.size	CommutateTable_CW,24
+	.byte	1
+	.space	1
+	.byte	5
+	.space	1
+	.byte	1,1,4
+	.space	1
+	.byte	1,2,3
+	.space	1
+	.byte	1,3,2
+	.space	1
+	.byte	1,4,1
+	.space	1
+	.byte	1,5
+	.space	2
+	.sdecl	'.data.CommutationPoint.CommutateTable_CCW',data,cluster('CommutateTable_CCW')
+	.sect	'.data.CommutationPoint.CommutateTable_CCW'
+	.global	CommutateTable_CCW
+	.align	2
+CommutateTable_CCW:	.type	object
+	.size	CommutateTable_CCW,24
+	.byte	2,6,4
+	.space	1
+	.byte	2,7,5
+	.space	1
+	.byte	2,8
+	.space	2
+	.byte	2,9,1
+	.space	1
+	.byte	2,10,2
+	.space	1
+	.byte	2,11,3
+	.space	1
+	.calls	'Commutation_getCommuPosIndex','EncoderUpdatePosition'
+	.calls	'Commutation_getCommuPosIndex','CommutationPoint_check'
+	.calls	'Commutation_getCommuPosIndex','',8
+	.extern	Zero_Offset_CW_Read
+	.extern	Zero_Offset_CCW_Read
+	.extern	EncoderUpdatePosition
+	.calls	'CommutationPoint_check','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L53:
+	.word	2028
+	.half	3
+	.word	.L54
+	.byte	4
+.L52:
+	.byte	1
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L55
+.L70:
+	.byte	2,1,71,9,1,3
+	.byte	'EN_COMMUTATION_CW_POINT00',0,0,3
+	.byte	'EN_COMMUTATION_CW_POINT01',0,1,3
+	.byte	'EN_COMMUTATION_CW_POINT02',0,2,3
+	.byte	'EN_COMMUTATION_CW_POINT03',0,3,3
+	.byte	'EN_COMMUTATION_CW_POINT04',0,4,3
+	.byte	'EN_COMMUTATION_CW_POINT05',0,5,3
+	.byte	'EN_COMMUTATION_CCW_POINT00',0,6,3
+	.byte	'EN_COMMUTATION_CCW_POINT01',0,7,3
+	.byte	'EN_COMMUTATION_CCW_POINT02',0,8,3
+	.byte	'EN_COMMUTATION_CCW_POINT03',0,9,3
+	.byte	'EN_COMMUTATION_CCW_POINT04',0,10,3
+	.byte	'EN_COMMUTATION_CCW_POINT05',0,11,3
+	.byte	'EN_COMMUTATION_UNKNOWN',0,12,0
+.L72:
+	.byte	4
+	.byte	'short int',0,2,5
+.L74:
+	.byte	2,2,46,9,1,3
+	.byte	'K_ROT_DIR_UNKNOWN',0,0,3
+	.byte	'K_ROT_DIR_CW',0,1,3
+	.byte	'K_ROT_DIR_CCW',0,2,0
+.L77:
+	.byte	2,3,40,9,1,3
+	.byte	'HIGH_V_PWM_LOW_U_ON',0,0,3
+	.byte	'HIGH_V_PWM_LOW_W_ON',0,1,3
+	.byte	'HIGH_U_PWM_LOW_W_ON',0,2,3
+	.byte	'HIGH_U_PWM_LOW_V_ON',0,3,3
+	.byte	'HIGH_W_PWM_LOW_V_ON',0,4,3
+	.byte	'HIGH_W_PWM_LOW_U_ON',0,5,3
+	.byte	'COMMUTATION_UNKNOWN',0,6,0
+.L80:
+	.byte	4
+	.byte	'unsigned char',0,1,8
+.L82:
+	.byte	5
+	.word	588
+	.byte	6
+	.byte	'EncoderUpdatePosition',0,4,18,8
+	.word	588
+	.byte	1,1,1,1,7
+	.byte	'__wchar_t',0,5,1,1
+	.word	588
+	.byte	4
+	.byte	'unsigned int',0,4,7,7
+	.byte	'__size_t',0,5,1,1
+	.word	892
+	.byte	4
+	.byte	'int',0,4,5,7
+	.byte	'__ptrdiff_t',0,5,1,1
+	.word	925
+	.byte	8,1,9
+	.word	952
+	.byte	7
+	.byte	'__codeptr',0,5,1,1
+	.word	954
+	.byte	7
+	.byte	'uint8',0,6,108,29
+	.word	818
+	.byte	4
+	.byte	'unsigned short int',0,2,7,7
+	.byte	'uint16',0,6,112,29
+	.word	991
+	.byte	4
+	.byte	'unsigned long int',0,4,7,7
+	.byte	'uint32',0,6,116,29
+	.word	1028
+	.byte	7
+	.byte	'sint16',0,6,129,1,29
+	.word	588
+	.byte	4
+	.byte	'long int',0,4,5,7
+	.byte	'sint32',0,6,134,1,29
+	.word	1080
+	.byte	4
+	.byte	'long long int',0,8,5,7
+	.byte	'sint64',0,6,141,1,29
+	.word	1108
+	.byte	4
+	.byte	'float',0,4,4,7
+	.byte	'float32',0,6,170,1,29
+	.word	1141
+	.byte	10
+	.byte	'void',0,9
+	.word	1167
+	.byte	7
+	.byte	'pvoid',0,7,54,28
+	.word	1173
+	.byte	7
+	.byte	'Ifx_TickTime',0,7,76,28
+	.word	1108
+	.byte	7
+	.byte	'enComutateDriverIndex',0,3,50,2
+	.word	658
+	.byte	2,2,28,9,1,3
+	.byte	'MOTOR_STATE_STOP',0,0,3
+	.byte	'MOTOR_STATE_STARTUP',0,1,3
+	.byte	'MOTOR_STATE_RUNNING',0,2,3
+	.byte	'MOTOR_STATE_FAIL',0,3,3
+	.byte	'MOTOR_STATE_HOLDING_POSITION',0,4,0,7
+	.byte	'enMotorState',0,2,36,2
+	.word	1243
+	.byte	2,2,38,9,1,3
+	.byte	'K_ROT_DIR_FBK_STOP',0,0,3
+	.byte	'K_ROT_DIR_FBK_CW',0,1,3
+	.byte	'K_ROT_DIR_FBK_CCW',0,2,0,7
+	.byte	'enMotor_RotationDirState_fbk',0,2,44,2
+	.word	1383
+	.byte	7
+	.byte	'enMotorRotationDir',0,2,52,2
+	.word	601
+	.byte	2,2,55,9,1,3
+	.byte	'MOTOR_CMD_STOP',0,0,3
+	.byte	'MOTOR_CMD_START_CCW',0,1,3
+	.byte	'MOTOR_CMD_START_CW',0,2,3
+	.byte	'MOTOR_CMD_REINIT',0,8,0,7
+	.byte	'enMotorCmd',0,2,62,2
+	.word	1513
+	.byte	2,2,65,9,1,3
+	.byte	'LOOP_CMD_SPEED',0,1,3
+	.byte	'LOOP_CMD_CURRENT',0,2,3
+	.byte	'LOOP_CMD_POSITION',0,3,3
+	.byte	'LOOP_CMD_DOUBLE_SPPED_CURRENT',0,4,0,7
+	.byte	'MotorLoopCmd',0,2,73,2
+	.word	1617
+	.byte	2,2,75,9,1,3
+	.byte	'LOOP_MODE_SPEED',0,1,3
+	.byte	'LOOP_MODE_CURRENT',0,2,3
+	.byte	'LOOP_MODE_POSITION',0,3,3
+	.byte	'LOOP_MODE_DOUBLE_SPPED_CURRENT',0,4,0,7
+	.byte	'MotorLoopMode',0,2,82,2
+	.word	1732
+	.byte	11
+	.byte	'Zero_Offset_CW_Read',0,8,53,20
+	.word	1028
+	.byte	1,1,11
+	.byte	'Zero_Offset_CCW_Read',0,8,54,20
+	.word	1028
+	.byte	1,1,7
+	.byte	'enCOMMUTE_POINT',0,1,88,2
+	.word	215
+	.byte	12,1,91,9,4,13
+	.byte	'rotDir',0
+	.word	601
+	.byte	1,2,35,0,13
+	.byte	'cmPoint',0
+	.word	215
+	.byte	1,2,35,1,13
+	.byte	'cmStepIndex',0
+	.word	658
+	.byte	1,2,35,2,0,7
+	.byte	'stCommutationMap',0,1,96,2
+	.word	1937
+.L88:
+	.byte	14,24
+	.word	1937
+	.byte	15,5,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L54:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,4,1,58,15,59,15,57,15,11,15,0,0,3,40,0,3,8,28,13,0,0,4
+	.byte	36,0,3,8,11,15,62,15,0,0,5,53,0,73,19,0,0,6,46,0,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0
+	.byte	0,7,22,0,3,8,58,15,59,15,57,15,73,19,0,0,8,21,0,54,15,0,0,9,15,0,73,19,0,0,10,59,0,3,8,0,0,11,52,0,3,8
+	.byte	58,15,59,15,57,15,73,19,63,12,60,12,0,0,12,19,1,58,15,59,15,57,15,11,15,0,0,13,13,0,3,8,73,19,11,15,56
+	.byte	9,0,0,14,1,1,11,15,73,19,0,0,15,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L55:
+	.word	.L100-.L99
+.L99:
+	.half	3
+	.word	.L102-.L101
+.L101:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\2_CDrv',0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC',0,0
+	.byte	'..\\0_Src\\0_AppSw\\SWC\\CommutationPoint.h',0,0,0,0
+	.byte	'..\\0_Src\\0_AppSw\\SWC\\MotorMgtSwc.h',0,0,0,0
+	.byte	'GTM_ATOM_PWM_6Step.h',0,1,0,0
+	.byte	'EncoderGpt12.h',0,1,0,0
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0,0,0,0
+	.byte	'platform_types.h',0,2,0,0
+	.byte	'Ifx_Types.h',0,2,0,0
+	.byte	'DataFlash_ZeroOffest.h',0,3,0,0,0
+.L102:
+.L100:
+	.sdecl	'.debug_info',debug,cluster('CommutationPoint_check')
+	.sect	'.debug_info'
+.L56:
+	.word	359
+	.half	3
+	.word	.L57
+	.byte	4,1
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L59,.L58
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'CommutationPoint_check',0,1,76,17
+	.word	.L70
+	.byte	1,1,1
+	.word	.L51,.L71,.L50
+	.byte	4
+	.byte	'encodeElePosition',0,1,76,47
+	.word	.L72,.L73
+	.byte	4
+	.byte	'rotationDir',0,1,76,84
+	.word	.L74,.L75
+	.byte	5
+	.word	.L51,.L71
+	.byte	6
+	.byte	'enComumuteStep',0,1,78,21
+	.word	.L70,.L76
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CommutationPoint_check')
+	.sect	'.debug_abbrev'
+.L57:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CommutationPoint_check')
+	.sect	'.debug_line'
+.L58:
+	.word	.L104-.L103
+.L103:
+	.half	3
+	.word	.L106-.L105
+.L105:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0,0,0,0,0
+.L106:
+	.byte	5,35,7,0,5,2
+	.word	.L51
+	.byte	3,205,0,1,5,5,9
+	.half	.L98-.L51
+	.byte	3,2,1,5,43,7,9
+	.half	.L107-.L98
+	.byte	3,3,1,5,11,9
+	.half	.L108-.L107
+	.byte	1,5,32,7,9
+	.half	.L109-.L108
+	.byte	3,2,1,5,59,9
+	.half	.L110-.L109
+	.byte	1,5,48,9
+	.half	.L17-.L110
+	.byte	3,2,1,5,16,9
+	.half	.L111-.L17
+	.byte	1,5,32,7,9
+	.half	.L112-.L111
+	.byte	3,2,1,5,59,9
+	.half	.L113-.L112
+	.byte	1,5,48,9
+	.half	.L19-.L113
+	.byte	3,2,1,5,16,9
+	.half	.L114-.L19
+	.byte	1,5,32,7,9
+	.half	.L115-.L114
+	.byte	3,2,1,5,59,9
+	.half	.L116-.L115
+	.byte	1,5,48,9
+	.half	.L21-.L116
+	.byte	3,2,1,5,16,9
+	.half	.L117-.L21
+	.byte	1,5,32,7,9
+	.half	.L118-.L117
+	.byte	3,2,1,5,59,9
+	.half	.L119-.L118
+	.byte	1,5,48,9
+	.half	.L23-.L119
+	.byte	3,2,1,5,16,9
+	.half	.L120-.L23
+	.byte	1,5,32,7,9
+	.half	.L121-.L120
+	.byte	3,2,1,5,59,9
+	.half	.L122-.L121
+	.byte	1,5,48,9
+	.half	.L25-.L122
+	.byte	3,2,1,5,16,9
+	.half	.L123-.L25
+	.byte	1,5,33,7,9
+	.half	.L124-.L123
+	.byte	3,2,1,5,60,9
+	.half	.L125-.L124
+	.byte	1,5,16,9
+	.half	.L27-.L125
+	.byte	3,2,1,5,32,7,9
+	.half	.L126-.L27
+	.byte	3,2,1,5,59,9
+	.half	.L127-.L126
+	.byte	1,5,29,9
+	.half	.L29-.L127
+	.byte	3,5,1,5,11,9
+	.half	.L18-.L29
+	.byte	3,101,1,5,10,9
+	.half	.L16-.L18
+	.byte	3,30,1,5,43,7,9
+	.half	.L128-.L16
+	.byte	3,2,1,5,35,9
+	.half	.L129-.L128
+	.byte	1,5,11,9
+	.half	.L130-.L129
+	.byte	1,5,32,7,9
+	.half	.L131-.L130
+	.byte	3,2,1,5,60,9
+	.half	.L132-.L131
+	.byte	1,5,48,9
+	.half	.L33-.L132
+	.byte	3,2,1,5,40,9
+	.half	.L133-.L33
+	.byte	1,5,16,9
+	.half	.L134-.L133
+	.byte	1,5,32,7,9
+	.half	.L135-.L134
+	.byte	3,2,1,5,60,9
+	.half	.L136-.L135
+	.byte	1,5,48,9
+	.half	.L35-.L136
+	.byte	3,2,1,5,40,9
+	.half	.L137-.L35
+	.byte	1,5,16,9
+	.half	.L138-.L137
+	.byte	1,5,32,7,9
+	.half	.L139-.L138
+	.byte	3,2,1,5,60,9
+	.half	.L140-.L139
+	.byte	1,5,48,9
+	.half	.L37-.L140
+	.byte	3,2,1,5,40,9
+	.half	.L141-.L37
+	.byte	1,5,16,9
+	.half	.L142-.L141
+	.byte	1,5,32,7,9
+	.half	.L143-.L142
+	.byte	3,2,1,5,60,9
+	.half	.L144-.L143
+	.byte	1,5,48,9
+	.half	.L39-.L144
+	.byte	3,2,1,5,40,9
+	.half	.L145-.L39
+	.byte	1,5,16,9
+	.half	.L146-.L145
+	.byte	1,5,32,7,9
+	.half	.L147-.L146
+	.byte	3,2,1,5,60,9
+	.half	.L148-.L147
+	.byte	1,5,48,9
+	.half	.L41-.L148
+	.byte	3,2,1,5,40,9
+	.half	.L149-.L41
+	.byte	1,5,16,9
+	.half	.L150-.L149
+	.byte	1,5,33,7,9
+	.half	.L151-.L150
+	.byte	3,2,1,5,61,9
+	.half	.L152-.L151
+	.byte	1,5,16,9
+	.half	.L43-.L152
+	.byte	3,2,1,5,32,7,9
+	.half	.L153-.L43
+	.byte	3,2,1,5,60,9
+	.half	.L154-.L153
+	.byte	1,5,29,9
+	.half	.L45-.L154
+	.byte	3,5,1,5,5,9
+	.half	.L31-.L45
+	.byte	3,5,1,5,1,9
+	.half	.L47-.L31
+	.byte	3,1,1,7,9
+	.half	.L60-.L47
+	.byte	0,1,1
+.L104:
+	.sdecl	'.debug_ranges',debug,cluster('CommutationPoint_check')
+	.sect	'.debug_ranges'
+.L59:
+	.word	-1,.L51,0,.L60-.L51,0,0
+	.sdecl	'.debug_info',debug,cluster('Commutation_getCommuPosIndex')
+	.sect	'.debug_info'
+.L61:
+	.word	427
+	.half	3
+	.word	.L62
+	.byte	4,1
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L64,.L63
+	.byte	2
+	.word	.L52
+	.byte	3
+	.byte	'Commutation_getCommuPosIndex',0,1,28,23
+	.word	.L77
+	.byte	1,1,1
+	.word	.L49,.L78,.L48
+	.byte	4
+	.byte	'rotDirection',0,1,28,71
+	.word	.L74,.L79
+	.byte	5
+	.word	.L49,.L78
+	.byte	6
+	.byte	'i',0,1,30,11
+	.word	.L80,.L81
+	.byte	6
+	.byte	'position',0,1,32,21
+	.word	.L82,.L83
+	.byte	5
+	.word	.L84,.L78
+	.byte	6
+	.byte	'cmDrvIdx',0,1,36,27
+	.word	.L77,.L85
+	.byte	5
+	.word	.L3,.L7
+	.byte	6
+	.byte	'cmP',0,1,43,25
+	.word	.L70,.L86
+	.byte	0,5
+	.word	.L10,.L8
+	.byte	6
+	.byte	'cmP',0,1,60,25
+	.word	.L70,.L87
+	.byte	0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Commutation_getCommuPosIndex')
+	.sect	'.debug_abbrev'
+.L62:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Commutation_getCommuPosIndex')
+	.sect	'.debug_line'
+.L63:
+	.word	.L156-.L155
+.L155:
+	.half	3
+	.word	.L158-.L157
+.L157:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0,0,0,0,0
+.L158:
+	.byte	5,23,7,0,5,2
+	.word	.L49
+	.byte	3,27,1,5,53,9
+	.half	.L91-.L49
+	.byte	3,4,1,5,30,9
+	.half	.L90-.L91
+	.byte	1,5,5,9
+	.half	.L159-.L90
+	.byte	3,2,1,5,17,9
+	.half	.L160-.L159
+	.byte	1,5,14,9
+	.half	.L161-.L160
+	.byte	1,5,36,9
+	.half	.L84-.L161
+	.byte	3,2,1,5,5,9
+	.half	.L92-.L84
+	.byte	3,1,1,5,12,7,9
+	.half	.L162-.L92
+	.byte	3,2,1,5,9,9
+	.half	.L163-.L162
+	.byte	1,5,13,7,9
+	.half	.L164-.L163
+	.byte	3,2,1,5,21,9
+	.half	.L165-.L164
+	.byte	1,5,54,9
+	.half	.L3-.L165
+	.byte	3,2,1,5,63,9
+	.half	.L166-.L3
+	.byte	1,5,14,9
+	.half	.L93-.L166
+	.byte	3,2,1,5,20,9
+	.half	.L94-.L93
+	.byte	1,5,33,9
+	.half	.L5-.L94
+	.byte	3,2,1,5,16,9
+	.half	.L167-.L5
+	.byte	1,5,33,9
+	.half	.L168-.L167
+	.byte	1,5,36,9
+	.half	.L169-.L168
+	.byte	1,5,13,9
+	.half	.L170-.L169
+	.byte	1,5,45,7,9
+	.half	.L171-.L170
+	.byte	3,2,1,5,28,9
+	.half	.L172-.L171
+	.byte	1,5,45,9
+	.half	.L173-.L172
+	.byte	1,5,48,9
+	.half	.L174-.L173
+	.byte	1,5,17,9
+	.half	.L175-.L174
+	.byte	3,1,1,5,22,9
+	.half	.L6-.L175
+	.byte	3,123,1,5,20,9
+	.half	.L4-.L6
+	.byte	1,5,5,7,9
+	.half	.L7-.L4
+	.byte	3,8,1,5,10,9
+	.half	.L2-.L7
+	.byte	3,1,1,5,12,7,9
+	.half	.L176-.L2
+	.byte	3,2,1,5,9,9
+	.half	.L177-.L176
+	.byte	1,5,13,7,9
+	.half	.L178-.L177
+	.byte	3,2,1,5,21,9
+	.half	.L179-.L178
+	.byte	1,5,54,9
+	.half	.L10-.L179
+	.byte	3,2,1,5,63,9
+	.half	.L180-.L10
+	.byte	1,5,14,9
+	.half	.L95-.L180
+	.byte	3,2,1,5,20,9
+	.half	.L96-.L95
+	.byte	1,5,34,9
+	.half	.L12-.L96
+	.byte	3,2,1,5,16,9
+	.half	.L181-.L12
+	.byte	1,5,34,9
+	.half	.L182-.L181
+	.byte	1,5,37,9
+	.half	.L183-.L182
+	.byte	1,5,13,9
+	.half	.L184-.L183
+	.byte	1,5,46,7,9
+	.half	.L185-.L184
+	.byte	3,2,1,5,28,9
+	.half	.L186-.L185
+	.byte	1,5,46,9
+	.half	.L187-.L186
+	.byte	1,5,49,9
+	.half	.L188-.L187
+	.byte	1,5,17,9
+	.half	.L189-.L188
+	.byte	3,1,1,5,22,9
+	.half	.L13-.L189
+	.byte	3,123,1,5,20,9
+	.half	.L11-.L13
+	.byte	1,5,5,7,9
+	.half	.L8-.L11
+	.byte	3,11,1,5,1,9
+	.half	.L15-.L8
+	.byte	3,1,1,7,9
+	.half	.L65-.L15
+	.byte	0,1,1
+.L156:
+	.sdecl	'.debug_ranges',debug,cluster('Commutation_getCommuPosIndex')
+	.sect	'.debug_ranges'
+.L64:
+	.word	-1,.L49,0,.L65-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('CommutateTable_CW')
+	.sect	'.debug_info'
+.L66:
+	.word	246
+	.half	3
+	.word	.L67
+	.byte	4,1
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L52
+	.byte	3
+	.byte	'CommutateTable_CW',0,5,8,18
+	.word	.L88
+	.byte	1,5,3
+	.word	CommutateTable_CW
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CommutateTable_CW')
+	.sect	'.debug_abbrev'
+.L67:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('CommutateTable_CCW')
+	.sect	'.debug_info'
+.L68:
+	.word	247
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../0_Src/0_AppSw/SWC/CommutationPoint.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L52
+	.byte	3
+	.byte	'CommutateTable_CCW',0,5,18,18
+	.word	.L88
+	.byte	1,5,3
+	.word	CommutateTable_CCW
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('CommutateTable_CCW')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('CommutationPoint_check')
+	.sect	'.debug_loc'
+.L50:
+	.word	-1,.L51,0,.L71-.L51
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L76:
+	.word	-1,.L51,.L98-.L51,.L71-.L51
+	.half	1
+	.byte	82
+	.word	0,0
+.L73:
+	.word	-1,.L51,0,.L71-.L51
+	.half	1
+	.byte	84
+	.word	0,0
+.L75:
+	.word	-1,.L51,0,.L71-.L51
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Commutation_getCommuPosIndex')
+	.sect	'.debug_loc'
+.L48:
+	.word	-1,.L49,0,.L89-.L49
+	.half	2
+	.byte	138,0
+	.word	.L89-.L49,.L78-.L49
+	.half	2
+	.byte	138,8
+	.word	.L78-.L49,.L78-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L85:
+	.word	-1,.L49,.L92-.L49,.L78-.L49
+	.half	1
+	.byte	89
+	.word	.L97-.L49,.L78-.L49
+	.half	1
+	.byte	82
+	.word	0,0
+.L86:
+	.word	-1,.L49,.L93-.L49,.L2-.L49
+	.half	1
+	.byte	82
+	.word	0,0
+.L87:
+	.word	-1,.L49,.L95-.L49,.L8-.L49
+	.half	1
+	.byte	82
+	.word	0,0
+.L81:
+	.word	-1,.L49,.L94-.L49,.L2-.L49
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L96-.L49,.L8-.L49
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L83:
+	.word	-1,.L49,0,.L78-.L49
+	.half	2
+	.byte	145,120
+	.word	0,0
+.L79:
+	.word	-1,.L49,0,.L90-.L49
+	.half	1
+	.byte	84
+	.word	.L91-.L49,.L78-.L49
+	.half	1
+	.byte	88
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L190:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Commutation_getCommuPosIndex')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L190,.L49,.L78-.L49
+	.byte	4
+	.word	(.L89-.L49)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L78-.L89)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('CommutationPoint_check')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L190,.L51,.L71-.L51
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

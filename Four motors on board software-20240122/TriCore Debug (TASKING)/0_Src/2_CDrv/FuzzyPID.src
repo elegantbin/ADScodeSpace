@@ -1,0 +1,1805 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc19004a --dep-file=0_Src/2_CDrv/FuzzyPID.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Isr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Configurations -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/2_CDrv/FuzzyPID.src ../0_Src/2_CDrv/FuzzyPID.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/2_CDrv/FuzzyPID.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.FuzzyPID.fuzzy',code,cluster('fuzzy')
+	.sect	'.text.FuzzyPID.fuzzy'
+	.align	2
+	
+	.global	fuzzy
+; Function fuzzy
+.L47:
+fuzzy:	.type	func
+	sub.a	a10,#16
+.L96:
+	movh	d15,#16448
+.L138:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+.L139:
+	jeq	d15,#0,.L2
+.L140:
+	mov	d1,#0
+.L141:
+	j	.L3
+.L2:
+	movh	d15,#49216
+.L142:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#0,#1
+.L143:
+	jeq	d15,#0,.L4
+.L144:
+	mov	d1,#0
+.L145:
+	j	.L5
+.L4:
+	mov	d15,#0
+.L146:
+	cmp.f	d15,d4,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L147:
+	jeq	d15,#0,.L6
+.L148:
+	movh	d15,#16384
+.L149:
+	cmp.f	d15,d4,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L150:
+	jeq	d15,#0,.L7
+.L151:
+	movh	d1,#16416
+.L152:
+	j	.L8
+.L7:
+	movh	d15,#16256
+.L153:
+	cmp.f	d15,d4,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L154:
+	jne	d15,#0,.L9
+.L155:
+	movh	d1,#16128
+.L156:
+	j	.L10
+.L9:
+	movh	d1,#16320
+.L10:
+.L8:
+	j	.L11
+.L6:
+	movh	d15,#49024
+.L157:
+	cmp.f	d15,d4,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L158:
+	jeq	d15,#0,.L12
+.L159:
+	movh	d1,#48896
+.L160:
+	j	.L13
+.L12:
+	movh	d15,#49152
+.L161:
+	cmp.f	d15,d4,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L162:
+	jeq	d15,#0,.L14
+.L163:
+	movh	d1,#49088
+.L164:
+	j	.L15
+.L14:
+	j	.L16
+.L97:
+	mov	d1,#0
+.L165:
+	j	.L17
+.L16:
+	movh	d1,#49184
+.L17:
+.L15:
+.L13:
+.L11:
+.L5:
+.L3:
+	movh	d15,#16128
+.L166:
+	sub.f	d15,d1,d15
+.L167:
+	movh	d0,#16448
+.L168:
+	add.f	d15,d15,d0
+.L169:
+	ftoiz	d15,d15
+.L100:
+	st.w	[a10]12,d15
+.L102:
+	movh	d15,#16128
+.L101:
+	add.f	d15,d1,d15
+.L170:
+	movh	d0,#16448
+.L171:
+	add.f	d15,d15,d0
+.L172:
+	ftoiz	d0,d15
+.L103:
+	extr.u	d15,d1,#23,#8
+	jeq	d15,#0,.L18
+.L173:
+	movh	d15,#16128
+.L174:
+	add.f	d15,d1,d15
+.L175:
+	sub.f	d2,d15,d4
+.L176:
+	j	.L19
+.L18:
+	mov	d2,#0
+.L19:
+	extr.u	d15,d1,#23,#8
+	jeq	d15,#0,.L20
+.L177:
+	movh	d15,#16128
+.L178:
+	sub.f	d15,d1,d15
+.L179:
+	sub.f	d1,d4,d15
+.L180:
+	j	.L21
+.L20:
+	mov	d1,#0
+.L21:
+	movh	d15,#16448
+.L181:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#2,#1
+.L182:
+	jeq	d15,#0,.L22
+.L183:
+	mov	d4,#0
+.L98:
+	j	.L23
+.L22:
+	movh	d15,#49216
+.L184:
+	cmp.f	d15,d5,d15
+	extr.u	d15,d15,#0,#1
+.L185:
+	jeq	d15,#0,.L24
+.L186:
+	mov	d4,#0
+.L104:
+	j	.L25
+.L24:
+	mov	d15,#0
+.L187:
+	cmp.f	d15,d5,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L188:
+	jeq	d15,#0,.L26
+.L189:
+	movh	d15,#16384
+.L190:
+	cmp.f	d15,d5,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L191:
+	jeq	d15,#0,.L27
+.L192:
+	movh	d4,#16416
+.L105:
+	j	.L28
+.L27:
+	movh	d15,#16256
+.L193:
+	cmp.f	d15,d5,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L194:
+	jne	d15,#0,.L29
+.L195:
+	movh	d4,#16128
+.L106:
+	j	.L30
+.L29:
+	movh	d4,#16320
+.L30:
+.L28:
+	j	.L31
+.L26:
+	movh	d15,#49024
+.L196:
+	cmp.f	d15,d5,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L197:
+	jeq	d15,#0,.L32
+.L198:
+	movh	d4,#48896
+.L107:
+	j	.L33
+.L32:
+	movh	d15,#49152
+.L199:
+	cmp.f	d15,d5,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L200:
+	jeq	d15,#0,.L34
+.L201:
+	movh	d4,#49088
+.L108:
+	j	.L35
+.L34:
+	j	.L36
+.L99:
+	mov	d4,#0
+.L202:
+	j	.L37
+.L36:
+	movh	d4,#49184
+.L37:
+.L35:
+.L33:
+.L31:
+.L25:
+.L23:
+	movh	d15,#16128
+.L203:
+	sub.f	d15,d4,d15
+.L204:
+	movh	d3,#16448
+.L205:
+	add.f	d15,d15,d3
+.L206:
+	ftoiz	d6,d15
+.L111:
+	movh	d15,#16128
+.L207:
+	add.f	d15,d4,d15
+.L208:
+	movh	d3,#16448
+.L209:
+	add.f	d15,d15,d3
+.L210:
+	ftoiz	d7,d15
+.L112:
+	extr.u	d15,d4,#23,#8
+	jeq	d15,#0,.L38
+.L211:
+	movh	d15,#16128
+.L212:
+	add.f	d15,d4,d15
+.L213:
+	sub.f	d8,d15,d5
+.L214:
+	j	.L39
+.L38:
+	mov	d8,#0
+.L39:
+	extr.u	d15,d4,#23,#8
+	jeq	d15,#0,.L40
+.L215:
+	movh	d15,#16128
+.L216:
+	sub.f	d15,d4,d15
+.L217:
+	sub.f	d4,d5,d15
+.L218:
+	j	.L41
+.L40:
+	mov	d4,#0
+.L41:
+	mul.f	d5,d1,d4
+.L110:
+	mul	d15,d0,#4
+.L219:
+	mul	d3,d7,#28
+.L220:
+	movh.a	a15,#@his(fuzzyRuleKp)
+	lea	a15,[a15]@los(fuzzyRuleKp)
+.L221:
+	addsc.a	a15,a15,d3,#0
+.L222:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d9,[a15]
+.L223:
+	mul.f	d10,d1,d8
+.L224:
+	mul	d15,d0,#4
+.L225:
+	mul	d3,d6,#28
+.L226:
+	movh.a	a15,#@his(fuzzyRuleKp)
+	lea	a15,[a15]@los(fuzzyRuleKp)
+.L227:
+	addsc.a	a15,a15,d3,#0
+.L228:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d11,[a15]
+.L229:
+	mul.f	d12,d2,d8
+.L230:
+	ld.w	d15,[a10]12
+.L113:
+	mul	d15,d15,#4
+.L114:
+	mul	d3,d6,#28
+.L231:
+	movh.a	a15,#@his(fuzzyRuleKp)
+	lea	a15,[a15]@los(fuzzyRuleKp)
+.L232:
+	addsc.a	a15,a15,d3,#0
+.L233:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d13,[a15]
+.L234:
+	mul.f	d14,d2,d4
+.L235:
+	ld.w	d15,[a10]12
+.L115:
+	mul	d15,d15,#4
+.L116:
+	mul	d3,d7,#28
+.L236:
+	movh.a	a15,#@his(fuzzyRuleKp)
+	lea	a15,[a15]@los(fuzzyRuleKp)
+.L237:
+	addsc.a	a15,a15,d3,#0
+.L238:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L239:
+	mul.f	d15,d14,d15
+.L240:
+	madd.f	d15,d15,d12,d13
+.L241:
+	madd.f	d15,d15,d10,d11
+.L242:
+	madd.f	d15,d15,d5,d9
+.L243:
+	st.w	[a10],d15
+.L244:
+	mul.f	d5,d1,d4
+.L245:
+	mul	d15,d0,#4
+.L246:
+	mul	d3,d7,#28
+.L247:
+	movh.a	a15,#@his(fuzzyRuleKi)
+	lea	a15,[a15]@los(fuzzyRuleKi)
+.L248:
+	addsc.a	a15,a15,d3,#0
+.L249:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d9,[a15]
+.L250:
+	mul.f	d10,d1,d8
+.L251:
+	mul	d15,d0,#4
+.L252:
+	mul	d3,d6,#28
+.L253:
+	movh.a	a15,#@his(fuzzyRuleKi)
+	lea	a15,[a15]@los(fuzzyRuleKi)
+.L254:
+	addsc.a	a15,a15,d3,#0
+.L255:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d11,[a15]
+.L256:
+	mul.f	d12,d2,d8
+.L257:
+	ld.w	d15,[a10]12
+.L117:
+	mul	d15,d15,#4
+.L118:
+	mul	d3,d6,#28
+.L258:
+	movh.a	a15,#@his(fuzzyRuleKi)
+	lea	a15,[a15]@los(fuzzyRuleKi)
+.L259:
+	addsc.a	a15,a15,d3,#0
+.L260:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d13,[a15]
+.L261:
+	mul.f	d14,d2,d4
+.L262:
+	ld.w	d15,[a10]12
+.L119:
+	mul	d15,d15,#4
+.L120:
+	mul	d3,d7,#28
+.L263:
+	movh.a	a15,#@his(fuzzyRuleKi)
+	lea	a15,[a15]@los(fuzzyRuleKi)
+.L264:
+	addsc.a	a15,a15,d3,#0
+.L265:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L266:
+	mul.f	d15,d14,d15
+.L267:
+	madd.f	d15,d15,d12,d13
+.L268:
+	madd.f	d15,d15,d10,d11
+.L269:
+	madd.f	d15,d15,d5,d9
+.L270:
+	st.w	[a10]4,d15
+.L271:
+	mul.f	d5,d1,d4
+.L272:
+	mul	d15,d0,#4
+.L273:
+	mul	d3,d7,#28
+.L274:
+	movh.a	a15,#@his(fuzzyRuleKd)
+	lea	a15,[a15]@los(fuzzyRuleKd)
+.L275:
+	addsc.a	a15,a15,d3,#0
+.L276:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d3,[a15]
+.L277:
+	mul.f	d9,d1,d8
+.L278:
+	mul	d15,d0,#4
+.L279:
+	mul	d0,d6,#28
+.L109:
+	movh.a	a15,#@his(fuzzyRuleKd)
+	lea	a15,[a15]@los(fuzzyRuleKd)
+.L280:
+	addsc.a	a15,a15,d0,#0
+.L281:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d10,[a15]
+.L282:
+	mul.f	d8,d2,d8
+.L283:
+	ld.w	d15,[a10]12
+.L121:
+	mul	d0,d15,#4
+.L284:
+	mul	d15,d6,#28
+.L122:
+	movh.a	a15,#@his(fuzzyRuleKd)
+	lea	a15,[a15]@los(fuzzyRuleKd)
+.L285:
+	addsc.a	a15,a15,d15,#0
+.L286:
+	addsc.a	a15,a15,d0,#0
+	ld.w	d0,[a15]
+.L287:
+	mul.f	d1,d2,d4
+.L288:
+	ld.w	d15,[a10]12
+.L123:
+	mul	d2,d15,#4
+.L289:
+	mul	d15,d7,#28
+.L124:
+	movh.a	a15,#@his(fuzzyRuleKd)
+	lea	a15,[a15]@los(fuzzyRuleKd)
+.L290:
+	addsc.a	a15,a15,d15,#0
+.L291:
+	addsc.a	a15,a15,d2,#0
+	ld.w	d15,[a15]
+.L292:
+	mul.f	d15,d1,d15
+.L293:
+	madd.f	d15,d15,d8,d0
+.L294:
+	madd.f	d15,d15,d9,d10
+.L295:
+	madd.f	d15,d15,d5,d3
+.L296:
+	st.w	[a10]8,d15
+.L297:
+	lea	a15,[a10]0
+.L298:
+	mov.a	a2,#2
+.L42:
+	ld.w	d15,[a15+]
+	st.w	[a4+],d15
+	loop	a2,.L42
+	j	.L43
+.L43:
+	ret
+.L71:
+	
+__fuzzy_function_end:
+	.size	fuzzy,__fuzzy_function_end-fuzzy
+.L58:
+	; End of function
+	
+	.sdecl	'.text.FuzzyPID.speed_pid',code,cluster('speed_pid')
+	.sect	'.text.FuzzyPID.speed_pid'
+	.align	2
+	
+	.global	speed_pid
+; Function speed_pid
+.L49:
+speed_pid:	.type	func
+	sub.a	a10,#16
+.L125:
+	mov	d15,#0
+.L126:
+	movh.a	a15,#@his(.1.ini)
+	lea	a15,[a15]@los(.1.ini)
+	lea	a15,[a15]0
+.L303:
+	lea	a2,[a10]0
+	mov.a	a4,#2
+.L44:
+	ld.w	d0,[a15+]
+	st.w	[a2+],d0
+	loop	a4,.L44
+.L304:
+	insn.t	d8,d15:31,d15:31
+.L128:
+	movh.a	a15,#@his(_999003_lastE)
+	lea	a15,[a15]@los(_999003_lastE)
+	ld.w	d15,[a15]
+.L127:
+	itof	d15,d15
+.L305:
+	sub.f	d9,d8,d15
+.L129:
+	movh.a	a15,#@his(_999002_sumE)
+	lea	a15,[a15]@los(_999002_sumE)
+	movh.a	a2,#@his(_999002_sumE)
+	lea	a2,[a2]@los(_999002_sumE)
+	ld.w	d15,[a2]
+	itof	d15,d15
+.L306:
+	add.f	d15,d15,d8
+	ftoiz	d15,d15
+	st.w	[a15],d15
+.L307:
+	movh.a	a15,#@his(_999003_lastE)
+	lea	a15,[a15]@los(_999003_lastE)
+.L308:
+	ftoiz	d15,d8
+.L309:
+	st.w	[a15],d15
+.L310:
+	lea	a4,[a10]0
+.L311:
+	mov	e4,d9,d8
+	call	fuzzy
+.L312:
+	movh.a	a15,#@his(_999001_pid)
+	lea	a15,[a15]@los(_999001_pid)
+.L313:
+	ld.w	d15,[a15]4
+.L314:
+	ld.w	d0,[a10]4
+.L315:
+	add.f	d0,d15,d0
+.L316:
+	movh.a	a15,#@his(_999002_sumE)
+	lea	a15,[a15]@los(_999002_sumE)
+	ld.w	d15,[a15]
+	itof	d1,d15
+.L317:
+	movh.a	a15,#@his(_999001_pid)
+	lea	a15,[a15]@los(_999001_pid)
+.L318:
+	ld.w	d15,[a15]
+.L319:
+	ld.w	d2,[a10]
+.L320:
+	add.f	d2,d15,d2
+.L321:
+	movh.a	a15,#@his(_999001_pid)
+	lea	a15,[a15]@los(_999001_pid)
+.L322:
+	ld.w	d15,[a15]8
+.L323:
+	ld.w	d3,[a10]8
+.L324:
+	add.f	d15,d15,d3
+.L325:
+	mul.f	d15,d15,d9
+.L326:
+	madd.f	d15,d15,d2,d8
+.L327:
+	madd.f	d2,d15,d0,d1
+.L328:
+	j	.L45
+.L45:
+	ret
+.L87:
+	
+__speed_pid_function_end:
+	.size	speed_pid,__speed_pid_function_end-speed_pid
+.L63:
+	; End of function
+	
+	.sdecl	'.rodata.FuzzyPID.fuzzyRuleKp',data,rom,cluster('fuzzyRuleKp')
+	.sect	'.rodata.FuzzyPID.fuzzyRuleKp'
+	.align	2
+fuzzyRuleKp:	.type	object
+	.size	fuzzyRuleKp,196
+	.word	1077936128,1077936128,1073741824,1073741824
+	.word	1065353216,1065353216
+	.space	4
+	.word	1077936128,1077936128,1073741824,1073741824
+	.word	1065353216
+	.space	8
+	.word	1073741824,1073741824,1073741824,1065353216
+	.space	4
+	.word	-1082130432,-1073741824,1073741824,1065353216
+	.word	1065353216
+	.space	4
+	.word	-1082130432,-1073741824,-1073741824,1065353216
+	.word	1065353216
+	.space	4
+	.word	-1082130432,-1082130432,-1073741824,-1073741824
+	.space	8
+	.word	-1082130432,-1073741824,-1073741824,-1073741824
+	.word	-1069547520
+	.space	4
+	.word	-1082130432,-1082130432,-1073741824,-1073741824
+	.word	-1069547520,-1069547520
+	.sdecl	'.rodata.FuzzyPID.fuzzyRuleKi',data,rom,cluster('fuzzyRuleKi')
+	.sect	'.rodata.FuzzyPID.fuzzyRuleKi'
+	.align	2
+fuzzyRuleKi:	.type	object
+	.size	fuzzyRuleKi,196
+	.word	-1069547520,-1069547520,-1069547520,-1073741824
+	.word	-1073741824
+	.space	8
+	.word	-1069547520,-1069547520,-1073741824,-1073741824
+	.word	-1082130432
+	.space	8
+	.word	-1073741824,-1073741824,-1082130432,-1082130432
+	.space	4
+	.word	1065353216,1065353216,-1073741824,-1082130432
+	.word	-1082130432
+	.space	4
+	.word	1065353216,1065353216,1073741824,-1082130432
+	.word	-1082130432
+	.space	4
+	.word	1065353216,1065353216,1073741824,1073741824
+	.space	8
+	.word	1065353216,1073741824,1073741824,1077936128
+	.word	1077936128
+	.space	8
+	.word	1065353216,1073741824,1077936128,1077936128
+	.word	1077936128
+	.sdecl	'.rodata.FuzzyPID.fuzzyRuleKd',data,rom,cluster('fuzzyRuleKd')
+	.sect	'.rodata.FuzzyPID.fuzzyRuleKd'
+	.align	2
+fuzzyRuleKd:	.type	object
+	.size	fuzzyRuleKd,196
+	.word	1065353216,1065353216
+	.space	12
+	.word	1077936128,1077936128,-1082130432,-1082130432
+	.word	-1082130432,-1082130432
+	.space	4
+	.word	-1082130432,1073741824,-1069547520,-1069547520
+	.word	-1073741824,-1082130432
+	.space	4
+	.word	1065353216,1073741824,-1069547520,-1073741824
+	.word	-1073741824,-1082130432
+	.space	4
+	.word	1065353216,1073741824,-1069547520,-1073741824
+	.word	-1082130432,-1082130432
+	.space	4
+	.word	1065353216,1065353216,-1073741824,-1082130432
+	.word	-1082130432,-1082130432
+	.space	4
+	.word	1065353216,1065353216,1065353216
+	.space	16
+	.word	1077936128,1077936128
+	.sdecl	'.data.FuzzyPID._999001_pid',data,cluster('_999001_pid')
+	.sect	'.data.FuzzyPID._999001_pid'
+	.align	4
+_999001_pid:	.type	object
+	.size	_999001_pid,12
+	.space	12
+	.sdecl	'.data.FuzzyPID._999002_sumE',data,cluster('_999002_sumE')
+	.sect	'.data.FuzzyPID._999002_sumE'
+	.align	2
+_999002_sumE:	.type	object
+	.size	_999002_sumE,4
+	.space	4
+	.sdecl	'.data.FuzzyPID._999003_lastE',data,cluster('_999003_lastE')
+	.sect	'.data.FuzzyPID._999003_lastE'
+	.align	2
+_999003_lastE:	.type	object
+	.size	_999003_lastE,4
+	.space	4
+	.sdecl	'.rodata.FuzzyPID..1.ini',data,rom
+	.sect	'.rodata.FuzzyPID..1.ini'
+	.align	4
+.1.ini:	.type	object
+	.size	.1.ini,12
+	.space	12
+	.calls	'speed_pid','fuzzy'
+	.calls	'fuzzy','',16
+	.calls	'speed_pid','',16
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L51:
+	.word	1322
+	.half	3
+	.word	.L52
+	.byte	4
+.L50:
+	.byte	1
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L53
+.L72:
+	.byte	2
+	.byte	'float',0,4,4
+.L70:
+	.byte	3,1,64,9,12,4
+	.byte	'Kp',0
+	.word	202
+	.byte	4,2,35,0,4
+	.byte	'Ki',0
+	.word	202
+	.byte	4,2,35,4,4
+	.byte	'Kd',0
+	.word	202
+	.byte	4,2,35,8,0
+.L81:
+	.byte	2
+	.byte	'int',0,4,5,2
+	.byte	'short int',0,2,5,5
+	.byte	'__wchar_t',0,1,1,1
+	.word	260
+	.byte	2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'__size_t',0,1,1,1
+	.word	291
+	.byte	5
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	253
+	.byte	6,1,7
+	.word	344
+	.byte	5
+	.byte	'__codeptr',0,1,1,1
+	.word	346
+	.byte	2
+	.byte	'unsigned char',0,1,8,5
+	.byte	'uint8',0,2,108,29
+	.word	369
+	.byte	2
+	.byte	'unsigned short int',0,2,7,5
+	.byte	'uint16',0,2,112,29
+	.word	400
+	.byte	2
+	.byte	'unsigned long int',0,4,7,5
+	.byte	'uint32',0,2,116,29
+	.word	437
+	.byte	5
+	.byte	'sint16',0,2,129,1,29
+	.word	260
+	.byte	2
+	.byte	'long int',0,4,5,5
+	.byte	'sint32',0,2,134,1,29
+	.word	489
+	.byte	2
+	.byte	'long long int',0,8,5,5
+	.byte	'sint64',0,2,141,1,29
+	.word	517
+	.byte	5
+	.byte	'float32',0,2,170,1,29
+	.word	202
+	.byte	8
+	.byte	'void',0,7
+	.word	567
+	.byte	5
+	.byte	'pvoid',0,3,54,28
+	.word	573
+	.byte	5
+	.byte	'Ifx_TickTime',0,3,76,28
+	.word	517
+	.byte	9,4,28,9,1,10
+	.byte	'MOTOR_STATE_STOP',0,0,10
+	.byte	'MOTOR_STATE_STARTUP',0,1,10
+	.byte	'MOTOR_STATE_RUNNING',0,2,10
+	.byte	'MOTOR_STATE_FAIL',0,3,10
+	.byte	'MOTOR_STATE_HOLDING_POSITION',0,4,0,5
+	.byte	'enMotorState',0,4,36,2
+	.word	613
+	.byte	9,4,38,9,1,10
+	.byte	'K_ROT_DIR_FBK_STOP',0,0,10
+	.byte	'K_ROT_DIR_FBK_CW',0,1,10
+	.byte	'K_ROT_DIR_FBK_CCW',0,2,0,5
+	.byte	'enMotor_RotationDirState_fbk',0,4,44,2
+	.word	753
+	.byte	9,4,46,9,1,10
+	.byte	'K_ROT_DIR_UNKNOWN',0,0,10
+	.byte	'K_ROT_DIR_CW',0,1,10
+	.byte	'K_ROT_DIR_CCW',0,2,0,5
+	.byte	'enMotorRotationDir',0,4,52,2
+	.word	856
+	.byte	9,4,55,9,1,10
+	.byte	'MOTOR_CMD_STOP',0,0,10
+	.byte	'MOTOR_CMD_START_CCW',0,1,10
+	.byte	'MOTOR_CMD_START_CW',0,2,10
+	.byte	'MOTOR_CMD_REINIT',0,8,0,5
+	.byte	'enMotorCmd',0,4,62,2
+	.word	940
+	.byte	9,4,65,9,1,10
+	.byte	'LOOP_CMD_SPEED',0,1,10
+	.byte	'LOOP_CMD_CURRENT',0,2,10
+	.byte	'LOOP_CMD_POSITION',0,3,10
+	.byte	'LOOP_CMD_DOUBLE_SPPED_CURRENT',0,4,0,5
+	.byte	'MotorLoopCmd',0,4,73,2
+	.word	1044
+	.byte	9,4,75,9,1,10
+	.byte	'LOOP_MODE_SPEED',0,1,10
+	.byte	'LOOP_MODE_CURRENT',0,2,10
+	.byte	'LOOP_MODE_POSITION',0,3,10
+	.byte	'LOOP_MODE_DOUBLE_SPPED_CURRENT',0,4,0,5
+	.byte	'MotorLoopMode',0,4,82,2
+	.word	1159
+	.byte	11,28
+	.word	202
+	.byte	12,6,0,11,196,1
+	.word	1279
+	.byte	12,6,0
+.L93:
+	.byte	13
+	.word	1288
+.L94:
+	.byte	13
+	.word	1288
+.L95:
+	.byte	13
+	.word	1288
+	.byte	5
+	.byte	'PID',0,1,69,2
+	.word	211
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L52:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,58,15,59,15,57,15,11,15
+	.byte	0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,22,0,3,8,58,15,59,15,57,15,73,19,0,0,6,21,0,54,15,0,0,7,15,0,73
+	.byte	19,0,0,8,59,0,3,8,0,0,9,4,1,58,15,59,15,57,15,11,15,0,0,10,40,0,3,8,28,13,0,0,11,1,1,11,15,73,19,0,0,12
+	.byte	33,0,47,15,0,0,13,38,0,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L53:
+	.word	.L131-.L130
+.L130:
+	.half	3
+	.word	.L133-.L132
+.L132:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC',0,0
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0,0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'MotorMgtSwc.h',0,1,0,0,0
+.L133:
+.L131:
+	.sdecl	'.debug_info',debug,cluster('fuzzy')
+	.sect	'.debug_info'
+.L54:
+	.word	524
+	.half	3
+	.word	.L55
+	.byte	4,1
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L57,.L56
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'fuzzy',0,1,72,5
+	.word	.L70
+	.byte	1,1,1
+	.word	.L47,.L71,.L46
+	.byte	4
+	.byte	'e',0,1,72,17
+	.word	.L72,.L73
+	.byte	4
+	.byte	'ec',0,1,72,25
+	.word	.L72,.L74
+	.byte	5
+	.word	.L47,.L71
+	.byte	6
+	.byte	'etemp',0,1,75,12
+	.word	.L72,.L75
+	.byte	6
+	.byte	'ectemp',0,1,75,18
+	.word	.L72,.L76
+	.byte	6
+	.byte	'eLefttemp',0,1,76,12
+	.word	.L72,.L77
+	.byte	6
+	.byte	'ecLefttemp',0,1,76,22
+	.word	.L72,.L78
+	.byte	6
+	.byte	'eRighttemp',0,1,77,12
+	.word	.L72,.L79
+	.byte	6
+	.byte	'ecRighttemp',0,1,77,24
+	.word	.L72,.L80
+	.byte	6
+	.byte	'eLeftIndex',0,1,79,10
+	.word	.L81,.L82
+	.byte	6
+	.byte	'ecLeftIndex',0,1,79,21
+	.word	.L81,.L83
+	.byte	6
+	.byte	'eRightIndex',0,1,80,10
+	.word	.L81,.L84
+	.byte	6
+	.byte	'ecRightIndex',0,1,80,22
+	.word	.L81,.L85
+	.byte	6
+	.byte	'fuzzy_PID',0,1,81,15
+	.word	.L70,.L86
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('fuzzy')
+	.sect	'.debug_abbrev'
+.L55:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('fuzzy')
+	.sect	'.debug_line'
+.L56:
+	.word	.L135-.L134
+.L134:
+	.half	3
+	.word	.L137-.L136
+.L136:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0,0,0,0,0
+.L137:
+	.byte	5,5,7,0,5,2
+	.word	.L47
+	.byte	3,199,0,1,5,18,9
+	.half	.L96-.L47
+	.byte	3,10,1,5,16,9
+	.half	.L138-.L96
+	.byte	1,5,14,9
+	.half	.L139-.L138
+	.byte	1,5,22,7,9
+	.half	.L140-.L139
+	.byte	1,5,28,9
+	.half	.L141-.L140
+	.byte	1,5,35,9
+	.half	.L2-.L141
+	.byte	1,5,33,9
+	.half	.L142-.L2
+	.byte	1,5,31,9
+	.half	.L143-.L142
+	.byte	1,5,41,7,9
+	.half	.L144-.L143
+	.byte	1,5,47,9
+	.half	.L145-.L144
+	.byte	1,5,55,9
+	.half	.L4-.L145
+	.byte	1,5,52,9
+	.half	.L146-.L4
+	.byte	1,5,50,9
+	.half	.L147-.L146
+	.byte	1,5,67,7,9
+	.half	.L148-.L147
+	.byte	1,5,64,9
+	.half	.L149-.L148
+	.byte	1,5,62,9
+	.half	.L150-.L149
+	.byte	1,5,73,7,9
+	.half	.L151-.L150
+	.byte	1,5,76,9
+	.half	.L152-.L151
+	.byte	1,5,84,9
+	.half	.L7-.L152
+	.byte	1,5,81,9
+	.half	.L153-.L7
+	.byte	1,5,79,9
+	.half	.L154-.L153
+	.byte	1,5,96,7,9
+	.half	.L155-.L154
+	.byte	1,5,94,9
+	.half	.L156-.L155
+	.byte	1,5,90,9
+	.half	.L9-.L156
+	.byte	1,5,102,9
+	.half	.L8-.L9
+	.byte	1,5,110,9
+	.half	.L6-.L8
+	.byte	1,5,107,9
+	.half	.L157-.L6
+	.byte	1,5,105,9
+	.half	.L158-.L157
+	.byte	1,5,117,7,9
+	.half	.L159-.L158
+	.byte	1,5,122,9
+	.half	.L160-.L159
+	.byte	1,5,130,1,9
+	.half	.L12-.L160
+	.byte	1,5,127,9
+	.half	.L161-.L12
+	.byte	1,5,125,9
+	.half	.L162-.L161
+	.byte	1,5,137,1,7,9
+	.half	.L163-.L162
+	.byte	1,5,142,1,9
+	.half	.L164-.L163
+	.byte	1,5,145,1,9
+	.half	.L14-.L164
+	.byte	1,5,155,1,9
+	.half	.L97-.L14
+	.byte	1,5,162,1,9
+	.half	.L165-.L97
+	.byte	1,5,157,1,9
+	.half	.L16-.L165
+	.byte	1,5,32,9
+	.half	.L3-.L16
+	.byte	3,4,1,5,31,9
+	.half	.L166-.L3
+	.byte	1,5,39,9
+	.half	.L167-.L166
+	.byte	1,5,37,9
+	.half	.L168-.L167
+	.byte	1,5,19,9
+	.half	.L169-.L168
+	.byte	1,5,33,9
+	.half	.L102-.L169
+	.byte	3,1,1,5,32,9
+	.half	.L101-.L102
+	.byte	1,5,40,9
+	.half	.L170-.L101
+	.byte	1,5,38,9
+	.half	.L171-.L170
+	.byte	1,5,20,9
+	.half	.L172-.L171
+	.byte	1,5,17,9
+	.half	.L103-.L172
+	.byte	3,2,1,5,44,9
+	.half	.L173-.L103
+	.byte	1,5,43,9
+	.half	.L174-.L173
+	.byte	1,5,48,9
+	.half	.L175-.L174
+	.byte	1,5,35,9
+	.half	.L176-.L175
+	.byte	1,5,30,9
+	.half	.L18-.L176
+	.byte	1,5,17,9
+	.half	.L19-.L18
+	.byte	3,1,1,5,47,9
+	.half	.L177-.L19
+	.byte	1,5,46,9
+	.half	.L178-.L177
+	.byte	1,5,39,9
+	.half	.L179-.L178
+	.byte	1,5,35,9
+	.half	.L180-.L179
+	.byte	1,5,30,9
+	.half	.L20-.L180
+	.byte	1,5,20,9
+	.half	.L21-.L20
+	.byte	3,2,1,5,18,9
+	.half	.L181-.L21
+	.byte	1,5,15,9
+	.half	.L182-.L181
+	.byte	1,5,24,7,9
+	.half	.L183-.L182
+	.byte	1,5,30,9
+	.half	.L98-.L183
+	.byte	1,5,38,9
+	.half	.L22-.L98
+	.byte	1,5,36,9
+	.half	.L184-.L22
+	.byte	1,5,33,9
+	.half	.L185-.L184
+	.byte	1,5,44,7,9
+	.half	.L186-.L185
+	.byte	1,5,50,9
+	.half	.L104-.L186
+	.byte	1,5,59,9
+	.half	.L24-.L104
+	.byte	1,5,56,9
+	.half	.L187-.L24
+	.byte	1,5,53,9
+	.half	.L188-.L187
+	.byte	1,5,72,7,9
+	.half	.L189-.L188
+	.byte	1,5,69,9
+	.half	.L190-.L189
+	.byte	1,5,66,9
+	.half	.L191-.L190
+	.byte	1,5,78,7,9
+	.half	.L192-.L191
+	.byte	1,5,81,9
+	.half	.L105-.L192
+	.byte	1,5,90,9
+	.half	.L27-.L105
+	.byte	1,5,87,9
+	.half	.L193-.L27
+	.byte	1,5,84,9
+	.half	.L194-.L193
+	.byte	1,5,102,7,9
+	.half	.L195-.L194
+	.byte	1,5,100,9
+	.half	.L106-.L195
+	.byte	1,5,96,9
+	.half	.L29-.L106
+	.byte	1,5,108,9
+	.half	.L28-.L29
+	.byte	1,5,117,9
+	.half	.L26-.L28
+	.byte	1,5,114,9
+	.half	.L196-.L26
+	.byte	1,5,111,9
+	.half	.L197-.L196
+	.byte	1,5,124,7,9
+	.half	.L198-.L197
+	.byte	1,5,129,1,9
+	.half	.L107-.L198
+	.byte	1,5,138,1,9
+	.half	.L32-.L107
+	.byte	1,5,135,1,9
+	.half	.L199-.L32
+	.byte	1,5,132,1,9
+	.half	.L200-.L199
+	.byte	1,5,145,1,7,9
+	.half	.L201-.L200
+	.byte	1,5,150,1,9
+	.half	.L108-.L201
+	.byte	1,5,153,1,9
+	.half	.L34-.L108
+	.byte	1,5,164,1,9
+	.half	.L99-.L34
+	.byte	1,5,171,1,9
+	.half	.L202-.L99
+	.byte	1,5,166,1,9
+	.half	.L36-.L202
+	.byte	1,5,34,9
+	.half	.L23-.L36
+	.byte	3,2,1,5,33,9
+	.half	.L203-.L23
+	.byte	1,5,41,9
+	.half	.L204-.L203
+	.byte	1,5,39,9
+	.half	.L205-.L204
+	.byte	1,5,20,9
+	.half	.L206-.L205
+	.byte	1,5,35,9
+	.half	.L111-.L206
+	.byte	3,1,1,5,34,9
+	.half	.L207-.L111
+	.byte	1,5,42,9
+	.half	.L208-.L207
+	.byte	1,5,40,9
+	.half	.L209-.L208
+	.byte	1,5,21,9
+	.half	.L210-.L209
+	.byte	1,5,18,9
+	.half	.L112-.L210
+	.byte	3,2,1,5,47,9
+	.half	.L211-.L112
+	.byte	1,5,46,9
+	.half	.L212-.L211
+	.byte	1,5,51,9
+	.half	.L213-.L212
+	.byte	1,5,37,9
+	.half	.L214-.L213
+	.byte	1,5,32,9
+	.half	.L38-.L214
+	.byte	1,5,18,9
+	.half	.L39-.L38
+	.byte	3,1,1,5,51,9
+	.half	.L215-.L39
+	.byte	1,5,50,9
+	.half	.L216-.L215
+	.byte	1,5,42,9
+	.half	.L217-.L216
+	.byte	1,5,37,9
+	.half	.L218-.L217
+	.byte	1,5,32,9
+	.half	.L40-.L218
+	.byte	1,5,34,9
+	.half	.L41-.L40
+	.byte	3,10,1,5,75,9
+	.half	.L110-.L41
+	.byte	1,5,61,9
+	.half	.L219-.L110
+	.byte	1,5,50,9
+	.half	.L220-.L219
+	.byte	1,5,61,9
+	.half	.L221-.L220
+	.byte	1,5,75,9
+	.half	.L222-.L221
+	.byte	1,5,34,9
+	.half	.L223-.L222
+	.byte	3,127,1,5,73,9
+	.half	.L224-.L223
+	.byte	1,5,60,9
+	.half	.L225-.L224
+	.byte	1,5,49,9
+	.half	.L226-.L225
+	.byte	1,5,60,9
+	.half	.L227-.L226
+	.byte	1,5,73,9
+	.half	.L228-.L227
+	.byte	1,5,31,9
+	.half	.L229-.L228
+	.byte	3,126,1,5,71,9
+	.half	.L230-.L229
+	.byte	1,5,58,9
+	.half	.L114-.L230
+	.byte	1,5,47,9
+	.half	.L231-.L114
+	.byte	1,5,58,9
+	.half	.L232-.L231
+	.byte	1,5,71,9
+	.half	.L233-.L232
+	.byte	1,5,33,9
+	.half	.L234-.L233
+	.byte	3,1,1,5,74,9
+	.half	.L235-.L234
+	.byte	1,5,60,9
+	.half	.L116-.L235
+	.byte	1,5,49,9
+	.half	.L236-.L116
+	.byte	1,5,60,9
+	.half	.L237-.L236
+	.byte	1,5,74,9
+	.half	.L238-.L237
+	.byte	1,5,47,9
+	.half	.L239-.L238
+	.byte	1,5,21,9
+	.half	.L240-.L239
+	.byte	1,9
+	.half	.L241-.L240
+	.byte	3,1,1,9
+	.half	.L242-.L241
+	.byte	3,1,1,5,18,9
+	.half	.L243-.L242
+	.byte	3,125,1,5,34,9
+	.half	.L244-.L243
+	.byte	3,8,1,5,75,9
+	.half	.L245-.L244
+	.byte	1,5,61,9
+	.half	.L246-.L245
+	.byte	1,5,50,9
+	.half	.L247-.L246
+	.byte	1,5,61,9
+	.half	.L248-.L247
+	.byte	1,5,75,9
+	.half	.L249-.L248
+	.byte	1,5,34,9
+	.half	.L250-.L249
+	.byte	3,127,1,5,73,9
+	.half	.L251-.L250
+	.byte	1,5,60,9
+	.half	.L252-.L251
+	.byte	1,5,49,9
+	.half	.L253-.L252
+	.byte	1,5,60,9
+	.half	.L254-.L253
+	.byte	1,5,73,9
+	.half	.L255-.L254
+	.byte	1,5,33,9
+	.half	.L256-.L255
+	.byte	3,126,1,5,72,9
+	.half	.L257-.L256
+	.byte	1,5,59,9
+	.half	.L118-.L257
+	.byte	1,5,48,9
+	.half	.L258-.L118
+	.byte	1,5,59,9
+	.half	.L259-.L258
+	.byte	1,5,72,9
+	.half	.L260-.L259
+	.byte	1,5,33,9
+	.half	.L261-.L260
+	.byte	3,1,1,5,74,9
+	.half	.L262-.L261
+	.byte	1,5,60,9
+	.half	.L120-.L262
+	.byte	1,5,49,9
+	.half	.L263-.L120
+	.byte	1,5,60,9
+	.half	.L264-.L263
+	.byte	1,5,74,9
+	.half	.L265-.L264
+	.byte	1,5,47,9
+	.half	.L266-.L265
+	.byte	1,5,21,9
+	.half	.L267-.L266
+	.byte	1,9
+	.half	.L268-.L267
+	.byte	3,1,1,9
+	.half	.L269-.L268
+	.byte	3,1,1,5,18,9
+	.half	.L270-.L269
+	.byte	3,125,1,5,34,9
+	.half	.L271-.L270
+	.byte	3,8,1,5,75,9
+	.half	.L272-.L271
+	.byte	1,5,61,9
+	.half	.L273-.L272
+	.byte	1,5,50,9
+	.half	.L274-.L273
+	.byte	1,5,61,9
+	.half	.L275-.L274
+	.byte	1,5,75,9
+	.half	.L276-.L275
+	.byte	1,5,34,9
+	.half	.L277-.L276
+	.byte	3,127,1,5,73,9
+	.half	.L278-.L277
+	.byte	1,5,60,9
+	.half	.L279-.L278
+	.byte	1,5,49,9
+	.half	.L109-.L279
+	.byte	1,5,60,9
+	.half	.L280-.L109
+	.byte	1,5,73,9
+	.half	.L281-.L280
+	.byte	1,5,31,9
+	.half	.L282-.L281
+	.byte	3,126,1,5,73,9
+	.half	.L283-.L282
+	.byte	1,5,60,9
+	.half	.L284-.L283
+	.byte	1,5,49,9
+	.half	.L122-.L284
+	.byte	1,5,60,9
+	.half	.L285-.L122
+	.byte	1,5,73,9
+	.half	.L286-.L285
+	.byte	1,5,33,9
+	.half	.L287-.L286
+	.byte	3,1,1,5,74,9
+	.half	.L288-.L287
+	.byte	1,5,60,9
+	.half	.L289-.L288
+	.byte	1,5,49,9
+	.half	.L124-.L289
+	.byte	1,5,60,9
+	.half	.L290-.L124
+	.byte	1,5,74,9
+	.half	.L291-.L290
+	.byte	1,5,47,9
+	.half	.L292-.L291
+	.byte	1,5,21,9
+	.half	.L293-.L292
+	.byte	1,9
+	.half	.L294-.L293
+	.byte	3,1,1,9
+	.half	.L295-.L294
+	.byte	3,1,1,5,18,9
+	.half	.L296-.L295
+	.byte	3,125,1,5,8,9
+	.half	.L297-.L296
+	.byte	3,4,1,5,1,9
+	.half	.L298-.L297
+	.byte	1,9
+	.half	.L43-.L298
+	.byte	3,2,1,7,9
+	.half	.L58-.L43
+	.byte	0,1,1
+.L135:
+	.sdecl	'.debug_ranges',debug,cluster('fuzzy')
+	.sect	'.debug_ranges'
+.L57:
+	.word	-1,.L47,0,.L58-.L47,0,0
+	.sdecl	'.debug_info',debug,cluster('speed_pid')
+	.sect	'.debug_info'
+.L59:
+	.word	390
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L62,.L61
+	.byte	2
+	.word	.L50
+	.byte	3
+	.byte	'speed_pid',0,1,124,7
+	.word	.L72
+	.byte	1,1
+	.word	.L49,.L87,.L48
+	.byte	4
+	.word	.L49,.L87
+	.byte	5
+	.byte	'tar',0,1,126,15
+	.word	.L72,.L88
+	.byte	5
+	.byte	'cur',0,1,126,23
+	.word	.L72,.L89
+	.byte	6
+	.byte	'pid',0,1,127,16
+	.word	.L70
+	.byte	5,3
+	.word	_999001_pid
+	.byte	6
+	.byte	'sumE',0,1,128,1,16
+	.word	.L81
+	.byte	5,3
+	.word	_999002_sumE
+	.byte	6
+	.byte	'lastE',0,1,129,1,16
+	.word	.L81
+	.byte	5,3
+	.word	_999003_lastE
+	.byte	5
+	.byte	'OUT',0,1,131,1,9
+	.word	.L70,.L90
+	.byte	5
+	.byte	'e',0,1,132,1,11
+	.word	.L72,.L91
+	.byte	5
+	.byte	'ec',0,1,132,1,18
+	.word	.L72,.L92
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('speed_pid')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,6,52,0
+	.byte	3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('speed_pid')
+	.sect	'.debug_line'
+.L61:
+	.word	.L300-.L299
+.L299:
+	.half	3
+	.word	.L302-.L301
+.L301:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0,0,0,0,0
+.L302:
+	.byte	5,7,7,0,5,2
+	.word	.L49
+	.byte	3,251,0,1,5,27,9
+	.half	.L125-.L49
+	.byte	3,2,1,5,15,9
+	.half	.L126-.L125
+	.byte	3,5,1,5,13,9
+	.half	.L303-.L126
+	.byte	1,9
+	.half	.L304-.L303
+	.byte	3,5,1,5,14,9
+	.half	.L128-.L304
+	.byte	3,1,1,5,12,9
+	.half	.L305-.L128
+	.byte	1,5,5,9
+	.half	.L129-.L305
+	.byte	3,1,1,5,10,9
+	.half	.L306-.L129
+	.byte	1,5,5,9
+	.half	.L307-.L306
+	.byte	3,1,1,5,13,9
+	.half	.L308-.L307
+	.byte	1,5,11,9
+	.half	.L309-.L308
+	.byte	1,5,5,9
+	.half	.L310-.L309
+	.byte	3,1,1,5,20,9
+	.half	.L311-.L310
+	.byte	1,5,54,9
+	.half	.L312-.L311
+	.byte	3,2,1,5,57,9
+	.half	.L313-.L312
+	.byte	1,5,64,9
+	.half	.L314-.L313
+	.byte	1,5,60,9
+	.half	.L315-.L314
+	.byte	1,5,69,9
+	.half	.L316-.L315
+	.byte	1,5,13,9
+	.half	.L317-.L316
+	.byte	1,5,16,9
+	.half	.L318-.L317
+	.byte	1,5,23,9
+	.half	.L319-.L318
+	.byte	1,5,19,9
+	.half	.L320-.L319
+	.byte	1,5,33,9
+	.half	.L321-.L320
+	.byte	1,5,36,9
+	.half	.L322-.L321
+	.byte	1,5,43,9
+	.half	.L323-.L322
+	.byte	1,5,39,9
+	.half	.L324-.L323
+	.byte	1,5,47,9
+	.half	.L325-.L324
+	.byte	1,5,30,9
+	.half	.L326-.L325
+	.byte	1,5,51,9
+	.half	.L327-.L326
+	.byte	1,5,5,9
+	.half	.L328-.L327
+	.byte	1,5,1,9
+	.half	.L45-.L328
+	.byte	3,1,1,7,9
+	.half	.L63-.L45
+	.byte	0,1,1
+.L300:
+	.sdecl	'.debug_ranges',debug,cluster('speed_pid')
+	.sect	'.debug_ranges'
+.L62:
+	.word	-1,.L49,0,.L63-.L49,0,0
+	.sdecl	'.debug_info',debug,cluster('fuzzyRuleKp')
+	.sect	'.debug_info'
+.L64:
+	.word	226
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L50
+	.byte	3
+	.byte	'fuzzyRuleKp',0,1,31,20
+	.word	.L93
+	.byte	5,3
+	.word	fuzzyRuleKp
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('fuzzyRuleKp')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('fuzzyRuleKi')
+	.sect	'.debug_info'
+.L66:
+	.word	226
+	.half	3
+	.word	.L67
+	.byte	4,1
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L50
+	.byte	3
+	.byte	'fuzzyRuleKi',0,1,42,20
+	.word	.L94
+	.byte	5,3
+	.word	fuzzyRuleKi
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('fuzzyRuleKi')
+	.sect	'.debug_abbrev'
+.L67:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('fuzzyRuleKd')
+	.sect	'.debug_info'
+.L68:
+	.word	226
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../0_Src/2_CDrv/FuzzyPID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L50
+	.byte	3
+	.byte	'fuzzyRuleKd',0,1,53,20
+	.word	.L95
+	.byte	5,3
+	.word	fuzzyRuleKd
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('fuzzyRuleKd')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('fuzzy')
+	.sect	'.debug_loc'
+.L73:
+	.word	-1,.L47,0,.L97-.L47
+	.half	1
+	.byte	84
+	.word	.L16-.L47,.L98-.L47
+	.half	1
+	.byte	84
+	.word	.L22-.L47,.L104-.L47
+	.half	1
+	.byte	84
+	.word	.L24-.L47,.L105-.L47
+	.half	1
+	.byte	84
+	.word	.L27-.L47,.L106-.L47
+	.half	1
+	.byte	84
+	.word	.L29-.L47,.L28-.L47
+	.half	1
+	.byte	84
+	.word	.L26-.L47,.L107-.L47
+	.half	1
+	.byte	84
+	.word	.L32-.L47,.L108-.L47
+	.half	1
+	.byte	84
+	.word	.L34-.L47,.L99-.L47
+	.half	1
+	.byte	84
+	.word	.L36-.L47,.L23-.L47
+	.half	1
+	.byte	84
+	.word	0,0
+.L82:
+	.word	-1,.L47,.L100-.L47,.L101-.L47
+	.half	1
+	.byte	95
+	.word	.L102-.L47,.L99-.L47
+	.half	2
+	.byte	145,124
+	.word	.L36-.L47,.L71-.L47
+	.half	2
+	.byte	145,124
+	.word	.L113-.L47,.L114-.L47
+	.half	1
+	.byte	95
+	.word	.L115-.L47,.L116-.L47
+	.half	1
+	.byte	95
+	.word	.L117-.L47,.L118-.L47
+	.half	1
+	.byte	95
+	.word	.L119-.L47,.L120-.L47
+	.half	1
+	.byte	95
+	.word	.L121-.L47,.L122-.L47
+	.half	1
+	.byte	95
+	.word	.L123-.L47,.L124-.L47
+	.half	1
+	.byte	95
+	.word	0,0
+.L77:
+	.word	0,0
+.L84:
+	.word	-1,.L47,.L103-.L47,.L99-.L47
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L36-.L47,.L109-.L47
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L79:
+	.word	0,0
+.L74:
+	.word	-1,.L47,0,.L97-.L47
+	.half	1
+	.byte	85
+	.word	.L16-.L47,.L99-.L47
+	.half	1
+	.byte	85
+	.word	.L36-.L47,.L110-.L47
+	.half	1
+	.byte	85
+	.word	0,0
+.L83:
+	.word	-1,.L47,.L111-.L47,.L71-.L47
+	.half	1
+	.byte	86
+	.word	0,0
+.L78:
+	.word	0,0
+.L85:
+	.word	-1,.L47,.L112-.L47,.L71-.L47
+	.half	1
+	.byte	87
+	.word	0,0
+.L80:
+	.word	0,0
+.L76:
+	.word	0,0
+.L75:
+	.word	0,0
+.L46:
+	.word	-1,.L47,0,.L96-.L47
+	.half	2
+	.byte	138,0
+	.word	.L96-.L47,.L71-.L47
+	.half	2
+	.byte	138,16
+	.word	.L71-.L47,.L71-.L47
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L86:
+	.word	-1,.L47,0,.L97-.L47
+	.half	2
+	.byte	145,112
+	.word	.L16-.L47,.L99-.L47
+	.half	2
+	.byte	145,112
+	.word	.L36-.L47,.L71-.L47
+	.half	2
+	.byte	145,112
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('speed_pid')
+	.sect	'.debug_loc'
+.L90:
+	.word	-1,.L49,0,.L87-.L49
+	.half	2
+	.byte	145,112
+	.word	0,0
+.L89:
+	.word	-1,.L49,.L126-.L49,.L127-.L49
+	.half	1
+	.byte	95
+	.word	0,0
+.L91:
+	.word	-1,.L49,.L128-.L49,.L87-.L49
+	.half	1
+	.byte	88
+	.word	0,0
+.L92:
+	.word	-1,.L49,.L129-.L49,.L87-.L49
+	.half	1
+	.byte	89
+	.word	0,0
+.L48:
+	.word	-1,.L49,0,.L125-.L49
+	.half	2
+	.byte	138,0
+	.word	.L125-.L49,.L87-.L49
+	.half	2
+	.byte	138,16
+	.word	.L87-.L49,.L87-.L49
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L88:
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L329:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('fuzzy')
+	.sect	'.debug_frame'
+	.word	44
+	.word	.L329,.L47,.L71-.L47
+	.byte	8,19,8,21,8,22,8,23,4
+	.word	(.L96-.L47)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L71-.L96)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('speed_pid')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L329,.L49,.L87-.L49
+	.byte	4
+	.word	(.L125-.L49)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L87-.L125)/2
+	.byte	19,0,8,26,0,0
+	; Module end

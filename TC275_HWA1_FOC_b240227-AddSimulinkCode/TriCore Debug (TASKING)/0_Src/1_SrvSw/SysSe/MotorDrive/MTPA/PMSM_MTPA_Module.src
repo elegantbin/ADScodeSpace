@@ -1,0 +1,2440 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc16556a --dep-file=0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\Current_Controller -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\MTPA -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Configurations -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Trig -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.src ../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.PMSM_MTPA_Module.PMSM_MTPA_Module_step',code,cluster('PMSM_MTPA_Module_step')
+	.sect	'.text.PMSM_MTPA_Module.PMSM_MTPA_Module_step'
+	.align	2
+	
+	.global	PMSM_MTPA_Module_step
+; Function PMSM_MTPA_Module_step
+.L46:
+PMSM_MTPA_Module_step:	.type	func
+	sub.a	a10,#8
+.L100:
+	mov.aa	a12,a5
+.L102:
+	mov.aa	a13,a6
+.L103:
+	ld.a	a14,[a4]4
+.L104:
+	movh.a	a2,#@his(PMSM_MTPA_Module_P)
+	lea	a2,[a2]@los(PMSM_MTPA_Module_P)
+.L197:
+	ld.w	d15,[a2]180
+.L198:
+	ld.w	d0,[a12]
+	insert	d0,d0,#0,#31,#1
+.L199:
+	mul.f	d8,d15,d0
+.L105:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L200:
+	ld.w	d15,[a15]184
+.L201:
+	cmp.f	d15,d8,d15
+	extr.u	d15,d15,#2,#1
+.L202:
+	jeq	d15,#0,.L2
+.L203:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L204:
+	ld.w	d9,[a15]184
+.L106:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L205:
+	ld.w	d15,[a15]188
+.L206:
+	cmp.f	d15,d8,d15
+	jnz.t	d15:0,.L4
+.L207:
+	mov	d9,d8
+.L107:
+	j	.L5
+.L4:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L208:
+	ld.w	d9,[a15]188
+.L5:
+.L3:
+	mul.f	d10,d9,d9
+.L109:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L209:
+	ld.w	d15,[a15]192
+.L210:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+	ld.w	d0,[a15]196
+	mul.f	d0,d0,d10
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+	ld.w	d1,[a15]200
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+	ld.w	d2,[a15]200
+	msub.f	d0,d0,d1,d2
+	insert	d4,d0,#0,#31,#1
+	call	sqrt
+.L101:
+	sub.f	d11,d15,d2
+.L111:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L211:
+	ld.w	d15,[a15]204
+.L212:
+	cmp.f	d15,d11,d15
+	extr.u	d15,d15,#2,#1
+.L213:
+	jeq	d15,#0,.L6
+.L214:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L215:
+	ld.w	d11,[a15]204
+.L216:
+	j	.L7
+.L6:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L217:
+	ld.w	d15,[a15]208
+.L218:
+	cmp.f	d15,d11,d15
+	extr.u	d15,d15,#0,#1
+.L219:
+	jeq	d15,#0,.L8
+.L220:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L221:
+	ld.w	d11,[a15]208
+.L8:
+.L7:
+	ld.w	d15,[a12]4
+	insert	d12,d15,#0,#31,#1
+.L113:
+	msub.f	d15,d10,d11,d11
+	insert	d4,d15,#0,#31,#1
+	call	sqrt
+.L115:
+	mov	d13,d2
+.L117:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L222:
+	ld.bu	d0,[a15]256
+.L223:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L224:
+	ld.bu	d1,[a15]257
+.L225:
+	jge.u	d1,d0,.L9
+.L226:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L227:
+	ld.w	d15,[a15]164
+.L228:
+	mov	d0,#0
+.L229:
+	mul.f	d14,d15,d0
+.L119:
+	j	.L10
+.L9:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L230:
+	ld.w	d14,[a15]168
+.L10:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L231:
+	ld.w	d15,[a15]212
+.L232:
+	mul.f	d15,d15,d12
+.L120:
+	mul.f	d0,d11,d15
+.L233:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L234:
+	ld.w	d1,[a15]216
+.L235:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L236:
+	ld.w	d2,[a15]220
+.L116:
+	mul.f	d2,d2,d15
+.L237:
+	madd.f	d0,d2,d0,d1
+.L122:
+	mul.f	d15,d15,d13
+.L121:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L238:
+	ld.w	d1,[a15]224
+.L239:
+	mul.f	d15,d15,d1
+.L124:
+	mul.f	d15,d15,d15
+.L125:
+	madd.f	d4,d15,d0,d0
+.L126:
+	call	sqrt
+.L123:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L240:
+	ld.w	d15,[a15]228
+.L241:
+	mul.f	d15,d15,d14
+.L242:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L243:
+	ld.w	d0,[a15]232
+.L244:
+	sub.f	d15,d15,d0
+.L245:
+	cmp.f	d15,d2,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L246:
+	jne	d15,#0,.L11
+.L247:
+	st.w	[a14],d11
+.L248:
+	st.w	[a14]4,d13
+.L249:
+	j	.L12
+.L11:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L250:
+	ld.hu	d15,[a15]252
+.L251:
+	jeq	d15,#0,.L13
+.L252:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L253:
+	ld.hu	d11,[a15]248
+.L112:
+	j	.L14
+.L13:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L254:
+	ld.hu	d11,[a15]250
+.L14:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L255:
+	ld.w	d0,[a15]120
+.L256:
+	mul.f	d0,d0,d14
+.L257:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L258:
+	ld.w	d15,[a15]124
+.L259:
+	sub.f	d15,d0,d15
+.L260:
+	movh	d0,#16256
+.L261:
+	div.f	d0,d0,d12
+.L262:
+	mul.f	d15,d15,d0
+.L263:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L264:
+	ld.w	d0,[a15]128
+.L265:
+	mul.f	d15,d15,d0
+.L127:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L266:
+	ld.w	d0,[a15]112
+.L267:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L268:
+	ld.w	d1,[a15]112
+.L269:
+	mul.f	d0,d0,d1
+.L270:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L271:
+	ld.w	d1,[a15]116
+.L272:
+	mul.f	d15,d15,d15
+.L128:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L273:
+	ld.w	d2,[a15]132
+.L274:
+	msub.f	d15,d1,d15,d2
+.L275:
+	sub.f	d4,d0,d15
+.L129:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L276:
+	ld.w	d15,[a15]108
+.L277:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:0,.L15
+.L278:
+	call	sqrt
+.L130:
+	j	.L16
+.L15:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L279:
+	ld.w	d15,[a15]104
+.L280:
+	mul.f	d2,d4,d15
+.L16:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L281:
+	ld.w	d15,[a15]136
+.L282:
+	sub.f	d13,d15,d2
+.L118:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L283:
+	ld.hu	d15,[a15]254
+.L284:
+	jeq	d15,#0,.L17
+.L285:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L286:
+	ld.w	d15,[a15]96
+.L132:
+	st.w	[a10],d15
+.L133:
+	j	.L18
+.L17:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L287:
+	ld.w	d15,[a15]100
+.L134:
+	st.w	[a10],d15
+.L18:
+	mul.f	d1,d15,d15
+.L135:
+	madd.f	d4,d10,d13,d13
+.L110:
+	jeq	d11,#1,.L19
+.L288:
+	jne	d11,#2,.L20
+.L19:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L289:
+	ld.hu	d15,[a15]24
+.L290:
+	jne	d15,d11,.L21
+.L291:
+	mov	d10,d13
+.L137:
+	mov	d13,d9
+.L292:
+	j	.L22
+.L21:
+	mov	d10,d9
+.L22:
+	ld.w	d0,[a10]
+.L139:
+	cmp.f	d15,d10,d0
+.L138:
+	extr.u	d15,d15,#2,#1
+.L293:
+	jeq	d15,#0,.L23
+.L294:
+	ld.w	d10,[a10]
+.L140:
+	j	.L24
+.L23:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L295:
+	ld.w	d15,[a15]88
+.L296:
+	mul.f	d0,d15,d0
+.L108:
+	cmp.f	d15,d10,d0
+.L141:
+	extr.u	d15,d15,#0,#1
+.L297:
+	jeq	d15,#0,.L25
+.L298:
+	mov	d10,d0
+.L25:
+.L24:
+	msub.f	d4,d1,d10,d10
+.L136:
+	mul.f	d15,d13,d13
+.L299:
+	cmp.f	d15,d4,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L300:
+	jne	d15,#0,.L26
+.L301:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L302:
+	ld.w	d15,[a15]84
+.L303:
+	cmp.f	d15,d13,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L304:
+	jeq	d15,#0,.L27
+.L305:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L306:
+	ld.w	d15,[a15]80
+.L307:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L28
+.L308:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L309:
+	ld.w	d4,[a15]72
+.L28:
+	call	sqrt
+.L131:
+	mov	d13,d2
+.L142:
+	j	.L29
+.L27:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L310:
+	ld.w	d15,[a15]80
+.L311:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:2,.L30
+.L312:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L313:
+	ld.w	d4,[a15]72
+.L30:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L314:
+	ld.w	d15,[a15]76
+.L315:
+	call	sqrt
+.L144:
+	mul.f	d13,d15,d2
+.L29:
+.L26:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L316:
+	ld.hu	d15,[a15]26
+.L317:
+	jne	d15,d11,.L31
+.L145:
+	st.w	[a14],d10
+.L146:
+	st.w	[a14]4,d13
+.L318:
+	j	.L32
+.L31:
+	st.w	[a14],d13
+.L147:
+	st.w	[a14]4,d10
+.L32:
+	j	.L33
+.L20:
+	cmp.f	d15,d4,d1
+	extr.u	d15,d15,#2,#1
+.L319:
+	jeq	d15,#0,.L34
+.L320:
+	call	sqrt
+.L148:
+	extr.u	d15,d2,#23,#8
+	jne	d15,#0,.L35
+.L321:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L322:
+	ld.w	d2,[a15]92
+.L35:
+	movh	d15,#16256
+.L323:
+	div.f	d15,d15,d2
+.L149:
+	ld.w	d0,[a10]
+.L151:
+	mul.f	d0,d13,d0
+.L152:
+	mul.f	d0,d0,d15
+.L324:
+	st.w	[a14],d0
+.L325:
+	ld.w	d0,[a10]
+.L153:
+	mul.f	d0,d9,d0
+.L154:
+	mul.f	d15,d0,d15
+.L150:
+	st.w	[a14]4,d15
+.L326:
+	j	.L36
+.L34:
+	st.w	[a14],d13
+.L327:
+	st.w	[a14]4,d9
+.L36:
+.L33:
+	movh	d15,#16256
+.L328:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L329:
+	ld.w	d0,[a15]144
+.L330:
+	ld.w	d1,[a14]
+.L331:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L332:
+	ld.w	d2,[a15]140
+.L333:
+	madd.f	d0,d2,d0,d1
+.L334:
+	div.f	d15,d15,d0
+.L335:
+	mul.f	d15,d15,d8
+.L336:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L337:
+	ld.w	d0,[a15]152
+.L338:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L339:
+	ld.w	d1,[a15]148
+.L340:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L341:
+	ld.w	d2,[a15]156
+.L342:
+	madd.f	d0,d2,d0,d1
+.L343:
+	mul.f	d8,d15,d0
+.L344:
+	ld.w	d15,[a14]4
+.L345:
+	cmp.f	d15,d8,d15
+	jnz.t	d15:2,.L37
+.L346:
+	ld.w	d0,[a14]
+.L347:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L348:
+	ld.w	d15,[a15]28
+.L349:
+	add.f	d15,d0,d15
+.L350:
+	div.f	d15,d8,d15
+.L351:
+	insn.t	d0,d15:31,d15:31
+.L155:
+	ld.w	d15,[a14]
+.L352:
+	msub.f	d1,d8,d0,d15
+.L157:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L353:
+	ld.w	d15,[a15]32
+.L354:
+	madd.f	d9,d15,d0,d1
+.L143:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L355:
+	ld.w	d15,[a15]36
+.L356:
+	madd.f	d10,d15,d0,d0
+.L156:
+	mul.f	d0,d1,d1
+.L161:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L357:
+	ld.w	d15,[a15]44
+.L358:
+	mul.f	d1,d15,d14
+.L158:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L359:
+	ld.w	d15,[a15]48
+.L360:
+	sub.f	d15,d1,d15
+.L361:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L362:
+	ld.w	d1,[a15]160
+.L363:
+	mul.f	d1,d1,d12
+.L364:
+	div.f	d1,d15,d1
+.L163:
+	mul.f	d2,d9,d9
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+	ld.w	d15,[a15]40
+	add.f	d0,d0,d15
+.L162:
+	mul.f	d1,d1,d1
+.L164:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+	ld.w	d15,[a15]52
+	msub.f	d15,d0,d1,d15
+	msub.f	d15,d2,d15,d10
+	insert	d4,d15,#0,#31,#1
+	call	sqrt
+.L365:
+	sub.f	d15,d2,d9
+.L366:
+	div.f	d0,d15,d10
+.L160:
+	ld.w	d1,[a14]
+.L159:
+	st.w	[a14],d0
+.L367:
+	movh	d2,#16256
+.L368:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L369:
+	ld.w	d15,[a15]56
+.L370:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L371:
+	ld.w	d3,[a15]60
+.L372:
+	madd.f	d15,d3,d15,d0
+.L373:
+	div.f	d15,d2,d15
+.L374:
+	mul.f	d15,d15,d8
+.L375:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L376:
+	ld.w	d0,[a15]64
+.L165:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L377:
+	ld.w	d2,[a15]68
+.L378:
+	madd.f	d0,d2,d0,d1
+.L379:
+	mul.f	d15,d15,d0
+.L380:
+	st.w	[a14]4,d15
+.L37:
+.L12:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L381:
+	ld.w	d15,[a15]240
+.L382:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L383:
+	ld.w	d0,[a15]244
+.L384:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L385:
+	jeq	d15,#0,.L38
+.L386:
+	ld.w	d15,[a14]
+.L387:
+	st.w	[a13],d15
+.L388:
+	ld.w	d15,[a12]
+.L389:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L390:
+	ld.w	d0,[a15]172
+.L391:
+	cmp.f	d15,d15,d0
+	jnz.t	d15:2,.L39
+.L392:
+	ld.w	d15,[a14]4
+.L393:
+	insn.t	d15,d15:31,d15:31
+.L394:
+	st.w	[a13]4,d15
+.L395:
+	j	.L40
+.L39:
+	ld.w	d15,[a14]4
+.L396:
+	st.w	[a13]4,d15
+.L40:
+	j	.L41
+.L38:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L397:
+	ld.w	d15,[a15]176
+.L398:
+	st.w	[a13],d15
+.L399:
+	movh	d0,#49904
+.L400:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L401:
+	ld.w	d15,[a15]4
+.L402:
+	div.f	d15,d0,d15
+.L403:
+	st.w	[a13]4,d15
+.L404:
+	movh	d0,#17136
+.L405:
+	movh.a	a15,#@his(PMSM_MTPA_Module_P)
+	lea	a15,[a15]@los(PMSM_MTPA_Module_P)
+.L406:
+	ld.w	d15,[a15]4
+.L407:
+	div.f	d0,d0,d15
+.L114:
+	ld.w	d15,[a12]
+.L408:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L409:
+	jeq	d15,#0,.L42
+.L410:
+	st.w	[a13]4,d0
+.L411:
+	j	.L43
+.L42:
+	ld.w	d0,[a12]
+.L166:
+	ld.w	d15,[a13]4
+.L412:
+	cmp.f	d15,d0,d15
+	jnz.t	d15:0,.L44
+.L413:
+	ld.w	d15,[a12]
+.L414:
+	st.w	[a13]4,d15
+.L44:
+.L43:
+.L41:
+	ret
+.L79:
+	
+__PMSM_MTPA_Module_step_function_end:
+	.size	PMSM_MTPA_Module_step,__PMSM_MTPA_Module_step_function_end-PMSM_MTPA_Module_step
+.L64:
+	; End of function
+	
+	.sdecl	'.text.PMSM_MTPA_Module.PMSM_MTPA_Module_initialize',code,cluster('PMSM_MTPA_Module_initialize')
+	.sect	'.text.PMSM_MTPA_Module.PMSM_MTPA_Module_initialize'
+	.align	2
+	
+	.global	PMSM_MTPA_Module_initialize
+; Function PMSM_MTPA_Module_initialize
+.L48:
+PMSM_MTPA_Module_initialize:	.type	func
+	mov.aa	a12,a5
+.L169:
+	mov.aa	a13,a6
+.L170:
+	ld.a	a15,[a4]4
+.L171:
+	mov	d4,#0
+.L184:
+	mov	d5,#8
+	mov.aa	a4,a15
+.L167:
+	call	memset
+.L168:
+	mov	d4,#0
+.L185:
+	mov	d5,#8
+	mov.aa	a4,a12
+.L172:
+	call	memset
+.L173:
+	mov	d4,#0
+.L186:
+	mov	d5,#8
+	mov.aa	a4,a13
+.L174:
+	call	memset
+.L175:
+	movh.a	a2,#@his(PMSM_MTPA_Module_P)
+	lea	a2,[a2]@los(PMSM_MTPA_Module_P)
+.L187:
+	ld.w	d15,[a2]236
+.L188:
+	st.w	[a15],d15
+.L189:
+	movh.a	a2,#@his(PMSM_MTPA_Module_P)
+	lea	a2,[a2]@los(PMSM_MTPA_Module_P)
+.L190:
+	ld.w	d15,[a2]236
+.L191:
+	st.w	[a15]4,d15
+.L192:
+	ret
+.L70:
+	
+__PMSM_MTPA_Module_initialize_function_end:
+	.size	PMSM_MTPA_Module_initialize,__PMSM_MTPA_Module_initialize_function_end-PMSM_MTPA_Module_initialize
+.L59:
+	; End of function
+	
+	.sdecl	'.text.PMSM_MTPA_Module.PMSM_MTPA_Module_terminate',code,cluster('PMSM_MTPA_Module_terminate')
+	.sect	'.text.PMSM_MTPA_Module.PMSM_MTPA_Module_terminate'
+	.align	2
+	
+	.global	PMSM_MTPA_Module_terminate
+; Function PMSM_MTPA_Module_terminate
+.L50:
+PMSM_MTPA_Module_terminate:	.type	func
+	ret
+.L97:
+	
+__PMSM_MTPA_Module_terminate_function_end:
+	.size	PMSM_MTPA_Module_terminate,__PMSM_MTPA_Module_terminate_function_end-PMSM_MTPA_Module_terminate
+.L69:
+	; End of function
+	
+	.calls	'PMSM_MTPA_Module_step','sqrt'
+	.calls	'PMSM_MTPA_Module_initialize','memset'
+	.calls	'PMSM_MTPA_Module_step','',8
+	.calls	'PMSM_MTPA_Module_initialize','',0
+	.extern	sqrt
+	.extern	memset
+	.extern	PMSM_MTPA_Module_P
+	.calls	'PMSM_MTPA_Module_terminate','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L52:
+	.word	2879
+	.half	3
+	.word	.L53
+	.byte	4
+.L51:
+	.byte	1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L54
+.L85:
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'__fabs',0
+	.word	233
+	.byte	1,1,1,1,4
+	.byte	'd',0
+	.word	233
+	.byte	0,5
+	.byte	'sqrt',0,1,186,1,25
+	.word	233
+	.byte	1,1,1,1,6,1,186,1,43
+	.word	233
+	.byte	0,7
+	.byte	'void',0,8
+	.word	294
+	.byte	2
+	.byte	'int',0,4,5,2
+	.byte	'unsigned int',0,4,7,5
+	.byte	'memset',0,2,56,17
+	.word	300
+	.byte	1,1,1,1,6,2,56,33
+	.word	300
+	.byte	6,2,56,36
+	.word	305
+	.byte	6,2,56,41
+	.word	312
+	.byte	0,2
+	.byte	'char',0,1,6,9
+	.word	372
+	.byte	8
+	.word	380
+	.byte	10
+	.word	385
+	.byte	11,8
+	.word	233
+	.byte	12,1,0,13,3,42,9,8,14
+	.byte	'Merge',0
+	.word	395
+	.byte	8,2,35,0,0
+.L77:
+	.byte	8
+	.word	404
+	.byte	15
+	.byte	'tag_RTM_PMSM_MTPA_Module_T',0,3,132,2,8,8,14
+	.byte	'errorStatus',0
+	.word	390
+	.byte	4,2,35,0,14
+	.byte	'blockIO',0
+	.word	425
+	.byte	4,2,35,4,0,8
+	.word	430
+.L71:
+	.byte	9
+	.word	502
+	.byte	13,3,47,9,8,14
+	.byte	'Torque_ref',0
+	.word	233
+	.byte	4,2,35,0,14
+	.byte	'speed_ref',0
+	.word	233
+	.byte	4,2,35,4,0
+.L73:
+	.byte	8
+	.word	512
+	.byte	13,3,53,9,8,14
+	.byte	'Id_ref_out',0
+	.word	233
+	.byte	4,2,35,0,14
+	.byte	'Iq_ref_out',0
+	.word	233
+	.byte	4,2,35,4,0
+.L75:
+	.byte	8
+	.word	562
+.L80:
+	.byte	9
+	.word	502
+.L95:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L98:
+	.byte	9
+	.word	502
+	.byte	16
+	.byte	'__size_t',0,4,1,1
+	.word	312
+	.byte	17,1,8
+	.word	662
+	.byte	16
+	.byte	'__codeptr',0,4,1,1
+	.word	664
+	.byte	2
+	.byte	'char',0,1,6,16
+	.byte	'int8_T',0,5,51,21
+	.word	687
+	.byte	2
+	.byte	'unsigned char',0,1,8,16
+	.byte	'uint8_T',0,5,52,23
+	.word	710
+	.byte	2
+	.byte	'short int',0,2,5,16
+	.byte	'int16_T',0,5,53,15
+	.word	743
+	.byte	16
+	.byte	'uint16_T',0,5,54,24
+	.word	618
+	.byte	16
+	.byte	'int32_T',0,5,55,13
+	.word	305
+	.byte	16
+	.byte	'uint32_T',0,5,56,22
+	.word	312
+	.byte	16
+	.byte	'real32_T',0,5,57,15
+	.word	233
+	.byte	16
+	.byte	'real64_T',0,5,58,16
+	.word	233
+	.byte	16
+	.byte	'real_T',0,5,64,16
+	.word	233
+	.byte	16
+	.byte	'char_T',0,5,70,14
+	.word	372
+	.byte	13,6,26,9,24,14
+	.byte	'V_base',0
+	.word	233
+	.byte	4,2,35,0,14
+	.byte	'I_base',0
+	.word	233
+	.byte	4,2,35,4,14
+	.byte	'N_base',0
+	.word	233
+	.byte	4,2,35,8,14
+	.byte	'T_base',0
+	.word	233
+	.byte	4,2,35,12,14
+	.byte	'P_base',0
+	.word	233
+	.byte	4,2,35,16,14
+	.byte	'Z_base',0
+	.word	233
+	.byte	4,2,35,20,0,16
+	.byte	'struct_cH9I994dRwS2bXyepJDlH',0,6,33,3
+	.word	886
+	.byte	15
+	.byte	'P_PMSM_MTPA_Module_T_',0,3,59,8,132,2,14
+	.byte	'PU_System',0
+	.word	886
+	.byte	24,2,35,0,14
+	.byte	'CompareToConstant_const',0
+	.word	618
+	.byte	2,2,35,24,14
+	.byte	'CompareToConstant1_const',0
+	.word	618
+	.byte	2,2,35,26,14
+	.byte	'Constant_Value',0
+	.word	233
+	.byte	4,2,35,28,14
+	.byte	'fluxPMLd_Lq2_Value',0
+	.word	233
+	.byte	4,2,35,32,14
+	.byte	'ld2_lq2_Value',0
+	.word	233
+	.byte	4,2,35,36,14
+	.byte	'fluxPM2_Lq2_Value',0
+	.word	233
+	.byte	4,2,35,40,14
+	.byte	'Gain_Gain',0
+	.word	233
+	.byte	4,2,35,44,14
+	.byte	'Constant_Value_b',0
+	.word	233
+	.byte	4,2,35,48,14
+	.byte	'u_Lq2_Value',0
+	.word	233
+	.byte	4,2,35,52,14
+	.byte	'Gain_Gain_a',0
+	.word	233
+	.byte	4,2,35,56,14
+	.byte	'Constant_Value_l',0
+	.word	233
+	.byte	4,2,35,60,14
+	.byte	'Gain1_Gain',0
+	.word	233
+	.byte	4,2,35,64,14
+	.byte	'Constant1_Value',0
+	.word	233
+	.byte	4,2,35,68,14
+	.byte	'Constant_Value_m',0
+	.word	233
+	.byte	4,2,35,72,14
+	.byte	'Gain_Gain_d',0
+	.word	233
+	.byte	4,2,35,76,14
+	.byte	'Switch1_Threshold',0
+	.word	233
+	.byte	4,2,35,80,14
+	.byte	'Switch_Threshold',0
+	.word	233
+	.byte	4,2,35,84,14
+	.byte	'Gain_Gain_j',0
+	.word	233
+	.byte	4,2,35,88,14
+	.byte	'Constant_Value_e',0
+	.word	233
+	.byte	4,2,35,92,14
+	.byte	'ReplaceInport_satLim_Value',0
+	.word	233
+	.byte	4,2,35,96,14
+	.byte	'Constant3_Value',0
+	.word	233
+	.byte	4,2,35,100,14
+	.byte	'zero_Gain',0
+	.word	233
+	.byte	4,2,35,104,14
+	.byte	'Constant_Value_g',0
+	.word	233
+	.byte	4,2,35,108,14
+	.byte	'term2_Value',0
+	.word	233
+	.byte	4,2,35,112,14
+	.byte	'term3_Value',0
+	.word	233
+	.byte	4,2,35,116,14
+	.byte	'Gain_Gain_o',0
+	.word	233
+	.byte	4,2,35,120,14
+	.byte	'Constant1_Value_b',0
+	.word	233
+	.byte	4,2,35,124,14
+	.byte	'u_Gain',0
+	.word	233
+	.byte	4,3,35,128,1,14
+	.byte	'_Gain',0
+	.word	233
+	.byte	4,3,35,132,1,14
+	.byte	'term1_Value',0
+	.word	233
+	.byte	4,3,35,136,1,14
+	.byte	'Constant_Value_ls',0
+	.word	233
+	.byte	4,3,35,140,1,14
+	.byte	'Gain_Gain_au',0
+	.word	233
+	.byte	4,3,35,144,1,14
+	.byte	'Constant2_Value',0
+	.word	233
+	.byte	4,3,35,148,1,14
+	.byte	'Gain1_Gain_i',0
+	.word	233
+	.byte	4,3,35,152,1,14
+	.byte	'Constant1_Value_h',0
+	.word	233
+	.byte	4,3,35,156,1,14
+	.byte	'Gain_Gain_dx',0
+	.word	233
+	.byte	4,3,35,160,1,14
+	.byte	'Gain_Gain_k',0
+	.word	233
+	.byte	4,3,35,164,1,14
+	.byte	'Vdc_lumped_Value',0
+	.word	233
+	.byte	4,3,35,168,1,14
+	.byte	'sign_Threshold',0
+	.word	233
+	.byte	4,3,35,172,1,14
+	.byte	'Id_ref_nofw_Value',0
+	.word	233
+	.byte	4,3,35,176,1,14
+	.byte	'Gain_Gain_h',0
+	.word	233
+	.byte	4,3,35,180,1,14
+	.byte	'Saturation_UpperSat',0
+	.word	233
+	.byte	4,3,35,184,1,14
+	.byte	'Saturation_LowerSat',0
+	.word	233
+	.byte	4,3,35,188,1,14
+	.byte	'term1_Value_n',0
+	.word	233
+	.byte	4,3,35,192,1,14
+	.byte	'term3_Gain',0
+	.word	233
+	.byte	4,3,35,196,1,14
+	.byte	'term2_Value_e',0
+	.word	233
+	.byte	4,3,35,200,1,14
+	.byte	'Saturation2_UpperSat',0
+	.word	233
+	.byte	4,3,35,204,1,14
+	.byte	'Saturation2_LowerSat',0
+	.word	233
+	.byte	4,3,35,208,1,14
+	.byte	'Gain1_Gain_a',0
+	.word	233
+	.byte	4,3,35,212,1,14
+	.byte	'Ld_Gain',0
+	.word	233
+	.byte	4,3,35,216,1,14
+	.byte	'FluxPM_Gain',0
+	.word	233
+	.byte	4,3,35,220,1,14
+	.byte	'Lq_Gain',0
+	.word	233
+	.byte	4,3,35,224,1,14
+	.byte	'Gain_Gain_f',0
+	.word	233
+	.byte	4,3,35,228,1,14
+	.byte	'Constant_Value_o',0
+	.word	233
+	.byte	4,3,35,232,1,14
+	.byte	'Merge_InitialOutput',0
+	.word	233
+	.byte	4,3,35,236,1,14
+	.byte	'Enable_fwc_Value',0
+	.word	233
+	.byte	4,3,35,240,1,14
+	.byte	'Switch_Threshold_c',0
+	.word	233
+	.byte	4,3,35,244,1,14
+	.byte	'ReplaceInport_satMethod_Value',0
+	.word	618
+	.byte	2,3,35,248,1,14
+	.byte	'ChosenMethod_Value',0
+	.word	618
+	.byte	2,3,35,250,1,14
+	.byte	'enableInportSatMethod_Value',0
+	.word	618
+	.byte	2,3,35,252,1,14
+	.byte	'enableInportSatLim_Value',0
+	.word	618
+	.byte	2,3,35,254,1,14
+	.byte	'Constant_Value_ll',0
+	.word	710
+	.byte	1,3,35,128,2,14
+	.byte	'Switch_Threshold_f',0
+	.word	710
+	.byte	1,3,35,129,2,0,16
+	.byte	'P_PMSM_MTPA_Module_T',0,6,38,38
+	.word	1025
+	.byte	16
+	.byte	'RT_MODEL_PMSM_MTPA_Module_T',0,6,41,43
+	.word	430
+	.byte	16
+	.byte	'size_t',0,2,29,25
+	.word	312
+	.byte	16
+	.byte	'B_PMSM_MTPA_Module_T',0,3,44,3
+	.word	404
+	.byte	16
+	.byte	'ExtU_PMSM_MTPA_Module_T',0,3,50,3
+	.word	512
+	.byte	16
+	.byte	'ExtY_PMSM_MTPA_Module_T',0,3,56,3
+	.word	562
+	.byte	18
+	.byte	'PMSM_MTPA_Module_P',0,3,138,2,29
+	.word	1025
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L53:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,4,5,0,3,8,73,19,0,0,5,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,6,5
+	.byte	0,58,15,59,15,57,15,73,19,0,0,7,59,0,3,8,0,0,8,15,0,73,19,0,0,9,38,0,73,19,0,0,10,53,0,73,19,0,0,11,1
+	.byte	1,11,15,73,19,0,0,12,33,0,47,15,0,0,13,19,1,58,15,59,15,57,15,11,15,0,0,14,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,15,19,1,3,8,58,15,59,15,57,15,11,15,0,0,16,22,0,3,8,58,15,59,15,57,15,73,19,0,0,17,21,0,54,15,0,0,18
+	.byte	52,0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L54:
+	.word	.L177-.L176
+.L176:
+	.half	3
+	.word	.L179-.L178
+.L178:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Program Files\\AURIX-Studio-1.9.4\\plugins\\com.infineon.aurix.tools_1.9.4\\build_system\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	0
+	.byte	'math.h',0,1,0,0
+	.byte	'string.h',0,1,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\MTPA\\PMSM_MTPA_Module.h',0
+	.byte	0,0,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0,0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\Current_Controller\\rtwtypes.h',0
+	.byte	0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\SysSe\\MotorDrive\\MTPA\\PMSM_MTPA_Module_types.h',0
+	.byte	0,0,0,0
+.L179:
+.L177:
+	.sdecl	'.debug_info',debug,cluster('PMSM_MTPA_Module_initialize')
+	.sect	'.debug_info'
+.L55:
+	.word	426
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L58,.L57
+	.byte	2
+	.word	.L51
+	.byte	3
+	.byte	'PMSM_MTPA_Module_initialize',0,1,167,4,6,1,1,1
+	.word	.L48,.L70,.L47
+	.byte	4
+	.byte	'PMSM_MTPA_Module_M',0,1,168,4,3
+	.word	.L71,.L72
+	.byte	4
+	.byte	'PMSM_MTPA_Module_U',0,1,168,4,48
+	.word	.L73,.L74
+	.byte	4
+	.byte	'PMSM_MTPA_Module_Y',0,1,169,4,28
+	.word	.L75,.L76
+	.byte	5
+	.word	.L48,.L70
+	.byte	6
+	.byte	'PMSM_MTPA_Module_B',0,1,171,4,25
+	.word	.L77,.L78
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_MTPA_Module_initialize')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('PMSM_MTPA_Module_initialize')
+	.sect	'.debug_line'
+.L57:
+	.word	.L181-.L180
+.L180:
+	.half	3
+	.word	.L183-.L182
+.L182:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0,0,0,0,0
+.L183:
+	.byte	5,6,7,0,5,2
+	.word	.L48
+	.byte	3,166,4,1,5,64,9
+	.half	.L170-.L48
+	.byte	3,4,1,5,48,9
+	.half	.L171-.L170
+	.byte	3,5,1,5,17,9
+	.half	.L184-.L171
+	.byte	3,1,1,5,36,9
+	.half	.L168-.L184
+	.byte	3,3,1,5,39,9
+	.half	.L185-.L168
+	.byte	1,5,36,9
+	.half	.L173-.L185
+	.byte	3,3,1,5,39,9
+	.half	.L186-.L173
+	.byte	1,5,34,9
+	.half	.L175-.L186
+	.byte	3,3,1,5,52,9
+	.half	.L187-.L175
+	.byte	1,5,32,9
+	.half	.L188-.L187
+	.byte	1,5,34,9
+	.half	.L189-.L188
+	.byte	3,1,1,5,52,9
+	.half	.L190-.L189
+	.byte	1,5,32,9
+	.half	.L191-.L190
+	.byte	1,5,1,9
+	.half	.L192-.L191
+	.byte	3,1,1,7,9
+	.half	.L59-.L192
+	.byte	0,1,1
+.L181:
+	.sdecl	'.debug_ranges',debug,cluster('PMSM_MTPA_Module_initialize')
+	.sect	'.debug_ranges'
+.L58:
+	.word	-1,.L48,0,.L59-.L48,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_MTPA_Module_step')
+	.sect	'.debug_info'
+.L60:
+	.word	644
+	.half	3
+	.word	.L61
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L63,.L62
+	.byte	2
+	.word	.L51
+	.byte	3
+	.byte	'PMSM_MTPA_Module_step',0,1,26,6,1,1,1
+	.word	.L46,.L79,.L45
+	.byte	4
+	.byte	'PMSM_MTPA_Module_M',0,1,26,63
+	.word	.L80,.L81
+	.byte	4
+	.byte	'PMSM_MTPA_Module_U',0,1,27,28
+	.word	.L73,.L82
+	.byte	4
+	.byte	'PMSM_MTPA_Module_Y',0,1,28,4
+	.word	.L75,.L83
+	.byte	5
+	.word	.L46,.L79
+	.byte	6
+	.byte	'PMSM_MTPA_Module_B',0,1,30,25
+	.word	.L77,.L84
+	.byte	6
+	.byte	'rtb_Abs',0,1,31,10
+	.word	.L85,.L86
+	.byte	6
+	.byte	'rtb_Gain',0,1,32,10
+	.word	.L85,.L87
+	.byte	6
+	.byte	'rtb_Imag',0,1,33,10
+	.word	.L85,.L88
+	.byte	6
+	.byte	'rtb_Saturation2',0,1,34,10
+	.word	.L85,.L89
+	.byte	6
+	.byte	'rtb_Sqrt',0,1,35,10
+	.word	.L85,.L90
+	.byte	6
+	.byte	'rtb_Sqrt_o',0,1,36,10
+	.word	.L85,.L91
+	.byte	6
+	.byte	'rtb_Sum1_c',0,1,37,10
+	.word	.L85,.L92
+	.byte	6
+	.byte	'rtb_Sum1_g',0,1,38,10
+	.word	.L85,.L93
+	.byte	6
+	.byte	'rtb_Switch',0,1,39,10
+	.word	.L85,.L94
+	.byte	6
+	.byte	'rtb_Switch1_l',0,1,40,12
+	.word	.L95,.L96
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_MTPA_Module_step')
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('PMSM_MTPA_Module_step')
+	.sect	'.debug_line'
+.L62:
+	.word	.L194-.L193
+.L193:
+	.half	3
+	.word	.L196-.L195
+.L195:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0,0,0,0,0
+.L196:
+	.byte	5,6,7,0,5,2
+	.word	.L46
+	.byte	3,25,1,5,64,9
+	.half	.L103-.L46
+	.byte	3,4,1,5,14,9
+	.half	.L104-.L103
+	.byte	3,15,1,5,32,9
+	.half	.L197-.L104
+	.byte	1,5,47,9
+	.half	.L198-.L197
+	.byte	1,5,45,9
+	.half	.L199-.L198
+	.byte	1,5,18,9
+	.half	.L105-.L199
+	.byte	3,4,1,5,36,9
+	.half	.L200-.L105
+	.byte	1,5,16,9
+	.half	.L201-.L200
+	.byte	1,5,3,9
+	.half	.L202-.L201
+	.byte	1,5,16,7,9
+	.half	.L203-.L202
+	.byte	3,1,1,5,34,9
+	.half	.L204-.L203
+	.byte	1,5,54,9
+	.half	.L106-.L204
+	.byte	1,5,25,9
+	.half	.L2-.L106
+	.byte	3,1,1,5,43,9
+	.half	.L205-.L2
+	.byte	1,5,10,9
+	.half	.L206-.L205
+	.byte	1,5,14,9
+	.half	.L207-.L206
+	.byte	3,3,1,5,54,9
+	.half	.L107-.L207
+	.byte	3,126,1,5,16,9
+	.half	.L4-.L107
+	.byte	1,5,34,9
+	.half	.L208-.L4
+	.byte	1,5,25,9
+	.half	.L3-.L208
+	.byte	3,14,1,5,21,9
+	.half	.L109-.L3
+	.byte	3,14,1,5,39,9
+	.half	.L209-.L109
+	.byte	1,5,61,9
+	.half	.L210-.L209
+	.byte	1,5,54,9
+	.half	.L101-.L210
+	.byte	1,5,25,9
+	.half	.L111-.L101
+	.byte	3,5,1,5,43,9
+	.half	.L211-.L111
+	.byte	1,5,23,9
+	.half	.L212-.L211
+	.byte	1,5,3,9
+	.half	.L213-.L212
+	.byte	1,5,23,7,9
+	.half	.L214-.L213
+	.byte	3,1,1,5,41,9
+	.half	.L215-.L214
+	.byte	1,5,62,9
+	.half	.L216-.L215
+	.byte	1,5,32,9
+	.half	.L6-.L216
+	.byte	3,1,1,5,50,9
+	.half	.L217-.L6
+	.byte	1,5,30,9
+	.half	.L218-.L217
+	.byte	1,5,10,9
+	.half	.L219-.L218
+	.byte	1,5,23,7,9
+	.half	.L220-.L219
+	.byte	3,1,1,5,41,9
+	.half	.L221-.L220
+	.byte	1,5,13,9
+	.half	.L7-.L221
+	.byte	3,6,1,5,19,9
+	.half	.L113-.L7
+	.byte	3,8,1,5,12,9
+	.half	.L115-.L113
+	.byte	1,5,7,9
+	.half	.L117-.L115
+	.byte	3,7,1,5,25,9
+	.half	.L222-.L117
+	.byte	1,5,7,9
+	.half	.L223-.L222
+	.byte	3,1,1,5,25,9
+	.half	.L224-.L223
+	.byte	1,5,3,9
+	.half	.L225-.L224
+	.byte	3,127,1,5,18,7,9
+	.half	.L226-.L225
+	.byte	3,2,1,5,36,9
+	.half	.L227-.L226
+	.byte	1,5,51,9
+	.half	.L228-.L227
+	.byte	1,5,49,9
+	.half	.L229-.L228
+	.byte	1,5,54,9
+	.half	.L119-.L229
+	.byte	1,5,18,9
+	.half	.L9-.L119
+	.byte	3,2,1,5,36,9
+	.half	.L230-.L9
+	.byte	1,5,16,9
+	.half	.L10-.L230
+	.byte	3,6,1,5,34,9
+	.half	.L231-.L10
+	.byte	1,5,48,9
+	.half	.L232-.L231
+	.byte	1,5,32,9
+	.half	.L120-.L232
+	.byte	3,7,1,5,47,9
+	.half	.L233-.L120
+	.byte	1,5,65,9
+	.half	.L234-.L233
+	.byte	1,5,5,9
+	.half	.L235-.L234
+	.byte	3,1,1,5,23,9
+	.half	.L236-.L235
+	.byte	1,5,36,9
+	.half	.L116-.L236
+	.byte	1,5,74,9
+	.half	.L237-.L116
+	.byte	3,127,1,5,27,9
+	.half	.L122-.L237
+	.byte	3,6,1,5,40,9
+	.half	.L121-.L122
+	.byte	1,5,58,9
+	.half	.L238-.L121
+	.byte	1,5,38,9
+	.half	.L239-.L238
+	.byte	1,5,53,9
+	.half	.L124-.L239
+	.byte	3,6,1,5,40,9
+	.half	.L125-.L124
+	.byte	1,5,14,9
+	.half	.L126-.L125
+	.byte	3,11,1,5,29,9
+	.half	.L123-.L126
+	.byte	1,5,47,9
+	.half	.L240-.L123
+	.byte	1,5,60,9
+	.half	.L241-.L240
+	.byte	1,5,9,9
+	.half	.L242-.L241
+	.byte	3,1,1,5,27,9
+	.half	.L243-.L242
+	.byte	1,5,73,9
+	.half	.L244-.L243
+	.byte	3,127,1,5,26,9
+	.half	.L245-.L244
+	.byte	1,5,8,9
+	.half	.L246-.L245
+	.byte	1,5,34,7,9
+	.half	.L247-.L246
+	.byte	3,8,1,9
+	.half	.L248-.L247
+	.byte	3,5,1,5,51,9
+	.half	.L249-.L248
+	.byte	3,123,1,5,9,9
+	.half	.L11-.L249
+	.byte	3,12,1,5,27,9
+	.half	.L250-.L11
+	.byte	1,5,5,9
+	.half	.L251-.L250
+	.byte	1,5,23,7,9
+	.half	.L252-.L251
+	.byte	3,4,1,5,41,9
+	.half	.L253-.L252
+	.byte	1,5,71,9
+	.half	.L112-.L253
+	.byte	1,5,23,9
+	.half	.L13-.L112
+	.byte	3,5,1,5,41,9
+	.half	.L254-.L13
+	.byte	1,5,24,9
+	.half	.L14-.L254
+	.byte	3,13,1,5,42,9
+	.half	.L255-.L14
+	.byte	1,5,55,9
+	.half	.L256-.L255
+	.byte	1,5,24,9
+	.half	.L257-.L256
+	.byte	3,1,1,5,42,9
+	.half	.L258-.L257
+	.byte	1,5,68,9
+	.half	.L259-.L258
+	.byte	3,127,1,5,65,9
+	.half	.L260-.L259
+	.byte	3,1,1,5,69,9
+	.half	.L261-.L260
+	.byte	1,5,62,9
+	.half	.L262-.L261
+	.byte	1,5,7,9
+	.half	.L263-.L262
+	.byte	3,1,1,5,25,9
+	.half	.L264-.L263
+	.byte	1,5,80,9
+	.half	.L265-.L264
+	.byte	3,127,1,5,23,9
+	.half	.L127-.L265
+	.byte	3,11,1,5,41,9
+	.half	.L266-.L127
+	.byte	1,5,7,9
+	.half	.L267-.L266
+	.byte	3,1,1,5,25,9
+	.half	.L268-.L267
+	.byte	1,5,54,9
+	.half	.L269-.L268
+	.byte	3,127,1,5,41,9
+	.half	.L270-.L269
+	.byte	3,1,1,5,59,9
+	.half	.L271-.L270
+	.byte	1,5,23,9
+	.half	.L272-.L271
+	.byte	3,1,1,5,43,9
+	.half	.L128-.L272
+	.byte	1,5,61,9
+	.half	.L273-.L128
+	.byte	1,5,72,9
+	.half	.L274-.L273
+	.byte	3,127,1,5,38,9
+	.half	.L275-.L274
+	.byte	1,5,27,9
+	.half	.L129-.L275
+	.byte	3,11,1,5,45,9
+	.half	.L276-.L129
+	.byte	1,5,5,9
+	.half	.L277-.L276
+	.byte	1,5,30,9
+	.half	.L278-.L277
+	.byte	3,11,1,5,54,9
+	.half	.L130-.L278
+	.byte	3,121,1,5,26,9
+	.half	.L15-.L130
+	.byte	1,5,44,9
+	.half	.L279-.L15
+	.byte	1,5,23,9
+	.half	.L280-.L279
+	.byte	1,9
+	.half	.L16-.L280
+	.byte	3,12,1,5,41,9
+	.half	.L281-.L16
+	.byte	1,5,54,9
+	.half	.L282-.L281
+	.byte	1,5,9,9
+	.half	.L118-.L282
+	.byte	3,9,1,5,27,9
+	.half	.L283-.L118
+	.byte	1,5,5,9
+	.half	.L284-.L283
+	.byte	1,5,18,7,9
+	.half	.L285-.L284
+	.byte	3,1,1,5,36,9
+	.half	.L286-.L285
+	.byte	1,5,63,9
+	.half	.L133-.L286
+	.byte	1,5,18,9
+	.half	.L17-.L133
+	.byte	3,2,1,5,36,9
+	.half	.L287-.L17
+	.byte	1,5,27,9
+	.half	.L18-.L287
+	.byte	3,6,1,5,16,9
+	.half	.L135-.L18
+	.byte	3,5,1,5,9,9
+	.half	.L110-.L135
+	.byte	3,6,1,5,48,7,9
+	.half	.L288-.L110
+	.byte	1,5,28,7,9
+	.half	.L19-.L288
+	.byte	3,8,1,5,46,9
+	.half	.L289-.L19
+	.byte	1,5,7,9
+	.half	.L290-.L289
+	.byte	1,5,20,7,9
+	.half	.L291-.L290
+	.byte	3,1,1,5,25,9
+	.half	.L137-.L291
+	.byte	3,1,1,5,37,9
+	.half	.L292-.L137
+	.byte	3,127,1,5,20,9
+	.half	.L21-.L292
+	.byte	3,3,1,5,22,9
+	.half	.L22-.L21
+	.byte	3,8,1,5,7,9
+	.half	.L293-.L22
+	.byte	1,5,20,7,9
+	.half	.L294-.L293
+	.byte	3,1,1,5,30,9
+	.half	.L140-.L294
+	.byte	1,5,20,9
+	.half	.L23-.L140
+	.byte	3,3,1,5,38,9
+	.half	.L295-.L23
+	.byte	1,5,51,9
+	.half	.L296-.L295
+	.byte	1,5,24,9
+	.half	.L108-.L296
+	.byte	3,5,1,5,9,9
+	.half	.L297-.L108
+	.byte	1,5,22,7,9
+	.half	.L298-.L297
+	.byte	3,1,1,5,29,9
+	.half	.L24-.L298
+	.byte	3,11,1,5,41,9
+	.half	.L136-.L24
+	.byte	3,6,1,5,22,9
+	.half	.L299-.L136
+	.byte	1,5,12,9
+	.half	.L300-.L299
+	.byte	1,5,32,7,9
+	.half	.L301-.L300
+	.byte	3,9,1,5,50,9
+	.half	.L302-.L301
+	.byte	1,5,29,9
+	.half	.L303-.L302
+	.byte	1,5,9,9
+	.half	.L304-.L303
+	.byte	1,5,28,7,9
+	.half	.L305-.L304
+	.byte	3,4,1,5,46,9
+	.half	.L306-.L305
+	.byte	1,5,16,9
+	.half	.L307-.L306
+	.byte	1,5,24,9
+	.half	.L308-.L307
+	.byte	3,1,1,5,42,9
+	.half	.L309-.L308
+	.byte	1,5,34,9
+	.half	.L28-.L309
+	.byte	3,3,1,5,27,9
+	.half	.L131-.L28
+	.byte	1,5,43,9
+	.half	.L142-.L131
+	.byte	1,5,28,9
+	.half	.L27-.L142
+	.byte	3,2,1,5,46,9
+	.half	.L310-.L27
+	.byte	1,5,16,9
+	.half	.L311-.L310
+	.byte	1,5,24,9
+	.half	.L312-.L311
+	.byte	3,4,1,5,42,9
+	.half	.L313-.L312
+	.byte	1,5,29,9
+	.half	.L30-.L313
+	.byte	3,3,1,5,47,9
+	.half	.L314-.L30
+	.byte	1,5,67,9
+	.half	.L315-.L314
+	.byte	1,5,60,9
+	.half	.L144-.L315
+	.byte	1,5,28,9
+	.half	.L26-.L144
+	.byte	3,13,1,5,46,9
+	.half	.L316-.L26
+	.byte	1,5,7,9
+	.half	.L317-.L316
+	.byte	1,5,38,7,9
+	.half	.L145-.L317
+	.byte	3,1,1,9
+	.half	.L146-.L145
+	.byte	3,1,1,5,50,9
+	.half	.L318-.L146
+	.byte	3,127,1,5,38,9
+	.half	.L31-.L318
+	.byte	3,3,1,9
+	.half	.L147-.L31
+	.byte	3,1,1,5,9,9
+	.half	.L32-.L147
+	.byte	3,126,1,5,27,9
+	.half	.L20-.L32
+	.byte	3,11,1,5,12,9
+	.half	.L319-.L20
+	.byte	1,5,25,7,9
+	.half	.L320-.L319
+	.byte	3,12,1,5,12,9
+	.half	.L148-.L320
+	.byte	3,1,1,5,22,9
+	.half	.L321-.L148
+	.byte	3,1,1,5,40,9
+	.half	.L322-.L321
+	.byte	1,5,20,9
+	.half	.L35-.L322
+	.byte	3,3,1,5,24,9
+	.half	.L323-.L35
+	.byte	1,5,54,9
+	.half	.L149-.L323
+	.byte	3,1,1,5,65,9
+	.half	.L152-.L149
+	.byte	1,5,36,9
+	.half	.L324-.L152
+	.byte	1,5,47,9
+	.half	.L325-.L324
+	.byte	3,1,1,5,58,9
+	.half	.L154-.L325
+	.byte	1,5,36,9
+	.half	.L150-.L154
+	.byte	1,9
+	.half	.L326-.L150
+	.byte	3,126,1,9
+	.half	.L34-.L326
+	.byte	3,12,1,9
+	.half	.L327-.L34
+	.byte	3,1,1,5,16,9
+	.half	.L33-.L327
+	.byte	3,18,1,5,23,9
+	.half	.L328-.L33
+	.byte	1,5,41,9
+	.half	.L329-.L328
+	.byte	1,5,48,9
+	.half	.L330-.L329
+	.byte	3,1,1,5,23,9
+	.half	.L331-.L330
+	.byte	3,1,1,5,41,9
+	.half	.L332-.L331
+	.byte	1,5,52,9
+	.half	.L333-.L332
+	.byte	3,127,1,5,20,9
+	.half	.L334-.L333
+	.byte	3,127,1,5,61,9
+	.half	.L335-.L334
+	.byte	3,2,1,5,8,9
+	.half	.L336-.L335
+	.byte	3,1,1,5,26,9
+	.half	.L337-.L336
+	.byte	1,5,42,9
+	.half	.L338-.L337
+	.byte	1,5,60,9
+	.half	.L339-.L338
+	.byte	1,5,8,9
+	.half	.L340-.L339
+	.byte	3,1,1,5,26,9
+	.half	.L341-.L340
+	.byte	1,5,77,9
+	.half	.L342-.L341
+	.byte	3,127,1,5,72,9
+	.half	.L343-.L342
+	.byte	3,127,1,5,47,9
+	.half	.L344-.L343
+	.byte	3,7,1,5,10,9
+	.half	.L345-.L344
+	.byte	1,5,57,9
+	.half	.L346-.L345
+	.byte	3,9,1,5,9,9
+	.half	.L347-.L346
+	.byte	3,1,1,5,27,9
+	.half	.L348-.L347
+	.byte	1,5,61,9
+	.half	.L349-.L348
+	.byte	3,127,1,5,29,9
+	.half	.L350-.L349
+	.byte	1,5,18,9
+	.half	.L351-.L350
+	.byte	1,5,67,9
+	.half	.L155-.L351
+	.byte	3,6,1,5,29,9
+	.half	.L352-.L155
+	.byte	1,5,9,9
+	.half	.L157-.L352
+	.byte	3,7,1,5,27,9
+	.half	.L353-.L157
+	.byte	1,5,47,9
+	.half	.L354-.L353
+	.byte	3,127,1,5,40,9
+	.half	.L143-.L354
+	.byte	3,7,1,5,58,9
+	.half	.L355-.L143
+	.byte	1,5,38,9
+	.half	.L356-.L355
+	.byte	1,5,29,9
+	.half	.L156-.L356
+	.byte	3,3,1,5,21,9
+	.half	.L161-.L156
+	.byte	3,8,1,5,39,9
+	.half	.L357-.L161
+	.byte	1,5,50,9
+	.half	.L358-.L357
+	.byte	1,5,21,9
+	.half	.L158-.L358
+	.byte	3,1,1,5,39,9
+	.half	.L359-.L158
+	.byte	1,5,63,9
+	.half	.L360-.L359
+	.byte	3,127,1,5,10,9
+	.half	.L361-.L360
+	.byte	3,2,1,5,28,9
+	.half	.L362-.L361
+	.byte	1,5,42,9
+	.half	.L363-.L362
+	.byte	1,5,58,9
+	.half	.L364-.L363
+	.byte	3,127,1,5,24,9
+	.half	.L163-.L364
+	.byte	3,16,1,5,54,9
+	.half	.L365-.L163
+	.byte	3,2,1,5,73,9
+	.half	.L366-.L365
+	.byte	1,5,50,9
+	.half	.L160-.L366
+	.byte	3,4,1,5,36,9
+	.half	.L159-.L160
+	.byte	3,12,1,5,38,9
+	.half	.L367-.L159
+	.byte	3,1,1,5,45,9
+	.half	.L368-.L367
+	.byte	1,5,63,9
+	.half	.L369-.L368
+	.byte	1,5,20,9
+	.half	.L370-.L369
+	.byte	3,1,1,5,38,9
+	.half	.L371-.L370
+	.byte	1,5,18,9
+	.half	.L372-.L371
+	.byte	1,5,42,9
+	.half	.L373-.L372
+	.byte	3,127,1,5,57,9
+	.half	.L374-.L373
+	.byte	3,1,1,5,10,9
+	.half	.L375-.L374
+	.byte	3,1,1,5,28,9
+	.half	.L376-.L375
+	.byte	1,5,10,9
+	.half	.L165-.L376
+	.byte	3,1,1,5,28,9
+	.half	.L377-.L165
+	.byte	1,5,58,9
+	.half	.L378-.L377
+	.byte	3,127,1,5,68,9
+	.half	.L379-.L378
+	.byte	3,127,1,5,36,9
+	.half	.L380-.L379
+	.byte	3,127,1,5,7,9
+	.half	.L12-.L380
+	.byte	3,15,1,5,25,9
+	.half	.L381-.L12
+	.byte	1,5,7,9
+	.half	.L382-.L381
+	.byte	3,1,1,5,25,9
+	.half	.L383-.L382
+	.byte	1,5,43,9
+	.half	.L384-.L383
+	.byte	3,127,1,5,3,9
+	.half	.L385-.L384
+	.byte	1,5,63,7,9
+	.half	.L386-.L385
+	.byte	3,3,1,5,36,9
+	.half	.L387-.L386
+	.byte	1,5,27,9
+	.half	.L388-.L387
+	.byte	3,3,1,5,42,9
+	.half	.L389-.L388
+	.byte	1,5,60,9
+	.half	.L390-.L389
+	.byte	1,5,5,9
+	.half	.L391-.L390
+	.byte	1,5,66,9
+	.half	.L392-.L391
+	.byte	3,10,1,5,40,9
+	.half	.L393-.L392
+	.byte	1,5,38,9
+	.half	.L394-.L393
+	.byte	1,5,68,9
+	.half	.L395-.L394
+	.byte	3,122,1,5,65,9
+	.half	.L39-.L395
+	.byte	1,5,38,9
+	.half	.L396-.L39
+	.byte	1,5,7,9
+	.half	.L40-.L396
+	.byte	3,1,1,5,38,9
+	.half	.L38-.L40
+	.byte	3,13,1,5,56,9
+	.half	.L397-.L38
+	.byte	1,5,36,9
+	.half	.L398-.L397
+	.byte	1,5,38,9
+	.half	.L399-.L398
+	.byte	3,3,1,5,7,9
+	.half	.L400-.L399
+	.byte	3,1,1,5,35,9
+	.half	.L401-.L400
+	.byte	1,5,45,9
+	.half	.L402-.L401
+	.byte	3,127,1,5,36,9
+	.half	.L403-.L402
+	.byte	1,5,15,9
+	.half	.L404-.L403
+	.byte	3,2,1,5,23,9
+	.half	.L405-.L404
+	.byte	1,5,51,9
+	.half	.L406-.L405
+	.byte	1,5,21,9
+	.half	.L407-.L406
+	.byte	1,5,27,9
+	.half	.L114-.L407
+	.byte	3,1,1,5,40,9
+	.half	.L408-.L114
+	.byte	1,5,5,9
+	.half	.L409-.L408
+	.byte	1,5,38,7,9
+	.half	.L410-.L409
+	.byte	3,2,1,5,47,9
+	.half	.L411-.L410
+	.byte	1,5,36,9
+	.half	.L42-.L411
+	.byte	3,1,1,5,69,9
+	.half	.L166-.L42
+	.byte	1,5,17,9
+	.half	.L412-.L166
+	.byte	1,5,58,9
+	.half	.L413-.L412
+	.byte	3,3,1,5,38,9
+	.half	.L414-.L413
+	.byte	1,5,1,9
+	.half	.L41-.L414
+	.byte	3,5,1,7,9
+	.half	.L64-.L41
+	.byte	0,1,1
+.L194:
+	.sdecl	'.debug_ranges',debug,cluster('PMSM_MTPA_Module_step')
+	.sect	'.debug_ranges'
+.L63:
+	.word	-1,.L46,0,.L64-.L46,0,0
+	.sdecl	'.debug_info',debug,cluster('PMSM_MTPA_Module_terminate')
+	.sect	'.debug_info'
+.L65:
+	.word	328
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L68,.L67
+	.byte	2
+	.word	.L51
+	.byte	3
+	.byte	'PMSM_MTPA_Module_terminate',0,1,191,4,6,1,1,1
+	.word	.L50,.L97,.L49
+	.byte	4
+	.byte	'PMSM_MTPA_Module_M',0,1,192,4,3
+	.word	.L98,.L99
+	.byte	5
+	.word	.L50,.L97
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('PMSM_MTPA_Module_terminate')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('PMSM_MTPA_Module_terminate')
+	.sect	'.debug_line'
+.L67:
+	.word	.L416-.L415
+.L415:
+	.half	3
+	.word	.L418-.L417
+.L417:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/MTPA/PMSM_MTPA_Module.c',0,0,0,0,0
+.L418:
+	.byte	5,1,7,0,5,2
+	.word	.L50
+	.byte	3,195,4,1,7,9
+	.half	.L69-.L50
+	.byte	0,1,1
+.L416:
+	.sdecl	'.debug_ranges',debug,cluster('PMSM_MTPA_Module_terminate')
+	.sect	'.debug_ranges'
+.L68:
+	.word	-1,.L50,0,.L69-.L50,0,0
+	.sdecl	'.debug_loc',debug,cluster('PMSM_MTPA_Module_initialize')
+	.sect	'.debug_loc'
+.L78:
+	.word	-1,.L48,.L171-.L48,.L70-.L48
+	.half	1
+	.byte	111
+	.word	.L167-.L48,.L168-.L48
+	.half	1
+	.byte	100
+	.word	0,0
+.L72:
+	.word	-1,.L48,0,.L167-.L48
+	.half	1
+	.byte	100
+	.word	0,0
+.L74:
+	.word	-1,.L48,0,.L168-.L48
+	.half	1
+	.byte	101
+	.word	.L169-.L48,.L70-.L48
+	.half	1
+	.byte	108
+	.word	.L172-.L48,.L173-.L48
+	.half	1
+	.byte	100
+	.word	0,0
+.L76:
+	.word	-1,.L48,0,.L168-.L48
+	.half	1
+	.byte	102
+	.word	.L170-.L48,.L70-.L48
+	.half	1
+	.byte	109
+	.word	.L174-.L48,.L175-.L48
+	.half	1
+	.byte	100
+	.word	0,0
+.L47:
+	.word	-1,.L48,0,.L70-.L48
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('PMSM_MTPA_Module_step')
+	.sect	'.debug_loc'
+.L84:
+	.word	-1,.L46,.L104-.L46,.L79-.L46
+	.half	1
+	.byte	110
+	.word	0,0
+.L81:
+	.word	-1,.L46,0,.L101-.L46
+	.half	1
+	.byte	100
+	.word	0,0
+.L82:
+	.word	-1,.L46,0,.L101-.L46
+	.half	1
+	.byte	101
+	.word	.L102-.L46,.L79-.L46
+	.half	1
+	.byte	108
+	.word	0,0
+.L83:
+	.word	-1,.L46,0,.L101-.L46
+	.half	1
+	.byte	102
+	.word	.L103-.L46,.L79-.L46
+	.half	1
+	.byte	109
+	.word	0,0
+.L45:
+	.word	-1,.L46,0,.L100-.L46
+	.half	2
+	.byte	138,0
+	.word	.L100-.L46,.L79-.L46
+	.half	2
+	.byte	138,8
+	.word	.L79-.L46,.L79-.L46
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L86:
+	.word	-1,.L46,.L113-.L46,.L114-.L46
+	.half	1
+	.byte	92
+	.word	.L114-.L46,.L166-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L87:
+	.word	-1,.L46,.L105-.L46,.L12-.L46
+	.half	1
+	.byte	88
+	.word	0,0
+.L88:
+	.word	-1,.L46,.L106-.L46,.L2-.L46
+	.half	1
+	.byte	89
+	.word	.L107-.L46,.L4-.L46
+	.half	1
+	.byte	89
+	.word	.L3-.L46,.L108-.L46
+	.half	1
+	.byte	89
+	.word	.L108-.L46,.L24-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L136-.L46,.L131-.L46
+	.half	1
+	.byte	84
+	.word	.L27-.L46,.L144-.L46
+	.half	1
+	.byte	84
+	.word	.L20-.L46,.L33-.L46
+	.half	1
+	.byte	89
+	.word	.L155-.L46,.L156-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L156-.L46,.L160-.L46
+	.half	1
+	.byte	90
+	.word	.L160-.L46,.L165-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L89:
+	.word	-1,.L46,.L111-.L46,.L112-.L46
+	.half	1
+	.byte	91
+	.word	.L13-.L46,.L14-.L46
+	.half	1
+	.byte	91
+	.word	.L127-.L46,.L128-.L46
+	.half	1
+	.byte	95
+	.word	.L129-.L46,.L130-.L46
+	.half	1
+	.byte	84
+	.word	.L130-.L46,.L15-.L46
+	.half	1
+	.byte	82
+	.word	.L15-.L46,.L16-.L46
+	.half	1
+	.byte	84
+	.word	.L16-.L46,.L118-.L46
+	.half	1
+	.byte	82
+	.word	.L118-.L46,.L131-.L46
+	.half	1
+	.byte	93
+	.word	.L131-.L46,.L27-.L46
+	.half	1
+	.byte	82
+	.word	.L142-.L46,.L143-.L46
+	.half	1
+	.byte	93
+	.word	.L143-.L46,.L159-.L46
+	.half	1
+	.byte	89
+	.word	.L159-.L46,.L12-.L46
+	.half	1
+	.byte	81
+	.word	0,0
+.L90:
+	.word	-1,.L46,.L115-.L46,.L116-.L46
+	.half	1
+	.byte	82
+	.word	.L117-.L46,.L118-.L46
+	.half	1
+	.byte	93
+	.word	.L132-.L46,.L17-.L46
+	.half	1
+	.byte	95
+	.word	.L133-.L46,.L17-.L46
+	.half	2
+	.byte	145,120
+	.word	.L134-.L46,.L135-.L46
+	.half	1
+	.byte	95
+	.word	.L18-.L46,.L12-.L46
+	.half	2
+	.byte	145,120
+	.word	.L137-.L46,.L21-.L46
+	.half	1
+	.byte	90
+	.word	.L22-.L46,.L138-.L46
+	.half	1
+	.byte	90
+	.word	.L139-.L46,.L140-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L140-.L46,.L23-.L46
+	.half	1
+	.byte	90
+	.word	.L23-.L46,.L108-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L108-.L46,.L141-.L46
+	.half	1
+	.byte	90
+	.word	.L24-.L46,.L136-.L46
+	.half	1
+	.byte	90
+	.word	.L145-.L46,.L146-.L46
+	.half	1
+	.byte	90
+	.word	.L147-.L46,.L32-.L46
+	.half	1
+	.byte	90
+	.word	.L151-.L46,.L152-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L153-.L46,.L154-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L161-.L46,.L162-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L91:
+	.word	-1,.L46,.L120-.L46,.L121-.L46
+	.half	1
+	.byte	95
+	.word	.L124-.L46,.L125-.L46
+	.half	1
+	.byte	95
+	.word	.L126-.L46,.L123-.L46
+	.half	1
+	.byte	84
+	.word	.L135-.L46,.L131-.L46
+	.half	1
+	.byte	81
+	.word	.L27-.L46,.L144-.L46
+	.half	1
+	.byte	81
+	.word	.L20-.L46,.L148-.L46
+	.half	1
+	.byte	81
+	.word	.L34-.L46,.L33-.L46
+	.half	1
+	.byte	81
+	.word	0,0
+.L92:
+	.word	-1,.L46,.L122-.L46,.L123-.L46
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L93:
+	.word	-1,.L46,.L109-.L46,.L110-.L46
+	.half	1
+	.byte	90
+	.word	.L110-.L46,.L136-.L46
+	.half	1
+	.byte	84
+	.word	.L20-.L46,.L148-.L46
+	.half	1
+	.byte	84
+	.word	.L148-.L46,.L149-.L46
+	.half	1
+	.byte	82
+	.word	.L149-.L46,.L150-.L46
+	.half	1
+	.byte	95
+	.word	.L34-.L46,.L33-.L46
+	.half	1
+	.byte	84
+	.word	.L157-.L46,.L158-.L46
+	.half	1
+	.byte	81
+	.word	.L163-.L46,.L164-.L46
+	.half	1
+	.byte	81
+	.word	0,0
+.L94:
+	.word	-1,.L46,.L119-.L46,.L9-.L46
+	.half	1
+	.byte	94
+	.word	.L10-.L46,.L79-.L46
+	.half	1
+	.byte	94
+	.word	0,0
+.L96:
+	.word	-1,.L46,.L112-.L46,.L13-.L46
+	.half	1
+	.byte	91
+	.word	.L14-.L46,.L12-.L46
+	.half	1
+	.byte	91
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('PMSM_MTPA_Module_terminate')
+	.sect	'.debug_loc'
+.L99:
+	.word	-1,.L50,0,.L97-.L50
+	.half	1
+	.byte	100
+	.word	0,0
+.L49:
+	.word	-1,.L50,0,.L97-.L50
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L419:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('PMSM_MTPA_Module_step')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L419,.L46,.L79-.L46
+	.byte	4
+	.word	(.L100-.L46)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L79-.L100)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('PMSM_MTPA_Module_initialize')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L419,.L48,.L70-.L48
+	.sdecl	'.debug_frame',debug,cluster('PMSM_MTPA_Module_terminate')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L419,.L50,.L97-.L50
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

@@ -1,0 +1,3254 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc25116a --dep-file=0_Src/1_SrvSw/SysSe/MotorDrive/Pi.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\Current_Controller -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\MTPA -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Configurations -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Trig -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_SrvSw/SysSe/MotorDrive/Pi.src ../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Pi.Pic_Init',code,cluster('Pic_Init')
+	.sect	'.text.Pi.Pic_Init'
+	.align	2
+	
+	.global	Pic_Init
+; Function Pic_Init
+.L34:
+Pic_Init:	.type	func
+	mov	d15,#0
+.L293:
+	st.w	[a4],d15
+.L294:
+	mov	d15,#0
+.L295:
+	st.w	[a4]4,d15
+.L296:
+	mov	d15,#0
+.L297:
+	st.w	[a4]20,d15
+.L298:
+	mov	d15,#0
+.L299:
+	st.w	[a4]16,d15
+.L300:
+	mov	d15,#0
+.L301:
+	st.w	[a4]32,d15
+.L302:
+	mov	d15,#0
+.L303:
+	st.w	[a4]36,d15
+.L304:
+	mov	d15,#0
+.L305:
+	st.b	[a4]44,d15
+.L306:
+	ret
+.L142:
+	
+__Pic_Init_function_end:
+	.size	Pic_Init,__Pic_Init_function_end-Pic_Init
+.L71:
+	; End of function
+	
+	.sdecl	'.text.Pi.SpeedPI_Init',code,cluster('SpeedPI_Init')
+	.sect	'.text.Pi.SpeedPI_Init'
+	.align	2
+	
+	.global	SpeedPI_Init
+; Function SpeedPI_Init
+.L36:
+SpeedPI_Init:	.type	func
+	mov	d15,#0
+.L465:
+	st.w	[a4]8,d15
+.L466:
+	mov	d15,#14269
+	addih	d15,d15,#13702
+.L467:
+	st.w	[a4]12,d15
+.L468:
+	mov	d15,#0
+.L469:
+	st.w	[a4]28,d15
+.L470:
+	mov	d15,#0
+.L471:
+	st.w	[a4]20,d15
+.L472:
+	mov	d15,#0
+.L473:
+	st.w	[a4]16,d15
+.L474:
+	mov	d15,#0
+.L475:
+	st.w	[a4]32,d15
+.L476:
+	mov	d15,#0
+.L477:
+	st.w	[a4]36,d15
+.L478:
+	mov	d15,#0
+.L479:
+	st.b	[a4]44,d15
+.L480:
+	ret
+.L261:
+	
+__SpeedPI_Init_function_end:
+	.size	SpeedPI_Init,__SpeedPI_Init_function_end-SpeedPI_Init
+.L136:
+	; End of function
+	
+	.sdecl	'.text.Pi.CurrentPI_Init',code,cluster('CurrentPI_Init')
+	.sect	'.text.Pi.CurrentPI_Init'
+	.align	2
+	
+	.global	CurrentPI_Init
+; Function CurrentPI_Init
+.L38:
+CurrentPI_Init:	.type	func
+	mov.u	d15,#46871
+	addih	d15,d15,#14545
+.L311:
+	st.w	[a4]8,d15
+.L312:
+	mov.u	d15,#55050
+	addih	d15,d15,#15395
+.L313:
+	st.w	[a4]12,d15
+.L314:
+	mov	d15,#0
+.L315:
+	st.w	[a4]28,d15
+.L316:
+	mov	d15,#0
+.L317:
+	st.w	[a4]20,d15
+.L318:
+	mov	d15,#0
+.L319:
+	st.w	[a4]16,d15
+.L320:
+	mov	d15,#0
+.L321:
+	st.w	[a4]32,d15
+.L322:
+	mov	d15,#0
+.L323:
+	st.w	[a4]36,d15
+.L324:
+	mov	d15,#0
+.L325:
+	st.b	[a4]44,d15
+.L326:
+	ret
+.L145:
+	
+__CurrentPI_Init_function_end:
+	.size	CurrentPI_Init,__CurrentPI_Init_function_end-CurrentPI_Init
+.L76:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_SetKpKi_StdReal',code,cluster('Pic_SetKpKi_StdReal')
+	.sect	'.text.Pi.Pic_SetKpKi_StdReal'
+	.align	2
+	
+	.global	Pic_SetKpKi_StdReal
+; Function Pic_SetKpKi_StdReal
+.L40:
+Pic_SetKpKi_StdReal:	.type	func
+	mov	d15,#0
+.L343:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:0,.L2
+.L344:
+	mov	d15,#0
+.L345:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#2,#1
+	jeq	d15,#0,.L3
+.L2:
+	div.f	d15,d5,d4
+.L346:
+	movh	d0,#16384
+.L347:
+	div.f	d0,d6,d0
+.L348:
+	mul.f	d15,d15,d0
+.L280:
+	movh	d0,#16256
+	sub.f	d0,d15,d0
+	mul.f	d0,d4,d0
+.L349:
+	st.w	[a4],d0
+.L350:
+	movh	d0,#16256
+	add.f	d15,d15,d0
+.L281:
+	mul.f	d15,d4,d15
+.L351:
+	st.w	[a4]4,d15
+.L159:
+	j	.L4
+.L3:
+	mov	d15,#0
+.L352:
+	st.w	[a4],d15
+.L353:
+	mov	d15,#0
+.L354:
+	st.w	[a4]4,d15
+.L4:
+	ret
+.L149:
+	
+__Pic_SetKpKi_StdReal_function_end:
+	.size	Pic_SetKpKi_StdReal,__Pic_SetKpKi_StdReal_function_end-Pic_SetKpKi_StdReal
+.L86:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_GetKpKi_StdReal',code,cluster('Pic_GetKpKi_StdReal')
+	.sect	'.text.Pi.Pic_GetKpKi_StdReal'
+	.align	2
+	
+	.global	Pic_GetKpKi_StdReal
+; Function Pic_GetKpKi_StdReal
+.L42:
+Pic_GetKpKi_StdReal:	.type	func
+	ld.w	d15,[a4]4
+.L359:
+	ld.w	d0,[a4]
+.L360:
+	add.f	d15,d15,d0
+.L361:
+	div.f	d15,d15,d4
+.L362:
+	st.w	[a6],d15
+.L363:
+	ld.w	d15,[a4]4
+.L364:
+	ld.w	d0,[a4]
+.L365:
+	sub.f	d15,d15,d0
+.L366:
+	movh	d0,#16384
+.L367:
+	div.f	d15,d15,d0
+.L368:
+	st.w	[a5],d15
+.L369:
+	ret
+.L161:
+	
+__Pic_GetKpKi_StdReal_function_end:
+	.size	Pic_GetKpKi_StdReal,__Pic_GetKpKi_StdReal_function_end-Pic_GetKpKi_StdReal
+.L91:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_SetKpKi',code,cluster('Pic_SetKpKi')
+	.sect	'.text.Pi.Pic_SetKpKi'
+	.align	2
+	
+	.global	Pic_SetKpKi
+; Function Pic_SetKpKi
+.L44:
+Pic_SetKpKi:	.type	func
+	sub.a	a10,#8
+.L282:
+	mov	d15,#0
+	st.b	[a10],d15
+.L374:
+	mov	d7,#0
+	call	Pic_SetKpKi_StdReal
+.L283:
+	ret
+.L168:
+	
+__Pic_SetKpKi_function_end:
+	.size	Pic_SetKpKi,__Pic_SetKpKi_function_end-Pic_SetKpKi
+.L96:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_GetKpKi',code,cluster('Pic_GetKpKi')
+	.sect	'.text.Pi.Pic_GetKpKi'
+	.align	2
+	
+	.global	Pic_GetKpKi
+; Function Pic_GetKpKi
+.L46:
+Pic_GetKpKi:	.type	func
+	mov	d5,#0
+	call	Pic_GetKpKi_StdReal
+.L284:
+	ret
+.L173:
+	
+__Pic_GetKpKi_function_end:
+	.size	Pic_GetKpKi,__Pic_GetKpKi_function_end-Pic_GetKpKi
+.L101:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_SetLimit',code,cluster('Pic_SetLimit')
+	.sect	'.text.Pi.Pic_SetLimit'
+	.align	2
+	
+	.global	Pic_SetLimit
+; Function Pic_SetLimit
+.L48:
+Pic_SetLimit:	.type	func
+	st.w	[a4]32,d4
+.L383:
+	st.w	[a4]36,d5
+.L384:
+	mov	d15,#0
+.L385:
+	st.b	[a4]44,d15
+.L386:
+	ret
+.L178:
+	
+__Pic_SetLimit_function_end:
+	.size	Pic_SetLimit,__Pic_SetLimit_function_end-Pic_SetLimit
+.L106:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_GetLimit',code,cluster('Pic_GetLimit')
+	.sect	'.text.Pi.Pic_GetLimit'
+	.align	2
+	
+	.global	Pic_GetLimit
+; Function Pic_GetLimit
+.L50:
+Pic_GetLimit:	.type	func
+	ld.w	d15,[a4]32
+.L391:
+	st.w	[a5],d15
+.L392:
+	ld.w	d15,[a4]36
+.L393:
+	st.w	[a6],d15
+.L394:
+	ret
+.L182:
+	
+__Pic_GetLimit_function_end:
+	.size	Pic_GetLimit,__Pic_GetLimit_function_end-Pic_GetLimit
+.L111:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_IsLimitsHit',code,cluster('Pic_IsLimitsHit')
+	.sect	'.text.Pi.Pic_IsLimitsHit'
+	.align	2
+	
+	.global	Pic_IsLimitsHit
+; Function Pic_IsLimitsHit
+.L52:
+Pic_IsLimitsHit:	.type	func
+	ld.bu	d2,[a4]44
+.L454:
+	j	.L5
+.L5:
+	ret
+.L257:
+	
+__Pic_IsLimitsHit_function_end:
+	.size	Pic_IsLimitsHit,__Pic_IsLimitsHit_function_end-Pic_IsLimitsHit
+.L126:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_ResetLimitsHit',code,cluster('Pic_ResetLimitsHit')
+	.sect	'.text.Pi.Pic_ResetLimitsHit'
+	.align	2
+	
+	.global	Pic_ResetLimitsHit
+; Function Pic_ResetLimitsHit
+.L54:
+Pic_ResetLimitsHit:	.type	func
+	mov	d15,#0
+.L459:
+	st.b	[a4]44,d15
+.L460:
+	ret
+.L259:
+	
+__Pic_ResetLimitsHit_function_end:
+	.size	Pic_ResetLimitsHit,__Pic_ResetLimitsHit_function_end-Pic_ResetLimitsHit
+.L131:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_Do',code,cluster('Pic_Do')
+	.sect	'.text.Pi.Pic_Do'
+	.align	2
+	
+	.global	Pic_Do
+; Function Pic_Do
+.L56:
+Pic_Do:	.type	func
+	ld.w	d0,[a4]4
+.L399:
+	ld.w	d1,[a4]
+.L400:
+	ld.w	d15,[a4]20
+.L192:
+	mul.f	d15,d1,d15
+.L401:
+	madd.f	d0,d15,d0,d4
+.L402:
+	j	.L6
+.L6:
+	j	.L7
+.L7:
+	ld.w	d15,[a4]16
+.L213:
+	add.f	d0,d0,d15
+.L403:
+	j	.L8
+.L8:
+	j	.L9
+.L9:
+	ld.w	d1,[a4]4
+.L404:
+	ld.w	d2,[a4]
+.L405:
+	ld.w	d15,[a4]20
+.L232:
+	mul.f	d15,d2,d15
+.L406:
+	madd.f	d15,d15,d1,d4
+.L407:
+	j	.L10
+.L10:
+	j	.L11
+.L11:
+	st.w	[a4]40,d15
+.L233:
+	st.w	[a4]20,d4
+.L408:
+	ld.w	d15,[a4]36
+.L220:
+	cmp.f	d15,d0,d15
+.L221:
+	and	d15,#6
+	ne	d15,d15,#0
+.L409:
+	jeq	d15,#0,.L12
+.L410:
+	mov	d15,#1
+.L411:
+	st.b	[a4]44,d15
+.L412:
+	ld.w	d15,[a4]36
+.L413:
+	st.w	[a4]16,d15
+.L414:
+	j	.L13
+.L12:
+	ld.w	d15,[a4]32
+.L222:
+	cmp.f	d15,d0,d15
+.L223:
+	and	d15,#3
+	ne	d15,d15,#0
+.L415:
+	jne	d15,#0,.L14
+.L224:
+	st.w	[a4]16,d0
+.L225:
+	j	.L15
+.L14:
+	mov	d15,#1
+.L416:
+	st.b	[a4]44,d15
+.L417:
+	ld.w	d15,[a4]32
+.L418:
+	st.w	[a4]16,d15
+.L15:
+.L13:
+	ld.w	d2,[a4]16
+.L419:
+	j	.L16
+.L16:
+	ret
+.L187:
+	
+__Pic_Do_function_end:
+	.size	Pic_Do,__Pic_Do_function_end-Pic_Do
+.L116:
+	; End of function
+	
+	.sdecl	'.text.Pi.Speed_PI',code,cluster('Speed_PI')
+	.sect	'.text.Pi.Speed_PI'
+	.align	2
+	
+	.global	Speed_PI
+; Function Speed_PI
+.L58:
+Speed_PI:	.type	func
+	ld.w	d0,[a4]12
+.L485:
+	ld.w	d1,[a4]8
+.L486:
+	ld.w	d15,[a4]20
+.L267:
+	mul.f	d15,d1,d15
+.L487:
+	madd.f	d0,d15,d0,d4
+.L488:
+	j	.L17
+.L17:
+	j	.L18
+.L18:
+	ld.w	d15,[a4]28
+.L489:
+	ld.w	d1,[a4]24
+.L276:
+	madd.f	d1,d0,d15,d1
+.L490:
+	j	.L19
+.L19:
+	ld.w	d15,[a4]20
+.L491:
+	add.f	d15,d15,d4
+	st.w	[a4]20,d15
+.L492:
+	ld.w	d15,[a4]36
+.L493:
+	cmp.f	d15,d1,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L494:
+	jeq	d15,#0,.L20
+.L495:
+	mov	d0,#1
+.L496:
+	st.b	[a4]44,d0
+.L497:
+	ld.w	d15,[a4]36
+.L498:
+	st.w	[a4]16,d15
+.L499:
+	j	.L21
+.L20:
+	ld.w	d15,[a4]32
+.L500:
+	cmp.f	d15,d1,d15
+	and	d15,#3
+	ne	d15,d15,#0
+.L501:
+	jne	d15,#0,.L22
+.L502:
+	st.w	[a4]16,d1
+.L503:
+	j	.L23
+.L22:
+	mov	d0,#1
+.L504:
+	st.b	[a4]44,d0
+.L505:
+	ld.w	d15,[a4]32
+.L506:
+	st.w	[a4]16,d15
+.L23:
+.L21:
+	ld.w	d15,[a4]16
+.L507:
+	sub.f	d15,d15,d1
+.L508:
+	st.w	[a4]24,d15
+.L509:
+	ld.w	d2,[a4]16
+.L510:
+	j	.L24
+.L24:
+	ret
+.L263:
+	
+__Speed_PI_function_end:
+	.size	Speed_PI,__Speed_PI_function_end-Speed_PI
+.L141:
+	; End of function
+	
+	.sdecl	'.text.Pi.Current_PI',code,cluster('Current_PI')
+	.sect	'.text.Pi.Current_PI'
+	.align	2
+	
+	.global	Current_PI
+; Function Current_PI
+.L60:
+Current_PI:	.type	func
+	ld.w	d0,[a4]12
+.L424:
+	ld.w	d1,[a4]8
+.L425:
+	ld.w	d15,[a4]20
+.L238:
+	mul.f	d15,d1,d15
+.L426:
+	madd.f	d0,d15,d0,d4
+.L427:
+	j	.L25
+.L25:
+	j	.L26
+.L26:
+	ld.w	d15,[a4]28
+.L428:
+	ld.w	d1,[a4]24
+.L248:
+	madd.f	d1,d0,d15,d1
+.L429:
+	j	.L27
+.L27:
+	ld.w	d15,[a4]20
+.L430:
+	add.f	d15,d15,d4
+	st.w	[a4]20,d15
+.L431:
+	ld.w	d15,[a4]36
+.L432:
+	cmp.f	d15,d1,d15
+	and	d15,#6
+	ne	d15,d15,#0
+.L433:
+	jeq	d15,#0,.L28
+.L434:
+	mov	d0,#1
+.L435:
+	st.b	[a4]44,d0
+.L436:
+	ld.w	d15,[a4]36
+.L437:
+	st.w	[a4]16,d15
+.L438:
+	j	.L29
+.L28:
+	ld.w	d15,[a4]32
+.L439:
+	cmp.f	d15,d1,d15
+	and	d15,#3
+	ne	d15,d15,#0
+.L440:
+	jne	d15,#0,.L30
+.L441:
+	st.w	[a4]16,d1
+.L442:
+	j	.L31
+.L30:
+	mov	d0,#1
+.L443:
+	st.b	[a4]44,d0
+.L444:
+	ld.w	d15,[a4]32
+.L445:
+	st.w	[a4]16,d15
+.L31:
+.L29:
+	ld.w	d15,[a4]16
+.L446:
+	sub.f	d15,d15,d1
+.L447:
+	st.w	[a4]24,d15
+.L448:
+	ld.w	d2,[a4]16
+.L449:
+	j	.L32
+.L32:
+	ret
+.L234:
+	
+__Current_PI_function_end:
+	.size	Current_PI,__Current_PI_function_end-Current_PI
+.L121:
+	; End of function
+	
+	.sdecl	'.text.Pi.Pic_Reset',code,cluster('Pic_Reset')
+	.sect	'.text.Pi.Pic_Reset'
+	.align	2
+	
+	.global	Pic_Reset
+; Function Pic_Reset
+.L62:
+Pic_Reset:	.type	func
+	mov	d15,#0
+.L331:
+	st.w	[a4]20,d15
+.L332:
+	mov	d15,#0
+.L333:
+	st.w	[a4]16,d15
+.L334:
+	mov	d15,#0
+.L335:
+	st.w	[a4]24,d15
+.L336:
+	mov	d15,#0
+.L337:
+	st.w	[a4]40,d15
+.L338:
+	ret
+.L147:
+	
+__Pic_Reset_function_end:
+	.size	Pic_Reset,__Pic_Reset_function_end-Pic_Reset
+.L81:
+	; End of function
+	
+	.calls	'Pic_SetKpKi','Pic_SetKpKi_StdReal'
+	.calls	'Pic_GetKpKi','Pic_GetKpKi_StdReal'
+	.calls	'Pic_Init','',0
+	.calls	'SpeedPI_Init','',0
+	.calls	'CurrentPI_Init','',0
+	.calls	'Pic_SetKpKi_StdReal','',0
+	.calls	'Pic_GetKpKi_StdReal','',0
+	.calls	'Pic_SetKpKi','',8
+	.calls	'Pic_GetKpKi','',0
+	.calls	'Pic_SetLimit','',0
+	.calls	'Pic_GetLimit','',0
+	.calls	'Pic_IsLimitsHit','',0
+	.calls	'Pic_ResetLimitsHit','',0
+	.calls	'Pic_Do','',0
+	.calls	'Speed_PI','',0
+	.calls	'Current_PI','',0
+	.calls	'Pic_Reset','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L64:
+	.word	3161
+	.half	3
+	.word	.L65
+	.byte	4
+.L63:
+	.byte	1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L66
+	.byte	2,1,1,3
+	.word	214
+	.byte	4
+	.byte	'Ifx__jump_and_link',0,3,1,58,17,1,1,5
+	.byte	'fun',0,1,58,43
+	.word	217
+	.byte	6,0,7
+	.byte	'__fract',0,4,128,1
+.L151:
+	.byte	7
+	.byte	'float',0,4,4,8
+	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
+	.word	262
+	.byte	1,1,5
+	.byte	'a',0,1,149,2,44
+	.word	274
+	.byte	6,0,7
+	.byte	'unsigned long long int',0,8,7,9
+	.byte	'void',0,3
+	.word	354
+	.byte	8
+	.byte	'__ld64',0,3,2,132,1,19
+	.word	328
+	.byte	1,1,5
+	.byte	'addr',0,2,132,1,32
+	.word	360
+	.byte	6,0,4
+	.byte	'__st64',0,3,2,140,1,17,1,1,5
+	.byte	'addr',0,2,140,1,30
+	.word	360
+	.byte	5
+	.byte	'value',0,2,140,1,43
+	.word	328
+	.byte	6,0
+.L155:
+	.byte	7
+	.byte	'long int',0,4,5,8
+	.byte	'SInt32_To_FixPoint32',0,3,3,50,23
+	.word	262
+	.byte	1,1,5
+	.byte	'value',0,3,50,51
+	.word	446
+	.byte	5
+	.byte	'shift',0,3,50,65
+	.word	446
+	.byte	6,0,8
+	.byte	'FixPoint32_To_SInt32',0,3,3,80,19
+	.word	446
+	.byte	1,1,5
+	.byte	'value',0,3,80,51
+	.word	262
+	.byte	5
+	.byte	'shift',0,3,80,65
+	.word	446
+	.byte	6,0,8
+	.byte	'Float32_To_FixPoint32',0,3,3,111,23
+	.word	262
+	.byte	1,1,5
+	.byte	'value',0,3,111,53
+	.word	274
+	.byte	5
+	.byte	'shift',0,3,111,67
+	.word	446
+	.byte	6,0,8
+	.byte	'FixPoint32_To_Float32',0,3,3,138,1,20
+	.word	274
+	.byte	1,1,5
+	.byte	'value',0,3,138,1,53
+	.word	262
+	.byte	5
+	.byte	'shift',0,3,138,1,67
+	.word	446
+	.byte	6,0,8
+	.byte	'StdReal_To_FixPoint32',0,3,4,61,23
+	.word	262
+	.byte	1,1,5
+	.byte	'value',0,4,61,53
+	.word	274
+	.byte	5
+	.byte	'inputShift',0,4,61,67
+	.word	446
+	.byte	5
+	.byte	'outputShift',0,4,61,86
+	.word	446
+	.byte	10,6,0,0,8
+	.byte	'FixPoint32_To_StdReal',0,3,4,85,20
+	.word	274
+	.byte	1,1,5
+	.byte	'value',0,4,85,53
+	.word	262
+	.byte	5
+	.byte	'inputShift',0,4,85,67
+	.word	446
+	.byte	5
+	.byte	'outputShift',0,4,85,86
+	.word	446
+	.byte	10,6,0,0,8
+	.byte	'__mul_rF_iF_iF',0,3,5,58,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,58,43
+	.word	274
+	.byte	5
+	.byte	'b',0,5,58,54
+	.word	274
+	.byte	6,0,7
+	.byte	'short int',0,2,5,8
+	.byte	'__mul_r16I_iF_i16I',0,3,5,74,19
+	.word	939
+	.byte	1,1,5
+	.byte	'a',0,5,74,46
+	.word	274
+	.byte	5
+	.byte	'b',0,5,74,56
+	.word	939
+	.byte	6,0
+.L226:
+	.byte	8
+	.byte	'__adds_rF_iF_iF',0,3,5,88,20
+	.word	274
+	.byte	1,1
+.L227:
+	.byte	5
+	.byte	'a',0,5,88,44
+	.word	274
+.L229:
+	.byte	5
+	.byte	'b',0,5,88,55
+	.word	274
+.L231:
+	.byte	6,0,8
+	.byte	'__subs_rF_iF_iF',0,3,5,102,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,102,44
+	.word	274
+	.byte	5
+	.byte	'b',0,5,102,55
+	.word	274
+	.byte	6,0
+.L202:
+	.byte	8
+	.byte	'__maddms_rF_iF_iF_iF_iF',0,3,5,120,20
+	.word	274
+	.byte	1,1
+.L203:
+	.byte	5
+	.byte	'a',0,5,120,52
+	.word	274
+.L205:
+	.byte	5
+	.byte	'b',0,5,120,63
+	.word	274
+.L207:
+	.byte	5
+	.byte	'c',0,5,120,74
+	.word	274
+.L209:
+	.byte	5
+	.byte	'd',0,5,120,85
+	.word	274
+.L211:
+	.byte	6,0,8
+	.byte	'__msubms_rF_iF_iF_iF_iF',0,3,5,138,1,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,138,1,52
+	.word	274
+	.byte	5
+	.byte	'b',0,5,138,1,63
+	.word	274
+	.byte	5
+	.byte	'c',0,5,138,1,74
+	.word	274
+	.byte	5
+	.byte	'd',0,5,138,1,85
+	.word	274
+	.byte	6,0
+.L247:
+	.byte	8
+	.byte	'__madds_rF_iF_iF_iF',0,3,5,155,1,20
+	.word	274
+	.byte	1,1
+.L249:
+	.byte	5
+	.byte	'a',0,5,155,1,48
+	.word	274
+.L251:
+	.byte	5
+	.byte	'b',0,5,155,1,59
+	.word	274
+.L253:
+	.byte	5
+	.byte	'c',0,5,155,1,70
+	.word	274
+.L255:
+	.byte	6,0,8
+	.byte	'__madds_rF_iF_iF_i16I',0,3,5,172,1,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,172,1,50
+	.word	274
+	.byte	5
+	.byte	'b',0,5,172,1,61
+	.word	274
+	.byte	5
+	.byte	'c',0,5,172,1,71
+	.word	939
+	.byte	6,0,8
+	.byte	'__mul_rF_iF_i16I',0,3,5,188,1,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,188,1,45
+	.word	274
+	.byte	5
+	.byte	'b',0,5,188,1,55
+	.word	939
+	.byte	6,0,8
+	.byte	'__muls_8_rF_iF',0,3,5,203,1,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,203,1,43
+	.word	274
+	.byte	6,0,8
+	.byte	'__muls_128_rF_iF',0,3,5,218,1,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,218,1,45
+	.word	274
+	.byte	6,0
+.L157:
+	.byte	7
+	.byte	'char',0,1,6,8
+	.byte	'__shas_rF_iF_i8I',0,3,5,251,1,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,251,1,45
+	.word	274
+	.byte	5
+	.byte	'b',0,5,251,1,54
+	.word	1532
+	.byte	6,0,8
+	.byte	'__negs_rF_iF',0,3,5,138,2,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,138,2,41
+	.word	274
+	.byte	6,0,8
+	.byte	'__abs_rF_iF',0,3,5,153,2,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,153,2,40
+	.word	274
+	.byte	6,0,8
+	.byte	'__div_rF_iF_i32I',0,3,5,169,2,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,169,2,45
+	.word	274
+	.byte	5
+	.byte	'b',0,5,169,2,55
+	.word	446
+	.byte	6,0,8
+	.byte	'__div_rF_iF_iF',0,3,5,185,2,20
+	.word	274
+	.byte	1,1,5
+	.byte	'a',0,5,185,2,43
+	.word	274
+	.byte	5
+	.byte	'b',0,5,185,2,54
+	.word	274
+	.byte	6,0
+.L191:
+	.byte	8
+	.byte	'__maddms_rLSR_iSR_iSR_iSR_iSR',0,3,6,212,1,24
+	.word	274
+	.byte	1,1
+.L193:
+	.byte	5
+	.byte	'a',0,6,212,1,62
+	.word	274
+.L195:
+	.byte	5
+	.byte	'b',0,6,212,1,73
+	.word	274
+.L197:
+	.byte	5
+	.byte	'c',0,6,212,1,84
+	.word	274
+.L199:
+	.byte	5
+	.byte	'd',0,6,212,1,95
+	.word	274
+.L201:
+	.byte	10,6,0,0
+.L212:
+	.byte	8
+	.byte	'__adds_rLSR_iLSR_iLSR',0,3,6,240,1,24
+	.word	274
+	.byte	1,1
+.L214:
+	.byte	5
+	.byte	'a',0,6,240,1,58
+	.word	274
+.L216:
+	.byte	5
+	.byte	'b',0,6,240,1,73
+	.word	274
+.L218:
+	.byte	10,6,0,0,11
+	.word	222
+	.byte	12
+	.word	248
+	.byte	6,0,11
+	.word	283
+	.byte	12
+	.word	315
+	.byte	6,0,11
+	.word	365
+	.byte	12
+	.word	384
+	.byte	6,0,11
+	.word	400
+	.byte	12
+	.word	415
+	.byte	12
+	.word	429
+	.byte	6,0,11
+	.word	458
+	.byte	12
+	.word	490
+	.byte	12
+	.word	504
+	.byte	6,0,11
+	.word	520
+	.byte	12
+	.word	552
+	.byte	12
+	.word	566
+	.byte	6,0,11
+	.word	582
+	.byte	12
+	.word	615
+	.byte	12
+	.word	629
+	.byte	6,0,11
+	.word	645
+	.byte	12
+	.word	679
+	.byte	12
+	.word	694
+	.byte	6,0,11
+	.word	711
+	.byte	12
+	.word	744
+	.byte	12
+	.word	758
+	.byte	12
+	.word	777
+	.byte	10,13
+	.word	582
+	.byte	12
+	.word	615
+	.byte	12
+	.word	629
+	.byte	14
+	.word	643
+	.byte	0,6,0,0,11
+	.word	801
+	.byte	12
+	.word	834
+	.byte	12
+	.word	848
+	.byte	12
+	.word	867
+	.byte	10,13
+	.word	645
+	.byte	12
+	.word	679
+	.byte	12
+	.word	694
+	.byte	14
+	.word	709
+	.byte	0,6,0,0,11
+	.word	891
+	.byte	12
+	.word	917
+	.byte	12
+	.word	927
+	.byte	6,0,11
+	.word	952
+	.byte	12
+	.word	982
+	.byte	12
+	.word	992
+	.byte	6,0,11
+	.word	1004
+	.byte	12
+	.word	1031
+	.byte	12
+	.word	1041
+	.byte	6,0,11
+	.word	1053
+	.byte	12
+	.word	1080
+	.byte	12
+	.word	1090
+	.byte	6,0,11
+	.word	1102
+	.byte	12
+	.word	1137
+	.byte	12
+	.word	1147
+	.byte	12
+	.word	1157
+	.byte	12
+	.word	1167
+	.byte	6,0,11
+	.word	1179
+	.byte	12
+	.word	1215
+	.byte	12
+	.word	1226
+	.byte	12
+	.word	1237
+	.byte	12
+	.word	1248
+	.byte	6,0,11
+	.word	1261
+	.byte	12
+	.word	1293
+	.byte	12
+	.word	1304
+	.byte	12
+	.word	1315
+	.byte	6,0,11
+	.word	1328
+	.byte	12
+	.word	1362
+	.byte	12
+	.word	1373
+	.byte	12
+	.word	1384
+	.byte	6,0,11
+	.word	1397
+	.byte	12
+	.word	1426
+	.byte	12
+	.word	1437
+	.byte	6,0,11
+	.word	1450
+	.byte	12
+	.word	1477
+	.byte	6,0,11
+	.word	1490
+	.byte	12
+	.word	1519
+	.byte	6,0,11
+	.word	1540
+	.byte	12
+	.word	1569
+	.byte	12
+	.word	1580
+	.byte	6,0,11
+	.word	1593
+	.byte	12
+	.word	1618
+	.byte	6,0,11
+	.word	1631
+	.byte	12
+	.word	1655
+	.byte	6,0,11
+	.word	1668
+	.byte	12
+	.word	1697
+	.byte	12
+	.word	1708
+	.byte	6,0,11
+	.word	1721
+	.byte	12
+	.word	1748
+	.byte	12
+	.word	1759
+	.byte	6,0,11
+	.word	1772
+	.byte	12
+	.word	1814
+	.byte	12
+	.word	1825
+	.byte	12
+	.word	1836
+	.byte	12
+	.word	1847
+	.byte	10,13
+	.word	1102
+	.byte	12
+	.word	1137
+	.byte	12
+	.word	1147
+	.byte	12
+	.word	1157
+	.byte	12
+	.word	1167
+	.byte	14
+	.word	1177
+	.byte	0,6,0,0,11
+	.word	1862
+	.byte	12
+	.word	1896
+	.byte	12
+	.word	1907
+	.byte	10,13
+	.word	1004
+	.byte	12
+	.word	1031
+	.byte	12
+	.word	1041
+	.byte	14
+	.word	1051
+	.byte	0,6,0,0
+.L256:
+	.byte	7
+	.byte	'unsigned char',0,1,8,15,7,49,9,48,16
+	.byte	'a0',0
+	.word	274
+	.byte	4,2,35,0,16
+	.byte	'a1',0
+	.word	274
+	.byte	4,2,35,4,16
+	.byte	'b0',0
+	.word	274
+	.byte	4,2,35,8,16
+	.byte	'b1',0
+	.word	274
+	.byte	4,2,35,12,16
+	.byte	'uk',0
+	.word	274
+	.byte	4,2,35,16,16
+	.byte	'ik',0
+	.word	274
+	.byte	4,2,35,20,16
+	.byte	'sk',0
+	.word	274
+	.byte	4,2,35,24,16
+	.byte	'c0',0
+	.word	274
+	.byte	4,2,35,28,16
+	.byte	'min',0
+	.word	274
+	.byte	4,2,35,32,16
+	.byte	'max',0
+	.word	274
+	.byte	4,2,35,36,16
+	.byte	'delta_uk',0
+	.word	274
+	.byte	4,2,35,40,16
+	.byte	'hitLimits',0
+	.word	2515
+	.byte	1,2,35,44,0
+.L143:
+	.byte	3
+	.word	2532
+.L163:
+	.byte	3
+	.word	274
+.L184:
+	.byte	3
+	.word	274
+	.byte	17
+	.byte	'__wchar_t',0,8,1,1
+	.word	939
+	.byte	7
+	.byte	'unsigned int',0,4,7,17
+	.byte	'__size_t',0,8,1,1
+	.word	2730
+	.byte	7
+	.byte	'int',0,4,5,17
+	.byte	'__ptrdiff_t',0,8,1,1
+	.word	2763
+	.byte	18,1,3
+	.word	2790
+	.byte	17
+	.byte	'__codeptr',0,8,1,1
+	.word	2792
+	.byte	17
+	.byte	'boolean',0,9,104,29
+	.word	2515
+	.byte	17
+	.byte	'uint8',0,9,108,29
+	.word	2515
+	.byte	7
+	.byte	'unsigned short int',0,2,7,17
+	.byte	'uint16',0,9,112,29
+	.word	2845
+	.byte	7
+	.byte	'unsigned long int',0,4,7,17
+	.byte	'uint32',0,9,116,29
+	.word	2882
+	.byte	17
+	.byte	'uint64',0,9,121,29
+	.word	328
+	.byte	17
+	.byte	'sint8',0,9,125,29
+	.word	1532
+	.byte	17
+	.byte	'sint16',0,9,129,1,29
+	.word	939
+	.byte	17
+	.byte	'sint32',0,9,134,1,29
+	.word	446
+	.byte	7
+	.byte	'long long int',0,8,5,17
+	.byte	'sint64',0,9,141,1,29
+	.word	2979
+	.byte	17
+	.byte	'float32',0,9,170,1,29
+	.word	274
+	.byte	17
+	.byte	'pvoid',0,10,54,28
+	.word	360
+	.byte	17
+	.byte	'Ifx_TickTime',0,10,76,28
+	.word	2979
+	.byte	7
+	.byte	'__sfract',0,2,128,1,17
+	.byte	'FixPoint16',0,11,32,16
+	.word	3064
+	.byte	17
+	.byte	'FixPoint32',0,11,33,16
+	.word	262
+	.byte	17
+	.byte	'StdReal',0,11,65,17
+	.word	274
+	.byte	17
+	.byte	'StdRealLong',0,11,71,17
+	.word	274
+	.byte	17
+	.byte	'TPic',0,7,68,3
+	.word	2532
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
+	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
+	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,11,1,0,0,11,46,1,49
+	.byte	19,0,0,12,5,0,49,19,0,0,13,29,1,49,19,0,0,14,11,0,49,19,0,0,15,19,1,58,15,59,15,57,15,11,15,0,0,16,13
+	.byte	0,3,8,73,19,11,15,56,9,0,0,17,22,0,3,8,58,15,59,15,57,15,73,19,0,0,18,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L66:
+	.word	.L286-.L285
+.L285:
+	.half	3
+	.word	.L288-.L287
+.L287:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive',0
+	.byte	0
+	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
+	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
+	.byte	'Convert.asm.h',0,2,0,0
+	.byte	'Convert.h',0,2,0,0
+	.byte	'Arith.Float.h',0,2,0,0
+	.byte	'Arith.StdReal.h',0,2,0,0
+	.byte	'Pi.h',0,3,0,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0
+	.byte	'StdReal.h',0,2,0,0,0
+.L288:
+.L286:
+	.sdecl	'.debug_info',debug,cluster('Pic_Init')
+	.sect	'.debug_info'
+.L67:
+	.word	274
+	.half	3
+	.word	.L68
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L70,.L69
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_Init',0,1,40,6,1,1,1
+	.word	.L34,.L142,.L33
+	.byte	4
+	.byte	'Pic',0,1,40,22
+	.word	.L143,.L144
+	.byte	5
+	.word	.L34,.L142
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_Init')
+	.sect	'.debug_abbrev'
+.L68:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_Init')
+	.sect	'.debug_line'
+.L69:
+	.word	.L290-.L289
+.L289:
+	.half	3
+	.word	.L292-.L291
+.L291:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L292:
+	.byte	5,15,7,0,5,2
+	.word	.L34
+	.byte	3,41,1,5,13,9
+	.half	.L293-.L34
+	.byte	1,5,15,9
+	.half	.L294-.L293
+	.byte	3,1,1,5,13,9
+	.half	.L295-.L294
+	.byte	1,5,15,9
+	.half	.L296-.L295
+	.byte	3,1,1,5,13,9
+	.half	.L297-.L296
+	.byte	1,5,15,9
+	.half	.L298-.L297
+	.byte	3,1,1,5,13,9
+	.half	.L299-.L298
+	.byte	1,5,16,9
+	.half	.L300-.L299
+	.byte	3,1,1,5,14,9
+	.half	.L301-.L300
+	.byte	1,5,16,9
+	.half	.L302-.L301
+	.byte	3,1,1,5,14,9
+	.half	.L303-.L302
+	.byte	1,5,22,9
+	.half	.L304-.L303
+	.byte	3,2,1,5,20,9
+	.half	.L305-.L304
+	.byte	1,5,1,9
+	.half	.L306-.L305
+	.byte	3,2,1,7,9
+	.half	.L71-.L306
+	.byte	0,1,1
+.L290:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_Init')
+	.sect	'.debug_ranges'
+.L70:
+	.word	-1,.L34,0,.L71-.L34,0,0
+	.sdecl	'.debug_info',debug,cluster('CurrentPI_Init')
+	.sect	'.debug_info'
+.L72:
+	.word	280
+	.half	3
+	.word	.L73
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L75,.L74
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'CurrentPI_Init',0,1,73,6,1,1,1
+	.word	.L38,.L145,.L37
+	.byte	4
+	.byte	'Pic',0,1,73,28
+	.word	.L143,.L146
+	.byte	5
+	.word	.L38,.L145
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CurrentPI_Init')
+	.sect	'.debug_abbrev'
+.L73:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CurrentPI_Init')
+	.sect	'.debug_line'
+.L74:
+	.word	.L308-.L307
+.L307:
+	.half	3
+	.word	.L310-.L309
+.L309:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L310:
+	.byte	5,15,7,0,5,2
+	.word	.L38
+	.byte	3,203,0,1,5,13,9
+	.half	.L311-.L38
+	.byte	1,5,15,9
+	.half	.L312-.L311
+	.byte	3,3,1,5,13,9
+	.half	.L313-.L312
+	.byte	1,5,15,9
+	.half	.L314-.L313
+	.byte	3,3,1,5,13,9
+	.half	.L315-.L314
+	.byte	1,5,15,9
+	.half	.L316-.L315
+	.byte	3,2,1,5,13,9
+	.half	.L317-.L316
+	.byte	1,5,15,9
+	.half	.L318-.L317
+	.byte	3,1,1,5,13,9
+	.half	.L319-.L318
+	.byte	1,5,16,9
+	.half	.L320-.L319
+	.byte	3,1,1,5,14,9
+	.half	.L321-.L320
+	.byte	1,5,16,9
+	.half	.L322-.L321
+	.byte	3,1,1,5,14,9
+	.half	.L323-.L322
+	.byte	1,5,22,9
+	.half	.L324-.L323
+	.byte	3,2,1,5,20,9
+	.half	.L325-.L324
+	.byte	1,5,1,9
+	.half	.L326-.L325
+	.byte	3,2,1,7,9
+	.half	.L76-.L326
+	.byte	0,1,1
+.L308:
+	.sdecl	'.debug_ranges',debug,cluster('CurrentPI_Init')
+	.sect	'.debug_ranges'
+.L75:
+	.word	-1,.L38,0,.L76-.L38,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_Reset')
+	.sect	'.debug_info'
+.L77:
+	.word	277
+	.half	3
+	.word	.L78
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L80,.L79
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_Reset',0,1,246,2,6,1,1,1
+	.word	.L62,.L147,.L61
+	.byte	4
+	.byte	'pic',0,1,246,2,23
+	.word	.L143,.L148
+	.byte	5
+	.word	.L62,.L147
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_Reset')
+	.sect	'.debug_abbrev'
+.L78:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_Reset')
+	.sect	'.debug_line'
+.L79:
+	.word	.L328-.L327
+.L327:
+	.half	3
+	.word	.L330-.L329
+.L329:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L330:
+	.byte	5,15,7,0,5,2
+	.word	.L62
+	.byte	3,247,2,1,5,13,9
+	.half	.L331-.L62
+	.byte	1,5,15,9
+	.half	.L332-.L331
+	.byte	3,1,1,5,13,9
+	.half	.L333-.L332
+	.byte	1,5,15,9
+	.half	.L334-.L333
+	.byte	3,1,1,5,13,9
+	.half	.L335-.L334
+	.byte	1,5,21,9
+	.half	.L336-.L335
+	.byte	3,1,1,5,19,9
+	.half	.L337-.L336
+	.byte	1,5,1,9
+	.half	.L338-.L337
+	.byte	3,1,1,7,9
+	.half	.L81-.L338
+	.byte	0,1,1
+.L328:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_Reset')
+	.sect	'.debug_ranges'
+.L80:
+	.word	-1,.L62,0,.L81-.L62,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_SetKpKi_StdReal')
+	.sect	'.debug_info'
+.L82:
+	.word	409
+	.half	3
+	.word	.L83
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L85,.L84
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_SetKpKi_StdReal',0,1,110,6,1,1,1
+	.word	.L40,.L149,.L39
+	.byte	4
+	.byte	'pic',0,1,110,33
+	.word	.L143,.L150
+	.byte	4
+	.byte	'kp',0,1,110,46
+	.word	.L151,.L152
+	.byte	4
+	.byte	'ki',0,1,110,58
+	.word	.L151,.L153
+	.byte	4
+	.byte	'sampleTime',0,1,110,70
+	.word	.L151,.L154
+	.byte	4
+	.byte	'shiftCoef',0,1,110,89
+	.word	.L155,.L156
+	.byte	4
+	.byte	'shiftResult',0,1,110,106
+	.word	.L157,.L158
+	.byte	5
+	.word	.L40,.L149
+	.byte	5
+	.word	.L2,.L159
+	.byte	6
+	.byte	'k',0,1,114,17
+	.word	.L151,.L160
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_SetKpKi_StdReal')
+	.sect	'.debug_abbrev'
+.L83:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_SetKpKi_StdReal')
+	.sect	'.debug_line'
+.L84:
+	.word	.L340-.L339
+.L339:
+	.half	3
+	.word	.L342-.L341
+.L341:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L342:
+	.byte	5,15,7,0,5,2
+	.word	.L40
+	.byte	3,239,0,1,5,9,9
+	.half	.L343-.L40
+	.byte	1,5,27,9
+	.half	.L344-.L343
+	.byte	1,5,25,9
+	.half	.L345-.L344
+	.byte	1,9
+	.half	.L2-.L345
+	.byte	3,2,1,5,47,9
+	.half	.L346-.L2
+	.byte	1,5,45,9
+	.half	.L347-.L346
+	.byte	1,5,31,9
+	.half	.L348-.L347
+	.byte	1,5,19,9
+	.half	.L280-.L348
+	.byte	3,1,1,5,17,9
+	.half	.L349-.L280
+	.byte	1,5,19,9
+	.half	.L350-.L349
+	.byte	3,1,1,5,17,9
+	.half	.L351-.L350
+	.byte	1,5,19,9
+	.half	.L159-.L351
+	.byte	3,126,1,9
+	.half	.L3-.L159
+	.byte	3,9,1,5,17,9
+	.half	.L352-.L3
+	.byte	1,5,19,9
+	.half	.L353-.L352
+	.byte	3,1,1,5,17,9
+	.half	.L354-.L353
+	.byte	1,5,1,9
+	.half	.L4-.L354
+	.byte	3,5,1,7,9
+	.half	.L86-.L4
+	.byte	0,1,1
+.L340:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_SetKpKi_StdReal')
+	.sect	'.debug_ranges'
+.L85:
+	.word	-1,.L40,0,.L86-.L40,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_GetKpKi_StdReal')
+	.sect	'.debug_info'
+.L87:
+	.word	366
+	.half	3
+	.word	.L88
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L90,.L89
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_GetKpKi_StdReal',0,1,146,1,6,1,1,1
+	.word	.L42,.L161,.L41
+	.byte	4
+	.byte	'pic',0,1,146,1,33
+	.word	.L143,.L162
+	.byte	4
+	.byte	'kp',0,1,146,1,47
+	.word	.L163,.L164
+	.byte	4
+	.byte	'ki',0,1,146,1,60
+	.word	.L163,.L165
+	.byte	4
+	.byte	'sampleTime',0,1,146,1,72
+	.word	.L151,.L166
+	.byte	4
+	.byte	'shiftCoef',0,1,146,1,91
+	.word	.L155,.L167
+	.byte	5
+	.word	.L42,.L161
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_GetKpKi_StdReal')
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_GetKpKi_StdReal')
+	.sect	'.debug_line'
+.L89:
+	.word	.L356-.L355
+.L355:
+	.half	3
+	.word	.L358-.L357
+.L357:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L358:
+	.byte	5,12,7,0,5,2
+	.word	.L42
+	.byte	3,147,1,1,5,54,9
+	.half	.L359-.L42
+	.byte	1,5,52,9
+	.half	.L360-.L359
+	.byte	1,5,95,9
+	.half	.L361-.L360
+	.byte	1,5,9,9
+	.half	.L362-.L361
+	.byte	1,5,12,9
+	.half	.L363-.L362
+	.byte	3,1,1,5,54,9
+	.half	.L364-.L363
+	.byte	1,5,52,9
+	.half	.L365-.L364
+	.byte	1,5,97,9
+	.half	.L366-.L365
+	.byte	1,5,95,9
+	.half	.L367-.L366
+	.byte	1,5,9,9
+	.half	.L368-.L367
+	.byte	1,5,1,9
+	.half	.L369-.L368
+	.byte	3,1,1,7,9
+	.half	.L91-.L369
+	.byte	0,1,1
+.L356:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_GetKpKi_StdReal')
+	.sect	'.debug_ranges'
+.L90:
+	.word	-1,.L42,0,.L91-.L42,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_SetKpKi')
+	.sect	'.debug_info'
+.L92:
+	.word	335
+	.half	3
+	.word	.L93
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L95,.L94
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_SetKpKi',0,1,166,1,6,1,1,1
+	.word	.L44,.L168,.L43
+	.byte	4
+	.byte	'pic',0,1,166,1,25
+	.word	.L143,.L169
+	.byte	4
+	.byte	'kp',0,1,166,1,38
+	.word	.L151,.L170
+	.byte	4
+	.byte	'ki',0,1,166,1,50
+	.word	.L151,.L171
+	.byte	4
+	.byte	'sampleTime',0,1,166,1,62
+	.word	.L151,.L172
+	.byte	5
+	.word	.L44,.L168
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_SetKpKi')
+	.sect	'.debug_abbrev'
+.L93:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_SetKpKi')
+	.sect	'.debug_line'
+.L94:
+	.word	.L371-.L370
+.L370:
+	.half	3
+	.word	.L373-.L372
+.L372:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L373:
+	.byte	5,6,7,0,5,2
+	.word	.L44
+	.byte	3,165,1,1,5,53,9
+	.half	.L282-.L44
+	.byte	3,2,1,5,50,9
+	.half	.L374-.L282
+	.byte	1,5,1,9
+	.half	.L283-.L374
+	.byte	3,1,1,7,9
+	.half	.L96-.L283
+	.byte	0,1,1
+.L371:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_SetKpKi')
+	.sect	'.debug_ranges'
+.L95:
+	.word	-1,.L44,0,.L96-.L44,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_GetKpKi')
+	.sect	'.debug_info'
+.L97:
+	.word	335
+	.half	3
+	.word	.L98
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L100,.L99
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_GetKpKi',0,1,184,1,6,1,1,1
+	.word	.L46,.L173,.L45
+	.byte	4
+	.byte	'pic',0,1,184,1,25
+	.word	.L143,.L174
+	.byte	4
+	.byte	'kp',0,1,184,1,39
+	.word	.L163,.L175
+	.byte	4
+	.byte	'ki',0,1,184,1,52
+	.word	.L163,.L176
+	.byte	4
+	.byte	'sampleTime',0,1,184,1,64
+	.word	.L151,.L177
+	.byte	5
+	.word	.L46,.L173
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_GetKpKi')
+	.sect	'.debug_abbrev'
+.L98:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_GetKpKi')
+	.sect	'.debug_line'
+.L99:
+	.word	.L376-.L375
+.L375:
+	.half	3
+	.word	.L378-.L377
+.L377:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L378:
+	.byte	5,50,7,0,5,2
+	.word	.L46
+	.byte	3,185,1,1,5,1,9
+	.half	.L284-.L46
+	.byte	3,1,1,7,9
+	.half	.L101-.L284
+	.byte	0,1,1
+.L376:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_GetKpKi')
+	.sect	'.debug_ranges'
+.L100:
+	.word	-1,.L46,0,.L101-.L46,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_SetLimit')
+	.sect	'.debug_info'
+.L102:
+	.word	314
+	.half	3
+	.word	.L103
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L105,.L104
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_SetLimit',0,1,203,1,6,1,1,1
+	.word	.L48,.L178,.L47
+	.byte	4
+	.byte	'pic',0,1,203,1,26
+	.word	.L143,.L179
+	.byte	4
+	.byte	'min',0,1,203,1,39
+	.word	.L151,.L180
+	.byte	4
+	.byte	'max',0,1,203,1,51
+	.word	.L151,.L181
+	.byte	5
+	.word	.L48,.L178
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_SetLimit')
+	.sect	'.debug_abbrev'
+.L103:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_SetLimit')
+	.sect	'.debug_line'
+.L104:
+	.word	.L380-.L379
+.L379:
+	.half	3
+	.word	.L382-.L381
+.L381:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L382:
+	.byte	5,14,7,0,5,2
+	.word	.L48
+	.byte	3,204,1,1,9
+	.half	.L383-.L48
+	.byte	3,1,1,5,22,9
+	.half	.L384-.L383
+	.byte	3,2,1,5,20,9
+	.half	.L385-.L384
+	.byte	1,5,1,9
+	.half	.L386-.L385
+	.byte	3,2,1,7,9
+	.half	.L106-.L386
+	.byte	0,1,1
+.L380:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_SetLimit')
+	.sect	'.debug_ranges'
+.L105:
+	.word	-1,.L48,0,.L106-.L48,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_GetLimit')
+	.sect	'.debug_info'
+.L107:
+	.word	314
+	.half	3
+	.word	.L108
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L110,.L109
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_GetLimit',0,1,223,1,6,1,1,1
+	.word	.L50,.L182,.L49
+	.byte	4
+	.byte	'pic',0,1,223,1,26
+	.word	.L143,.L183
+	.byte	4
+	.byte	'min',0,1,223,1,40
+	.word	.L184,.L185
+	.byte	4
+	.byte	'max',0,1,223,1,54
+	.word	.L184,.L186
+	.byte	5
+	.word	.L50,.L182
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_GetLimit')
+	.sect	'.debug_abbrev'
+.L108:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_GetLimit')
+	.sect	'.debug_line'
+.L109:
+	.word	.L388-.L387
+.L387:
+	.half	3
+	.word	.L390-.L389
+.L389:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L390:
+	.byte	5,15,7,0,5,2
+	.word	.L50
+	.byte	3,224,1,1,5,10,9
+	.half	.L391-.L50
+	.byte	1,5,15,9
+	.half	.L392-.L391
+	.byte	3,1,1,5,10,9
+	.half	.L393-.L392
+	.byte	1,5,1,9
+	.half	.L394-.L393
+	.byte	3,1,1,7,9
+	.half	.L111-.L394
+	.byte	0,1,1
+.L388:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_GetLimit')
+	.sect	'.debug_ranges'
+.L110:
+	.word	-1,.L50,0,.L111-.L50,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_Do')
+	.sect	'.debug_info'
+.L112:
+	.word	751
+	.half	3
+	.word	.L113
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L115,.L114
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_Do',0,1,150,2,9
+	.word	.L151
+	.byte	1,1,1
+	.word	.L56,.L187,.L55
+	.byte	4
+	.byte	'pic',0,1,150,2,23
+	.word	.L143,.L188
+	.byte	4
+	.byte	'input',0,1,150,2,36
+	.word	.L151,.L189
+	.byte	5
+	.word	.L56,.L187
+	.byte	6
+	.byte	'uk',0,1,152,2,17
+	.word	.L151,.L190
+	.byte	7
+	.word	.L191,.L192,.L7
+	.byte	8
+	.word	.L193,.L194
+	.byte	8
+	.word	.L195,.L196
+	.byte	8
+	.word	.L197,.L198
+	.byte	8
+	.word	.L199,.L200
+	.byte	9
+	.word	.L201,.L192,.L7
+	.byte	7
+	.word	.L202,.L192,.L6
+	.byte	8
+	.word	.L203,.L204
+	.byte	8
+	.word	.L205,.L206
+	.byte	8
+	.word	.L207,.L208
+	.byte	8
+	.word	.L209,.L210
+	.byte	10
+	.word	.L211,.L192,.L6
+	.byte	0,0,0,7
+	.word	.L212,.L213,.L9
+	.byte	8
+	.word	.L214,.L215
+	.byte	8
+	.word	.L216,.L217
+	.byte	11
+	.word	.L218,.L219
+	.byte	7
+	.word	.L226,.L213,.L8
+	.byte	8
+	.word	.L227,.L228
+	.byte	8
+	.word	.L229,.L230
+	.byte	10
+	.word	.L231,.L213,.L8
+	.byte	0,0,0,7
+	.word	.L191,.L232,.L233
+	.byte	8
+	.word	.L193,.L194
+	.byte	8
+	.word	.L195,.L196
+	.byte	8
+	.word	.L197,.L198
+	.byte	8
+	.word	.L199,.L200
+	.byte	9
+	.word	.L201,.L232,.L233
+	.byte	7
+	.word	.L202,.L232,.L10
+	.byte	8
+	.word	.L203,.L204
+	.byte	8
+	.word	.L205,.L206
+	.byte	8
+	.word	.L207,.L208
+	.byte	8
+	.word	.L209,.L210
+	.byte	10
+	.word	.L211,.L232,.L10
+	.byte	0,0,0,7
+	.word	.L212,.L220,.L221
+	.byte	8
+	.word	.L214,.L215
+	.byte	8
+	.word	.L216,.L217
+	.byte	0,7
+	.word	.L212,.L222,.L223
+	.byte	8
+	.word	.L214,.L215
+	.byte	8
+	.word	.L216,.L217
+	.byte	0,7
+	.word	.L212,.L224,.L225
+	.byte	8
+	.word	.L214,.L215
+	.byte	8
+	.word	.L216,.L217
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_Do')
+	.sect	'.debug_abbrev'
+.L113:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,1,49,16,17
+	.byte	1,18,1,0,0,10,11,0,49,16,17,1,18,1,0,0,11,11,1,49,16,85,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_Do')
+	.sect	'.debug_line'
+.L114:
+	.word	.L396-.L395
+.L395:
+	.half	3
+	.word	.L398-.L397
+.L397:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0
+	.byte	'Arith.Float.h',0,1,0,0
+	.byte	'Arith.StdReal.h',0,1,0,0,0
+.L398:
+	.byte	5,65,7,0,5,2
+	.word	.L56
+	.byte	3,156,2,1,5,81,9
+	.half	.L399-.L56
+	.byte	1,5,90,9
+	.half	.L400-.L399
+	.byte	1,4,2,5,25,9
+	.half	.L192-.L400
+	.byte	3,221,126,1,5,20,9
+	.half	.L401-.L192
+	.byte	1,5,5,9
+	.half	.L402-.L401
+	.byte	1,4,3,9
+	.half	.L6-.L402
+	.byte	3,221,0,1,4,1,5,100,9
+	.half	.L7-.L6
+	.byte	3,198,0,1,4,2,5,14,9
+	.half	.L213-.L7
+	.byte	3,189,126,1,5,5,9
+	.half	.L403-.L213
+	.byte	1,4,3,9
+	.half	.L8-.L403
+	.byte	3,153,1,1,4,1,5,54,9
+	.half	.L9-.L8
+	.byte	3,43,1,5,70,9
+	.half	.L404-.L9
+	.byte	1,5,79,9
+	.half	.L405-.L404
+	.byte	1,4,2,5,25,9
+	.half	.L232-.L405
+	.byte	3,220,126,1,5,20,9
+	.half	.L406-.L232
+	.byte	1,5,5,9
+	.half	.L407-.L406
+	.byte	1,4,3,9
+	.half	.L10-.L407
+	.byte	3,221,0,1,4,1,5,19,9
+	.half	.L11-.L10
+	.byte	3,199,0,1,5,13,9
+	.half	.L233-.L11
+	.byte	3,3,1,5,18,9
+	.half	.L408-.L233
+	.byte	3,2,1,5,12,9
+	.half	.L220-.L408
+	.byte	1,5,5,9
+	.half	.L409-.L220
+	.byte	1,5,26,7,9
+	.half	.L410-.L409
+	.byte	3,2,1,5,24,9
+	.half	.L411-.L410
+	.byte	1,5,22,9
+	.half	.L412-.L411
+	.byte	3,1,1,5,17,9
+	.half	.L413-.L412
+	.byte	1,5,30,9
+	.half	.L414-.L413
+	.byte	3,127,1,5,23,9
+	.half	.L12-.L414
+	.byte	3,3,1,5,17,9
+	.half	.L222-.L12
+	.byte	1,5,10,9
+	.half	.L415-.L222
+	.byte	1,5,17,7,9
+	.half	.L224-.L415
+	.byte	3,7,1,5,30,9
+	.half	.L225-.L224
+	.byte	3,123,1,5,26,9
+	.half	.L14-.L225
+	.byte	1,5,24,9
+	.half	.L416-.L14
+	.byte	1,5,22,9
+	.half	.L417-.L416
+	.byte	3,1,1,5,17,9
+	.half	.L418-.L417
+	.byte	1,5,24,9
+	.half	.L13-.L418
+	.byte	3,6,1,5,5,9
+	.half	.L419-.L13
+	.byte	1,5,1,9
+	.half	.L16-.L419
+	.byte	3,1,1,7,9
+	.half	.L116-.L16
+	.byte	0,1,1
+.L396:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_Do')
+	.sect	'.debug_ranges'
+.L115:
+	.word	-1,.L56,0,.L116-.L56,0,0
+.L219:
+	.word	-1,.L56,.L213-.L56,.L9-.L56,.L220-.L56,.L221-.L56,.L222-.L56,.L223-.L56,.L224-.L56,.L225-.L56,0,0
+	.sdecl	'.debug_info',debug,cluster('Current_PI')
+	.sect	'.debug_info'
+.L117:
+	.word	499
+	.half	3
+	.word	.L118
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L120,.L119
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Current_PI',0,1,208,2,9
+	.word	.L151
+	.byte	1,1,1
+	.word	.L60,.L234,.L59
+	.byte	4
+	.byte	'pic',0,1,208,2,27
+	.word	.L143,.L235
+	.byte	4
+	.byte	'input',0,1,208,2,40
+	.word	.L151,.L236
+	.byte	5
+	.word	.L60,.L234
+	.byte	6
+	.byte	'uk',0,1,210,2,17
+	.word	.L151,.L237
+	.byte	7
+	.word	.L191,.L238,.L26
+	.byte	8
+	.word	.L193,.L239
+	.byte	8
+	.word	.L195,.L240
+	.byte	8
+	.word	.L197,.L241
+	.byte	8
+	.word	.L199,.L242
+	.byte	9
+	.word	.L201,.L238,.L26
+	.byte	7
+	.word	.L202,.L238,.L25
+	.byte	8
+	.word	.L203,.L243
+	.byte	8
+	.word	.L205,.L244
+	.byte	8
+	.word	.L207,.L245
+	.byte	8
+	.word	.L209,.L246
+	.byte	10
+	.word	.L211,.L238,.L25
+	.byte	0,0,0,7
+	.word	.L247,.L248,.L27
+	.byte	8
+	.word	.L249,.L250
+	.byte	8
+	.word	.L251,.L252
+	.byte	8
+	.word	.L253,.L254
+	.byte	10
+	.word	.L255,.L248,.L27
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Current_PI')
+	.sect	'.debug_abbrev'
+.L118:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,1,49,16,17
+	.byte	1,18,1,0,0,10,11,0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Current_PI')
+	.sect	'.debug_line'
+.L119:
+	.word	.L421-.L420
+.L420:
+	.half	3
+	.word	.L423-.L422
+.L422:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0
+	.byte	'Arith.Float.h',0,1,0,0
+	.byte	'Arith.StdReal.h',0,1,0,0,0
+.L423:
+	.byte	5,63,7,0,5,2
+	.word	.L60
+	.byte	3,211,2,1,5,79,9
+	.half	.L424-.L60
+	.byte	1,5,88,9
+	.half	.L425-.L424
+	.byte	1,4,2,5,25,9
+	.half	.L238-.L425
+	.byte	3,166,126,1,5,20,9
+	.half	.L426-.L238
+	.byte	1,5,5,9
+	.half	.L427-.L426
+	.byte	1,4,3,9
+	.half	.L25-.L427
+	.byte	3,221,0,1,4,1,5,99,9
+	.half	.L26-.L25
+	.byte	3,253,0,1,5,109,9
+	.half	.L428-.L26
+	.byte	1,4,2,5,14,9
+	.half	.L248-.L428
+	.byte	3,201,126,1,5,5,9
+	.half	.L429-.L248
+	.byte	1,4,1,5,8,9
+	.half	.L27-.L429
+	.byte	3,185,1,1,5,13,9
+	.half	.L430-.L27
+	.byte	1,5,18,9
+	.half	.L431-.L430
+	.byte	3,2,1,5,12,9
+	.half	.L432-.L431
+	.byte	1,5,5,9
+	.half	.L433-.L432
+	.byte	1,5,26,7,9
+	.half	.L434-.L433
+	.byte	3,2,1,5,24,9
+	.half	.L435-.L434
+	.byte	1,5,22,9
+	.half	.L436-.L435
+	.byte	3,1,1,5,17,9
+	.half	.L437-.L436
+	.byte	1,5,30,9
+	.half	.L438-.L437
+	.byte	3,127,1,5,23,9
+	.half	.L28-.L438
+	.byte	3,3,1,5,17,9
+	.half	.L439-.L28
+	.byte	1,5,10,9
+	.half	.L440-.L439
+	.byte	1,5,17,7,9
+	.half	.L441-.L440
+	.byte	3,7,1,5,30,9
+	.half	.L442-.L441
+	.byte	3,123,1,5,26,9
+	.half	.L30-.L442
+	.byte	1,5,24,9
+	.half	.L443-.L30
+	.byte	1,5,22,9
+	.half	.L444-.L443
+	.byte	3,1,1,5,17,9
+	.half	.L445-.L444
+	.byte	1,5,18,9
+	.half	.L29-.L445
+	.byte	3,7,1,5,23,9
+	.half	.L446-.L29
+	.byte	1,5,13,9
+	.half	.L447-.L446
+	.byte	1,5,24,9
+	.half	.L448-.L447
+	.byte	3,2,1,5,5,9
+	.half	.L449-.L448
+	.byte	1,5,1,9
+	.half	.L32-.L449
+	.byte	3,1,1,7,9
+	.half	.L121-.L32
+	.byte	0,1,1
+.L421:
+	.sdecl	'.debug_ranges',debug,cluster('Current_PI')
+	.sect	'.debug_ranges'
+.L120:
+	.word	-1,.L60,0,.L121-.L60,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_IsLimitsHit')
+	.sect	'.debug_info'
+.L122:
+	.word	287
+	.half	3
+	.word	.L123
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L125,.L124
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_IsLimitsHit',0,1,242,1,9
+	.word	.L256
+	.byte	1,1,1
+	.word	.L52,.L257,.L51
+	.byte	4
+	.byte	'pic',0,1,242,1,32
+	.word	.L143,.L258
+	.byte	5
+	.word	.L52,.L257
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_IsLimitsHit')
+	.sect	'.debug_abbrev'
+.L123:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_IsLimitsHit')
+	.sect	'.debug_line'
+.L124:
+	.word	.L451-.L450
+.L450:
+	.half	3
+	.word	.L453-.L452
+.L452:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L453:
+	.byte	5,15,7,0,5,2
+	.word	.L52
+	.byte	3,243,1,1,5,5,9
+	.half	.L454-.L52
+	.byte	1,5,1,9
+	.half	.L5-.L454
+	.byte	3,1,1,7,9
+	.half	.L126-.L5
+	.byte	0,1,1
+.L451:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_IsLimitsHit')
+	.sect	'.debug_ranges'
+.L125:
+	.word	-1,.L52,0,.L126-.L52,0,0
+	.sdecl	'.debug_info',debug,cluster('Pic_ResetLimitsHit')
+	.sect	'.debug_info'
+.L127:
+	.word	286
+	.half	3
+	.word	.L128
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L130,.L129
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Pic_ResetLimitsHit',0,1,128,2,6,1,1,1
+	.word	.L54,.L259,.L53
+	.byte	4
+	.byte	'pic',0,1,128,2,32
+	.word	.L143,.L260
+	.byte	5
+	.word	.L54,.L259
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Pic_ResetLimitsHit')
+	.sect	'.debug_abbrev'
+.L128:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Pic_ResetLimitsHit')
+	.sect	'.debug_line'
+.L129:
+	.word	.L456-.L455
+.L455:
+	.half	3
+	.word	.L458-.L457
+.L457:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L458:
+	.byte	5,22,7,0,5,2
+	.word	.L54
+	.byte	3,129,2,1,5,20,9
+	.half	.L459-.L54
+	.byte	1,5,1,9
+	.half	.L460-.L459
+	.byte	3,1,1,7,9
+	.half	.L131-.L460
+	.byte	0,1,1
+.L456:
+	.sdecl	'.debug_ranges',debug,cluster('Pic_ResetLimitsHit')
+	.sect	'.debug_ranges'
+.L130:
+	.word	-1,.L54,0,.L131-.L54,0,0
+	.sdecl	'.debug_info',debug,cluster('SpeedPI_Init')
+	.sect	'.debug_info'
+.L132:
+	.word	278
+	.half	3
+	.word	.L133
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L135,.L134
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'SpeedPI_Init',0,1,53,6,1,1,1
+	.word	.L36,.L261,.L35
+	.byte	4
+	.byte	'Pic',0,1,53,26
+	.word	.L143,.L262
+	.byte	5
+	.word	.L36,.L261
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('SpeedPI_Init')
+	.sect	'.debug_abbrev'
+.L133:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('SpeedPI_Init')
+	.sect	'.debug_line'
+.L134:
+	.word	.L462-.L461
+.L461:
+	.half	3
+	.word	.L464-.L463
+.L463:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0,0
+.L464:
+	.byte	5,15,7,0,5,2
+	.word	.L36
+	.byte	3,55,1,5,13,9
+	.half	.L465-.L36
+	.byte	1,5,15,9
+	.half	.L466-.L465
+	.byte	3,3,1,5,13,9
+	.half	.L467-.L466
+	.byte	1,5,15,9
+	.half	.L468-.L467
+	.byte	3,3,1,5,13,9
+	.half	.L469-.L468
+	.byte	1,5,15,9
+	.half	.L470-.L469
+	.byte	3,2,1,5,13,9
+	.half	.L471-.L470
+	.byte	1,5,15,9
+	.half	.L472-.L471
+	.byte	3,1,1,5,13,9
+	.half	.L473-.L472
+	.byte	1,5,16,9
+	.half	.L474-.L473
+	.byte	3,1,1,5,14,9
+	.half	.L475-.L474
+	.byte	1,5,16,9
+	.half	.L476-.L475
+	.byte	3,1,1,5,14,9
+	.half	.L477-.L476
+	.byte	1,5,22,9
+	.half	.L478-.L477
+	.byte	3,2,1,5,20,9
+	.half	.L479-.L478
+	.byte	1,5,1,9
+	.half	.L480-.L479
+	.byte	3,2,1,7,9
+	.half	.L136-.L480
+	.byte	0,1,1
+.L462:
+	.sdecl	'.debug_ranges',debug,cluster('SpeedPI_Init')
+	.sect	'.debug_ranges'
+.L135:
+	.word	-1,.L36,0,.L136-.L36,0,0
+	.sdecl	'.debug_info',debug,cluster('Speed_PI')
+	.sect	'.debug_info'
+.L137:
+	.word	497
+	.half	3
+	.word	.L138
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L140,.L139
+	.byte	2
+	.word	.L63
+	.byte	3
+	.byte	'Speed_PI',0,1,180,2,9
+	.word	.L151
+	.byte	1,1,1
+	.word	.L58,.L263,.L57
+	.byte	4
+	.byte	'pic',0,1,180,2,25
+	.word	.L143,.L264
+	.byte	4
+	.byte	'input',0,1,180,2,38
+	.word	.L151,.L265
+	.byte	5
+	.word	.L58,.L263
+	.byte	6
+	.byte	'uk',0,1,182,2,17
+	.word	.L151,.L266
+	.byte	7
+	.word	.L191,.L267,.L18
+	.byte	8
+	.word	.L193,.L268
+	.byte	8
+	.word	.L195,.L269
+	.byte	8
+	.word	.L197,.L270
+	.byte	8
+	.word	.L199,.L271
+	.byte	9
+	.word	.L201,.L267,.L18
+	.byte	7
+	.word	.L202,.L267,.L17
+	.byte	8
+	.word	.L203,.L272
+	.byte	8
+	.word	.L205,.L273
+	.byte	8
+	.word	.L207,.L274
+	.byte	8
+	.word	.L209,.L275
+	.byte	10
+	.word	.L211,.L267,.L17
+	.byte	0,0,0,7
+	.word	.L247,.L276,.L19
+	.byte	8
+	.word	.L249,.L277
+	.byte	8
+	.word	.L251,.L278
+	.byte	8
+	.word	.L253,.L279
+	.byte	10
+	.word	.L255,.L276,.L19
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Speed_PI')
+	.sect	'.debug_abbrev'
+.L138:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,1,49,16,17
+	.byte	1,18,1,0,0,10,11,0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Speed_PI')
+	.sect	'.debug_line'
+.L139:
+	.word	.L482-.L481
+.L481:
+	.half	3
+	.word	.L484-.L483
+.L483:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Pi.c',0,0,0,0
+	.byte	'Arith.Float.h',0,1,0,0
+	.byte	'Arith.StdReal.h',0,1,0,0,0
+.L484:
+	.byte	5,63,7,0,5,2
+	.word	.L58
+	.byte	3,183,2,1,5,79,9
+	.half	.L485-.L58
+	.byte	1,5,88,9
+	.half	.L486-.L485
+	.byte	1,4,2,5,25,9
+	.half	.L267-.L486
+	.byte	3,194,126,1,5,20,9
+	.half	.L487-.L267
+	.byte	1,5,5,9
+	.half	.L488-.L487
+	.byte	1,4,3,9
+	.half	.L17-.L488
+	.byte	3,221,0,1,4,1,5,99,9
+	.half	.L18-.L17
+	.byte	3,225,0,1,5,109,9
+	.half	.L489-.L18
+	.byte	1,4,2,5,14,9
+	.half	.L276-.L489
+	.byte	3,229,126,1,5,5,9
+	.half	.L490-.L276
+	.byte	1,4,1,5,8,9
+	.half	.L19-.L490
+	.byte	3,157,1,1,5,13,9
+	.half	.L491-.L19
+	.byte	1,5,18,9
+	.half	.L492-.L491
+	.byte	3,2,1,5,12,9
+	.half	.L493-.L492
+	.byte	1,5,5,9
+	.half	.L494-.L493
+	.byte	1,5,26,7,9
+	.half	.L495-.L494
+	.byte	3,2,1,5,24,9
+	.half	.L496-.L495
+	.byte	1,5,22,9
+	.half	.L497-.L496
+	.byte	3,1,1,5,17,9
+	.half	.L498-.L497
+	.byte	1,5,30,9
+	.half	.L499-.L498
+	.byte	3,127,1,5,23,9
+	.half	.L20-.L499
+	.byte	3,3,1,5,17,9
+	.half	.L500-.L20
+	.byte	1,5,10,9
+	.half	.L501-.L500
+	.byte	1,5,17,7,9
+	.half	.L502-.L501
+	.byte	3,7,1,5,30,9
+	.half	.L503-.L502
+	.byte	3,123,1,5,26,9
+	.half	.L22-.L503
+	.byte	1,5,24,9
+	.half	.L504-.L22
+	.byte	1,5,22,9
+	.half	.L505-.L504
+	.byte	3,1,1,5,17,9
+	.half	.L506-.L505
+	.byte	1,5,18,9
+	.half	.L21-.L506
+	.byte	3,7,1,5,23,9
+	.half	.L507-.L21
+	.byte	1,5,13,9
+	.half	.L508-.L507
+	.byte	1,5,24,9
+	.half	.L509-.L508
+	.byte	3,2,1,5,5,9
+	.half	.L510-.L509
+	.byte	1,5,1,9
+	.half	.L24-.L510
+	.byte	3,1,1,7,9
+	.half	.L141-.L24
+	.byte	0,1,1
+.L482:
+	.sdecl	'.debug_ranges',debug,cluster('Speed_PI')
+	.sect	'.debug_ranges'
+.L140:
+	.word	-1,.L58,0,.L141-.L58,0,0
+	.sdecl	'.debug_loc',debug,cluster('CurrentPI_Init')
+	.sect	'.debug_loc'
+.L37:
+	.word	-1,.L38,0,.L145-.L38
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L146:
+	.word	-1,.L38,0,.L145-.L38
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Current_PI')
+	.sect	'.debug_loc'
+.L59:
+	.word	-1,.L60,0,.L234-.L60
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L243:
+	.word	0,0
+.L250:
+	.word	0,0
+.L239:
+	.word	0,0
+.L244:
+	.word	0,0
+.L252:
+	.word	0,0
+.L240:
+	.word	0,0
+.L245:
+	.word	0,0
+.L254:
+	.word	0,0
+.L241:
+	.word	0,0
+.L246:
+	.word	0,0
+.L242:
+	.word	0,0
+.L236:
+	.word	-1,.L60,0,.L234-.L60
+	.half	1
+	.byte	84
+	.word	0,0
+.L235:
+	.word	-1,.L60,0,.L234-.L60
+	.half	1
+	.byte	100
+	.word	0,0
+.L237:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_Do')
+	.sect	'.debug_loc'
+.L55:
+	.word	-1,.L56,0,.L187-.L56
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L228:
+	.word	0,0
+.L204:
+	.word	0,0
+.L194:
+	.word	0,0
+.L215:
+	.word	0,0
+.L230:
+	.word	0,0
+.L206:
+	.word	0,0
+.L196:
+	.word	0,0
+.L217:
+	.word	0,0
+.L208:
+	.word	0,0
+.L198:
+	.word	0,0
+.L210:
+	.word	0,0
+.L200:
+	.word	0,0
+.L189:
+	.word	-1,.L56,0,.L187-.L56
+	.half	1
+	.byte	84
+	.word	0,0
+.L188:
+	.word	-1,.L56,0,.L187-.L56
+	.half	1
+	.byte	100
+	.word	0,0
+.L190:
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_GetKpKi')
+	.sect	'.debug_loc'
+.L45:
+	.word	-1,.L46,0,.L173-.L46
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L176:
+	.word	-1,.L46,0,.L284-.L46
+	.half	1
+	.byte	102
+	.word	0,0
+.L175:
+	.word	-1,.L46,0,.L284-.L46
+	.half	1
+	.byte	101
+	.word	0,0
+.L174:
+	.word	-1,.L46,0,.L284-.L46
+	.half	1
+	.byte	100
+	.word	0,0
+.L177:
+	.word	-1,.L46,0,.L284-.L46
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_GetKpKi_StdReal')
+	.sect	'.debug_loc'
+.L41:
+	.word	-1,.L42,0,.L161-.L42
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L165:
+	.word	-1,.L42,0,.L161-.L42
+	.half	1
+	.byte	102
+	.word	0,0
+.L164:
+	.word	-1,.L42,0,.L161-.L42
+	.half	1
+	.byte	101
+	.word	0,0
+.L162:
+	.word	-1,.L42,0,.L161-.L42
+	.half	1
+	.byte	100
+	.word	0,0
+.L166:
+	.word	-1,.L42,0,.L161-.L42
+	.half	1
+	.byte	84
+	.word	0,0
+.L167:
+	.word	-1,.L42,0,.L161-.L42
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_GetLimit')
+	.sect	'.debug_loc'
+.L49:
+	.word	-1,.L50,0,.L182-.L50
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L186:
+	.word	-1,.L50,0,.L182-.L50
+	.half	1
+	.byte	102
+	.word	0,0
+.L185:
+	.word	-1,.L50,0,.L182-.L50
+	.half	1
+	.byte	101
+	.word	0,0
+.L183:
+	.word	-1,.L50,0,.L182-.L50
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_Init')
+	.sect	'.debug_loc'
+.L144:
+	.word	-1,.L34,0,.L142-.L34
+	.half	1
+	.byte	100
+	.word	0,0
+.L33:
+	.word	-1,.L34,0,.L142-.L34
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_IsLimitsHit')
+	.sect	'.debug_loc'
+.L51:
+	.word	-1,.L52,0,.L257-.L52
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L258:
+	.word	-1,.L52,0,.L257-.L52
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_Reset')
+	.sect	'.debug_loc'
+.L61:
+	.word	-1,.L62,0,.L147-.L62
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L148:
+	.word	-1,.L62,0,.L147-.L62
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_ResetLimitsHit')
+	.sect	'.debug_loc'
+.L53:
+	.word	-1,.L54,0,.L259-.L54
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L260:
+	.word	-1,.L54,0,.L259-.L54
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_SetKpKi')
+	.sect	'.debug_loc'
+.L43:
+	.word	-1,.L44,0,.L282-.L44
+	.half	2
+	.byte	138,0
+	.word	.L282-.L44,.L168-.L44
+	.half	2
+	.byte	138,8
+	.word	.L168-.L44,.L168-.L44
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L171:
+	.word	-1,.L44,0,.L283-.L44
+	.half	1
+	.byte	85
+	.word	0,0
+.L170:
+	.word	-1,.L44,0,.L283-.L44
+	.half	1
+	.byte	84
+	.word	0,0
+.L169:
+	.word	-1,.L44,0,.L283-.L44
+	.half	1
+	.byte	100
+	.word	0,0
+.L172:
+	.word	-1,.L44,0,.L283-.L44
+	.half	1
+	.byte	86
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_SetKpKi_StdReal')
+	.sect	'.debug_loc'
+.L39:
+	.word	-1,.L40,0,.L149-.L40
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L160:
+	.word	-1,.L40,.L280-.L40,.L281-.L40
+	.half	1
+	.byte	95
+	.word	0,0
+.L153:
+	.word	-1,.L40,0,.L149-.L40
+	.half	1
+	.byte	85
+	.word	0,0
+.L152:
+	.word	-1,.L40,0,.L149-.L40
+	.half	1
+	.byte	84
+	.word	0,0
+.L150:
+	.word	-1,.L40,0,.L149-.L40
+	.half	1
+	.byte	100
+	.word	0,0
+.L154:
+	.word	-1,.L40,0,.L149-.L40
+	.half	1
+	.byte	86
+	.word	0,0
+.L156:
+	.word	-1,.L40,0,.L149-.L40
+	.half	1
+	.byte	87
+	.word	0,0
+.L158:
+	.word	-1,.L40,0,.L149-.L40
+	.half	2
+	.byte	145,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Pic_SetLimit')
+	.sect	'.debug_loc'
+.L47:
+	.word	-1,.L48,0,.L178-.L48
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L181:
+	.word	-1,.L48,0,.L178-.L48
+	.half	1
+	.byte	85
+	.word	0,0
+.L180:
+	.word	-1,.L48,0,.L178-.L48
+	.half	1
+	.byte	84
+	.word	0,0
+.L179:
+	.word	-1,.L48,0,.L178-.L48
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('SpeedPI_Init')
+	.sect	'.debug_loc'
+.L262:
+	.word	-1,.L36,0,.L261-.L36
+	.half	1
+	.byte	100
+	.word	0,0
+.L35:
+	.word	-1,.L36,0,.L261-.L36
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Speed_PI')
+	.sect	'.debug_loc'
+.L57:
+	.word	-1,.L58,0,.L263-.L58
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L272:
+	.word	0,0
+.L277:
+	.word	0,0
+.L268:
+	.word	0,0
+.L273:
+	.word	0,0
+.L278:
+	.word	0,0
+.L269:
+	.word	0,0
+.L274:
+	.word	0,0
+.L279:
+	.word	0,0
+.L270:
+	.word	0,0
+.L275:
+	.word	0,0
+.L271:
+	.word	0,0
+.L265:
+	.word	-1,.L58,0,.L263-.L58
+	.half	1
+	.byte	84
+	.word	0,0
+.L264:
+	.word	-1,.L58,0,.L263-.L58
+	.half	1
+	.byte	100
+	.word	0,0
+.L266:
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L511:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Pic_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L34,.L142-.L34
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('SpeedPI_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L36,.L261-.L36
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('CurrentPI_Init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L38,.L145-.L38
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_SetKpKi_StdReal')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L40,.L149-.L40
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_GetKpKi_StdReal')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L511,.L42,.L161-.L42
+	.byte	8,18,8,19,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_SetKpKi')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L511,.L44,.L168-.L44
+	.byte	4
+	.word	(.L282-.L44)/2
+	.byte	19,8,22,26,3,19,138,8,4
+	.word	(.L168-.L282)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_GetKpKi')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L511,.L46,.L173-.L46
+	.sdecl	'.debug_frame',debug,cluster('Pic_SetLimit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L48,.L178-.L48
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_GetLimit')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L511,.L50,.L182-.L50
+	.byte	8,18,8,19,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_IsLimitsHit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L52,.L257-.L52
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_ResetLimitsHit')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L54,.L259-.L54
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_Do')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L56,.L187-.L56
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Speed_PI')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L58,.L263-.L58
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Current_PI')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L60,.L234-.L60
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('Pic_Reset')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L511,.L62,.L147-.L62
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	; Module end

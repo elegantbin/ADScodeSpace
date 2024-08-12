@@ -1,0 +1,170 @@
+/*
+ * AppTaskFu.c
+ *
+ *  Created on: 19.09.2013
+ *
+ */
+
+
+#include <EncoderGpt12.h>
+
+#include "AppScheduler.h"
+#include "AppTimerOS.h"
+#include "MultiCan.h"
+//#include "MultiCan_FD.h"
+#include "PosIf.h"
+#include "DIPorts.h"
+#include "GTM_ATOM_PWM_6Step.h"
+#include "CommutationPoint.h"
+#include "CommutationControl.h"
+#include "ADC.h"
+#include "Duty_Control_ADC.h"
+#include "SPI_ENCODER.h"
+#include "IfxVadc_Adc.h"
+#include "ADC_Queued_Scan.h"
+#include"CURRENTADC.h"
+#include "dutylimit.h"
+void appTaskfu_cyclic(void)
+{
+    //PortABZ_StateCheck();
+
+}
+
+
+
+void appTaskfu_1ms(void)
+{
+
+    CommutationControl_6StepStart();
+
+//    readVADC();
+    EncoderUpdatePosition();
+//    EncoderUpdateSpeed();
+
+
+//    Commutation_TimerCtrl();
+	//   MotorVelocityControl_Runnable();
+    Temp_DetectScan();
+//    CurrentScan();
+//    ADC_Scan();
+//    DAC_Scan();
+//    Current_filtering();
+    MotorPhaseCurrent_Check();
+//    sint16 spiEndcoderPos;
+//    spiEndcoderPos= SpiEncoder_getInitPos();
+    transmitCanMessage();
+//    transferData();
+//    updatePWMDuty();
+//    CurrentOffesetDetect();
+
+    updatePWMDutyStartup();
+
+}
+
+
+void appTaskfu_10ms(void)
+{
+
+    MotorRPM_Check();
+    RealPos_ValidCheck();
+//    transmitCanMessage();
+
+//    Current_phase_detect();
+
+//    transmitCanMessage();
+//    sint16 spiEndcoderPos;
+//    spiEndcoderPos= SpiEncoder_getInitPos();
+
+//       SpeedInput_ADC();
+//      uint16 REF_Speed =  g_bldc.Refspeed;
+       Speed_updateDuty();
+       DutyLmit_Max(g_absMotSpeed);
+       updatePWMDuty();
+
+
+}
+
+
+
+void appTaskfu_100ms(void)
+{
+   // MotorCalibration_Runnable();
+
+   // MotorStallCheck_Runnable();
+   // MotorDemoControl_Runnable();
+//    sint16 spiEndcoderPos;
+//    spiEndcoderPos= SpiEncoder_getInitPos();
+//    SpeedInput_ADC();
+//    Speed_updateDuty();
+//    updatePWMDuty();
+
+
+}
+
+void appTaskfu_200ms(void)
+{
+
+   // blinkLED2();
+    transferData();
+
+//    DutyInput_ADC();
+
+
+
+}
+
+
+void appTaskfu_init(void)
+{
+
+    IfxCpu_disableInterrupts();
+    // Initialize Timer for OS Scheduler
+    AppTimerOs_interruptsInit();
+    AppScheduler_init();
+
+    // Initialize resolver Interface and Encoder Interface
+    //initPosIf();
+
+    // Initialize PWM Driver
+    //AppPwmDriver_init();
+
+    //Initialize TorqueControl
+    //AppTorqueControl_initControl(&g_motor, 20000);
+
+    // Init Velocity control
+    //MotorControl_init();
+
+   // Initialize TFT Display
+   // tft_appl_init();//
+
+    //VelocityControl_Enable(&g_velocityControl);
+    initMultican();
+
+    initGtmATomPwm_6Step();
+
+//    initLed();
+
+    EncoderInit();
+
+    ADC_init();
+//    CurrentADC_init();
+
+//    initGtmTom_currentADC();
+
+    SpiEncoder_init();
+
+    Pic_param_init();
+
+// initSTM();
+
+//    initVADC();
+    IfxCpu_enableInterrupts();
+//    initPeripherals();
+    SPIEncoderInitPosition();
+}
+
+
+
+
+
+

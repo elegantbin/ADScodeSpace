@@ -1,0 +1,85 @@
+/*
+ * MotorSWC.h
+ *
+ *  Created on: 18.07.2023
+ *
+ */
+
+#ifndef _MOTOR_SWC_H__
+#define _MOTOR_SWC_H__
+#include "Platform_Types.h"
+#include "Compilers.h"
+
+
+#define MOTOR_DIAG_CODE_VELOCITY_FAIL         (0x00000001)
+#define MOTOR_DIAG_CODE_STARTUP_FAIL         (0x00000002)
+#define MOTOR_DIAG_CODE_STALL_FAIL           (0x00000004)
+#define MOTOR_DIAG_CODE_CURRENT_FAIL           (0x00000008)
+#define MOTOR_DIAG_CODE_VLOTAGE_FAIL           (0x000000010)
+#define MOTOR_DIAG_CODE_UPDATAPOSITION_FAIL           (0x000000020)
+#define MOTOR_DIAG_CODE_REALPOSITION_FAIL           (0x000000040)
+#define MOTOR_DIAG_CODE_VELOCITY_MAX_FAIL           (0x000000080)
+
+typedef enum
+{
+  MOTOR_STATE_STOP,
+  MOTOR_STATE_STARTUP,
+  MOTOR_STATE_RUNNING,
+  MOTOR_STATE_FAIL
+
+}enMotorState;
+
+typedef enum
+{
+    K_ROT_DIR_UNKNOWN,
+    K_ROT_DIR_CW,
+    K_ROT_DIR_CCW
+
+}enMotorRotationDir;
+
+
+typedef enum
+{
+  MOTOR_CMD_STOP,
+  MOTOR_CMD_START_CCW,
+  MOTOR_CMD_START_CW,
+
+  MOTOR_CMD_DIAG_CLEAR = 0xF1
+
+}enMotorCmd;
+
+
+typedef struct
+{
+    enMotorState state;
+    enMotorRotationDir rot_dir;
+    uint32  u32DiagCode;
+
+    enMotorCmd cmd;
+    uint8      duty;
+    uint16     Refspeed;
+    uint16     RefCurrent;
+    sint16 RPM_s16MechSpeed;
+    uint16      CurrentU_BUS;
+    uint16      CurrentV_BUS;
+    uint16      CurrentW_BUS;
+    uint8       Voltage_BUS;
+}Bldc_Motor;
+
+IFX_EXTERN Bldc_Motor g_bldc;
+
+
+void MotorControl_init(void);
+
+void MotorDemoControl_Runnable(void);
+void MotorCalibration_Runnable(void);
+
+void MotorStallCheck_Runnable(void);
+
+void MotorVelocityControl_Runnable(void);
+
+void MotorRPM_Check(void);
+void MotorPhaseCurrent_Check(void);
+void RealPos_ValidCheck(void);
+
+#endif /* _MOTOR_SWC_H__ */

@@ -1,0 +1,647 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc21612a --dep-file=0_Src/2_CDrv/CurrentPI.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Config -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\Isr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\1_BasicSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Configurations -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Flash\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/2_CDrv/CurrentPI.src ../0_Src/2_CDrv/CurrentPI.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/2_CDrv/CurrentPI.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.CurrentPI.CurrentPIDControl',code,cluster('CurrentPIDControl')
+	.sect	'.text.CurrentPI.CurrentPIDControl'
+	.align	2
+	
+	.global	CurrentPIDControl
+; Function CurrentPIDControl
+.L10:
+CurrentPIDControl:	.type	func
+	movh.a	a15,#@his(CurrentKP_Read)
+	lea	a15,[a15]@los(CurrentKP_Read)
+	ld.w	d15,[a15]
+	utof	d15,d15
+.L43:
+	movh	d0,#17530
+.L44:
+	div.f	d0,d15,d0
+.L29:
+	movh.a	a15,#@his(CurrentKI_Read)
+	lea	a15,[a15]@los(CurrentKI_Read)
+	ld.w	d15,[a15]
+	utof	d15,d15
+.L45:
+	movh	d1,#17530
+.L46:
+	div.f	d1,d15,d1
+.L31:
+	mov	d3,#500
+.L33:
+	mov	d6,#9000
+.L34:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+.L47:
+	movh.a	a2,#@his(u8DrvDuty)
+	lea	a2,[a2]@los(u8DrvDuty)
+	ld.hu	d15,[a2]0
+	utof	d15,d15
+.L48:
+	st.w	[a15],d15
+.L49:
+	movh.a	a15,#@his(g_bldc)
+	lea	a15,[a15]@los(g_bldc)
+.L50:
+	ld.bu	d15,[a15]
+.L51:
+	jne	d15,#0,.L2
+.L52:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+.L53:
+	mov	d15,#0
+.L54:
+	st.w	[a15],d15
+.L55:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(_999002_error)
+	lea	a15,[a15]@los(_999002_error)
+.L56:
+	sub.f	d15,d4,d5
+.L57:
+	st.w	[a15],d15
+.L58:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+.L59:
+	sub.f	d15,d4,d5
+.L60:
+	movh.a	a2,#@his(_999004_error_integral)
+	lea	a2,[a2]@los(_999004_error_integral)
+	ld.w	d2,[a2]
+.L61:
+	mul.f	d1,d1,d2
+.L32:
+	madd.f	d15,d1,d0,d15
+.L62:
+	movh.a	a2,#@his(_999001_uk)
+	lea	a2,[a2]@los(_999001_uk)
+	ld.w	d0,[a2]
+.L30:
+	add.f	d15,d15,d0
+.L63:
+	st.w	[a15],d15
+.L64:
+	movh.a	a15,#@his(_999003_last_error)
+	lea	a15,[a15]@los(_999003_last_error)
+.L65:
+	sub.f	d15,d4,d5
+.L66:
+	st.w	[a15],d15
+.L67:
+	movh.a	a15,#@his(_999004_error_integral)
+	lea	a15,[a15]@los(_999004_error_integral)
+	movh.a	a2,#@his(_999004_error_integral)
+	lea	a2,[a2]@los(_999004_error_integral)
+	ld.w	d15,[a2]
+.L68:
+	sub.f	d0,d4,d5
+.L69:
+	add.f	d15,d15,d0
+	st.w	[a15],d15
+.L70:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+	ld.w	d15,[a15]
+.L71:
+	utof	d0,d6
+.L72:
+	cmp.f	d15,d15,d0
+	and	d15,#6
+	ne	d15,d15,#0
+.L73:
+	jeq	d15,#0,.L4
+.L74:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+.L75:
+	utof	d15,d6
+.L76:
+	st.w	[a15],d15
+.L77:
+	j	.L5
+.L4:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+	ld.w	d15,[a15]
+.L78:
+	utof	d0,d3
+.L79:
+	cmp.f	d15,d15,d0
+	and	d15,#3
+	ne	d15,d15,#0
+.L80:
+	jeq	d15,#0,.L6
+.L81:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+.L82:
+	utof	d15,d3
+.L83:
+	st.w	[a15],d15
+.L84:
+	j	.L7
+.L6:
+.L7:
+.L5:
+.L3:
+	movh.a	a15,#@his(_999001_uk)
+	lea	a15,[a15]@los(_999001_uk)
+	ld.w	d2,[a15]
+.L85:
+	j	.L8
+.L8:
+	ret
+.L21:
+	
+__CurrentPIDControl_function_end:
+	.size	CurrentPIDControl,__CurrentPIDControl_function_end-CurrentPIDControl
+.L19:
+	; End of function
+	
+	.sdecl	'.data.CurrentPI._999001_uk',data,cluster('_999001_uk')
+	.sect	'.data.CurrentPI._999001_uk'
+	.align	2
+_999001_uk:	.type	object
+	.size	_999001_uk,4
+	.space	4
+	.sdecl	'.bss.CurrentPI._999002_error',data,cluster('_999002_error')
+	.sect	'.bss.CurrentPI._999002_error'
+	.align	2
+_999002_error:	.type	object
+	.size	_999002_error,4
+	.space	4
+	.sdecl	'.bss.CurrentPI._999003_last_error',data,cluster('_999003_last_error')
+	.sect	'.bss.CurrentPI._999003_last_error'
+	.align	2
+_999003_last_error:	.type	object
+	.size	_999003_last_error,4
+	.space	4
+	.sdecl	'.data.CurrentPI._999004_error_integral',data,cluster('_999004_error_integral')
+	.sect	'.data.CurrentPI._999004_error_integral'
+	.align	2
+_999004_error_integral:	.type	object
+	.size	_999004_error_integral,4
+	.space	4
+	.extern	CurrentKP_Read
+	.extern	CurrentKI_Read
+	.extern	g_bldc
+	.extern	u8DrvDuty
+	.calls	'CurrentPIDControl','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L12:
+	.word	1704
+	.half	3
+	.word	.L13
+	.byte	4
+.L11:
+	.byte	1
+	.byte	'../0_Src/2_CDrv/CurrentPI.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L14
+.L20:
+	.byte	2
+	.byte	'float',0,4,4
+.L26:
+	.byte	2
+	.byte	'unsigned short int',0,2,7,2
+	.byte	'short int',0,2,5,3
+	.byte	'__wchar_t',0,1,1,1
+	.word	234
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'__size_t',0,1,1,1
+	.word	265
+	.byte	2
+	.byte	'int',0,4,5,3
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	298
+	.byte	4,1,5
+	.word	325
+	.byte	3
+	.byte	'__codeptr',0,1,1,1
+	.word	327
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'uint8',0,2,108,29
+	.word	350
+	.byte	3
+	.byte	'uint16',0,2,112,29
+	.word	212
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'uint32',0,2,116,29
+	.word	396
+	.byte	3
+	.byte	'sint16',0,2,129,1,29
+	.word	234
+	.byte	2
+	.byte	'long int',0,4,5,3
+	.byte	'sint32',0,2,134,1,29
+	.word	448
+	.byte	2
+	.byte	'long long int',0,8,5,3
+	.byte	'sint64',0,2,141,1,29
+	.word	476
+	.byte	3
+	.byte	'float32',0,2,170,1,29
+	.word	203
+	.byte	6
+	.byte	'void',0,5
+	.word	526
+	.byte	3
+	.byte	'pvoid',0,3,54,28
+	.word	532
+	.byte	3
+	.byte	'Ifx_TickTime',0,3,76,28
+	.word	476
+	.byte	7
+	.byte	'CurrentKP_Read',0,4,59,20
+	.word	396
+	.byte	1,1,7
+	.byte	'CurrentKI_Read',0,4,60,20
+	.word	396
+	.byte	1,1,8,5,28,9,1,9
+	.byte	'MOTOR_STATE_STOP',0,0,9
+	.byte	'MOTOR_STATE_STARTUP',0,1,9
+	.byte	'MOTOR_STATE_RUNNING',0,2,9
+	.byte	'MOTOR_STATE_FAIL',0,3,9
+	.byte	'MOTOR_STATE_HOLDING_POSITION',0,4,0,3
+	.byte	'enMotorState',0,5,36,2
+	.word	622
+	.byte	8,5,38,9,1,9
+	.byte	'K_ROT_DIR_FBK_STOP',0,0,9
+	.byte	'K_ROT_DIR_FBK_CW',0,1,9
+	.byte	'K_ROT_DIR_FBK_CCW',0,2,0,3
+	.byte	'enMotor_RotationDirState_fbk',0,5,44,2
+	.word	762
+	.byte	8,5,46,9,1,9
+	.byte	'K_ROT_DIR_UNKNOWN',0,0,9
+	.byte	'K_ROT_DIR_CW',0,1,9
+	.byte	'K_ROT_DIR_CCW',0,2,0,3
+	.byte	'enMotorRotationDir',0,5,52,2
+	.word	865
+	.byte	8,5,55,9,1,9
+	.byte	'MOTOR_CMD_STOP',0,0,9
+	.byte	'MOTOR_CMD_START_CCW',0,1,9
+	.byte	'MOTOR_CMD_START_CW',0,2,9
+	.byte	'MOTOR_CMD_REINIT',0,8,0,3
+	.byte	'enMotorCmd',0,5,62,2
+	.word	949
+	.byte	8,5,65,9,1,9
+	.byte	'LOOP_CMD_SPEED',0,1,9
+	.byte	'LOOP_CMD_CURRENT',0,2,9
+	.byte	'LOOP_CMD_POSITION',0,3,9
+	.byte	'LOOP_CMD_DOUBLE_SPPED_CURRENT',0,4,0,3
+	.byte	'MotorLoopCmd',0,5,73,2
+	.word	1053
+	.byte	8,5,75,9,1,9
+	.byte	'LOOP_MODE_SPEED',0,1,9
+	.byte	'LOOP_MODE_CURRENT',0,2,9
+	.byte	'LOOP_MODE_POSITION',0,3,9
+	.byte	'LOOP_MODE_DOUBLE_SPPED_CURRENT',0,4,0,3
+	.byte	'MotorLoopMode',0,5,82,2
+	.word	1168
+	.byte	10,5,84,9,40,11
+	.byte	'state',0
+	.word	622
+	.byte	1,2,35,0,11
+	.byte	'rot_dir',0
+	.word	865
+	.byte	1,2,35,1,11
+	.byte	'rot_dir_fbk',0
+	.word	762
+	.byte	1,2,35,2,11
+	.byte	'u32DiagCode',0
+	.word	396
+	.byte	4,2,35,4,11
+	.byte	'testcount',0
+	.word	212
+	.byte	2,2,35,8,11
+	.byte	'second_speed',0
+	.word	212
+	.byte	2,2,35,10,11
+	.byte	'cmd',0
+	.word	949
+	.byte	1,2,35,12,11
+	.byte	'loop_cmd',0
+	.word	1053
+	.byte	1,2,35,13,11
+	.byte	'loop_mode',0
+	.word	1168
+	.byte	1,2,35,14,11
+	.byte	'Refspeed',0
+	.word	212
+	.byte	2,2,35,16,11
+	.byte	'RefCurrent',0
+	.word	212
+	.byte	2,2,35,18,11
+	.byte	'RefTorque',0
+	.word	350
+	.byte	1,2,35,20,11
+	.byte	'RefPosition',0
+	.word	212
+	.byte	2,2,35,22,11
+	.byte	'RPM_s16MechSpeed',0
+	.word	234
+	.byte	2,2,35,24,11
+	.byte	'CurrentU_BUS',0
+	.word	203
+	.byte	4,2,35,26,11
+	.byte	'CurrentV_BUS',0
+	.word	203
+	.byte	4,2,35,30,11
+	.byte	'CurrentW_BUS',0
+	.word	203
+	.byte	4,2,35,34,11
+	.byte	'Voltage_BUS',0
+	.word	350
+	.byte	1,2,35,38,0,3
+	.byte	'Bldc_Motor',0,5,105,2
+	.word	1288
+	.byte	7
+	.byte	'g_bldc',0,5,135,1,23
+	.word	1288
+	.byte	1,1,7
+	.byte	'u8DrvDuty',0,1,11,19
+	.word	212
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,4,21,0,54,15,0,0,5,15,0,73,19,0,0,6,59,0,3,8,0,0,7,52,0,3,8,58,15,59,15,57,15,73,19,63,12,60
+	.byte	12,0,0,8,4,1,58,15,59,15,57,15,11,15,0,0,9,40,0,3,8,28,13,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13
+	.byte	0,3,8,73,19,11,15,56,9,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L14:
+	.word	.L36-.L35
+.L35:
+	.half	3
+	.word	.L38-.L37
+.L37:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\0_Src\\\\0_AppSw\\\\SWC',0,0
+	.byte	'../0_Src/2_CDrv/CurrentPI.c',0,0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Platform_Types.h',0
+	.byte	0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\Four motors on board software-20240122\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0
+	.byte	'DataFlash_ZeroOffest.h',0,1,0,0
+	.byte	'MotorMgtSwc.h',0,1,0,0,0
+.L38:
+.L36:
+	.sdecl	'.debug_info',debug,cluster('CurrentPIDControl')
+	.sect	'.debug_info'
+.L15:
+	.word	466
+	.half	3
+	.word	.L16
+	.byte	4,1
+	.byte	'../0_Src/2_CDrv/CurrentPI.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\Four motors on board software-20240122\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L18,.L17
+	.byte	2
+	.word	.L11
+	.byte	3
+	.byte	'CurrentPIDControl',0,1,12,9
+	.word	.L20
+	.byte	1,1,1
+	.word	.L10,.L21,.L9
+	.byte	4
+	.byte	'current_ref',0,1,12,35
+	.word	.L20,.L22
+	.byte	4
+	.byte	'raw_current',0,1,12,55
+	.word	.L20,.L23
+	.byte	5
+	.word	.L10,.L21
+	.byte	6
+	.byte	'kp',0,1,41,12
+	.word	.L20,.L24
+	.byte	6
+	.byte	'ki',0,1,42,12
+	.word	.L20,.L25
+	.byte	6
+	.byte	'lower',0,1,43,13
+	.word	.L26,.L27
+	.byte	6
+	.byte	'upper',0,1,44,13
+	.word	.L26,.L28
+	.byte	7
+	.byte	'uk',0,1,45,21
+	.word	.L20
+	.byte	5,3
+	.word	_999001_uk
+	.byte	7
+	.byte	'error',0,1,46,22
+	.word	.L20
+	.byte	5,3
+	.word	_999002_error
+	.byte	7
+	.byte	'last_error',0,1,46,28
+	.word	.L20
+	.byte	5,3
+	.word	_999003_last_error
+	.byte	7
+	.byte	'error_integral',0,1,46,39
+	.word	.L20
+	.byte	5,3
+	.word	_999004_error_integral
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('CurrentPIDControl')
+	.sect	'.debug_abbrev'
+.L16:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('CurrentPIDControl')
+	.sect	'.debug_line'
+.L17:
+	.word	.L40-.L39
+.L39:
+	.half	3
+	.word	.L42-.L41
+.L41:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/2_CDrv/CurrentPI.c',0,0,0,0,0
+.L42:
+	.byte	5,17,7,0,5,2
+	.word	.L10
+	.byte	3,40,1,5,32,9
+	.half	.L43-.L10
+	.byte	1,5,31,9
+	.half	.L44-.L43
+	.byte	1,5,17,9
+	.half	.L29-.L44
+	.byte	3,1,1,5,32,9
+	.half	.L45-.L29
+	.byte	1,5,31,9
+	.half	.L46-.L45
+	.byte	1,5,19,9
+	.half	.L31-.L46
+	.byte	3,1,1,9
+	.half	.L33-.L31
+	.byte	3,1,1,5,6,9
+	.half	.L34-.L33
+	.byte	3,4,1,5,9,9
+	.half	.L47-.L34
+	.byte	1,5,8,9
+	.half	.L48-.L47
+	.byte	1,5,27,9
+	.half	.L49-.L48
+	.byte	3,1,1,5,33,9
+	.half	.L50-.L49
+	.byte	1,5,6,9
+	.half	.L51-.L50
+	.byte	1,5,10,7,9
+	.half	.L52-.L51
+	.byte	3,2,1,5,15,9
+	.half	.L53-.L52
+	.byte	1,5,13,9
+	.half	.L54-.L53
+	.byte	1,5,16,9
+	.half	.L55-.L54
+	.byte	1,5,10,9
+	.half	.L2-.L55
+	.byte	3,4,1,5,29,9
+	.half	.L56-.L2
+	.byte	1,5,16,9
+	.half	.L57-.L56
+	.byte	1,5,14,9
+	.half	.L58-.L57
+	.byte	3,3,1,5,24,9
+	.half	.L59-.L58
+	.byte	1,5,36,9
+	.half	.L60-.L59
+	.byte	1,5,35,9
+	.half	.L61-.L60
+	.byte	1,5,30,9
+	.half	.L32-.L61
+	.byte	1,5,52,9
+	.half	.L62-.L32
+	.byte	1,5,51,9
+	.half	.L30-.L62
+	.byte	1,5,17,9
+	.half	.L63-.L30
+	.byte	1,5,14,9
+	.half	.L64-.L63
+	.byte	3,1,1,5,27,9
+	.half	.L65-.L64
+	.byte	1,5,25,9
+	.half	.L66-.L65
+	.byte	1,5,14,9
+	.half	.L67-.L66
+	.byte	3,1,1,5,32,9
+	.half	.L68-.L67
+	.byte	1,5,29,9
+	.half	.L69-.L68
+	.byte	1,5,14,9
+	.half	.L70-.L69
+	.byte	3,3,1,5,20,9
+	.half	.L71-.L70
+	.byte	1,5,17,9
+	.half	.L72-.L71
+	.byte	1,5,10,9
+	.half	.L73-.L72
+	.byte	1,5,14,7,9
+	.half	.L74-.L73
+	.byte	3,2,1,5,20,9
+	.half	.L75-.L74
+	.byte	1,5,18,9
+	.half	.L76-.L75
+	.byte	1,5,25,9
+	.half	.L77-.L76
+	.byte	1,5,19,9
+	.half	.L4-.L77
+	.byte	3,2,1,5,25,9
+	.half	.L78-.L4
+	.byte	1,5,22,9
+	.half	.L79-.L78
+	.byte	1,5,15,9
+	.half	.L80-.L79
+	.byte	1,5,14,7,9
+	.half	.L81-.L80
+	.byte	3,2,1,5,20,9
+	.half	.L82-.L81
+	.byte	1,5,18,9
+	.half	.L83-.L82
+	.byte	1,5,25,9
+	.half	.L84-.L83
+	.byte	1,5,13,9
+	.half	.L3-.L84
+	.byte	3,8,1,5,6,9
+	.half	.L85-.L3
+	.byte	1,5,1,9
+	.half	.L8-.L85
+	.byte	3,2,1,7,9
+	.half	.L19-.L8
+	.byte	0,1,1
+.L40:
+	.sdecl	'.debug_ranges',debug,cluster('CurrentPIDControl')
+	.sect	'.debug_ranges'
+.L18:
+	.word	-1,.L10,0,.L19-.L10,0,0
+	.sdecl	'.debug_loc',debug,cluster('CurrentPIDControl')
+	.sect	'.debug_loc'
+.L9:
+	.word	-1,.L10,0,.L21-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L22:
+	.word	-1,.L10,0,.L21-.L10
+	.half	1
+	.byte	84
+	.word	0,0
+.L25:
+	.word	-1,.L10,.L31-.L10,.L32-.L10
+	.half	1
+	.byte	81
+	.word	0,0
+.L24:
+	.word	-1,.L10,.L29-.L10,.L30-.L10
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L27:
+	.word	-1,.L10,.L33-.L10,.L21-.L10
+	.half	1
+	.byte	83
+	.word	0,0
+.L23:
+	.word	-1,.L10,0,.L21-.L10
+	.half	1
+	.byte	85
+	.word	0,0
+.L28:
+	.word	-1,.L10,.L34-.L10,.L21-.L10
+	.half	1
+	.byte	86
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L86:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('CurrentPIDControl')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L86,.L10,.L21-.L10
+	.byte	8,19,8,20,8,21,8,22,8,23,0,0
+	; Module end

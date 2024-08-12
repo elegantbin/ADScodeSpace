@@ -1,0 +1,123 @@
+
+#include "EncoderGpt12.h"
+#include "velocityPI.h"
+
+#define pos_VelocityControl    (01)
+#define incre_VelocityControl  (02)
+#define ControlWay            (01)
+
+
+float32 delta_uk;
+float32 VelocityControl(uint16 speed_ref,uint16 raw_speed)
+{
+#if(ControlWay==pos_VelocityControl)
+   float kp = 30;          //0.3,0.7,1.0,1.2
+   float ki = 0.018;           //0.018
+   uint16 lower = 30;
+   uint16 upper = 900;
+   float32 uk ;
+   static sint16  error,error_integral=0;
+
+   error = speed_ref- raw_speed;
+   uk = (kp * error) + (ki*error_integral);
+   error_integral += error;
+
+   if (uk >= upper)
+   {
+       uk        = upper;
+   }
+   else if (uk <= lower)
+   {
+       uk        = lower;
+   }
+   else
+   {
+
+   }
+
+   return uk;
+
+#elif(ControlWay == incre_VelocityControl)
+  float kp = 0;//0.3
+  float ki = 0.3;
+  uint16 lower = -50;
+  uint16 upper = 50;
+  float32 uk = 0 ;
+  sint16  error,last_error=0;
+
+  error = speed_ref- raw_speed;
+  delta_uk = kp *( error-last_error) + (ki*error);
+  uk = uk+delta_uk;
+  last_error = error;
+
+  if (delta_uk >= upper)
+  {
+      delta_uk  = upper;
+  }
+  else if (delta_uk <= lower)
+  {
+      delta_uk  = lower;
+  }
+  else
+  {
+
+  }
+
+  return uk;
+#endif
+}
+
+
+void Pic_param_init(void)
+{
+    velocity_Pic pic;
+    pic.hitLimits = 0;
+    pic.ik = 0;
+    pic.kp = 0.1;
+    pic.ki = 0.1;
+    pic.lower = 10;
+    pic.upper = 80;
+    VelocityCtrl vc;
+    vc.refLimit = 3500;
+}
+
+float32 Pic_VelocityControl(VelocityCtrl *vc, uint16 raw_speed)
+{
+    float32 result;
+    if (vc->enabled != FALSE)
+    {
+        result = Pic_controlstep(&vc->pic, vc->speed_ref - raw_speed);
+    }
+    else
+    {
+        result = vc->pic.uk;
+    }
+    return result;
+ }
+
+float32 Pic_controlstep(velocity_Pic *pic, sint16 Input)
+{
+    float32 uk;
+    uk      = (pic->kp * Input) + (pic->ki * pic->ik);
+
+    pic->ik += Input;
+
+    if (uk >= pic->upper)
+    {
+        pic->hitLimits = TRUE;
+        pic->uk        = pic->upper;
+    }
+    else if (uk <= pic->lower)
+    {
+        pic->hitLimits = TRUE;
+        pic->uk        = pic->lower;
+    }
+    else
+    {
+        pic->uk = uk;
+    }
+
+    return pic->uk;
+}
+
+

@@ -1,0 +1,11 @@
+
+
+#ifndef CURRENT_PI_H_
+#define CURRENT_PI_H_
+
+#include "IfxStdIf.h"
+
+float32 CurrentControl(uint16 current_ref,uint16 raw_current);
+
+
+#endif /* CURRENT_PI_H_ */

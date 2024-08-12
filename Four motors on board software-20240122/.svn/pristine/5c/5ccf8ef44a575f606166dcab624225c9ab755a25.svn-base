@@ -1,0 +1,34 @@
+
+#include"CurrentPI.h"
+
+float32 CurrentControl(uint16 current_ref,uint16 raw_current)
+{
+   float kp = 0;          //0.3,0.7,1.0,1.2
+   float ki = 0;           //0.018
+   uint16 lower = 30;
+   uint16 upper = 900;
+   float32 uk ;
+   static sint16  error,error_integral=0;
+
+   error = current_ref- raw_current;
+   uk = (kp * error) + (ki*error_integral);
+   error_integral += error;
+
+   if (uk >= upper)
+   {
+       uk = upper;
+   }
+   else if (uk <= lower)
+   {
+       uk  = lower;
+   }
+   else
+   {
+
+   }
+
+   return uk;
+}
+
+
+

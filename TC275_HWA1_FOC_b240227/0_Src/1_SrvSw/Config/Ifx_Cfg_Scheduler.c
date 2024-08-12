@@ -1,0 +1,36 @@
+/*
+ * Ifx_Cfg_Scheduler.c
+ *
+ */
+
+
+#include "Ifx_Cfg_Scheduler.h"
+
+
+const AppScheduler_cfg_tasks appScheduler_task_config[AppScheduler_Task_count] =
+{
+		{// 1ms Task
+			.taskoffset = 0,
+			.taskreload = 1,
+			.countinous = TRUE,
+			.callback = NULL_PTR,
+		},
+		{// 10ms Task
+			.taskoffset = 0,
+			.taskreload = 10,
+			.countinous = TRUE,
+			.callback = NULL_PTR,
+		},
+		{// 100ms Task
+			.taskoffset = 0,
+			.taskreload = 100,
+			.countinous = TRUE,
+			.callback = NULL_PTR,
+		},
+		{// 200ms Task
+			.taskoffset = 0,
+			.taskreload = 200,
+			.countinous = TRUE,
+			.callback = NULL_PTR,
+		}
+};

@@ -1,0 +1,819 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc30664a --dep-file=0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227 -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\0_AppSw -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\Config -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\SysSe -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\TaskOs -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\2_CDrv -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\2_CDrv\\\\Config -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Configurations -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Infra -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Service -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Trig -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.src ../0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Clarke.Clarke',code,cluster('Clarke')
+	.sect	'.text.Clarke.Clarke'
+	.align	2
+	
+	.global	Clarke
+; Function Clarke
+.L8:
+Clarke:	.type	func
+	ld.w	d2,[a4]
+.L58:
+	ld.w	d15,[a4]4
+.L59:
+	ld.w	d0,[a4]8
+.L24:
+	sub.f	d15,d15,d0
+.L60:
+	j	.L2
+.L2:
+	j	.L3
+.L3:
+	mov.u	d0,#52538
+	addih	d0,d0,#16147
+.L37:
+	mul.f	d3,d0,d15
+.L49:
+	j	.L4
+.L4:
+	j	.L5
+.L5:
+	j	.L6
+.L6:
+	ret
+.L19:
+	
+__Clarke_function_end:
+	.size	Clarke,__Clarke_function_end-Clarke
+.L17:
+	; End of function
+	
+	.calls	'Clarke','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L10:
+	.word	2933
+	.half	3
+	.word	.L11
+	.byte	4
+.L9:
+	.byte	1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\F-DISK-BACK\\WHB_Backup\\Motor\\FOC_TEST\\TC275_HWA1_FOC_b240227\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L12
+	.byte	2,1,1,3
+	.word	227
+	.byte	4
+	.byte	'Ifx__jump_and_link',0,3,1,58,17,1,1,5
+	.byte	'fun',0,1,58,43
+	.word	230
+	.byte	6,0,7
+	.byte	'__fract',0,4,128,1,7
+	.byte	'float',0,4,4,8
+	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
+	.word	275
+	.byte	1,1,5
+	.byte	'a',0,1,149,2,44
+	.word	287
+	.byte	6,0,7
+	.byte	'unsigned long long int',0,8,7,9
+	.byte	'void',0,3
+	.word	367
+	.byte	8
+	.byte	'__ld64',0,3,2,132,1,19
+	.word	341
+	.byte	1,1,5
+	.byte	'addr',0,2,132,1,32
+	.word	373
+	.byte	6,0,4
+	.byte	'__st64',0,3,2,140,1,17,1,1,5
+	.byte	'addr',0,2,140,1,30
+	.word	373
+	.byte	5
+	.byte	'value',0,2,140,1,43
+	.word	341
+	.byte	6,0,7
+	.byte	'long int',0,4,5,8
+	.byte	'SInt32_To_FixPoint32',0,3,3,50,23
+	.word	275
+	.byte	1,1,5
+	.byte	'value',0,3,50,51
+	.word	459
+	.byte	5
+	.byte	'shift',0,3,50,65
+	.word	459
+	.byte	6,0,8
+	.byte	'FixPoint32_To_SInt32',0,3,3,80,19
+	.word	459
+	.byte	1,1,5
+	.byte	'value',0,3,80,51
+	.word	275
+	.byte	5
+	.byte	'shift',0,3,80,65
+	.word	459
+	.byte	6,0,8
+	.byte	'Float32_To_FixPoint32',0,3,3,111,23
+	.word	275
+	.byte	1,1,5
+	.byte	'value',0,3,111,53
+	.word	287
+	.byte	5
+	.byte	'shift',0,3,111,67
+	.word	459
+	.byte	6,0,8
+	.byte	'FixPoint32_To_Float32',0,3,3,138,1,20
+	.word	287
+	.byte	1,1,5
+	.byte	'value',0,3,138,1,53
+	.word	275
+	.byte	5
+	.byte	'shift',0,3,138,1,67
+	.word	459
+	.byte	6,0,8
+	.byte	'StdReal_To_FixPoint32',0,3,4,61,23
+	.word	275
+	.byte	1,1,5
+	.byte	'value',0,4,61,53
+	.word	287
+	.byte	5
+	.byte	'inputShift',0,4,61,67
+	.word	459
+	.byte	5
+	.byte	'outputShift',0,4,61,86
+	.word	459
+	.byte	10,6,0,0,8
+	.byte	'FixPoint32_To_StdReal',0,3,4,85,20
+	.word	287
+	.byte	1,1,5
+	.byte	'value',0,4,85,53
+	.word	275
+	.byte	5
+	.byte	'inputShift',0,4,85,67
+	.word	459
+	.byte	5
+	.byte	'outputShift',0,4,85,86
+	.word	459
+	.byte	10,6,0,0
+.L43:
+	.byte	8
+	.byte	'__mul_rF_iF_iF',0,3,5,58,20
+	.word	287
+	.byte	1,1
+.L44:
+	.byte	5
+	.byte	'a',0,5,58,43
+	.word	287
+.L46:
+	.byte	5
+	.byte	'b',0,5,58,54
+	.word	287
+.L48:
+	.byte	6,0,7
+	.byte	'short int',0,2,5,8
+	.byte	'__mul_r16I_iF_i16I',0,3,5,74,19
+	.word	952
+	.byte	1,1,5
+	.byte	'a',0,5,74,46
+	.word	287
+	.byte	5
+	.byte	'b',0,5,74,56
+	.word	952
+	.byte	6,0,8
+	.byte	'__adds_rF_iF_iF',0,3,5,88,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,88,44
+	.word	287
+	.byte	5
+	.byte	'b',0,5,88,55
+	.word	287
+	.byte	6,0
+.L30:
+	.byte	8
+	.byte	'__subs_rF_iF_iF',0,3,5,102,20
+	.word	287
+	.byte	1,1
+.L31:
+	.byte	5
+	.byte	'a',0,5,102,44
+	.word	287
+.L33:
+	.byte	5
+	.byte	'b',0,5,102,55
+	.word	287
+.L35:
+	.byte	6,0,8
+	.byte	'__maddms_rF_iF_iF_iF_iF',0,3,5,120,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,120,52
+	.word	287
+	.byte	5
+	.byte	'b',0,5,120,63
+	.word	287
+	.byte	5
+	.byte	'c',0,5,120,74
+	.word	287
+	.byte	5
+	.byte	'd',0,5,120,85
+	.word	287
+	.byte	6,0,8
+	.byte	'__msubms_rF_iF_iF_iF_iF',0,3,5,138,1,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,138,1,52
+	.word	287
+	.byte	5
+	.byte	'b',0,5,138,1,63
+	.word	287
+	.byte	5
+	.byte	'c',0,5,138,1,74
+	.word	287
+	.byte	5
+	.byte	'd',0,5,138,1,85
+	.word	287
+	.byte	6,0,8
+	.byte	'__madds_rF_iF_iF_i16I',0,3,5,172,1,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,172,1,50
+	.word	287
+	.byte	5
+	.byte	'b',0,5,172,1,61
+	.word	287
+	.byte	5
+	.byte	'c',0,5,172,1,71
+	.word	952
+	.byte	6,0,8
+	.byte	'__mul_rF_iF_i16I',0,3,5,188,1,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,188,1,45
+	.word	287
+	.byte	5
+	.byte	'b',0,5,188,1,55
+	.word	952
+	.byte	6,0,8
+	.byte	'__muls_8_rF_iF',0,3,5,203,1,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,203,1,43
+	.word	287
+	.byte	6,0,8
+	.byte	'__muls_128_rF_iF',0,3,5,218,1,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,218,1,45
+	.word	287
+	.byte	6,0,7
+	.byte	'char',0,1,6,8
+	.byte	'__shas_rF_iF_i8I',0,3,5,251,1,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,251,1,45
+	.word	287
+	.byte	5
+	.byte	'b',0,5,251,1,54
+	.word	1478
+	.byte	6,0,8
+	.byte	'__negs_rF_iF',0,3,5,138,2,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,138,2,41
+	.word	287
+	.byte	6,0,8
+	.byte	'__abs_rF_iF',0,3,5,153,2,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,153,2,40
+	.word	287
+	.byte	6,0,8
+	.byte	'__div_rF_iF_i32I',0,3,5,169,2,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,169,2,45
+	.word	287
+	.byte	5
+	.byte	'b',0,5,169,2,55
+	.word	459
+	.byte	6,0,8
+	.byte	'__div_rF_iF_iF',0,3,5,185,2,20
+	.word	287
+	.byte	1,1,5
+	.byte	'a',0,5,185,2,43
+	.word	287
+	.byte	5
+	.byte	'b',0,5,185,2,54
+	.word	287
+	.byte	6,0
+.L36:
+	.byte	8
+	.byte	'__mul_rSR_iSR_iSR',0,3,6,142,1,20
+	.word	287
+	.byte	1,1
+.L38:
+	.byte	5
+	.byte	'a',0,6,142,1,46
+	.word	287
+.L40:
+	.byte	5
+	.byte	'b',0,6,142,1,57
+	.word	287
+.L42:
+	.byte	10,6,0,0
+.L23:
+	.byte	8
+	.byte	'__subs_rSR_iSR_iSR',0,3,6,184,1,20
+	.word	287
+	.byte	1,1
+.L25:
+	.byte	5
+	.byte	'a',0,6,184,1,47
+	.word	287
+.L27:
+	.byte	5
+	.byte	'b',0,6,184,1,58
+	.word	287
+.L29:
+	.byte	10,6,0,0,11
+	.word	235
+	.byte	12
+	.word	261
+	.byte	6,0,11
+	.word	296
+	.byte	12
+	.word	328
+	.byte	6,0,11
+	.word	378
+	.byte	12
+	.word	397
+	.byte	6,0,11
+	.word	413
+	.byte	12
+	.word	428
+	.byte	12
+	.word	442
+	.byte	6,0,11
+	.word	471
+	.byte	12
+	.word	503
+	.byte	12
+	.word	517
+	.byte	6,0,11
+	.word	533
+	.byte	12
+	.word	565
+	.byte	12
+	.word	579
+	.byte	6,0,11
+	.word	595
+	.byte	12
+	.word	628
+	.byte	12
+	.word	642
+	.byte	6,0,11
+	.word	658
+	.byte	12
+	.word	692
+	.byte	12
+	.word	707
+	.byte	6,0,11
+	.word	724
+	.byte	12
+	.word	757
+	.byte	12
+	.word	771
+	.byte	12
+	.word	790
+	.byte	10,13
+	.word	595
+	.byte	12
+	.word	628
+	.byte	12
+	.word	642
+	.byte	14
+	.word	656
+	.byte	0,6,0,0,11
+	.word	814
+	.byte	12
+	.word	847
+	.byte	12
+	.word	861
+	.byte	12
+	.word	880
+	.byte	10,13
+	.word	658
+	.byte	12
+	.word	692
+	.byte	12
+	.word	707
+	.byte	14
+	.word	722
+	.byte	0,6,0,0,11
+	.word	904
+	.byte	12
+	.word	930
+	.byte	12
+	.word	940
+	.byte	6,0,11
+	.word	965
+	.byte	12
+	.word	995
+	.byte	12
+	.word	1005
+	.byte	6,0,11
+	.word	1017
+	.byte	12
+	.word	1044
+	.byte	12
+	.word	1054
+	.byte	6,0,11
+	.word	1066
+	.byte	12
+	.word	1093
+	.byte	12
+	.word	1103
+	.byte	6,0,11
+	.word	1115
+	.byte	12
+	.word	1150
+	.byte	12
+	.word	1160
+	.byte	12
+	.word	1170
+	.byte	12
+	.word	1180
+	.byte	6,0,11
+	.word	1192
+	.byte	12
+	.word	1228
+	.byte	12
+	.word	1239
+	.byte	12
+	.word	1250
+	.byte	12
+	.word	1261
+	.byte	6,0,11
+	.word	1274
+	.byte	12
+	.word	1308
+	.byte	12
+	.word	1319
+	.byte	12
+	.word	1330
+	.byte	6,0,11
+	.word	1343
+	.byte	12
+	.word	1372
+	.byte	12
+	.word	1383
+	.byte	6,0,11
+	.word	1396
+	.byte	12
+	.word	1423
+	.byte	6,0,11
+	.word	1436
+	.byte	12
+	.word	1465
+	.byte	6,0,11
+	.word	1486
+	.byte	12
+	.word	1515
+	.byte	12
+	.word	1526
+	.byte	6,0,11
+	.word	1539
+	.byte	12
+	.word	1564
+	.byte	6,0,11
+	.word	1577
+	.byte	12
+	.word	1601
+	.byte	6,0,11
+	.word	1614
+	.byte	12
+	.word	1643
+	.byte	12
+	.word	1654
+	.byte	6,0,11
+	.word	1667
+	.byte	12
+	.word	1694
+	.byte	12
+	.word	1705
+	.byte	6,0,11
+	.word	1718
+	.byte	12
+	.word	1748
+	.byte	12
+	.word	1759
+	.byte	10,13
+	.word	904
+	.byte	12
+	.word	930
+	.byte	12
+	.word	940
+	.byte	14
+	.word	950
+	.byte	0,6,0,0,11
+	.word	1774
+	.byte	12
+	.word	1805
+	.byte	12
+	.word	1816
+	.byte	10,13
+	.word	1066
+	.byte	12
+	.word	1093
+	.byte	12
+	.word	1103
+	.byte	14
+	.word	1113
+	.byte	0,6,0,0
+.L18:
+	.byte	15,7,107,9,8,16
+	.byte	'real',0
+	.word	287
+	.byte	4,2,35,0,16
+	.byte	'imag',0
+	.word	287
+	.byte	4,2,35,4,0,15,8,42,9,12,16
+	.byte	'u',0
+	.word	287
+	.byte	4,2,35,0,16
+	.byte	'v',0
+	.word	287
+	.byte	4,2,35,4,16
+	.byte	'w',0
+	.word	287
+	.byte	4,2,35,8,0
+.L20:
+	.byte	3
+	.word	2416
+	.byte	17
+	.byte	'__wchar_t',0,9,1,1
+	.word	952
+	.byte	7
+	.byte	'unsigned int',0,4,7,17
+	.byte	'__size_t',0,9,1,1
+	.word	2478
+	.byte	7
+	.byte	'int',0,4,5,17
+	.byte	'__ptrdiff_t',0,9,1,1
+	.word	2511
+	.byte	18,1,3
+	.word	2538
+	.byte	17
+	.byte	'__codeptr',0,9,1,1
+	.word	2540
+	.byte	7
+	.byte	'unsigned char',0,1,8,17
+	.byte	'uint8',0,10,108,29
+	.word	2563
+	.byte	7
+	.byte	'unsigned short int',0,2,7,17
+	.byte	'uint16',0,10,112,29
+	.word	2594
+	.byte	7
+	.byte	'unsigned long int',0,4,7,17
+	.byte	'uint32',0,10,116,29
+	.word	2631
+	.byte	17
+	.byte	'uint64',0,10,121,29
+	.word	341
+	.byte	17
+	.byte	'sint8',0,10,125,29
+	.word	1478
+	.byte	17
+	.byte	'sint16',0,10,129,1,29
+	.word	952
+	.byte	17
+	.byte	'sint32',0,10,134,1,29
+	.word	459
+	.byte	7
+	.byte	'long long int',0,8,5,17
+	.byte	'sint64',0,10,141,1,29
+	.word	2728
+	.byte	17
+	.byte	'float32',0,10,170,1,29
+	.word	287
+	.byte	17
+	.byte	'pvoid',0,11,54,28
+	.word	373
+	.byte	17
+	.byte	'Ifx_TickTime',0,11,76,28
+	.word	2728
+	.byte	7
+	.byte	'__sfract',0,2,128,1,17
+	.byte	'FixPoint16',0,7,32,16
+	.word	2813
+	.byte	17
+	.byte	'FixPoint32',0,7,33,16
+	.word	275
+	.byte	17
+	.byte	'StdReal',0,7,65,17
+	.word	287
+	.byte	17
+	.byte	'StdRealLong',0,7,71,17
+	.word	287
+	.byte	17
+	.byte	'CplxStdReal',0,7,111,3
+	.word	2382
+	.byte	17
+	.byte	'T3Phase',0,8,47,2
+	.word	2416
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
+	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
+	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,11,1,0,0,11,46,1,49
+	.byte	19,0,0,12,5,0,49,19,0,0,13,29,1,49,19,0,0,14,11,0,49,19,0,0,15,19,1,58,15,59,15,57,15,11,15,0,0,16,13
+	.byte	0,3,8,73,19,11,15,56,9,0,0,17,22,0,3,8,58,15,59,15,57,15,73,19,0,0,18,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L12:
+	.word	.L51-.L50
+.L50:
+	.half	3
+	.word	.L53-.L52
+.L52:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'D:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	'D:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive',0
+	.byte	0
+	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
+	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
+	.byte	'Convert.asm.h',0,2,0,0
+	.byte	'Convert.h',0,2,0,0
+	.byte	'Arith.Float.h',0,2,0,0
+	.byte	'Arith.StdReal.h',0,2,0,0
+	.byte	'StdReal.h',0,2,0,0
+	.byte	'MotorControl.h',0,3,0,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0,0
+.L53:
+.L51:
+	.sdecl	'.debug_info',debug,cluster('Clarke')
+	.sect	'.debug_info'
+.L13:
+	.word	496
+	.half	3
+	.word	.L14
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\F-DISK-BACK\\WHB_Backup\\Motor\\FOC_TEST\\TC275_HWA1_FOC_b240227\\TriCore Debug (TASKING)\\',0,12
+	.byte	1
+	.word	.L16,.L15
+	.byte	2
+	.word	.L9
+	.byte	3
+	.byte	'Clarke',0,1,52,13
+	.word	.L18
+	.byte	1,1,1
+	.word	.L8,.L19,.L7
+	.byte	4
+	.byte	'currents',0,1,52,29
+	.word	.L20,.L21
+	.byte	5
+	.word	.L8,.L19
+	.byte	6
+	.byte	'result',0,1,54,14
+	.word	.L18,.L22
+	.byte	7
+	.word	.L23,.L24,.L3
+	.byte	8
+	.word	.L25,.L26
+	.byte	8
+	.word	.L27,.L28
+	.byte	9
+	.word	.L29,.L24,.L3
+	.byte	7
+	.word	.L30,.L24,.L2
+	.byte	8
+	.word	.L31,.L32
+	.byte	8
+	.word	.L33,.L34
+	.byte	10
+	.word	.L35,.L24,.L2
+	.byte	0,0,0,7
+	.word	.L36,.L37,.L5
+	.byte	8
+	.word	.L38,.L39
+	.byte	8
+	.word	.L40,.L41
+	.byte	9
+	.word	.L42,.L37,.L5
+	.byte	7
+	.word	.L43,.L37,.L4
+	.byte	8
+	.word	.L44,.L45
+	.byte	8
+	.word	.L46,.L47
+	.byte	10
+	.word	.L48,.L37,.L4
+	.byte	0,0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Clarke')
+	.sect	'.debug_abbrev'
+.L14:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,29,1,49,16,17,1,18,1,0,0,8,5,0,49,16,2,6,0,0,9,11,1,49,16,17
+	.byte	1,18,1,0,0,10,11,0,49,16,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Clarke')
+	.sect	'.debug_line'
+.L15:
+	.word	.L55-.L54
+.L54:
+	.half	3
+	.word	.L57-.L56
+.L56:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\\\F-DISK-BACK\\\\WHB_Backup\\\\Motor\\\\FOC_TEST\\\\TC275_HWA1_FOC_b240227\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math',0
+	.byte	0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Clarke.c',0,0,0,0
+	.byte	'Arith.Float.h',0,1,0,0
+	.byte	'Arith.StdReal.h',0,1,0,0,0
+.L57:
+	.byte	5,27,7,0,5,2
+	.word	.L8
+	.byte	3,54,1,5,81,9
+	.half	.L58-.L8
+	.byte	3,1,1,5,94,9
+	.half	.L59-.L58
+	.byte	1,4,2,5,14,9
+	.half	.L24-.L59
+	.byte	3,48,1,5,5,9
+	.half	.L60-.L24
+	.byte	1,4,3,9
+	.half	.L2-.L60
+	.byte	3,211,0,1,4,1,5,37,9
+	.half	.L3-.L2
+	.byte	3,253,126,1,4,2,5,14,9
+	.half	.L37-.L3
+	.byte	3,4,1,5,5,9
+	.half	.L49-.L37
+	.byte	1,4,3,9
+	.half	.L4-.L49
+	.byte	3,213,0,1,4,1,9
+	.half	.L5-.L4
+	.byte	3,168,127,1,5,1,9
+	.half	.L6-.L5
+	.byte	3,1,1,7,9
+	.half	.L17-.L6
+	.byte	0,1,1
+.L55:
+	.sdecl	'.debug_ranges',debug,cluster('Clarke')
+	.sect	'.debug_ranges'
+.L16:
+	.word	-1,.L8,0,.L17-.L8,0,0
+	.sdecl	'.debug_loc',debug,cluster('Clarke')
+	.sect	'.debug_loc'
+.L7:
+	.word	-1,.L8,0,.L19-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L45:
+	.word	0,0
+.L32:
+	.word	0,0
+.L39:
+	.word	0,0
+.L26:
+	.word	0,0
+.L47:
+	.word	0,0
+.L34:
+	.word	0,0
+.L41:
+	.word	0,0
+.L28:
+	.word	0,0
+.L21:
+	.word	-1,.L8,0,.L19-.L8
+	.half	1
+	.byte	100
+	.word	0,0
+.L22:
+	.word	-1,.L8,.L49-.L8,.L19-.L8
+	.half	2
+	.byte	144,33
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L61:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Clarke')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L61,.L8,.L19-.L8
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	; Module end

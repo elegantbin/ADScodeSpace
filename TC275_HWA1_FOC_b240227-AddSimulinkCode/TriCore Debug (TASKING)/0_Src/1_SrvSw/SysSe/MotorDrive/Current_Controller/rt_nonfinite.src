@@ -1,0 +1,1064 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc22284a --dep-file=0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\Config\\\\Common -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\0_AppSw\\\\SWC -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\Math -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\Current_Controller -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\\\MTPA -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\TaskOs -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\2_CDrv\\\\Config -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Configurations -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Dma\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Trig -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Can -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Multican\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\SpiSlave -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -ID:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o 0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.src ../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c"
+	.compiler_name		"ctc"
+	;source	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.rt_nonfinite.rt_InitInfAndNaN',code,cluster('rt_InitInfAndNaN')
+	.sect	'.text.rt_nonfinite.rt_InitInfAndNaN'
+	.align	2
+	
+	.global	rt_InitInfAndNaN
+; Function rt_InitInfAndNaN
+.L20:
+rt_InitInfAndNaN:	.type	func
+	movh.a	a15,#@his(rtNaN)
+	lea	a15,[a15]@los(rtNaN)
+.L102:
+	call	rtGetNaN
+.L89:
+	st.w	[a15],d2
+.L103:
+	movh.a	a15,#@his(rtNaNF)
+	lea	a15,[a15]@los(rtNaNF)
+.L104:
+	call	rtGetNaNF
+.L105:
+	st.w	[a15],d2
+.L106:
+	movh.a	a15,#@his(rtInf)
+	lea	a15,[a15]@los(rtInf)
+.L107:
+	call	rtGetInf
+.L108:
+	st.w	[a15],d2
+.L109:
+	movh.a	a15,#@his(rtInfF)
+	lea	a15,[a15]@los(rtInfF)
+.L110:
+	call	rtGetInfF
+.L111:
+	st.w	[a15],d2
+.L112:
+	movh.a	a15,#@his(rtMinusInf)
+	lea	a15,[a15]@los(rtMinusInf)
+.L113:
+	call	rtGetMinusInf
+.L114:
+	st.w	[a15],d2
+.L115:
+	movh.a	a15,#@his(rtMinusInfF)
+	lea	a15,[a15]@los(rtMinusInfF)
+.L116:
+	call	rtGetMinusInfF
+.L117:
+	st.w	[a15],d2
+.L118:
+	ret
+.L70:
+	
+__rt_InitInfAndNaN_function_end:
+	.size	rt_InitInfAndNaN,__rt_InitInfAndNaN_function_end-rt_InitInfAndNaN
+.L37:
+	; End of function
+	
+	.sdecl	'.text.rt_nonfinite.rtIsInf',code,cluster('rtIsInf')
+	.sect	'.text.rt_nonfinite.rtIsInf'
+	.align	2
+	
+	.global	rtIsInf
+; Function rtIsInf
+.L22:
+rtIsInf:	.type	func
+	movh.a	a15,#@his(rtInf)
+	lea	a15,[a15]@los(rtInf)
+	ld.w	d15,[a15]
+.L123:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:1,.L2
+.L124:
+	movh.a	a15,#@his(rtMinusInf)
+	lea	a15,[a15]@los(rtMinusInf)
+	ld.w	d15,[a15]
+.L125:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#1,#1
+	jeq	d15,#0,.L3
+.L2:
+	mov	d2,#1
+.L126:
+	j	.L4
+.L3:
+	mov	d2,#0
+.L4:
+	j	.L5
+.L5:
+	ret
+.L74:
+	
+__rtIsInf_function_end:
+	.size	rtIsInf,__rtIsInf_function_end-rtIsInf
+.L42:
+	; End of function
+	
+	.sdecl	'.text.rt_nonfinite.rtIsInfF',code,cluster('rtIsInfF')
+	.sect	'.text.rt_nonfinite.rtIsInfF'
+	.align	2
+	
+	.global	rtIsInfF
+; Function rtIsInfF
+.L24:
+rtIsInfF:	.type	func
+	movh.a	a15,#@his(rtInfF)
+	lea	a15,[a15]@los(rtInfF)
+	ld.w	d15,[a15]
+.L131:
+	cmp.f	d15,d4,d15
+	jnz.t	d15:1,.L6
+.L132:
+	movh.a	a15,#@his(rtMinusInfF)
+	lea	a15,[a15]@los(rtMinusInfF)
+	ld.w	d15,[a15]
+.L133:
+	cmp.f	d15,d4,d15
+	extr.u	d15,d15,#1,#1
+	jeq	d15,#0,.L7
+.L6:
+	mov	d2,#1
+.L134:
+	j	.L8
+.L7:
+	mov	d2,#0
+.L8:
+	j	.L9
+.L9:
+	ret
+.L77:
+	
+__rtIsInfF_function_end:
+	.size	rtIsInfF,__rtIsInfF_function_end-rtIsInfF
+.L47:
+	; End of function
+	
+	.sdecl	'.text.rt_nonfinite.rtIsNaN',code,cluster('rtIsNaN')
+	.sect	'.text.rt_nonfinite.rtIsNaN'
+	.align	2
+	
+	.global	rtIsNaN
+; Function rtIsNaN
+.L26:
+rtIsNaN:	.type	func
+	call	rtIsNaNF
+.L90:
+	j	.L10
+.L11:
+	mov	d2,#0
+.L91:
+	mov	d0,d5
+.L139:
+	movh	d15,#32752
+.L140:
+	and	d0,d15
+.L141:
+	movh	d15,#32752
+.L142:
+	jne	d15,d0,.L12
+.L92:
+	mov	d15,d5
+.L143:
+	insert	d15,d15,#0,#20,#12
+.L144:
+	jne	d15,#0,.L13
+.L93:
+	jeq	d4,#0,.L14
+.L13:
+	mov	d2,#1
+.L14:
+.L12:
+.L10:
+	j	.L15
+.L15:
+	ret
+.L79:
+	
+__rtIsNaN_function_end:
+	.size	rtIsNaN,__rtIsNaN_function_end-rtIsNaN
+.L52:
+	; End of function
+	
+	.sdecl	'.text.rt_nonfinite.rtIsNaNF',code,cluster('rtIsNaNF')
+	.sect	'.text.rt_nonfinite.rtIsNaNF'
+	.align	2
+	
+	.global	rtIsNaNF
+; Function rtIsNaNF
+.L28:
+rtIsNaNF:	.type	func
+	mov	d2,#0
+.L149:
+	movh	d0,#32640
+.L150:
+	and	d0,d4
+.L151:
+	movh	d15,#32640
+.L152:
+	jne	d15,d0,.L16
+.L153:
+	insert	d15,d4,#0,#23,#9
+.L154:
+	jeq	d15,#0,.L17
+.L155:
+	mov	d2,#1
+.L17:
+.L16:
+	j	.L18
+.L18:
+	ret
+.L85:
+	
+__rtIsNaNF_function_end:
+	.size	rtIsNaNF,__rtIsNaNF_function_end-rtIsNaNF
+.L57:
+	; End of function
+	
+	.sdecl	'.bss.rt_nonfinite.rtInf',data,cluster('rtInf')
+	.sect	'.bss.rt_nonfinite.rtInf'
+	.global	rtInf
+	.align	2
+rtInf:	.type	object
+	.size	rtInf,4
+	.space	4
+	.sdecl	'.bss.rt_nonfinite.rtMinusInf',data,cluster('rtMinusInf')
+	.sect	'.bss.rt_nonfinite.rtMinusInf'
+	.global	rtMinusInf
+	.align	2
+rtMinusInf:	.type	object
+	.size	rtMinusInf,4
+	.space	4
+	.sdecl	'.bss.rt_nonfinite.rtNaN',data,cluster('rtNaN')
+	.sect	'.bss.rt_nonfinite.rtNaN'
+	.global	rtNaN
+	.align	2
+rtNaN:	.type	object
+	.size	rtNaN,4
+	.space	4
+	.sdecl	'.bss.rt_nonfinite.rtInfF',data,cluster('rtInfF')
+	.sect	'.bss.rt_nonfinite.rtInfF'
+	.global	rtInfF
+	.align	2
+rtInfF:	.type	object
+	.size	rtInfF,4
+	.space	4
+	.sdecl	'.bss.rt_nonfinite.rtMinusInfF',data,cluster('rtMinusInfF')
+	.sect	'.bss.rt_nonfinite.rtMinusInfF'
+	.global	rtMinusInfF
+	.align	2
+rtMinusInfF:	.type	object
+	.size	rtMinusInfF,4
+	.space	4
+	.sdecl	'.bss.rt_nonfinite.rtNaNF',data,cluster('rtNaNF')
+	.sect	'.bss.rt_nonfinite.rtNaNF'
+	.global	rtNaNF
+	.align	2
+rtNaNF:	.type	object
+	.size	rtNaNF,4
+	.space	4
+	.calls	'rt_InitInfAndNaN','rtGetNaN'
+	.calls	'rt_InitInfAndNaN','rtGetNaNF'
+	.calls	'rt_InitInfAndNaN','rtGetInf'
+	.calls	'rt_InitInfAndNaN','rtGetInfF'
+	.calls	'rt_InitInfAndNaN','rtGetMinusInf'
+	.calls	'rt_InitInfAndNaN','rtGetMinusInfF'
+	.calls	'rtIsNaN','rtIsNaNF'
+	.calls	'rt_InitInfAndNaN','',0
+	.calls	'rtIsInf','',0
+	.calls	'rtIsInfF','',0
+	.calls	'rtIsNaN','',0
+	.extern	rtGetInf
+	.extern	rtGetInfF
+	.extern	rtGetMinusInf
+	.extern	rtGetMinusInfF
+	.extern	rtGetNaN
+	.extern	rtGetNaNF
+	.calls	'rtIsNaNF','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L30:
+	.word	875
+	.half	3
+	.word	.L31
+	.byte	4
+.L29:
+	.byte	1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L32
+.L71:
+	.byte	2
+	.byte	'unsigned int',0,4,7
+.L73:
+	.byte	2
+	.byte	'unsigned char',0,1,8
+.L75:
+	.byte	2
+	.byte	'float',0,4,4,3,1,46,3,8,4
+	.byte	'wordL',0
+	.word	243
+	.byte	4,2,35,0,4
+	.byte	'wordH',0
+	.word	243
+	.byte	4,2,35,4,0
+.L83:
+	.byte	3,1,45,9,8,4
+	.byte	'words',0
+	.word	285
+	.byte	8,2,35,0,0,5,1,53,3,4,4
+	.byte	'wordLreal',0
+	.word	276
+	.byte	4,2,35,0,4
+	.byte	'wordLuint',0
+	.word	243
+	.byte	4,2,35,0,0
+.L87:
+	.byte	3,1,52,9,4,4
+	.byte	'wordL',0
+	.word	342
+	.byte	4,2,35,0,0,6
+	.byte	'rtGetInf',0,2,25,15
+	.word	276
+	.byte	1,1,1,1,6
+	.byte	'rtGetInfF',0,2,26,17
+	.word	276
+	.byte	1,1,1,1,6
+	.byte	'rtGetMinusInf',0,2,27,15
+	.word	276
+	.byte	1,1,1,1,6
+	.byte	'rtGetMinusInfF',0,2,28,17
+	.word	276
+	.byte	1,1,1,1,6
+	.byte	'rtGetNaN',0,3,25,15
+	.word	276
+	.byte	1,1,1,1,6
+	.byte	'rtGetNaNF',0,3,26,17
+	.word	276
+	.byte	1,1,1,1,2
+	.byte	'short int',0,2,5,7
+	.byte	'__wchar_t',0,4,1,1
+	.word	546
+	.byte	7
+	.byte	'__size_t',0,4,1,1
+	.word	243
+	.byte	2
+	.byte	'int',0,4,5,7
+	.byte	'__ptrdiff_t',0,4,1,1
+	.word	594
+	.byte	8,1,9
+	.word	621
+	.byte	7
+	.byte	'__codeptr',0,4,1,1
+	.word	623
+	.byte	7
+	.byte	'size_t',0,5,24,25
+	.word	243
+	.byte	2
+	.byte	'char',0,1,6,7
+	.byte	'int8_T',0,6,51,21
+	.word	661
+	.byte	7
+	.byte	'uint8_T',0,6,52,23
+	.word	259
+	.byte	7
+	.byte	'int16_T',0,6,53,15
+	.word	546
+	.byte	2
+	.byte	'unsigned short int',0,2,7,7
+	.byte	'uint16_T',0,6,54,24
+	.word	716
+	.byte	7
+	.byte	'int32_T',0,6,55,13
+	.word	594
+	.byte	7
+	.byte	'uint32_T',0,6,56,22
+	.word	243
+	.byte	7
+	.byte	'real32_T',0,6,57,15
+	.word	276
+	.byte	7
+	.byte	'real64_T',0,6,58,16
+	.word	276
+	.byte	7
+	.byte	'real_T',0,6,64,16
+	.word	276
+	.byte	7
+	.byte	'boolean_T',0,6,66,23
+	.word	259
+	.byte	2
+	.byte	'char',0,1,6,7
+	.byte	'char_T',0,6,70,14
+	.word	855
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L31:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,58,15,59,15,57,15,11,15
+	.byte	0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,23,1,58,15,59,15,57,15,11,15,0,0,6,46,0,3,8,58,15,59,15,57,15,73
+	.byte	19,54,15,39,12,63,12,60,12,0,0,7,22,0,3,8,58,15,59,15,57,15,73,19,0,0,8,21,0,54,15,0,0,9,15,0,73,19,0
+	.byte	0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L32:
+	.word	.L95-.L94
+.L94:
+	.half	3
+	.word	.L97-.L96
+.L96:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Program Files\\AURIX-Studio-1.9.4\\plugins\\com.infineon.aurix.tools_1.9.4\\build_system\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\Current_Controller\\rt_nonfinite.h',0
+	.byte	0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\Current_Controller\\rtGetInf.h',0
+	.byte	0,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\\\SysSe\\\\MotorDrive\\Current_Controller\\rtGetNaN.h',0
+	.byte	0,0,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0,0,0,0
+	.byte	'stddef.h',0,1,0,0
+	.byte	'D:\\\\ADSCodeSpace\\\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\\\0_Src\\\\1_SrvSw\\SysSe\\MotorDrive\\Current_Controller\\rtwtypes.h',0
+	.byte	0,0,0,0
+.L97:
+.L95:
+	.sdecl	'.debug_info',debug,cluster('rt_InitInfAndNaN')
+	.sect	'.debug_info'
+.L33:
+	.word	316
+	.half	3
+	.word	.L34
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L36,.L35
+	.byte	2
+	.word	.L29
+	.byte	3
+	.byte	'rt_InitInfAndNaN',0,1,38,6,1,1,1
+	.word	.L20,.L70,.L19
+	.byte	4
+	.byte	'realSize',0,1,38,30
+	.word	.L71,.L72
+	.byte	5
+	.word	.L20,.L70
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rt_InitInfAndNaN')
+	.sect	'.debug_abbrev'
+.L34:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rt_InitInfAndNaN')
+	.sect	'.debug_line'
+.L35:
+	.word	.L99-.L98
+.L98:
+	.half	3
+	.word	.L101-.L100
+.L100:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0,0,0,0,0
+.L101:
+	.byte	5,3,7,0,5,2
+	.word	.L20
+	.byte	3,40,1,5,19,9
+	.half	.L102-.L20
+	.byte	1,5,9,9
+	.half	.L89-.L102
+	.byte	1,5,3,9
+	.half	.L103-.L89
+	.byte	3,1,1,5,21,9
+	.half	.L104-.L103
+	.byte	1,5,10,9
+	.half	.L105-.L104
+	.byte	1,5,3,9
+	.half	.L106-.L105
+	.byte	3,1,1,5,19,9
+	.half	.L107-.L106
+	.byte	1,5,9,9
+	.half	.L108-.L107
+	.byte	1,5,3,9
+	.half	.L109-.L108
+	.byte	3,1,1,5,21,9
+	.half	.L110-.L109
+	.byte	1,5,10,9
+	.half	.L111-.L110
+	.byte	1,5,3,9
+	.half	.L112-.L111
+	.byte	3,1,1,5,29,9
+	.half	.L113-.L112
+	.byte	1,5,14,9
+	.half	.L114-.L113
+	.byte	1,5,3,9
+	.half	.L115-.L114
+	.byte	3,1,1,5,31,9
+	.half	.L116-.L115
+	.byte	1,5,15,9
+	.half	.L117-.L116
+	.byte	1,5,1,9
+	.half	.L118-.L117
+	.byte	3,1,1,7,9
+	.half	.L37-.L118
+	.byte	0,1,1
+.L99:
+	.sdecl	'.debug_ranges',debug,cluster('rt_InitInfAndNaN')
+	.sect	'.debug_ranges'
+.L36:
+	.word	-1,.L20,0,.L37-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('rtIsInf')
+	.sect	'.debug_info'
+.L38:
+	.word	308
+	.half	3
+	.word	.L39
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L41,.L40
+	.byte	2
+	.word	.L29
+	.byte	3
+	.byte	'rtIsInf',0,1,50,11
+	.word	.L73
+	.byte	1,1,1
+	.word	.L22,.L74,.L21
+	.byte	4
+	.byte	'value',0,1,50,26
+	.word	.L75,.L76
+	.byte	5
+	.word	.L22,.L74
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtIsInf')
+	.sect	'.debug_abbrev'
+.L39:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtIsInf')
+	.sect	'.debug_line'
+.L40:
+	.word	.L120-.L119
+.L119:
+	.half	3
+	.word	.L122-.L121
+.L121:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0,0,0,0,0
+.L122:
+	.byte	5,30,7,0,5,2
+	.word	.L22
+	.byte	3,51,1,5,23,9
+	.half	.L123-.L22
+	.byte	1,5,46,9
+	.half	.L124-.L123
+	.byte	1,5,44,9
+	.half	.L125-.L124
+	.byte	1,5,58,9
+	.half	.L2-.L125
+	.byte	1,5,63,9
+	.half	.L126-.L2
+	.byte	1,5,58,9
+	.half	.L3-.L126
+	.byte	1,5,3,9
+	.half	.L4-.L3
+	.byte	1,5,1,9
+	.half	.L5-.L4
+	.byte	3,1,1,7,9
+	.half	.L42-.L5
+	.byte	0,1,1
+.L120:
+	.sdecl	'.debug_ranges',debug,cluster('rtIsInf')
+	.sect	'.debug_ranges'
+.L41:
+	.word	-1,.L22,0,.L42-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('rtIsInfF')
+	.sect	'.debug_info'
+.L43:
+	.word	309
+	.half	3
+	.word	.L44
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L46,.L45
+	.byte	2
+	.word	.L29
+	.byte	3
+	.byte	'rtIsInfF',0,1,56,11
+	.word	.L73
+	.byte	1,1,1
+	.word	.L24,.L77,.L23
+	.byte	4
+	.byte	'value',0,1,56,29
+	.word	.L75,.L78
+	.byte	5
+	.word	.L24,.L77
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtIsInfF')
+	.sect	'.debug_abbrev'
+.L44:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtIsInfF')
+	.sect	'.debug_line'
+.L45:
+	.word	.L128-.L127
+.L127:
+	.half	3
+	.word	.L130-.L129
+.L129:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0,0,0,0,0
+.L130:
+	.byte	5,32,7,0,5,2
+	.word	.L24
+	.byte	3,57,1,5,23,9
+	.half	.L131-.L24
+	.byte	1,5,51,9
+	.half	.L132-.L131
+	.byte	1,5,49,9
+	.half	.L133-.L132
+	.byte	1,5,64,9
+	.half	.L6-.L133
+	.byte	1,5,69,9
+	.half	.L134-.L6
+	.byte	1,5,64,9
+	.half	.L7-.L134
+	.byte	1,5,3,9
+	.half	.L8-.L7
+	.byte	1,5,1,9
+	.half	.L9-.L8
+	.byte	3,1,1,7,9
+	.half	.L47-.L9
+	.byte	0,1,1
+.L128:
+	.sdecl	'.debug_ranges',debug,cluster('rtIsInfF')
+	.sect	'.debug_ranges'
+.L46:
+	.word	-1,.L24,0,.L47-.L24,0,0
+	.sdecl	'.debug_info',debug,cluster('rtIsNaN')
+	.sect	'.debug_info'
+.L48:
+	.word	419
+	.half	3
+	.word	.L49
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L51,.L50
+	.byte	2
+	.word	.L29
+	.byte	3,1,69,5,8,4
+	.byte	'bitVal',0
+	.word	.L83
+	.byte	8,2,35,0,4
+	.byte	'fltVal',0
+	.word	.L75
+	.byte	4,2,35,0,0,5
+	.byte	'rtIsNaN',0,1,62,11
+	.word	.L73
+	.byte	1,1,1
+	.word	.L26,.L79,.L25
+	.byte	6
+	.byte	'value',0,1,62,26
+	.word	.L75,.L80
+	.byte	7
+	.word	.L26,.L79
+	.byte	8
+	.byte	'result',0,1,64,13
+	.word	.L73,.L81
+	.byte	8
+	.byte	'bitsPerReal',0,1,65,10
+	.word	.L71,.L82
+	.byte	7
+	.word	.L11,.L10
+	.byte	9
+	.byte	'tmpVal',0,1,72,7
+	.word	252,.L84
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtIsNaN')
+	.sect	'.debug_abbrev'
+.L49:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,23,1,58,15,59,15,57,15,11,15,0,0
+	.byte	4,13,0,3,8,73,16,11,15,56,9,0,0,5,46,1,3,8,58,15,59,15,57,15,73,16,54,15,39,12,63,12,17,1,18,1,64,6,0
+	.byte	0,6,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,11,1,17,1,18,1,0,0,8,52,0,3,8,58,15,59,15,57,15,73,16,2
+	.byte	6,0,0,9,52,0,3,8,58,15,59,15,57,15,73,19,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtIsNaN')
+	.sect	'.debug_line'
+.L50:
+	.word	.L136-.L135
+.L135:
+	.half	3
+	.word	.L138-.L137
+.L137:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0,0,0,0,0
+.L138:
+	.byte	5,33,7,0,5,2
+	.word	.L26
+	.byte	3,194,0,1,5,39,9
+	.half	.L90-.L26
+	.byte	1,5,81,9
+	.half	.L11-.L90
+	.byte	3,8,1,5,46,9
+	.half	.L91-.L11
+	.byte	1,5,55,9
+	.half	.L139-.L91
+	.byte	1,5,53,9
+	.half	.L140-.L139
+	.byte	1,5,70,9
+	.half	.L141-.L140
+	.byte	1,5,26,9
+	.half	.L142-.L141
+	.byte	1,5,48,7,9
+	.half	.L92-.L142
+	.byte	3,1,1,5,55,9
+	.half	.L143-.L92
+	.byte	1,5,28,9
+	.half	.L144-.L143
+	.byte	1,5,54,7,9
+	.half	.L93-.L144
+	.byte	3,1,1,5,81,7,9
+	.half	.L13-.L93
+	.byte	3,126,1,5,3,9
+	.half	.L10-.L13
+	.byte	3,5,1,5,1,9
+	.half	.L15-.L10
+	.byte	3,1,1,7,9
+	.half	.L52-.L15
+	.byte	0,1,1
+.L136:
+	.sdecl	'.debug_ranges',debug,cluster('rtIsNaN')
+	.sect	'.debug_ranges'
+.L51:
+	.word	-1,.L26,0,.L52-.L26,0,0
+	.sdecl	'.debug_info',debug,cluster('rtIsNaNF')
+	.sect	'.debug_info'
+.L53:
+	.word	326
+	.half	3
+	.word	.L54
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L56,.L55
+	.byte	2
+	.word	.L29
+	.byte	3
+	.byte	'rtIsNaNF',0,1,84,11
+	.word	.L73
+	.byte	1,1,1
+	.word	.L28,.L85,.L27
+	.byte	4
+	.byte	'value',0,1,84,29
+	.word	.L75,.L86
+	.byte	5
+	.word	.L28,.L85
+	.byte	6
+	.byte	'tmp',0,1,86,14
+	.word	.L87,.L88
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rtIsNaNF')
+	.sect	'.debug_abbrev'
+.L54:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rtIsNaNF')
+	.sect	'.debug_line'
+.L55:
+	.word	.L146-.L145
+.L145:
+	.half	3
+	.word	.L148-.L147
+.L147:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0,0,0,0,0
+.L148:
+	.byte	5,72,7,0,5,2
+	.word	.L28
+	.byte	3,215,0,1,5,46,9
+	.half	.L149-.L28
+	.byte	1,5,44,9
+	.half	.L150-.L149
+	.byte	1,5,61,9
+	.half	.L151-.L150
+	.byte	1,5,23,9
+	.half	.L152-.L151
+	.byte	1,5,43,7,9
+	.half	.L153-.L152
+	.byte	3,1,1,5,57,9
+	.half	.L154-.L153
+	.byte	1,5,72,7,9
+	.half	.L155-.L154
+	.byte	3,127,1,5,3,9
+	.half	.L16-.L155
+	.byte	1,5,1,9
+	.half	.L18-.L16
+	.byte	3,2,1,7,9
+	.half	.L57-.L18
+	.byte	0,1,1
+.L146:
+	.sdecl	'.debug_ranges',debug,cluster('rtIsNaNF')
+	.sect	'.debug_ranges'
+.L56:
+	.word	-1,.L28,0,.L57-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('rtInf')
+	.sect	'.debug_info'
+.L58:
+	.word	262
+	.half	3
+	.word	.L59
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L29
+	.byte	3
+	.byte	'rtInf',0,4,27,8
+	.word	.L75
+	.byte	1,5,3
+	.word	rtInf
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rtInf')
+	.sect	'.debug_abbrev'
+.L59:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('rtMinusInf')
+	.sect	'.debug_info'
+.L60:
+	.word	267
+	.half	3
+	.word	.L61
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L29
+	.byte	3
+	.byte	'rtMinusInf',0,4,28,8
+	.word	.L75
+	.byte	1,5,3
+	.word	rtMinusInf
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rtMinusInf')
+	.sect	'.debug_abbrev'
+.L61:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('rtNaN')
+	.sect	'.debug_info'
+.L62:
+	.word	262
+	.half	3
+	.word	.L63
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L29
+	.byte	3
+	.byte	'rtNaN',0,4,29,8
+	.word	.L75
+	.byte	1,5,3
+	.word	rtNaN
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rtNaN')
+	.sect	'.debug_abbrev'
+.L63:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('rtInfF')
+	.sect	'.debug_info'
+.L64:
+	.word	263
+	.half	3
+	.word	.L65
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L29
+	.byte	3
+	.byte	'rtInfF',0,4,30,10
+	.word	.L75
+	.byte	1,5,3
+	.word	rtInfF
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rtInfF')
+	.sect	'.debug_abbrev'
+.L65:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('rtMinusInfF')
+	.sect	'.debug_info'
+.L66:
+	.word	268
+	.half	3
+	.word	.L67
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L29
+	.byte	3
+	.byte	'rtMinusInfF',0,4,31,10
+	.word	.L75
+	.byte	1,5,3
+	.word	rtMinusInfF
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rtMinusInfF')
+	.sect	'.debug_abbrev'
+.L67:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('rtNaNF')
+	.sect	'.debug_info'
+.L68:
+	.word	263
+	.half	3
+	.word	.L69
+	.byte	4,1
+	.byte	'../0_Src/1_SrvSw/SysSe/MotorDrive/Current_Controller/rt_nonfinite.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\ADSCodeSpace\\TC275_HWA1_FOC_b240227-AddSimulinkCode\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L29
+	.byte	3
+	.byte	'rtNaNF',0,4,32,10
+	.word	.L75
+	.byte	1,5,3
+	.word	rtNaNF
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('rtNaNF')
+	.sect	'.debug_abbrev'
+.L69:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('rtIsInf')
+	.sect	'.debug_loc'
+.L21:
+	.word	-1,.L22,0,.L74-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L76:
+	.word	-1,.L22,0,.L74-.L22
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rtIsInfF')
+	.sect	'.debug_loc'
+.L23:
+	.word	-1,.L24,0,.L77-.L24
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L78:
+	.word	-1,.L24,0,.L77-.L24
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rtIsNaN')
+	.sect	'.debug_loc'
+.L82:
+	.word	0,0
+.L81:
+	.word	-1,.L26,.L90-.L26,.L11-.L26
+	.half	1
+	.byte	82
+	.word	.L91-.L26,.L92-.L26
+	.half	1
+	.byte	82
+	.word	.L10-.L26,.L79-.L26
+	.half	1
+	.byte	82
+	.word	0,0
+.L25:
+	.word	-1,.L26,0,.L79-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L84:
+	.word	0,0
+.L80:
+	.word	-1,.L26,0,.L90-.L26
+	.half	1
+	.byte	84
+	.word	.L93-.L26,.L13-.L26
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rtIsNaNF')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L85-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L88:
+	.word	-1,.L28,0,.L85-.L28
+	.half	1
+	.byte	84
+	.word	0,0
+.L86:
+	.word	-1,.L28,0,.L85-.L28
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rt_InitInfAndNaN')
+	.sect	'.debug_loc'
+.L72:
+	.word	-1,.L20,0,.L89-.L20
+	.half	1
+	.byte	84
+	.word	0,0
+.L19:
+	.word	-1,.L20,0,.L70-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L156:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('rt_InitInfAndNaN')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L156,.L20,.L70-.L20
+	.sdecl	'.debug_frame',debug,cluster('rtIsInf')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L156,.L22,.L74-.L22
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('rtIsInfF')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L156,.L24,.L77-.L24
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('rtIsNaN')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L156,.L26,.L79-.L26
+	.sdecl	'.debug_frame',debug,cluster('rtIsNaNF')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L156,.L28,.L85-.L28
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end
