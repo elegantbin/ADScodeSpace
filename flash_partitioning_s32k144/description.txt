@@ -1,0 +1,3 @@
+Writes, verifies and erases data on Flash
+The FlexNVM memory is partitioned to EEPROM use and is blocked for some erase commands (Erase Sector and Erase Block). As a consequence, loading the program to flash memory may fail on some debuggers. Please perform a mass erase operation on Flash to remove this partitioning after running the example to be able to update your application on target.
+The example documentation can be found in the S32 SDK documentation at Examples and Demos section. (<SDK_PATH>/doc/Start_Here.html)
